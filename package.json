@@ -1,0 +1,9 @@
+{
+  "name": "reddit-ffdiscord-bot",
+  "version": "0.0.0",
+  "description": "RedditFFDiscordBot",
+  "main": "app.js",
+  "author": {
+    "name": "Chris"
+  }
+}

@@ -10,30 +10,24 @@ bot.on("message", msg => {
     let messageArgs = msg.content.substr(msg.content.indexOf(" ") + 1);
 
     // Let's filter through these now.
-    // TODO: Make this not a terrible if/elseif/switch situation.
-    if (messageCommand == ".choose") {
-        utilities.chooseOne(messageArgs).then(function (chosen) {
-            msg.channel.sendMessage(chosen);
-        });
-    }
-    else if (messageCommand == ".roto") {
-        let [task, ...playerName] = msg.content.split(" ").slice(1);
-        playerName = playerName.join(" ");
-        switch (task) {
-            case 'news':
-                rotoworld.getPlayer(playerName).then(function (player) {
-                    if (!player) {
-                        msg.channel.sendMessage('No player found. Check the spelling of the player\'s name.');
-                    } else {
-                        msg.channel.sendMessage(player.name + ': ' + player.latestNews + '\r\n\r\n' + player.latestImpact);
-                    }
-                }).catch(function (err) {
-                    console.log(err);
-                });
-                break;
-            default:
-                msg.channel.sendMessage('Invalid, valid commands are \'news\'n');
-        }
+    // TODO: Make this not a terrible switch situation.
+    switch (messageCommand) {
+        case ".choose":
+            utilities.chooseOne(messageArgs).then(function (chosen) {
+                msg.channel.sendMessage(chosen);
+            });
+            break;
+        case ".roto":
+            rotoworld.getPlayer(messageArgs).then(function (player) {
+                if (!player) {
+                    msg.channel.sendMessage('No player found. Check the spelling of the player\'s name.');
+                } else {
+                    msg.channel.sendMessage(player.name + ': ' + player.latestNews + '\r\n\r\n' + player.latestImpact);
+                }
+            }).catch(function (err) {
+                console.log(err);
+            });
+            break;
     }
 });
 

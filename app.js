@@ -3,6 +3,7 @@ const bot = new Discord.Client();
 
 const rotoworld = require("./lib/rotoworld");
 const utilities = require("./lib/utilities");
+const espn = require("./lib/espn");
 
 bot.on("message", msg => {
     // Let's get the first word to get any command namespace.
@@ -26,6 +27,10 @@ bot.on("message", msg => {
                 }
             }).catch(function (err) {
                 console.log(err);
+            });
+            break;
+        case ".next5":
+            espn.next5(messageArgs).then(function (schedule) {
             });
             break;
     }

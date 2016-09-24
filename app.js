@@ -23,14 +23,17 @@ bot.on("message", msg => {
                 if (!player) {
                     msg.channel.sendMessage('No player found. Check the spelling of the player\'s name.');
                 } else {
-                    msg.channel.sendMessage(player.name + ': ' + player.latestNews + '\r\n\r\n' + player.latestImpact);
+                    msg.channel.sendMessage(player.message);
                 }
             }).catch(function (err) {
-                console.log(err);
+                msg.channel.sendMessage(err);
             });
             break;
         case ".next5":
             espn.next5(messageArgs).then(function (schedule) {
+                msg.channel.sendMessage(schedule.message);
+            }).catch(function (err) {
+                msg.channel.sendMessage(err);
             });
             break;
     }

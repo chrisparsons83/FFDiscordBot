@@ -14,9 +14,21 @@ bot.on("message", msg => {
     // Let's filter through these now.
     // TODO: Make this not a terrible switch situation.
     switch (messageCommand) {
+        case ".8ball":
+            utilities.eightBall().then(function (chosen) {
+                msg.channel.sendMessage(chosen);
+            });
+            break;
         case ".choose":
             utilities.chooseOne(messageArgs).then(function (chosen) {
                 msg.channel.sendMessage(chosen);
+            });
+            break;
+        case ".next5":
+            espn.next5(messageArgs).then(function (schedule) {
+                msg.channel.sendMessage(schedule.message);
+            }).catch(function (err) {
+                msg.channel.sendMessage(err);
             });
             break;
         case ".roto":
@@ -26,13 +38,6 @@ bot.on("message", msg => {
                 } else {
                     msg.channel.sendMessage(player.message);
                 }
-            }).catch(function (err) {
-                msg.channel.sendMessage(err);
-            });
-            break;
-        case ".next5":
-            espn.next5(messageArgs).then(function (schedule) {
-                msg.channel.sendMessage(schedule.message);
             }).catch(function (err) {
                 msg.channel.sendMessage(err);
             });

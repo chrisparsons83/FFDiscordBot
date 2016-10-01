@@ -23,8 +23,8 @@
     "url": "https://github.com/chrisparsons83/RedditFFDiscordBot"
   },
   "scripts": {
-    "test": "mocha",
-    "start": "node app.js"
+    "start": "node app.js",
+    "test": "mocha"
   },
   "version": "0.0.0"
 }

@@ -1,6 +1,7 @@
 ﻿const Discord = require("discord.js");
 const bot = new Discord.Client();
 
+const config = require("./config");
 const rotoworld = require("./lib/rotoworld");
 const utilities = require("./lib/utilities");
 const espn = require("./lib/espn");
@@ -43,4 +44,4 @@ bot.on('ready', () => {
     console.log('I am ready!');
 });
 
-bot.login(process.env.DiscordAPIToken);
+bot.login(config.DiscordAPIToken);

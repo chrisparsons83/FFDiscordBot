@@ -249,3 +249,6 @@ typings/
 
 #NodeJS Project file for Visual Studio
 *.njsproj
+
+#configuration file
+config.js

@@ -1,11 +1,10 @@
 {
-  "name": "reddit-ffdiscord-bot",
-  "version": "0.0.0",
-  "description": "RedditFFDiscordBot",
-  "main": "app.js",
   "author": {
-    "name": "Chris"
+    "name": "Chris Parsons"
   },
+  "bugs": {
+    "url": "https://github.com/chrisparsons83/RedditFFDiscordBot/issues"
+  },  
   "dependencies": {
     "chai": "^3.5.0",
     "cheerio": "^0.22.0",
@@ -15,7 +14,17 @@
     "moment": "^2.15.1",
     "request": "^2.74.0"
   },
+  "description": "RedditFFDiscordBot",
+  "license": "MIT",
+  "main": "app.js",
+  "name": "reddit-ffdiscord-bot",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chrisparsons83/RedditFFDiscordBot"
+  },
   "scripts": {
-    "test": "mocha"
-  }
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "version": "0.0.0"
 }

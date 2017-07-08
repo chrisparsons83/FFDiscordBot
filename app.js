@@ -56,6 +56,9 @@ bot.on("message", msg => {
         } else {
           msg.channel.sendMessage(response);
         }
+      })
+      .catch(err => {
+        msg.channel.sendMessage(err);
       });
     }
 });

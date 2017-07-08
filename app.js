@@ -46,17 +46,20 @@ bot.on("message", msg => {
 
     // tc216997 -> alternative for the terrible switch?
     if (msg.content.startsWith('.') && validCommand) {
-      //get command
+      // get bot command
       let messageCommand = msg.content.split(' ')[0];
+      // get bot command arguments
       let messageArgs = msg.content.substr(msg.content.indexOf(" ")+1, msg.content.length);
+
       commands[messageCommand](messageArgs).then(response => {
-        console.log(typeof response)
+        // check to see if resolved promised is an object
         if (typeof response === 'object') {
           msg.channel.sendMessage(response.message);
         } else {
           msg.channel.sendMessage(response);
         }
       })
+      // error catching
       .catch(err => {
         msg.channel.sendMessage(err);
       });

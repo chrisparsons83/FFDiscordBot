@@ -1,18 +1,21 @@
 ﻿const Discord = require("discord.js");
 const bot = new Discord.Client();
 
-const config = require("./config");
+const config = require("./config.js");
 const rotoworld = require("./lib/rotoworld");
 const utilities = require("./lib/utilities");
 const espn = require("./lib/espn");
+const commands = require('./commands/commands.js')
+
 
 bot.on("message", msg => {
     // Let's get the first word to get any command namespace.
     let messageCommand = msg.content.substr(0, msg.content.indexOf(" "));
     let messageArgs = msg.content.substr(msg.content.indexOf(" ") + 1);
-
+    let validCommand = commands.hasOwnProperty(msg.content.split(' ')[0]);
     // Let's filter through these now.
     // TODO: Make this not a terrible switch situation.
+    /*
     switch (messageCommand) {
         case ".8ball":
             utilities.eightBall().then(function (chosen) {
@@ -42,6 +45,16 @@ bot.on("message", msg => {
                 msg.channel.sendMessage(err);
             });
             break;
+    }
+    */
+    // Swap from the terrible switch situation
+    if (msg.content.startsWith('.') && validCommand) {
+      //get command
+      let messageCommand = msg.content.split(' ')[0];
+      let messageArgs = msg.content.substr(msg.content.indexOf(" ")+1, msg.content.length);
+      commands[messageCommand](messageArgs).then(response => {
+        msg.channel.sendMessage(response);
+      });
     }
 });
 

@@ -1,11 +1,7 @@
 ﻿const Discord = require("discord.js");
 const bot = new Discord.Client();
-
-const config = require("./config.js");
-const rotoworld = require("./lib/rotoworld");
-const utilities = require("./lib/utilities");
-const espn = require("./lib/espn");
-const commands = require('./commands/commands.js')
+const config = require("./config");
+const commands = require('./lib/commands');
 
 
 bot.on("message", msg => {
@@ -47,13 +43,19 @@ bot.on("message", msg => {
             break;
     }
     */
-    // Swap from the terrible switch situation
+
+    // tc216997 -> alternative for the terrible switch?
     if (msg.content.startsWith('.') && validCommand) {
       //get command
       let messageCommand = msg.content.split(' ')[0];
       let messageArgs = msg.content.substr(msg.content.indexOf(" ")+1, msg.content.length);
       commands[messageCommand](messageArgs).then(response => {
-        msg.channel.sendMessage(response);
+        console.log(typeof response)
+        if (typeof response === 'object') {
+          msg.channel.sendMessage(response.message);
+        } else {
+          msg.channel.sendMessage(response);
+        }
       });
     }
 });

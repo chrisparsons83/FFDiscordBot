@@ -1,10 +1,8 @@
 {
-  "author": {
-    "name": "Chris Parsons"
-  },
+  "author": "Chris Parsons",
   "bugs": {
     "url": "https://github.com/chrisparsons83/RedditFFDiscordBot/issues"
-  },  
+  },
   "dependencies": {
     "chai": "^3.5.0",
     "cheerio": "^0.22.0",
@@ -20,11 +18,17 @@
   "name": "reddit-ffdiscord-bot",
   "repository": {
     "type": "git",
-    "url": "https://github.com/chrisparsons83/RedditFFDiscordBot"
+    "url": "git+https://github.com/chrisparsons83/RedditFFDiscordBot.git"
   },
   "scripts": {
     "start": "node app.js",
     "test": "mocha"
   },
-  "version": "0.0.0"
+  "version": "0.0.0",
+  "homepage": "https://github.com/chrisparsons83/RedditFFDiscordBot#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "keywords": []
 }

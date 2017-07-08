@@ -1,18 +1,17 @@
 ﻿const Discord = require("discord.js");
 const bot = new Discord.Client();
-
 const config = require("./config");
-const rotoworld = require("./lib/rotoworld");
-const utilities = require("./lib/utilities");
-const espn = require("./lib/espn");
+const commands = require('./lib/commands');
+
 
 bot.on("message", msg => {
     // Let's get the first word to get any command namespace.
     let messageCommand = msg.content.substr(0, msg.content.indexOf(" "));
     let messageArgs = msg.content.substr(msg.content.indexOf(" ") + 1);
-
+    let validCommand = commands.hasOwnProperty(msg.content.split(' ')[0]);
     // Let's filter through these now.
     // TODO: Make this not a terrible switch situation.
+    /*
     switch (messageCommand) {
         case ".8ball":
             utilities.eightBall().then(function (chosen) {
@@ -42,6 +41,28 @@ bot.on("message", msg => {
                 msg.channel.sendMessage(err);
             });
             break;
+    }
+    */
+
+    // tc216997 -> alternative for the terrible switch?
+    if (msg.content.startsWith('.') && validCommand) {
+      // get bot command
+      let messageCommand = msg.content.split(' ')[0];
+      // get bot command arguments
+      let messageArgs = msg.content.substr(msg.content.indexOf(" ")+1, msg.content.length);
+
+      commands[messageCommand](messageArgs).then(response => {
+        // check to see if resolved promised is an object
+        if (typeof response === 'object') {
+          msg.channel.sendMessage(response.message);
+        } else {
+          msg.channel.sendMessage(response);
+        }
+      })
+      // error catching
+      .catch(err => {
+        msg.channel.sendMessage(err);
+      });
     }
 });
 

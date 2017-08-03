@@ -3,7 +3,6 @@ const bot = new Discord.Client();
 const config = require("./config");
 const commands = require('./lib/commands');
 
-
 bot.on("message", msg => {
     // Let's get the first word to get any command namespace.
     let messageCommand = msg.content.substr(0, msg.content.indexOf(" "));

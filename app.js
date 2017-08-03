@@ -45,11 +45,11 @@ bot.on("message", msg => {
     if (msg.content.startsWith('!') && validCommand) {
       // get bot command
       let messageCommand = msg.content.split(' ')[0];
-      // get bot command arguments
-      // get the substring of message starting with index of the first space in the message
-      // !8ball am i going to win? should return 'am i going to win?'
-      let messageArgs = msg.content.substr(msg.content.indexOf(' ')+1, msg.content.length);
       
+      // get bot command arguments
+      // !8ball am i going to win?, messageArgs should reference 'am i going to win?';
+      let messageArgs = msg.content.substr(msg.content.indexOf(' ')+1, msg.content.length);
+
       commands[messageCommand](messageArgs).then(response => {
         // check to see if resolved promised is an object
         if (typeof response === 'object') {

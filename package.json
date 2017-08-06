@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "node app.js",
-    "test": "mocha"
+    "test": "mocha --timeout 5000"
   },
   "version": "0.0.0",
   "homepage": "https://github.com/chrisparsons83/RedditFFDiscordBot#readme",

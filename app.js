@@ -5,6 +5,7 @@ const commands = require('./lib/commands');
 
 bot.on('guildMemberAdd', (guild, member) => {
   guild.channels.get(guild.defaultChannel.id).sendMessage(`Welcome to the /r/fantasyfootball discord server, ${member}`);
+});
 
 bot.on("message", msg => {
     // Let's get the first word to get any command namespace.

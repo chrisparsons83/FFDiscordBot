@@ -16,6 +16,13 @@ describe('Rotoworld Integration', function () {
         });
     });
 
+    it('Should find the correct player with a name like David Johnson', () => {
+        let playerName = 'David Johnson';
+        return rotoworld.getPlayer(playerName).then(function (values) {
+            expect(values[0]).to.not.be.false;
+        });
+    });
+
     it('NFL player should have correct data associated with the player', () => {
         let playerName = 'Wilson,Russell';
         return rotoworld.getPlayer(playerName).then(function (values) {

@@ -4,7 +4,8 @@ const config = require("./config");
 const commands = require('./lib/commands');
 
 bot.on('guildMemberAdd', member => {
-  member.guild.defaultChannel.sendMessage(`Welcome to the /r/fantasyfootball discord server, ${member}`);
+  const channel = member.guild.channels.find('name', 'general');
+  channel.sendMessage(`Welcome to the /r/fantasyfootball discord server, ${member}`);
 });
 
 /*

@@ -3,18 +3,9 @@ const bot = new Discord.Client();
 const config = require("./config");
 const commands = require('./lib/commands');
 
-bot.on('guildMemberAdd', member => {
-  member.guild.defaultChannel.sendMessage(`Welcome to the /r/fantasyfootball discord server, ${member}`);
+bot.on('guildMemberAdd', (guild, member) => {
+  guild.channels.get(guild.defaultChannel.id).sendMessage(`Welcome to the /r/fantasyfootball discord server, ${member}`);
 });
-
-/*
-//event emitter for testing purposes on private server
-bot.on('message', msg => {
-  if (msg.content.startsWith('!test')) {
-    bot.emit('guildMemberAdd', msg.member)
-  }
-});
-*/
 
 bot.on("message", msg => {
     // Let's get the first word to get any command namespace.

@@ -3,15 +3,8 @@ const bot = new Discord.Client();
 const config = require("./config");
 const commands = require('./lib/commands');
 
-<<<<<<< HEAD
 bot.on('guildMemberAdd', (guild, member) => {
   guild.channels.get(guild.defaultChannel.id).sendMessage(`Welcome to the /r/fantasyfootball discord server, ${member}`);
-=======
-bot.on('guildMemberAdd', member => {
-  const channel = member.guild.channels.find('name', 'general');
-  channel.sendMessage(`Welcome to the /r/fantasyfootball discord server, ${member}`);
->>>>>>> 59c0cb0644b37f22cab8886e43a4b78cddf7252b
-});
 
 bot.on("message", msg => {
     // Let's get the first word to get any command namespace.

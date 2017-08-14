@@ -31,6 +31,13 @@ FFDiscordBot:
 5. B.J. Daniels
 6. Kelvin Taylor
 ```
+### !poll *question | <option 1> | <option 2> | etc etc* 
+This command creates a poll on strawpoll.me and returns the utrl
+```
+Input: !poll Is lamar miller a bust? | yes | no | maybe so. | I hate you
+FFDiscordBot:
+http://www.strawpoll.me/13706843
+```
 
 ### !choose *list of options* 
 This command randomly picks from a comma-separated list of options.

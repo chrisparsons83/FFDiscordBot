@@ -21,7 +21,7 @@ FFDiscordBot: ADP as of Saturday, August 12, 2017 via 4for4 for Michael Crabtree
 ### !depthchart *team,position* 
 This returns the depth chart for a team's position from [https://www.cbssports.com](https://www.cbssports.com).
 ```
-Input: !depthchart atl,rb
+Input: !depthchart atl,rb *Valid positions: qb, rb, fb, te, wr, k, kr, pr*
 FFDiscordBot: 
 1. Devonta Freeman
 2. Tevin Coleman

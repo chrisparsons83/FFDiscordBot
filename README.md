@@ -18,6 +18,20 @@ Input: !adp Keenan Allen
 FFDiscordBot: ADP as of Saturday, August 12, 2017 via 4for4 for Michael Crabtree: ESPN: 44, MFL: 46, NFL: 47, Yahoo: 42
 ```
 
+### !depthchart *team,position* 
+This returns the depth chart for a team's position from [https://www.cbssports.com](https://www.cbssports.com).
+*Valid positions: qb, rb, fb, te, wr, k, kr, pr*
+```
+Input: !depthchart atl,rb
+FFDiscordBot: 
+1. Devonta Freeman
+2. Tevin Coleman
+3. Terron Ward
+4. Brian Hill
+5. B.J. Daniels
+6. Kelvin Taylor
+```
+
 ### !choose *list of options* 
 This command randomly picks from a comma-separated list of options.
 ```

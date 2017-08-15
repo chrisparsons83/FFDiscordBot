@@ -39,6 +39,19 @@ FFDiscordBot:
 http://www.strawpoll.me/13706843
 ```
 
+### !boris *position, scoring format* 
+This command return boris chen tier rankings
+```
+Input: !boris te, half
+FFDiscordBot:
+Tier 1: Rob Gronkowski NE , Travis Kelce KC , Greg Olsen CAR 
+Tier 2: Jordan Reed WAS , Jimmy Graham SEA , Tyler Eifert CIN , Kyle Rudolph MIN 
+Tier 3: Delanie Walker TEN , Eric Ebron DET , Martellus Bennett GB , Zach Ertz PHI , Jack Doyle IND , Hunter Henry LAC 
+Tier 4: Coby Fleener NO , Jason Witten DAL 
+Tier 5: C.J. Fiedorowicz HOU , Austin Hooper ATL , Cameron Brate TB , Julius Thomas MIA , Antonio Gates LAC 
+Tier 6: O.J. Howard TB , David Njoku CLE , Evan Engram NYG , Charles Clay BUF , Zach Miller CHI
+```
+
 ### !choose *list of options* 
 This command randomly picks from a comma-separated list of options.
 ```

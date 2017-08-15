@@ -21,16 +21,11 @@ bot.on("message", msg => {
       let messageArgs = msg.content.substr(msg.content.indexOf(' ')+1, msg.content.length);
 
       commands[messageCommand](messageArgs).then(response => {
-        // check to see if resolved promised is an object
-        if (typeof response === 'object') {
-          msg.channel.sendMessage(response.message);
-        } else {
-          msg.channel.sendMessage(response);
-        }
+        msg.channel.send(response);
       })
       // error catching
       .catch(err => {
-        msg.channel.sendMessage(err);
+        msg.channel.send(err);
       });
     }
 });

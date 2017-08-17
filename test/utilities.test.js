@@ -22,4 +22,30 @@ describe('Bot Utilities', function () {
             expect(value).to.be.a('string');
         })
     });
+
+    it('Should return david johnson', () => {
+        let player = 'david johnson';
+        let object = utilities.findPlayer(player);
+        expect(object.fullname).to.equal('david johnson');
+    });
+
+    it('Should return josh gordon', () => {
+        let player = 'josh gordon';
+        let object = utilities.findPlayer(player);
+        expect(object.fullname).to.equal('josh gordon');
+    });
+
+    it('Should return adrian peterson', () => {
+        let player = 'adrian peterson';
+        let object = utilities.findPlayer(player);
+        expect(object.fullname).to.equal('adrian peterson');
+    });      
+
+    it('Jennifer lopez as a player should return undefined', () => {
+        let player = 'jennifer lopez';
+        let object = utilities.findPlayer(player);
+        //console.log(object === false);
+        expect(object).to.be.undefined;
+    });
+
 });

@@ -3,10 +3,9 @@ const depthchart = require("../lib/depthchart.js");
 
 describe('depthchart library', function () {
   it('Should return a non-empty object', function () {
-      let teamname = 'NYG';
-      let position = 'qb';
+      let teamname = 'JAX';
       return depthchart.getRoster(teamname).then(function(value) {
-        expect(value).to.not.empty;
+        expect(value.qb).to.be.not.empty;
       });
   });
 });

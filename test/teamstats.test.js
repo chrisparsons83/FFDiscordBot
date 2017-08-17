@@ -3,10 +3,10 @@ const teamstats = require("../lib/teamstats.js");
 
 describe('Teamstats functions', function () {
     let input = 'OAK';
-    
-    it('getBreakdown function should return a string greater than 300', function () {
-      let stats = teamstats.getBreakdown(input);
-      return expect(stats).to.have.length.above(300);
+    let teamname = 'Oakland Raiders'
+    it('getBreakdown function should return a discord embed object', function () {
+      let object = teamstats.getBreakdown(teamname, input);
+      return expect(object.embed).to.be.not.empty;
     });
 
     it('getTargets function should return a string length greater than 300', function(){

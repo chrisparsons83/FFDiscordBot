@@ -8,7 +8,6 @@
     "cheerio": "^0.22.0",
     "co-mocha": "^1.1.3",
     "discord.js": "^11.1.0",
-    "fast-levenshtein": "^2.0.6",
     "fuzzy-string-matching": "^1.0.2",
     "mocha": "^3.0.2",
     "moment": "^2.15.1",

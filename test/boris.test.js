@@ -2,11 +2,11 @@ const expect = require("chai").expect;
 const boris = require("../lib/borischen.js");
 
 describe('Boris library', function () {
-  it('Should return an array with length greater than 3', function () {
-      let position = 'k';
+  it('Should return an embed object', function () {
+      let position = 'wr';
       let scoring = 'half';
       return boris.getTier(position, scoring).then(function(value) {
-        expect(value).to.have.length.above(3);
+        expect(value.embed).to.be.not.empty;
       });
   });
 });

@@ -2,10 +2,13 @@ const expect = require("chai").expect;
 const depthchart = require("../lib/depthchart.js");
 
 describe('depthchart library', function () {
-  it('Should return a non-empty object', function () {
-      let teamname = 'JAX';
-      return depthchart.getRoster(teamname).then(function(value) {
-        expect(value.qb).to.be.not.empty;
-      });
+  it('Should return an embed object', function () {
+    let teamname = 'JAX';
+    let position = 'qb'
+    return depthchart.getRoster(teamname, position).then(function(value) {
+      //console.log(value)
+     //expect(value.embed).to.be.not.empty;
+    });
   });
+
 });

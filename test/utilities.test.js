@@ -41,11 +41,23 @@ describe('Bot Utilities', function () {
         expect(object.fullname).to.equal('adrian peterson');
     });      
 
-    it('Jennifer lopez as a player should return undefined', () => {
-        let player = 'jennifer lopez';
-        let object = utilities.findPlayer(player);
-        //console.log(object === false);
-        expect(object).to.be.undefined;
+    it('Should return david johnson', () => {
+      let player = 'david johnston';
+      let object = utilities.findPlayer(player);
+      expect(object.fullname).to.equal('david johnson');
     });
+
+    it('Should return mike williams', () => {
+      let player = 'mike williams';
+      let object = utilities.findPlayer(player);
+      expect(object.fullname).to.equal('mike williams');
+    });
+
+    it('Jennifer lopez as a player should return undefined', () => {
+      let player = 'jennifer lopez';
+      let object = utilities.findPlayer(player);
+      expect(object).to.be.undefined;
+    });
+
 
 });

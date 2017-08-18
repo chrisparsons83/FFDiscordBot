@@ -54,10 +54,9 @@ describe('Bot Utilities', function () {
     });
 
     it('Jennifer lopez as a player should return undefined', () => {
-        let player = 'jennifer lopez';
-        let object = utilities.findPlayer(player);
-        //console.log(object === false);
-        expect(object).to.be.undefined;
+      let player = 'jennifer lopez';
+      let object = utilities.findPlayer(player);
+      expect(object).to.be.undefined;
     });
 
 

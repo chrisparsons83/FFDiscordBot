@@ -52,7 +52,7 @@ describe('Rotoworld Integration', function () {
     it('Should not find an invalid NFL player', () => {
         let playerName = 'Beesly,Pam';
         return rotoworld.getPlayer(playerName).catch(function (values) {
-            expect(values).to.equal("There is no player found with that name.");
+          expect(values).to.equal("There is no player found with that name.");
         });
     });
 });

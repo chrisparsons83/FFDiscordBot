@@ -3,8 +3,8 @@ const bot = new Discord.Client();
 const config = require("./config");
 const commands = require('./lib/commands');
 
-bot.on('guildMemberAdd', (guild, member) => {
-  guild.channels.get(guild.defaultChannel.id).sendMessage(`Welcome to the /r/fantasyfootball discord server, ${member}`);
+bot.on('guildMemberAdd', (member) => {
+  member.guild.defaultChannel.send(`Welcome to the /r/fantasyfootball discord server, ${member}`);
 });
 
 bot.on("message", msg => {

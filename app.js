@@ -9,21 +9,20 @@ bot.on('guildMemberAdd', (member) => {
 });
 
 bot.on('message', (msg) => {
-    // Let's get the first word to get any command namespace.
-    const messageCommand = msg.content.substr(0, msg.content.indexOf(' '));
-    // const validCommand = commands.hasOwnProperty(messageCommand);
-    const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
+    if (msg.content.startsWith('!')) {
+        let messageCommand = '';
+        let messageArgsArray = [];
+        [messageCommand, ...messageArgsArray] = msg.content.toString().split(' ').map(value => value.trim()).slice(0);
+        const messageArgs = messageArgsArray.join(' ');
+        const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
 
-    if (msg.content.startsWith('!') && validCommand) {
-        // get bot command arguments
-        // !8ball am i going to win?, messageArgs should be 'am i going to win?';
-        const messageArgs = msg.content.substr(msg.content.indexOf(' ') + 1, msg.content.length);
-
-        commands[messageCommand](messageArgs).then((response) => {
-            msg.channel.send(response);
-        }).catch((err) => {
-            msg.channel.send(err);
-        });
+        if (validCommand) {
+            commands[messageCommand](messageArgs).then((response) => {
+                msg.channel.send(response);
+            }).catch((err) => {
+                msg.channel.send(err);
+            });
+        }
     }
 });
 

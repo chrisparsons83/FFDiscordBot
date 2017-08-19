@@ -28,7 +28,6 @@ bot.on('message', (msg) => {
 });
 
 bot.on('ready', () => {
-    console.log('I am ready!');
 });
 
 bot.login(config.DiscordAPIToken);

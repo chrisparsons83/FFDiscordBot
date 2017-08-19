@@ -55,4 +55,11 @@ describe('Rotoworld Integration', function () {
           expect(values).to.equal("There is no player found with that name.");
         });
     });
+
+    it('Should find Alex Smith when using zzz', () => {
+        let playerName = 'zzz';
+        return rotoworld.getPlayer(playerName).then(function (values) {
+          expect(values.name).to.equal("Alex Smith");
+        });
+    });
 });

@@ -2,7 +2,7 @@ const expect = require("chai").expect;
 const depthchart = require("../lib/depthchart.js");
 
 describe('depthchart library', function () {
-  it('Should return object with length of 5\n      Roster should not be empty\n      Url, teamname, logo should be strings\n      positionName should be a string equal to quarterback', function () {
+  it('Should return a depth chart object', function () {
     let teamname = 'JAX';
     let position = 'qb'
     return depthchart.getRoster(teamname, position).then(function(value) {

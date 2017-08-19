@@ -4,7 +4,7 @@ const teamstats = require("../lib/teamstats.js");
 describe('Teamstats functions', function () {
     let input = 'OAK';
     let teamname = 'Oakland Raiders'
-    it('getBreakdown function should return a valid object', function () {
+    it('getBreakdown function should return a team stats object', function () {
       let stats = teamstats.getBreakdown(teamname, input);
       expect(Object.keys(stats).length).to.equal(9);
       expect(stats.offensivePlay).to.be.a.string;

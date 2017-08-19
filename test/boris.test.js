@@ -1,5 +1,5 @@
-const expect = require("chai").expect;
-const boris = require("../lib/borischen.js");
+const expect = require('chai').expect;
+const boris = require('../lib/borischen.js');
 
 describe('Boris library', function () {
   it('getTier should return a value tier object', function () {

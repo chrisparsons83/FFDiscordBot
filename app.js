@@ -1,37 +1,29 @@
-﻿const Discord = require("discord.js");
-const bot = new Discord.Client();
-const config = require("./config");
+const Discord = require('discord.js');
+const config = require('./config');
 const commands = require('./lib/commands');
 
+const bot = new Discord.Client();
+
 bot.on('guildMemberAdd', (member) => {
-  member.guild.defaultChannel.send(`Welcome to the /r/fantasyfootball discord server, ${member}`);
+    member.guild.defaultChannel.send(`Welcome to the /r/fantasyfootball discord server, ${member}`);
 });
 
-bot.on("message", msg => {
-    // Let's get the first word to get any command namespace.
-    let messageCommand = msg.content.substr(0, msg.content.indexOf(" "));
-    let validCommand = commands.hasOwnProperty(msg.content.split(' ')[0]);
+bot.on('message', (msg) => {
+    if (msg.content.startsWith('!')) {
+        let messageCommand = '';
+        let messageArgsArray = [];
+        [messageCommand, ...messageArgsArray] = msg.content.toString().split(' ').map(value => value.trim()).slice(0);
+        const messageArgs = messageArgsArray.join(' ');
+        const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
 
-    if (msg.content.startsWith('!') && validCommand) {
-      // get bot command
-      let messageCommand = msg.content.split(' ')[0];
-      
-      // get bot command arguments
-      // !8ball am i going to win?, messageArgs should reference 'am i going to win?';
-      let messageArgs = msg.content.substr(msg.content.indexOf(' ')+1, msg.content.length);
-
-      commands[messageCommand](messageArgs).then(response => {
-        msg.channel.send(response);
-      })
-      // error catching
-      .catch(err => {
-        msg.channel.send(err);
-      });
+        if (validCommand) {
+            commands[messageCommand](messageArgs).then((response) => {
+                msg.channel.send(response);
+            }).catch((err) => {
+                msg.channel.send(err);
+            });
+        }
     }
-});
-
-bot.on('ready', () => {
-    console.log('I am ready!');
 });
 
 bot.login(config.DiscordAPIToken);

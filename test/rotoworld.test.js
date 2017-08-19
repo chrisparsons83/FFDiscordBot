@@ -30,8 +30,8 @@ describe('Rotoworld Integration', function () {
       });
     });
 
-    it('find the correct exception player with a name like mike williams', () => {
-      let playerName = 'Bike Williams';
+    it('find the correct exception player with a name like Mike Williams', () => {
+      let playerName = 'Mike Williams';
       return rotoworld.getPlayer(playerName).then(function (values) {
           expect(values[0]).to.not.be.false;
       });

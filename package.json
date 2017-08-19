@@ -12,6 +12,7 @@
     "mocha": "^3.0.2",
     "moment": "^2.15.1",
     "request": "^2.74.0",
+    "sinon": "^3.2.1",
     "uws": "^8.14.1"
   },
   "description": "RedditFFDiscordBot",

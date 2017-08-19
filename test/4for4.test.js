@@ -1,11 +1,27 @@
 ﻿const expect = require("chai").expect;
+const request = require("request");
 const lib4for4 = require("../lib/4for4");
 const moment = require("moment");
+const sinon = require("sinon");
 
 describe('4for4 Utilities', function () {
     let validPlayer = "David Johnson";
     let validLowercasePlayer = "david johnson";
     let invalidPlayer = "Bob Dole";
+
+    before((done) => {
+        let url = 'https://www.4for4.com/fantasy-football/adp?paging=0';
+        request.get(url, (error, response, html) => {
+            sinon.stub(request, 'get')
+                .yields(null, null, html);
+            done();
+        });
+    });
+
+    after((done) => {
+        request.get.restore();
+        done();
+    });
 
     it('Should return a date in the past for the last updated date', () => {
         return lib4for4.getADP(validPlayer).then(function (value) {

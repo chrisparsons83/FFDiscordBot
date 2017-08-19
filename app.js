@@ -26,7 +26,4 @@ bot.on('message', (msg) => {
     }
 });
 
-bot.on('ready', () => {
-});
-
 bot.login(config.DiscordAPIToken);

@@ -24,7 +24,7 @@
     "url": "git+https://github.com/chrisparsons83/RedditFFDiscordBot.git"
   },
   "scripts": {
-    "start": "node app.js",
+    "start": "./node_modules/.bin/nodemon app.js",
     "test": "mocha --timeout 5000"
   },
   "version": "0.0.0",
@@ -33,5 +33,11 @@
     "lib": "lib",
     "test": "test"
   },
-  "keywords": []
+  "keywords": [],
+  "devDependencies": {
+    "eslint": "^4.5.0",
+    "eslint-config-airbnb-base": "^11.3.1",
+    "eslint-plugin-import": "^2.7.0",
+    "nodemon": "^1.11.0"
+  }
 }

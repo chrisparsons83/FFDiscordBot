@@ -29,4 +29,11 @@ describe('ESPN Utilities', () => {
       expect(value).to.equal('No team name was found.');
     });
   });
+
+  it('Should return an object with an array schedule for a full', () => {
+    const teamName = 'Seahawks';
+    return espn.remainingGames(teamName).catch((value) => {
+      expect(value.remainingGames).to.be.a('array');
+    });
+  });
 });

@@ -1,0 +1,258 @@
+[
+  {
+    "abbreviation": "CLE",
+    "espn_abbreviation": "CLE",
+    "location": "Cleveland",
+    "mascot": "Browns",
+    "name":"Cleveland Browns",
+    "logo":"http://prod.static.browns.clubs.nfl.com/nfl-assets/img/gbl-ico-team/cle/logos/home/large.png"
+  },
+  {
+    "abbreviation": "DET",
+    "espn_abbreviation": "DET",
+    "location": "Detroit",
+    "mascot": "Lions",
+    "name":"Detroit Lions",
+    "logo":"http://prod.static.lions.clubs.nfl.com/nfl-assets/img/gbl-ico-team/det/logos/home/large.png"
+  },
+  {
+    "abbreviation": "BAL",
+    "espn_abbreviation": "BAL",
+    "location": "Baltimore",
+    "mascot": "Ravens",
+    "name":"Baltimore Ravens",
+    "logo":"http://prod.static.ravens.clubs.nfl.com/nfl-assets/img/gbl-ico-team/bal/logos/home/large.png"
+  },
+  {
+    "abbreviation": "GB",
+    "espn_abbreviation": "GB",
+    "location": "Green Bay",
+    "mascot": "Packers",
+    "name":"Green Bay Packers",
+    "logo":"http://prod.static.packers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/gb/logos/home/large.png"
+  },
+  {
+    "abbreviation": "MIN",
+    "espn_abbreviation": "MIN",
+    "location": "Minnesota",
+    "mascot": "Vikings",
+    "name":"Minnesota Vikings",
+    "logo":"http://prod.static.vikings.clubs.nfl.com/nfl-assets/img/gbl-ico-team/MIN/logos/home/large.png"
+  },
+  {
+    "abbreviation": "CHI",
+    "espn_abbreviation": "CHI",
+    "location": "Chicago",
+    "mascot": "Bears",
+    "name":"Chicago Bears",
+    "logo":"http://prod.static.bears.clubs.nfl.com/nfl-assets/img/gbl-ico-team/CHI/logos/home/large.png"
+  },
+  {
+    "abbreviation": "LAR",
+    "espn_abbreviation": "LAR",
+    "location": "Los Angeles",
+    "mascot": "Rams",
+    "name":"Los Angeles Rams",
+    "logo":"http://prod.static.rams.clubs.nfl.com/nfl-assets/img/gbl-ico-team/stl/logos/home/large.png"
+  },
+  {
+    "abbreviation": "WAS",
+    "espn_abbreviation": "WSH",
+    "location": "Washington",
+    "mascot": "Redskins",
+    "name":"Washington Redskins",
+    "logo":"http://prod.static.redskins.clubs.nfl.com/nfl-assets/img/gbl-ico-team/was/logos/home/large.png"
+  },
+  {
+    "abbreviation": "NYG",
+    "espn_abbreviation": "NYG",
+    "location": "New York",
+    "mascot": "Giants",
+    "name":"New York Giants",
+    "logo":"http://prod.static.giants.clubs.nfl.com/nfl-assets/img/gbl-ico-team/nyg/logos/home/large.png"
+  },
+  {
+    "abbreviation": "ARI",
+    "espn_abbreviation": "ARI",
+    "location": "Arizona",
+    "mascot": "Cardinals",
+    "name":"Arizona Cardinals",
+    "logo":"http://prod.static.cardinals.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ARI/logos/home/large.png"
+  },
+  {
+    "abbreviation": "IND",
+    "espn_abbreviation": "IND",
+    "location": "Indianapolis",
+    "mascot": "Colts",
+    "name":"Indianapolis Colts",
+    "logo":"http://prod.static.colts.clubs.nfl.com/nfl-assets/img/gbl-ico-team/IND/logos/home/large.png"
+  },
+  {
+    "abbreviation": "SEA",
+    "espn_abbreviation": "SEA",
+    "location": "Seattle",
+    "mascot": "Seahawks",
+    "name":"Seattle Seahawks",
+    "logo":"http://prod.static.seahawks.clubs.nfl.com/nfl-assets/img/gbl-ico-team/sea/logos/home/large.png"
+  },
+  {
+    "abbreviation": "KC",
+    "espn_abbreviation": "KC",
+    "location": "Kansas City",
+    "mascot": "Chiefs",
+    "name":"Kansas City Chiefs",
+    "logo":"http://prod.static.chiefs.clubs.nfl.com/nfl-assets/img/gbl-ico-team/kc/logos/home/large.png"
+  },
+  {
+    "abbreviation": "PIT",
+    "espn_abbreviation": "PIT",
+    "location": "Pittsburgh",
+    "mascot": "Steelers",
+    "name":"Pittsburgh Steelers",
+    "logo":"http://prod.static.steelers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/PIT/logos/home/large.png"
+  },
+  {
+    "abbreviation": "NO",
+    "espn_abbreviation": "NO",
+    "location": "New Orleans",
+    "mascot": "Saints",
+    "name":"New Orleans Saints",
+    "logo":"http://prod.static.saints.clubs.nfl.com/nfl-assets/img/gbl-ico-team/NO/logos/home/large.png"
+  },
+  {
+    "abbreviation": "JAX",
+    "espn_abbreviation": "JAX",
+    "location": "Jacksonville",
+    "mascot": "Jaguars",
+    "name":"Jacksonville Jaguars",
+    "logo":"http://prod.static.jaguars.clubs.nfl.com/nfl-assets/img/gbl-ico-team/JAX/logos/home/large.png"
+  },
+  {
+    "abbreviation": "LAC",
+    "espn_abbreviation": "LAC",
+    "location": "Los Angeles",
+    "mascot": "Chargers",
+    "name":"Los Angeles Chargers",
+    "logo":"http://prod.static.chargers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/sd/logos/home/large.png"
+  },
+  {
+    "abbreviation": "DEN",
+    "espn_abbreviation": "DEN",
+    "location": "Denver",
+    "mascot": "Broncos",
+    "name":"Denver Broncos",
+    "logo":"http://prod.static.broncos.clubs.nfl.com/nfl-assets/img/gbl-ico-team/den/logos/home/large.png"
+  },
+  {
+    "abbreviation": "MIA",
+    "espn_abbreviation": "MIA",
+    "location": "Miami",
+    "mascot": "Dolphins",
+    "name":"Miami Dolphins",
+    "logo":"http://prod.static.dolphins.clubs.nfl.com/nfl-assets/img/gbl-ico-team/mia/logos/home/large.png"
+  },
+  {
+    "abbreviation": "NYJ",
+    "espn_abbreviation": "NYJ",
+    "location": "New York",
+    "mascot": "Jets",
+    "name":"New York Jets",
+    "logo":"http://prod.static.jets.clubs.nfl.com/nfl-assets/img/gbl-ico-team/nyj/logos/home/large.png"
+  },
+  {
+    "abbreviation": "ATL",
+    "espn_abbreviation": "ATL",
+    "location": "Atlanta",
+    "mascot": "Falcons",
+    "name":"Atlanta Falcons",
+    "logo":"http://prod.static.falcons.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ATL/logos/home/large.png"
+  },
+  {
+    "abbreviation": "OAK",
+    "espn_abbreviation": "OAK",
+    "location": "Oakland",
+    "mascot": "Raiders",
+    "name":"Oakland Raiders",
+    "logo":"http://prod.static.raiders.clubs.nfl.com/nfl-assets/img/gbl-ico-team/OAK/logos/home/large.png"
+  },
+  {
+    "abbreviation": "PHI",
+    "espn_abbreviation": "PHI",
+    "location": "Philadelphia",
+    "mascot": "Eagles",
+    "name":"Philadelphia Eagles",
+    "logo":"http://prod.static.eagles.clubs.nfl.com/nfl-assets/img/gbl-ico-team/PHI/logos/home/large.png"
+  },
+  {
+    "abbreviation": "CIN",
+    "espn_abbreviation": "CIN",
+    "location": "Cincinnati",
+    "mascot": "Bengals",
+    "name":"Cincinnati Bengals",
+    "logo":"http://prod.static.bengals.clubs.nfl.com/nfl-assets/img/gbl-ico-team/CIN/logos/home/large.png"
+  },
+  {
+    "abbreviation": "TB",
+    "espn_abbreviation": "TB",
+    "location": "Tampa Bay",
+    "mascot": "Buccaneers",
+    "name":"Tampa Bay Buccaneers",
+    "logo":"http://prod.static.buccaneers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/TB/logos/home/large.png"
+  },
+  {
+    "abbreviation": "HOU",
+    "espn_abbreviation": "HOU",
+    "location": "Houston",
+    "mascot": "Texans",
+    "name":"Houston Texans",
+    "logo":"http://prod.static.texans.clubs.nfl.com/nfl-assets/img/gbl-ico-team/HOU/logos/home/large.png"
+  },
+  {
+    "abbreviation": "CAR",
+    "espn_abbreviation": "CAR",
+    "location": "Carolina",
+    "mascot": "Panthers",
+    "name":"Carolina Panthers",
+    "logo":"http://prod.static.panthers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/CAR/logos/home/large.png"
+  },
+  {
+    "abbreviation": "SF",
+    "espn_abbreviation": "SF",
+    "location": "San Francisco",
+    "mascot": "49ers",
+    "name":"San Francisco 49ers",
+    "logo":"http://prod.static.49ers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/SF/logos/home/large.png"
+  },
+  {
+    "abbreviation": "NE",
+    "espn_abbreviation": "NE",
+    "location": "New England",
+    "mascot": "Patriots",
+    "name":"New England Patriots",
+    "logo":"http://prod.static.patriots.clubs.nfl.com/nfl-assets/img/gbl-ico-team/NE/logos/home/large.png"
+  },
+  {
+    "abbreviation": "TEN",
+    "espn_abbreviation": "TEN",
+    "location": "Tennessee",
+    "mascot": "Titans",
+    "name":"Tennessee Titans",
+    "logo":"http://prod.static.titans.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ten/logos/home/large.png"
+  },
+  {
+    "abbreviation": "BUF",
+    "espn_abbreviation": "BUF",
+    "location": "Buffalo",
+    "mascot": "Bills",
+    "name":"Buffalo Bills",
+    "logo":"http://prod.static.bills.clubs.nfl.com/nfl-assets/img/gbl-ico-team/buf/logos/home/large.png"
+  },
+  {
+    "abbreviation": "DAL",
+    "espn_abbreviation": "DAL",
+    "location": "Dallas",
+    "mascot": "Cowboys",
+    "name":"Dallas Cowboys",
+    "logo":"http://prod.static.cowboys.clubs.nfl.com/nfl-assets/img/gbl-ico-team/dal/logos/home/large.png"
+  }
+]

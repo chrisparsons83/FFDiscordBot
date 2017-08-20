@@ -18,26 +18,6 @@ Input: !adp Keenan Allen
 FFDiscordBot: ADP as of Saturday, August 12, 2017 via 4for4 for Michael Crabtree: ESPN: 44, MFL: 46, NFL: 47, Yahoo: 42
 ```
 
-### !depthchart *team,position* 
-This returns the depth chart for a team's position from [https://www.cbssports.com](https://www.cbssports.com).
-```
-Input: !depthchart atl,rb
-FFDiscordBot: 
-1. Devonta Freeman
-2. Tevin Coleman
-3. Terron Ward
-4. Brian Hill
-5. B.J. Daniels
-6. Kelvin Taylor
-```
-### !poll *question | <option 1> | <option 2> | etc etc* 
-This command creates a poll on strawpoll.me and returns the utrl
-```
-Input: !poll Is lamar miller a bust? | yes | no | maybe so. | I hate you
-FFDiscordBot:
-http://www.strawpoll.me/13706843
-```
-
 ### !boris *position, scoring format* 
 This command return boris chen tier rankings
 ```
@@ -58,13 +38,38 @@ Input: !choose peterson,miller,freeman
 FFDiscordBot: freeman
 ```
 
-### !next5 *team symbol* 
-This list the next 5 weeks for an NFL team. You can query by team abbreviation or their nickname (e.g., NYJ or Jets).
+### !depthchart *team,position* 
+This returns the depth chart for a team's position from [https://www.cbssports.com](https://www.cbssports.com).
 ```
-Input: !next5 Seahawks
-FFDiscordBot: @GB, SF, @TEN, IND, @LAR
+Input: !depthchart atl,rb
+FFDiscordBot: 
+1. Devonta Freeman
+2. Tevin Coleman
+3. Terron Ward
+4. Brian Hill
+5. B.J. Daniels
+6. Kelvin Taylor
 ```
 
+### !next5 *team* 
+This list the next 5 weeks for an NFL team. You can query by team abbreviation or their nickname (e.g., NYJ or Jets).
+```
+Input: !next5 GB
+FFDiscordBot:
+1. Seahawks 4:25PM 
+2. @Falcons 8:30PM 
+3. Bengals 4:25PM 
+4. Bears 8:25PM (Thursday)
+5. @Cowboys 4:25PM 
+```
+
+### !poll *question | <option 1> | <option 2> | etc etc* 
+This command creates a poll on strawpoll.me and returns the utrl
+```
+Input: !poll Is lamar miller a bust? | yes | no | maybe so. | I hate you
+FFDiscordBot:
+http://www.strawpoll.me/13706843
+```
 
 ### !roto *player name* 
 This pulls up the most recent story on a player from Rotoworld.
@@ -73,6 +78,30 @@ Input: !roto Tim Tebow
 FFDiscordBot: Tim Tebow: Free agent QB Tim Tebow signed a minor-league contract with the New York Mets.
 
 He is your problem now, @Rotoworld_BB. Thu, Sep 8, 2016 08:36:00 AM
+```
+
+### !schedule *team* 
+This list the next 5 weeks for an NFL team. You can query by team abbreviation or their nickname (e.g., NYJ or Jets).
+```
+Input: !schedule Packers
+FFDiscordBot:
+1. Seahawks 4:25PM 
+2. @Falcons 8:30PM 
+3. Bengals 4:25PM 
+4. Bears 8:25PM (Thursday)
+5. @Cowboys 4:25PM 
+6. @Vikings 1:00PM 
+7. Saints 1:00PM 
+8. BYE
+9. Lions 8:30PM (Monday)
+10. @Bears 1:00PM 
+11. Ravens 1:00PM 
+12. @Steelers 8:30PM 
+13. Buccaneers 1:00PM 
+14. @Browns 1:00PM 
+15. @Panthers 1:00PM 
+16. Vikings 8:30PM (Saturday)
+17. @Lions 1:00PM
 ```
 
 ### !symbols

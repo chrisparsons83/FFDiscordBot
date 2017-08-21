@@ -12,7 +12,7 @@ describe('Bot Utilities', () => {
 
   it('Should complain when choosingOne without commas', () => {
     const chooseList = 'beer wine liquor';
-    return utilities.chooseOne(chooseList).then((value) => {
+    return utilities.chooseOne(chooseList).catch((value) => {
       expect(value).to.equal('Please use commas to separate your choices.');
     });
   });

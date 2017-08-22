@@ -30,7 +30,7 @@ describe('Rotoworld Integration', () => {
     });
   });
 
-  it('find the correct exception player with a name like Mike Williams', () => {
+  it('Should find the correct exception player with a name like Mike Williams', () => {
     const playerName = 'Mike Williams';
     return rotoworld.getPlayer(playerName).then((values) => {
       expect(values[0]).to.not.be.false;
@@ -48,6 +48,14 @@ describe('Rotoworld Integration', () => {
       expect(values.drafted).to.equal('2012 / Rd. 3 (75)  / SEA');
     });
   });
+
+  it('Should find the correct exception player Buck Allen', () => {
+    const playerName = 'Buck Allen';
+    return rotoworld.getPlayer(playerName).then((values) => {
+      expect(values[0]).to.not.be.false;
+    });
+  });
+
 
   it('Should not find an invalid NFL player', () => {
     const playerName = 'Beesly,Pam';

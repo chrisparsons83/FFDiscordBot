@@ -1,7 +1,7 @@
 const expect = require('chai').expect;
 const depthchart = require('../lib/depthchart.js');
 
-describe('depthchart library', () => {
+describe('Depthchart function test', () => {
   it('Should return a depth chart object', () => {
     const teamname = 'JAX';
     const position = 'qb';

@@ -17,10 +17,17 @@ describe('Bot Utilities', () => {
     });
   });
 
-  it('Should return the first item if argument ends with a comma ', () => {
-    const chooseList = 'beer, ';
+  it('Should complain when there\'s only one item', () => {
+    const chooseList = 'apple,';
     return utilities.chooseOne(chooseList).catch((value) => {
-      expect(value).to.equal('beer');
+      expect(value).to.equal('Please give me at least two things to choose from - I like choices!');
+    });
+  });
+
+  it('Should complain when the argument is only a comma', () => {
+    const chooseList = ',';
+    return utilities.chooseOne(chooseList).catch((value) => {
+      expect(value).to.equal('Please give me at least two things to choose from - I like choices!');
     });
   });
 

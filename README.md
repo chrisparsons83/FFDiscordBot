@@ -166,7 +166,7 @@ Deep left:   2.70%      Deep Mid:  5.41%    Deep right:  2.70%
 ```
 
 ## Installation for Forks of this Discord Bot
-*Node.js 6.0.0 or newer is required.*
+*Node.js 8.0.0 or newer is required.*
 
 1. Run `npm install`
 2. Copy `config.js.sample` to `config.js`

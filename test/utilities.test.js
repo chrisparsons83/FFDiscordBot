@@ -17,6 +17,13 @@ describe('Bot Utilities', () => {
     });
   });
 
+  it('Should return the first item if argument ends with a comma ', () => {
+    const chooseList = 'beer, ';
+    return utilities.chooseOne(chooseList).catch((value) => {
+      expect(value).to.equal('beer');
+    });
+  });
+
   it('Should return a string when asking the 8-ball', () => utilities.eightBall().then((value) => {
     expect(value).to.be.a('string');
   }));

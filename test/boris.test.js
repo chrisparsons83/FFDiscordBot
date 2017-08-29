@@ -2,7 +2,7 @@ const expect = require('chai').expect;
 const boris = require('../lib/borischen.js');
 
 describe('Boris library', () => {
-  it('getTier should return wide receiver tiers with full scoring formatobject', () => {
+  it('getTier should return wide receiver tiers with full scoring format object', () => {
     const position = 'wr';
     const scoring = 'full';
     return boris.getTier(position, scoring).then((value) => {

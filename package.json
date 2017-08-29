@@ -25,7 +25,7 @@
   },
   "scripts": {
     "start": "./node_modules/.bin/nodemon app.js",
-    "test": "./node_modules/.bin/mocha --timeout 20000"
+    "test": "./node_modules/.bin/mocha --timeout 5000"
   },
   "version": "0.0.0",
   "homepage": "https://github.com/chrisparsons83/RedditFFDiscordBot#readme",

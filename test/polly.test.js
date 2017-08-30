@@ -11,7 +11,7 @@ describe('Poll command test ', () => {
   });
 
   it('Should complain when there are not enough answers.', () => {
-    const input = 'Is lamar miller a bust? yes ';
+    const input = 'Is lamar miller a bust? | yes ';
     return commands['!poll'](input)
       .then(() => {
       })

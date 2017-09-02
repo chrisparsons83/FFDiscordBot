@@ -254,6 +254,7 @@ typings/
 
 #configuration file
 config.js
+dbconfig.json
 
 #vscode tasks folder
 .vscode

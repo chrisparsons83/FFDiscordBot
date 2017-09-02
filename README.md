@@ -32,7 +32,7 @@ Tier 5: C.J. Fiedorowicz HOU , Austin Hooper ATL , Cameron Brate TB , Julius Tho
 Tier 6: O.J. Howard TB , David Njoku CLE , Evan Engram NYG , Charles Clay BUF , Zach Miller CHI
 ```
 
-### !wdis *position, scoring format, <player1> | <player2> | <player3>* 
+### !wdis *position, scoring format, <player 1> | <player 2> | etc etc* 
 This command return the optimal player to start based on Boris' tiers
 ```
 Input: !wdis te, half, martellus bennett | hunter henry | cj fiedorowicz

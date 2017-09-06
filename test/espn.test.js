@@ -10,7 +10,7 @@ describe('ESPN Utilities', () => {
   });
 
   it('Should return the next 5 games from an uppercase team abbreviation', () => {
-    const teamName = 'MIA';
+    const teamName = 'NYG';
     return espn.next5(teamName).then((value) => {
       expect(value.schedule).to.have.lengthOf(5);
     });

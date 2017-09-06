@@ -20,6 +20,8 @@ FFDiscordBot: ADP as of Saturday, August 12, 2017 via 4for4 for Michael Crabtree
 ```
 
 ### !boris *position, scoring format* 
+### position are *qb, wr, rb, te, flex, k, dst*
+### scoring format are *standard, half, full*
 This command return boris chen tier rankings
 ```
 Input: !boris te, half
@@ -32,7 +34,9 @@ Tier 5: C.J. Fiedorowicz HOU , Austin Hooper ATL , Cameron Brate TB , Julius Tho
 Tier 6: O.J. Howard TB , David Njoku CLE , Evan Engram NYG , Charles Clay BUF , Zach Miller CHI
 ```
 
-### !wdis *position, scoring format, <player 1> | <player 2> | etc etc* 
+### !wdis *position, scoring format, <player 1> | <player 2> | etc etc*
+### position are *qb, wr, rb, te, k, dst*
+### scoring format are *standard, half, full* 
 This command return the optimal player to start based on Boris' tiers
 ```
 Input: !wdis te, half, martellus bennett | hunter henry | cj fiedorowicz

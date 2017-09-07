@@ -33,13 +33,30 @@ Tier 4: Coby Fleener NO , Jason Witten DAL
 Tier 5: C.J. Fiedorowicz HOU , Austin Hooper ATL , Cameron Brate TB , Julius Thomas MIA , Antonio Gates LAC 
 Tier 6: O.J. Howard TB , David Njoku CLE , Evan Engram NYG , Charles Clay BUF , Zach Miller CHI
 ```
+```
+Input: !boris dst
+FFDiscordBot:
+Tier 1: Houston Texans, Denver Broncos, Pittsburgh Steelers
+Tier 2: Los Angeles Rams, New England Patriots, Carolina Panthers
+Tier 3: Atlanta Falcons, Jacksonville Jaguars, Buffalo Bills
+Tier 4: Arizona Cardinals, Tampa Bay Buccaneers, Los Angeles Chargers, Minnesota Vikings
+Tier 5: New York Giants, Cincinnati Bengals, Seattle Seahawks
+Tier 6: Baltimore Ravens, Philadelphia Eagles, Kansas City Chiefs, Miami Dolphins
+```
 
 ### !wdis *position, scoring format, <player 1> | <player 2> | etc etc*
 ### position are *qb, wr, rb, te, k, dst*
 ### scoring format are *standard, half, full* 
 This command return the optimal player to start based on Boris' tiers
+*if the player isn't boris tiers, the bot will reject the query.*
+
 ```
-Input: !wdis te, half, martellus bennett | hunter henry | cj fiedorowicz
+Input: !wdis qb, alex smith, blake bortles
+FFDiscordBot:
+Boris says: "Start Alex Smith."
+```
+```
+Input: !wdis te, half, martellus bennett, hunter henry, cj fiedorowicz
 FFDiscordBot:
 Boris says: "Start Martellus Bennett."
 ```

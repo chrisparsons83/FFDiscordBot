@@ -58,7 +58,7 @@ Boris says: "Start Alex Smith."
 ```
 Input: !wdis qb, aaron rodgers, alex smith, tom brady
 FFDiscordBot:
-Boris says: Aaron Rodgers and Tom Brady are in the same tier bracket. Flip a coin or go with your gut.
+Boris says: Aaron Rodgers and Tom Brady are in the same tier level. Flip a coin or go with your gut.
 ```
 ```
 Input: !wdis te, half, martellus bennett, hunter henry, cj fiedorowicz

@@ -60,6 +60,7 @@ Input: !wdis te, half, martellus bennett, hunter henry, cj fiedorowicz
 FFDiscordBot:
 Boris says: "Start Martellus Bennett."
 ```
+
 ### !choose *list of options* 
 This command randomly picks from a comma-separated list of options.
 ```

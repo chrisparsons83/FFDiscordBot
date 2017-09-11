@@ -105,7 +105,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](string).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Invalid position/format. Please check your position/format.');
+      expect(err).to.equal('Invalid position entered. Please check the query again.');
     });
   });
 
@@ -114,7 +114,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](string).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Invalid position/format. Please check your position/format.');
+      expect(err).to.equal('Missing scoring format.\nValid format are **standard, half,** or **full.**');
     });
   });
 

@@ -23,6 +23,15 @@ describe('Rankplayer Utilities', () => {
     });
   });
 
+  it('Should complain when args are less than 2', () => {
+    const string = 'defense';
+    return commands['!wdis'](string).then(() => {
+    }).catch((err) => {
+      expect(err).to.be.a.string;
+      expect(err).to.equal('Invalid query.\nValid positions are ***qb, rb, te, k, dst, flex.***\nValid scoring are ***standard, half, full.***');
+    });
+  });
+
   it('Should complain about a player not existing', () => {
     const string = 'wr, full, jennifer lopez , pam oliver';
     return commands['!wdis'](string).then(() => {
@@ -105,7 +114,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](string).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Invalid position entered. Please check the query again.');
+      expect(err).to.equal('Invalid position entered.\nValid positions are ***qb, rb, wr, te, k, dst, flex***');
     });
   });
 
@@ -114,7 +123,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](string).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Missing scoring format.\nValid format are **standard, half,** or **full.**');
+      expect(err).to.equal('Missing scoring format.\nValid format are ***standard, half,*** or ***full.***');
     });
   });
 

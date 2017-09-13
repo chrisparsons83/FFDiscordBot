@@ -57,7 +57,7 @@ describe('Boris library and commands', () => {
     return commands['!boris'](string).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Invalid position entered.');
+      expect(err).to.equal('Invalid position entered.\nValid positions are ***qb, rb, wr, te, k, dst, flex***');
     });
   });
 

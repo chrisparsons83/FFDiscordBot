@@ -86,6 +86,14 @@ FFDiscordBot:
 6. Kelvin Taylor
 ```
 
+### !next *team* 
+This list the next game for an NFL team. You can query by team abbreviation or their nickname (e.g., NYJ or Jets).
+```
+Input: !next NO
+FFDiscordBot:
+@ MIA 9:30AM 
+```
+
 ### !next5 *team* 
 This list the next 5 weeks for an NFL team. You can query by team abbreviation or their nickname (e.g., NYJ or Jets).
 ```

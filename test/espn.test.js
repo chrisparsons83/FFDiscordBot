@@ -2,6 +2,28 @@
 const espn = require('../lib/espn');
 
 describe('ESPN Utilities', () => {
+
+  it('Should return next game from a lowercase team abbreviation', () => {
+    const teamName = 'nyg';
+    return espn.nextGame(teamName).then((value) => {
+      expect(value.schedule).to.have.lengthOf(1);
+    });
+  });
+
+  it('Should return next game from an uppercase team abbreviation', () => {
+    const teamName = 'NYJ';
+    return espn.nextGame(teamName).then((value) => {
+      expect(value.schedule).to.have.lengthOf(1);
+    });
+  });
+
+  it('Should return next game from a valid team mascot', () => {
+    const teamName = 'Saints';
+    return espn.nextGame(teamName).then((value) => {
+      expect(value.schedule).to.have.lengthOf(1);
+    });
+  });
+
   it('Should return the next 5 games from a lowercase team abbreviation', () => {
     const teamName = 'lar';
     return espn.next5(teamName).then((value) => {

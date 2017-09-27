@@ -91,7 +91,7 @@ This list the next game for an NFL team. You can query by team abbreviation or t
 ```
 Input: !next NO
 FFDiscordBot:
-@ MIA 9:30AM 
+@MIA 9:30AM 
 ```
 
 ### !next5 *team* 

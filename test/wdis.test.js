@@ -114,7 +114,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](string).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Invalid position entered.\nValid positions are ***qb, rb, wr, te, k, dst, flex***');
+      expect(err).to.equal('You might be missing a comma or spelled the position wrong. \nValid positions are ***qb, rb, te, k, dst, flex.***');
     });
   });
 
@@ -123,7 +123,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](string).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Missing scoring format.\nValid format are ***standard, half,*** or ***full.***');
+      expect(err).to.equal('Missing scoring format and/or comma.\nValid format are ***standard, half,*** or ***full.***');
     });
   });
 

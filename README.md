@@ -153,58 +153,38 @@ Lists all 32 NFL teams and their 2/3 character abbreviation.
 ### !teamstats *team symbol* 
 Shows major stats for the previous season of a team.
 ```
-Input: !teamstats OAK
-FFDiscordBot: Total offensive play: 951    (League avg:  992.0625)  
-Pass play: 59.52%            (League avg: 60.85%)  
-Rush play: 40.48%            (League avg: 39.15%)  
-
-Attempted passing yards: 4008 yds       (League avg: 4423.25 yds)  
-Average yards per pass att: 7.08 yds    (League avg: 7.33 yds)  
-
-Total rushing yds: 1790 yds    (League avg: 1649.75 yds)  
-Avg yds per rush: 4.65 yds     (League avg: 4.25 yds)  
-
-Short passes: 85.34%    (League avg: 81.11%)  
-Deep passes: 14.66%     (League avg: 18.89%)  
-
-Left pass %: 34.45 %       Mid pass %: 22.79 %      Right pass %: 42.76 %  
-Left pass yds: 1414 yds    Mid pass yds: 1097 yds   Right pass yds: 1497 yds  
-Left per att: 7.25 yds     Mid per att: 8.50 yds   Right per att: 6.19 yds  
-
-Short left attempts: 170   Short mid attempts:110   Short right attempts: 203  
-Yards per att: 6.10 yds    Yards per att: 7.59 yds  Yards per att: 4.42 yds  
-
-Deep left attempts: 25     Deep mid attempts:19     Deep right attempts: 39  
-Yds per att: 15.08 yds      Yds per att: 13.79 yds   Yds per att: 15.36 yds  
+Input: !teamstats NO
+New Orlean Saints
+2017 Offensive stats (League average)
+Total offensive plays
+169 plays (163)
+Pass/Rush ratio
+62.1% / 37.9% (58.8% / 41.2%)
+Passing yards attempted
+798 yds (719 yds)
+Yards per passing attempt
+7.60 yds per att (7.50)
+Short passes
+79.0% (83.0%)
+Deep passes
+21.0% (17.0%)
+Total rushing yards
+287 yds (264 yds)
+Yards per rushing attempt
+4.48 yds per att (3.92)
 ```
 
 ### !teamtargets *team symbol* 
 Shows statistics for all receivers with greater than or equal to 7% of teams' targets on a given team.
 ```
-Input: !teamtargets DEN
-FFDiscordBot: D. Thomas
-Total Targets: 139
-Percentage of team's targets: 26.38%
-Short Left:  38.85%    Short Mid:  15.11%    Short Right:  28.78%
-Deep left:   10.07%      Deep Mid:  0.72%    Deep right:  6.47%
-
-E. Sanders
-Total Targets: 124
-Percentage of team's targets: 23.53%
-Short Left:  28.23%    Short Mid:  9.68%    Short Right:  34.68%
-Deep left:   8.06%      Deep Mid:  4.84%    Deep right:  14.52%
-
-D. Booker
-Total Targets: 44
-Percentage of team's targets: 8.35%
-Short Left:  29.55%    Short Mid:  27.27%    Short Right:  40.91%
-Deep left:   0.00%      Deep Mid:  0.00%    Deep right:  2.27%
-
-V. Green
-Total Targets: 37
-Percentage of team's targets: 7.02%
-Short Left:  37.84%    Short Mid:  35.14%    Short Right:  16.22%
-Deep left:   2.70%      Deep Mid:  5.41%    Deep right:  2.70%
+Input: !teamtargets NO
+FFDiscordBot: 
+M. Thomas: 23 (21.9%)
+A. Kamara: 18 (17.1%)
+T. Ginn: 14 (13.3%)
+M. Ingram: 13 (12.4%)
+C. Fleener: 11 (10.5%)
+B. Coleman: 10 (9.5%)
 ```
 
 ## Installation for Forks of this Discord Bot

@@ -3,29 +3,37 @@ const commands = require('../lib/commands.js');
 
 describe('Rankplayer Utilities', () => {
   it('Should return the highest ranked player', () => {
-    const string = 'wr, full, robby anderson , michael thomas , ty hilton';
-    return commands['!wdis'](string).then((msg) => {
+    const rankObject = {
+      args: 'wr, full, robby anderson , michael thomas , ty hilton',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
       expect(msg).to.be.a.string;
     });
   });
 
   it('Should return the only player if only one player name was given', () => {
-    const string = 'wr, full, ty hilton';
-    return commands['!wdis'](string).then((msg) => {
+    const rankObject = {
+      args: 'wr, full, ty hilton',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
       expect(msg).to.be.a.string;
     });
   });
 
   it('Whitespace should be ignored if query is valid', () => {
-    const string = 'wr, full, ty hilton, , robby anderson';
-    return commands['!wdis'](string).then((msg) => {
+    const rankObject = {
+      args: 'wr, full, ty hilton, , robby anderson',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
       expect(msg).to.be.a.string;
     });
   });
 
   it('Should complain when args are less than 2', () => {
-    const string = 'defense';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'defense',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('Invalid query.\nValid positions are ***qb, rb, te, k, dst, flex.***\nValid scoring are ***standard, half, full.***');
@@ -33,8 +41,10 @@ describe('Rankplayer Utilities', () => {
   });
 
   it('Should complain about a player not existing', () => {
-    const string = 'wr, full, jennifer lopez , pam oliver';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'wr, full, jennifer lopez , pam oliver',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('One of these player doesn\'t exist in the players database');
@@ -42,8 +52,10 @@ describe('Rankplayer Utilities', () => {
   });
 
   it('Should complain when mixing a non-existent player with one valid player', () => {
-    const string = 'wr, full, michael thomas , pam oliver';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'wr, full, michael thomas , pam oliver',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('One of these player doesn\'t exist in the players database');
@@ -51,8 +63,10 @@ describe('Rankplayer Utilities', () => {
   });
 
   it('Should complain when mixing a non-existent player with one valid player', () => {
-    const string = 'qb,  aaron rodgers , pam oliver';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'qb,  aaron rodgers , pam oliver',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('One of these player doesn\'t exist in the players database');
@@ -60,22 +74,28 @@ describe('Rankplayer Utilities', () => {
   });
 
   it('Dst should be valid', () => {
-    const string = 'dst, nyg, den';
-    return commands['!wdis'](string).then((msg) => {
+    const rankObject = {
+      args: 'dst, nyg, den',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
       expect(msg).to.be.a.string;
     });
   });
 
   it('Non-format required position should be valid', () => {
-    const string = 'qb, aaron rodgers, tom brady';
-    return commands['!wdis'](string).then((msg) => {
+    const rankObject = {
+      args: 'qb, aaron rodgers, tom brady',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
       expect(msg).to.be.a.string;
     });
   });
 
   it('Blank players should be rejected with error message', () => {
-    const string = 'wr, full, , , ,';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'wr, full, , , ,',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('Please give me players to rank from!');
@@ -83,8 +103,10 @@ describe('Rankplayer Utilities', () => {
   });
 
   it('Invalid player position should be rejected with error message', () => {
-    const string = 'wr, full, adrian peterson';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'wr, full, adrian peterson',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('One or more players doesn\'t match the position they play in.');
@@ -92,8 +114,10 @@ describe('Rankplayer Utilities', () => {
   });
 
   it('Invalid player position should be rejected with error message', () => {
-    const string = 'qb, adrian peterson';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'qb, adrian peterson',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('One or more players doesn\'t match the position they play in.');
@@ -101,8 +125,10 @@ describe('Rankplayer Utilities', () => {
   });
 
   it('Invalid team symbols should be rejected with error message', () => {
-    const string = 'dst, nyk , nyc';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'dst, nyk , nyc',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('Invalid team symbol. Please double check the team symbol.');
@@ -110,8 +136,10 @@ describe('Rankplayer Utilities', () => {
   });
 
   it('Incorrect position should be rejected with error message', () => {
-    const string = 'wb, full, jordan howard';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'wb, full, jordan howard',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('You might be missing a comma or spelled the position wrong. \nValid positions are ***qb, rb, te, k, dst, flex.***');
@@ -119,8 +147,10 @@ describe('Rankplayer Utilities', () => {
   });
 
   it('Incorrect scoring format should be rejected with error message', () => {
-    const string = 'rb, halfppr, jordan howard';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'rb, halfppr, jordan howard',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('Missing scoring format and/or comma.\nValid format are ***standard, half,*** or ***full.***');
@@ -128,8 +158,10 @@ describe('Rankplayer Utilities', () => {
   });
 
   it('empty query should be rejected with error message', () => {
-    const string = 'rb, full';
-    return commands['!wdis'](string).then(() => {
+    const rankObject = {
+      args: 'rb, full',
+    };
+    return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('Please give me players to rank from!');

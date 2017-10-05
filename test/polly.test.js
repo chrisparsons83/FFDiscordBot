@@ -3,8 +3,10 @@ const commands = require('../lib/commands.js');
 
 describe('Poll command test ', () => {
   it('Should complain when there are not enough answers.', () => {
-    const input = 'Is lamar miller a bust? | yes ';
-    return commands['!poll'](input)
+    const pollObject = {
+      args: 'Is lamar miller a bust? | yes ',
+    };
+    return commands['!poll'](pollObject)
       .then(() => {
       })
       .catch((err) => {

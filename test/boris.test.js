@@ -40,8 +40,10 @@ describe('Boris library and commands', () => {
   });
 
   it('Non-scoring format required should return an embed object', () => {
-    const string = 'qb';
-    return commands['!boris'](string).then((obj) => {
+    const borisObject = {
+      args: 'qb',
+    };
+    return commands['!boris'](borisObject).then((obj) => {
       expect(Object.keys(obj).length).to.equal(1);
       expect(Object.keys(obj.embed).length).to.equal(5);
       expect(obj.embed.title).to.be.not.empty;
@@ -53,8 +55,10 @@ describe('Boris library and commands', () => {
   });
 
   it('Should complain when the position is invalid', () => {
-    const string = 'qr';
-    return commands['!boris'](string).then(() => {
+    const borisObject = {
+      args: 'qr',
+    };
+    return commands['!boris'](borisObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('Invalid position entered.\nValid positions are ***qb, rb, wr, te, k, dst, flex***');
@@ -62,8 +66,10 @@ describe('Boris library and commands', () => {
   });
 
   it('Should complain when missing scoring format if the position requires it', () => {
-    const string = 'wr';
-    return commands['!boris'](string).then(() => {
+    const borisObject = {
+      args: 'wr',
+    };
+    return commands['!boris'](borisObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('Invalid position/format.\nValid positions are ***qb, rb, wr, te, k , dst***.\nValid scoring formats are ***standard, half, full***');
@@ -71,12 +77,13 @@ describe('Boris library and commands', () => {
   });
 
   it('Should complain when a invalid scoring format was entered', () => {
-    const string = 'wr, halfsf';
-    return commands['!boris'](string).then(() => {
+    const borisObject = {
+      args: 'wr, halfsf',
+    };
+    return commands['!boris'](borisObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
       expect(err).to.equal('Invalid position/format.\nValid positions are ***qb, rb, wr, te, k , dst***.\nValid scoring formats are ***standard, half, full***');
     });
   });
-
 });

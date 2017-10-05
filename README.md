@@ -106,6 +106,14 @@ FFDiscordBot:
 5. @Cowboys 4:25PM 
 ```
 
+### !prediction *hopefully some bold and correct prediction* 
+This lets you post a bold prediction into the #predictions channel, and includes your name on it.
+```
+Input: !prediction Josh Gordon will score 17 TDs playing the Colts.
+(in the #predictions channel)
+FFDiscordBot: @christhrowsrocks: Josh Gordon will score 17 TDs playing the Colts.
+```
+
 ### !poll *question | <option 1> | <option 2> | etc etc* 
 This command creates a poll on strawpoll.me and returns the utrl
 ```

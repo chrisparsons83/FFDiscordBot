@@ -2,7 +2,6 @@
 const rotoworld = require('../lib/rotoworld');
 
 describe('Rotoworld Integration', () => {
-  this.timeout(5000);
 
   it("Should find a valid NFL player with form 'lastname, firstname'", () => {
     const playerName = 'Wilson, Russell';
@@ -72,4 +71,4 @@ describe('Rotoworld Integration', () => {
       expect(values.name).to.equal('Alex Smith');
     });
   });
-});
+}).timeout(5000);

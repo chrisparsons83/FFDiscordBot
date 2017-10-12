@@ -12,7 +12,8 @@ bot.on('message', (msg) => {
   if (msg.content.startsWith('!')) {
     let messageCommand = '';
     let messageArgsArray = [];
-    [messageCommand, ...messageArgsArray] = msg.content.toString().split(' ').map(value => value.trim()).slice(0);
+    [messageCommand, ...messageArgsArray] = msg.content.toString().toLowerCase().split(' ')
+      .map(value => value.trim()).slice(0);
     const messageArgs = messageArgsArray.join(' ');
     const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
 

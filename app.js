@@ -12,9 +12,14 @@ bot.on('message', (msg) => {
   if (msg.content.startsWith('!')) {
     let messageCommand = '';
     let messageArgsArray = [];
-    [messageCommand, ...messageArgsArray] = msg.content.toString().toLowerCase().split(' ')
+    [messageCommand, ...messageArgsArray] = msg.content.toString().split(' ')
       .map(value => value.trim()).slice(0);
     const messageArgs = messageArgsArray.join(' ');
+
+    // Make sure message command is case insensitive, but rest of string should matter on case.
+    messageCommand = messageCommand.toLowerCase();
+
+    // Confirm that the command called exists.
     const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
 
     // Create an object with data to send to the commands

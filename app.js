@@ -21,14 +21,12 @@ bot.on('message', (msg) => {
 
     // Confirm that the command called exists.
     const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
-
     // Create an object with data to send to the commands
     const messageObject = {
       user: msg.author,
       args: messageArgs,
       channel: msg.channel,
     };
-
     if (validCommand) {
       commands[messageCommand](messageObject).then((response) => {
         // Check to see if there's a channel passed as a key/value in the object.
@@ -45,8 +43,7 @@ bot.on('message', (msg) => {
           }
         } else {
           // Otherwise, just send the response.
-          // TODO: Convert all the old responses to the new format so we don't need
-          // this split again.
+          // TODO: Convert all the old responses to the new
           msg.channel.send(response);
         }
       }).catch((err) => {

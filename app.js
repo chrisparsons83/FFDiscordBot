@@ -15,14 +15,12 @@ bot.on('message', (msg) => {
     [messageCommand, ...messageArgsArray] = msg.content.toString().split(' ').map(value => value.trim()).slice(0);
     const messageArgs = messageArgsArray.join(' ');
     const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
-
     // Create an object with data to send to the commands
     const messageObject = {
       user: msg.author,
       args: messageArgs,
       channel: msg.channel,
     };
-
     if (validCommand) {
       commands[messageCommand](messageObject).then((response) => {
         // Check to see if there's a channel passed as a key/value in the object.
@@ -39,8 +37,7 @@ bot.on('message', (msg) => {
           }
         } else {
           // Otherwise, just send the response.
-          // TODO: Convert all the old responses to the new format so we don't need
-          // this split again.
+          // TODO: Convert all the old responses to the new
           msg.channel.send(response);
         }
       }).catch((err) => {

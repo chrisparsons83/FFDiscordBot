@@ -44,7 +44,7 @@ Tier 5: New York Giants, Cincinnati Bengals, Seattle Seahawks
 Tier 6: Baltimore Ravens, Philadelphia Eagles, Kansas City Chiefs, Miami Dolphins
 ```
 
-### !wdis *position, scoring format, <player 1> | <player 2> | etc etc*
+### !wdis *position, scoring format if required, <player 1> , <player 2> , etc etc*
 ### position are *qb, wr, rb, te, k, dst*
 ### scoring format are *standard, half, full* 
 This command return the optimal player to start based on Boris' tiers
@@ -56,9 +56,9 @@ FFDiscordBot:
 Boris says: "Start Alex Smith."
 ```
 ```
-Input: !wdis qb, aaron rodgers, alex smith, tom brady
+Input: !wdis dst, nyg, was
 FFDiscordBot:
-Boris says: Aaron Rodgers and Tom Brady are in the same tier level. Flip a coin or go with your gut.
+Boris says: "Start Washington Redskins."
 ```
 ```
 Input: !wdis te, half, martellus bennett, hunter henry, cj fiedorowicz

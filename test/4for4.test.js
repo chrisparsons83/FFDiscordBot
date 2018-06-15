@@ -47,10 +47,10 @@ describe('4for4 Utilities', () => {
     expect(value.ADP.MFL).to.be.greaterThan(0);
   }));
 
-  it('Should return the NFL ranking for a valid player', () => lib4for4.getADP(validPlayer).then((value) => {
-    expect(value.ADP.NFL).to.be.a('number');
-    expect(value.ADP.NFL).to.be.greaterThan(0);
-  }));
+  // it('Should return the NFL ranking for a valid player', () => lib4for4.getADP(validPlayer).then((value) => {
+    // expect(value.ADP.NFL).to.be.a('number');
+    // expect(value.ADP.NFL).to.be.greaterThan(0);
+  // }));
 
   it('Should return the rankings for a valid player using all lowercase', () => lib4for4.getADP(validLowercasePlayer).then((value) => {
     expect(value.LastUpdated).to.be.a('string');

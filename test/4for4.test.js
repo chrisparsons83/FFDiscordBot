@@ -58,6 +58,6 @@ describe('4for4 Utilities', () => {
   }));
 
   it('Should return an error with an invalid player', () => lib4for4.getADP(invalidPlayer).catch((value) => {
-    expect(value).to.equal('No player found. Please check your spelling, or he may be outside the top 300.');
+    expect(value).to.equal('No player found. Please check your spelling, or he may be outside the top 250.');
   }));
 });

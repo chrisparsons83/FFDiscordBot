@@ -7,7 +7,7 @@
     "chai": "^3.5.0",
     "cheerio": "^0.22.0",
     "co-mocha": "^1.2.2",
-    "csvtojson": "^1.1.7",
+    "csv-parser": "^1.12.1",
     "discord.js": "^11.3.2",
     "fuzzy-string-matching": "^1.0.2",
     "mocha": "^5.2.0",

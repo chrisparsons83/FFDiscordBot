@@ -1,29 +1,30 @@
 const csvParser = require('csv-parser');
 const fs = require('fs');
-const nflStats = './playbyplay.csv';
+const pbpFile = './playbyplay.csv';
 const teamLookup = require('./stats/teamLookup.json');
 const request = require('request');
+const nflSavantUrl = 'http://nflsavant.com/pbp_data.php?year=2017';
 
 let array = [];
 let leagueAverage = {
-  "teamName": "League averages",
-  "totalOffensivePlay": 0,
-  "totalPassingPlay": 0,
-  "totalRushingPlay": 0,
-  "totalPassingYards": 0,
-  "totalRushingYards": 0,
-  "shortPass": 0,
-  "deepPass": 0
+  'teamName': 'League averages',
+  'totalOffensivePlay': 0,
+  'totalPassingPlay': 0,
+  'totalRushingPlay': 0,
+  'totalPassingYards': 0,
+  'totalRushingYards': 0,
+  'shortPass': 0,
+  'deepPass': 0
+};
+let totalTeamStats = {
 };
 
-totalTeamStats = {
-};
-
-//request.get('http://nflsavant.com/pbp_data.php?year=2017')
 readAndParseCsv();
 
+// fetches csv file from nfl savant
 function readAndParseCsv() {
-  fs.createReadStream(nflStats)
+  //request.get(nflSavantUrl)
+  fs.createReadStream(pbpFile)
   .pipe(csvParser())
   .on('data', (row) => {
     let play = {};
@@ -35,7 +36,7 @@ function readAndParseCsv() {
         play.description = row.Description;
         play.isIncomplete = 0;
         play.isIntercepted = 0;
-        play.passType = "";
+        play.passType = '';
         array.push(play)
     }
     if(row.PlayType === 'PASS') {
@@ -55,8 +56,19 @@ function readAndParseCsv() {
       sumLeagueStats(play);
       sumTeamStats(play)
     });
+    writeToJson(leagueAverage, totalTeamStats);
   });
 }
+
+function writeToJson(leagueAverage, teamStats) {
+  fs.writeFile('leagueAverage2017.json', JSON.stringify(leagueAverage, null, 2), () => {
+    console.log('Writing to league average json done.')
+  });
+  fs.writeFile('teamstats2017.json', JSON.stringify(teamStats, null, 2), () => {
+    console.log('Writing to teamstats.json done.')
+  });
+}
+
 
 // sum up the team stats
 function sumTeamStats(playObj) {
@@ -67,31 +79,31 @@ function sumTeamStats(playObj) {
   } else {
     arrangeStats(playObj);
   }
-
 }
 
-function arrangeStats(obj) {
-  totalTeamStats[obj.team].totalOffensivePlay += 1;
+function arrangeStats(play) {
+  totalTeamStats[play.team].totalOffensivePlay += 1;
   // check playType
-  if (obj.playType === 'RUSH') {
-    totalTeamStats[obj.team].totalRushingPlay += 1;
-    totalTeamStats[obj.team].totalRushingYards += obj.yards;
+  if (play.playType === 'RUSH') {
+    totalTeamStats[play.team].totalRushingPlay += 1;
+    totalTeamStats[play.team].totalRushingYards += play.yards;
   // pass play stats  
   } else {
-    totalTeamStats[obj.team].totalPassingPlay += 1;
-    totalTeamStats[obj.team].totalPassingYards += obj.yards;
+    totalTeamStats[play.team].totalPassingPlay += 1;
+    totalTeamStats[play.team].totalPassingYards += play.yards;
     // check to see if it's incomplete
-    if (obj.isIncomplete || obj.isIntercepted) {
-      totalTeamStats[obj.team].incomplete += 1;
+    if (play.isIncomplete || play.isIntercepted) {
+      totalTeamStats[play.team].incomplete += 1;
     } else {
-      totalTeamStats[obj.team].complete += 1;
+      totalTeamStats[play.team].complete += 1;
     }
-    passDirectionSorter(obj);
-    targetSorter(obj, obj.team);
+    passDirectionSorter(play);
+    slicePlayDescription(play);
   }
 }
 
-function targetSorter(play, team) {
+// slices play description and make it sortable
+function slicePlayDescription(play) {
   let string = play.description;
   if (!string.includes('INTERCEPTED') && !string.includes('INCOMPLETE') && !string.includes('EXTRA POINT') && !string.includes('KICKS')) {
     let index1 = play.description.indexOf('PASS');
@@ -104,6 +116,7 @@ function targetSorter(play, team) {
   }
 }
 
+// create a target object for player
 function createTargetObject(word, play, team) {
   // team symbol for future db
   // jersey number for future db
@@ -124,6 +137,7 @@ function createTargetObject(word, play, team) {
   playerTargetSorter(play, player);
 }
 
+// rearrange stats for each player
 function playerTargetSorter(obj, player) {
   // check to see if it's a short pass
     totalTeamStats[obj.team].targets[player].total += 1;
@@ -150,6 +164,7 @@ function playerTargetSorter(obj, player) {
     }    
 }
 
+// rearrange pass direction stats
 function passDirectionSorter(obj) {
   // check to see if it's a short pass
   if (obj.passType.includes('SHORT')) {
@@ -216,37 +231,38 @@ function sumLeagueStats(playObj) {
   }
 }
 
+// this create an individual team object for the stats to be summed up
 function createTeamObject(obj) {
   let teamObject = {
     'teamName': '',
-    "totalOffensivePlay":0,
-    "totalPassingPlay":0,
-    "totalRushingPlay":0,
-    "totalPassingYards":0,
-    "totalRushingYards":0,
-    "complete":0,
-    "incomplete":0,
-    "shortPass":0,
-    "deepPass":0,
-    "shortLeft":0,
-    "shortLeftYards":0,
-    "shortRight":0,
-    "shortRightYards":0,
-    "shortMiddle":0,
-    "shortMiddleYards":0,
-    "deepLeft":0,
-    "deepLeftYards":0,
-    "deepRight":0,
-    "deepRightYards":0,
-    "deepMiddle":0,
-    "deepMiddleYards":0,
-    "totalLeft":0,
-    "totalLeftYards":0,
-    "totalRight":0,
-    "totalRightYards":0,
-    "totalMiddle":0,
-    "totalMiddleYards":0,
-    "targets": {},
+    'totalOffensivePlay':0,
+    'totalPassingPlay':0,
+    'totalRushingPlay':0,
+    'totalPassingYards':0,
+    'totalRushingYards':0,
+    'complete':0,
+    'incomplete':0,
+    'shortPass':0,
+    'deepPass':0,
+    'shortLeft':0,
+    'shortLeftYards':0,
+    'shortRight':0,
+    'shortRightYards':0,
+    'shortMiddle':0,
+    'shortMiddleYards':0,
+    'deepLeft':0,
+    'deepLeftYards':0,
+    'deepRight':0,
+    'deepRightYards':0,
+    'deepMiddle':0,
+    'deepMiddleYards':0,
+    'totalLeft':0,
+    'totalLeftYards':0,
+    'totalRight':0,
+    'totalRightYards':0,
+    'totalMiddle':0,
+    'totalMiddleYards':0,
+    'targets': {},
   };
   if (obj.team === 'LA') {
     teamObject.teamName = teamLookup['LAR'];

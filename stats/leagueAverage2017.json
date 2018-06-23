@@ -1,10 +1,10 @@
 {
-    "teamName": "League averages",
-    "totalOffensivePlay": 25229,
-    "totalPassingPlay": 14733,
-    "totalRushingPlay": 10496,
-    "totalPassingYards": 109063,
-    "totalRushingYards": 42832,
-    "shortPass": 12005,
-    "deepPass": 2722
+  "teamName": "League averages",
+  "totalOffensivePlay": 31121,
+  "totalPassingPlay": 18448,
+  "totalRushingPlay": 12673,
+  "totalPassingYards": 134078,
+  "totalRushingYards": 52280,
+  "shortPass": 14836,
+  "deepPass": 3612
 }

@@ -1,4 +1,4 @@
-﻿let config = {};
+let config = {};
 
 config.DiscordAPIToken = 'InsertAPIKeyHere';
 

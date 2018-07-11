@@ -12,7 +12,7 @@
     "complete": 371,
     "incomplete": 197,
     "shortPass": 461,
-    "deepPass": 477,
+    "deepPass": 647,
     "shortLeft": 180,
     "shortLeftYards": 1062,
     "shortRight": 188,
@@ -33,98 +33,116 @@
     "totalMiddleYards": 1743,
     "targets": {
       "D.THOMAS": {
-        "total": 14,
+        "total": 15,
         "shortLeft": 4,
         "shortMiddle": 4,
         "shortRight": 4,
         "deepLeft": 1,
-        "deepMiddle": 1,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "T.HILL": {
-        "total": 77,
-        "shortLeft": 26,
-        "shortMiddle": 10,
-        "shortRight": 26,
-        "deepLeft": 5,
-        "deepMiddle": 1,
+        "total": 108,
+        "shortLeft": 31,
+        "shortMiddle": 12,
+        "shortRight": 37,
+        "deepLeft": 13,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "R.TRAVIS": {
+        "total": 11,
+        "shortLeft": 3,
+        "shortMiddle": 1,
+        "shortRight": 4,
+        "deepLeft": 1,
+        "deepMiddle": 0,
         "deepRight": 0
       },
       "D.HARRIS": {
-        "total": 18,
-        "shortLeft": 11,
-        "shortMiddle": 2,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 1,
+        "total": 36,
+        "shortLeft": 16,
+        "shortMiddle": 8,
+        "shortRight": 8,
+        "deepLeft": 1,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "K.HUNT": {
-        "total": 54,
-        "shortLeft": 21,
+        "total": 65,
+        "shortLeft": 25,
         "shortMiddle": 8,
-        "shortRight": 23,
-        "deepLeft": 1,
+        "shortRight": 29,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "A.WILSON": {
-        "total": 44,
-        "shortLeft": 16,
-        "shortMiddle": 12,
-        "shortRight": 11,
-        "deepLeft": 3,
+        "total": 65,
+        "shortLeft": 24,
+        "shortMiddle": 15,
+        "shortRight": 18,
+        "deepLeft": 5,
         "deepMiddle": 2,
         "deepRight": 0
       },
       "T.KELCE": {
-        "total": 85,
-        "shortLeft": 17,
-        "shortMiddle": 26,
-        "shortRight": 23,
-        "deepLeft": 8,
-        "deepMiddle": 8,
+        "total": 121,
+        "shortLeft": 24,
+        "shortMiddle": 31,
+        "shortRight": 31,
+        "deepLeft": 13,
+        "deepMiddle": 11,
         "deepRight": 0
       },
       "C.CONLEY": {
-        "total": 11,
-        "shortLeft": 4,
+        "total": 18,
+        "shortLeft": 5,
         "shortMiddle": 0,
-        "shortRight": 4,
-        "deepLeft": 1,
+        "shortRight": 7,
+        "deepLeft": 3,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "C.WEST": {
-        "total": 27,
-        "shortLeft": 13,
-        "shortMiddle": 5,
-        "shortRight": 9,
+        "total": 36,
+        "shortLeft": 15,
+        "shortMiddle": 7,
+        "shortRight": 13,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "D.ROBINSON": {
-        "total": 21,
-        "shortLeft": 8,
-        "shortMiddle": 1,
-        "shortRight": 10,
-        "deepLeft": 1,
-        "deepMiddle": 0,
+        "total": 41,
+        "shortLeft": 17,
+        "shortMiddle": 4,
+        "shortRight": 12,
+        "deepLeft": 3,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "A.SHERMAN": {
-        "total": 6,
+        "total": 8,
         "shortLeft": 4,
         "shortMiddle": 1,
-        "shortRight": 1,
+        "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "R.TRAVIS": {
-        "total": 5,
-        "shortLeft": 3,
+      "A.HUNT": {
+        "total": 7,
+        "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.SPILLER": {
+        "total": 2,
+        "shortLeft": 0,
         "shortMiddle": 0,
         "shortRight": 2,
         "deepLeft": 0,
@@ -132,19 +150,19 @@
         "deepRight": 0
       },
       "J.CHESSON": {
-        "total": 2,
+        "total": 4,
         "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 1,
+        "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "A.HUNT": {
-        "total": 4,
-        "shortLeft": 2,
+      "C.ERVING": {
+        "total": 1,
+        "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 2,
+        "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -173,7 +191,7 @@
     "complete": 349,
     "incomplete": 292,
     "shortPass": 505,
-    "deepPass": 485,
+    "deepPass": 752,
     "shortLeft": 171,
     "shortLeftYards": 1048,
     "shortRight": 188,
@@ -194,71 +212,89 @@
     "totalMiddleYards": 2042,
     "targets": {
       "L.FITZGERALD": {
-        "total": 110,
-        "shortLeft": 32,
-        "shortMiddle": 25,
-        "shortRight": 36,
-        "deepLeft": 7,
-        "deepMiddle": 5,
+        "total": 168,
+        "shortLeft": 44,
+        "shortMiddle": 40,
+        "shortRight": 53,
+        "deepLeft": 12,
+        "deepMiddle": 8,
         "deepRight": 0
       },
-      "J.BROWN": {
-        "total": 22,
-        "shortLeft": 4,
-        "shortMiddle": 4,
-        "shortRight": 11,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "DA.JOHNSON": {
-        "total": 6,
-        "shortLeft": 1,
-        "shortMiddle": 2,
-        "shortRight": 2,
+      "K.WILLIAMS": {
+        "total": 14,
+        "shortLeft": 5,
+        "shortMiddle": 3,
+        "shortRight": 4,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "J.GRESHAM": {
-        "total": 35,
-        "shortLeft": 10,
-        "shortMiddle": 14,
-        "shortRight": 10,
-        "deepLeft": 0,
+      "J.BROWN": {
+        "total": 60,
+        "shortLeft": 12,
+        "shortMiddle": 7,
+        "shortRight": 21,
+        "deepLeft": 8,
         "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "DA.JOHNSON": {
+        "total": 8,
+        "shortLeft": 1,
+        "shortMiddle": 2,
+        "shortRight": 4,
+        "deepLeft": 1,
+        "deepMiddle": 0,
         "deepRight": 0
       },
       "J.NELSON": {
-        "total": 29,
-        "shortLeft": 14,
-        "shortMiddle": 4,
-        "shortRight": 3,
-        "deepLeft": 5,
-        "deepMiddle": 1,
+        "total": 61,
+        "shortLeft": 21,
+        "shortMiddle": 6,
+        "shortRight": 11,
+        "deepLeft": 15,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "J.GRESHAM": {
+        "total": 48,
+        "shortLeft": 12,
+        "shortMiddle": 23,
+        "shortRight": 11,
+        "deepLeft": 0,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "A.ELLINGTON": {
-        "total": 35,
-        "shortLeft": 12,
-        "shortMiddle": 8,
-        "shortRight": 15,
+        "total": 52,
+        "shortLeft": 16,
+        "shortMiddle": 15,
+        "shortRight": 21,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "K.WILLIAMS": {
-        "total": 10,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
+      "T.NIKLAS": {
+        "total": 26,
+        "shortLeft": 5,
+        "shortMiddle": 12,
+        "shortRight": 6,
+        "deepLeft": 1,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "JA.BROWN": {
+        "total": 75,
+        "shortLeft": 19,
+        "shortMiddle": 11,
+        "shortRight": 14,
+        "deepLeft": 13,
+        "deepMiddle": 6,
         "deepRight": 0
       },
       "I.MOMAH": {
-        "total": 1,
-        "shortLeft": 0,
+        "total": 2,
+        "shortLeft": 1,
         "shortMiddle": 0,
         "shortRight": 0,
         "deepLeft": 1,
@@ -266,44 +302,26 @@
         "deepRight": 0
       },
       "C.WILLIAMS": {
-        "total": 3,
-        "shortLeft": 1,
+        "total": 7,
+        "shortLeft": 3,
         "shortMiddle": 0,
         "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "JA.BROWN": {
-        "total": 33,
-        "shortLeft": 8,
-        "shortMiddle": 4,
-        "shortRight": 10,
-        "deepLeft": 3,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "B.GOLDEN": {
-        "total": 5,
-        "shortLeft": 1,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.NIKLAS": {
-        "total": 13,
-        "shortLeft": 2,
-        "shortMiddle": 7,
-        "shortRight": 3,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
+      "B.GOLDEN": {
+        "total": 9,
+        "shortLeft": 3,
+        "shortMiddle": 3,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
       "C.JOHNSON": {
-        "total": 5,
-        "shortLeft": 4,
+        "total": 6,
+        "shortLeft": 5,
         "shortMiddle": 1,
         "shortRight": 0,
         "deepLeft": 0,
@@ -311,37 +329,46 @@
         "deepRight": 0
       },
       "E.PENNY": {
-        "total": 4,
+        "total": 6,
         "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.PETERSON": {
-        "total": 9,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 2,
+        "shortMiddle": 1,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "R.SEALS-JONES": {
-        "total": 12,
-        "shortLeft": 2,
-        "shortMiddle": 4,
-        "shortRight": 4,
-        "deepLeft": 1,
+        "total": 28,
+        "shortLeft": 5,
+        "shortMiddle": 5,
+        "shortRight": 10,
+        "deepLeft": 6,
         "deepMiddle": 1,
         "deepRight": 0
       },
-      "D.FOSTER": {
-        "total": 17,
+      "A.PETERSON": {
+        "total": 18,
         "shortLeft": 6,
-        "shortMiddle": 5,
-        "shortRight": 6,
+        "shortMiddle": 7,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.FOSTER": {
+        "total": 27,
+        "shortLeft": 9,
+        "shortMiddle": 6,
+        "shortRight": 12,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "G.HOLMES": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -361,7 +388,7 @@
     "complete": 359,
     "incomplete": 238,
     "shortPass": 478,
-    "deepPass": 478,
+    "deepPass": 696,
     "shortLeft": 182,
     "shortLeftYards": 978,
     "shortRight": 186,
@@ -382,116 +409,125 @@
     "totalMiddleYards": 1585,
     "targets": {
       "M.CRABTREE": {
-        "total": 61,
-        "shortLeft": 21,
-        "shortMiddle": 5,
-        "shortRight": 27,
-        "deepLeft": 4,
-        "deepMiddle": 1,
+        "total": 108,
+        "shortLeft": 33,
+        "shortMiddle": 9,
+        "shortRight": 37,
+        "deepLeft": 16,
+        "deepMiddle": 3,
         "deepRight": 0
       },
       "J.RICHARD": {
-        "total": 27,
-        "shortLeft": 8,
-        "shortMiddle": 11,
-        "shortRight": 8,
+        "total": 36,
+        "shortLeft": 10,
+        "shortMiddle": 17,
+        "shortRight": 9,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "J.COOK": {
-        "total": 55,
-        "shortLeft": 18,
-        "shortMiddle": 14,
-        "shortRight": 17,
-        "deepLeft": 5,
-        "deepMiddle": 1,
+      "A.COOPER": {
+        "total": 100,
+        "shortLeft": 32,
+        "shortMiddle": 7,
+        "shortRight": 36,
+        "deepLeft": 9,
+        "deepMiddle": 5,
         "deepRight": 0
       },
-      "A.COOPER": {
-        "total": 53,
-        "shortLeft": 16,
-        "shortMiddle": 3,
+      "J.COOK": {
+        "total": 91,
+        "shortLeft": 29,
+        "shortMiddle": 20,
         "shortRight": 26,
-        "deepLeft": 1,
-        "deepMiddle": 3,
+        "deepLeft": 9,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "D.WASHINGTON": {
-        "total": 34,
-        "shortLeft": 9,
-        "shortMiddle": 17,
-        "shortRight": 8,
+        "total": 45,
+        "shortLeft": 13,
+        "shortMiddle": 22,
+        "shortRight": 9,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "M.LYNCH": {
-        "total": 21,
-        "shortLeft": 8,
-        "shortMiddle": 3,
-        "shortRight": 10,
+        "total": 32,
+        "shortLeft": 13,
+        "shortMiddle": 5,
+        "shortRight": 14,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "C.WALFORD": {
-        "total": 9,
-        "shortLeft": 0,
+        "total": 13,
+        "shortLeft": 1,
         "shortMiddle": 4,
         "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "S.ROBERTS": {
-        "total": 46,
-        "shortLeft": 16,
-        "shortMiddle": 9,
-        "shortRight": 13,
-        "deepLeft": 4,
+        "deepLeft": 1,
         "deepMiddle": 2,
         "deepRight": 0
       },
+      "S.ROBERTS": {
+        "total": 71,
+        "shortLeft": 26,
+        "shortMiddle": 11,
+        "shortRight": 18,
+        "deepLeft": 8,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
       "C.PATTERSON": {
-        "total": 30,
-        "shortLeft": 15,
-        "shortMiddle": 4,
-        "shortRight": 10,
-        "deepLeft": 0,
+        "total": 44,
+        "shortLeft": 19,
+        "shortMiddle": 6,
+        "shortRight": 14,
+        "deepLeft": 1,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "L.SMITH": {
-        "total": 8,
-        "shortLeft": 0,
+        "total": 12,
+        "shortLeft": 1,
         "shortMiddle": 3,
-        "shortRight": 4,
-        "deepLeft": 0,
+        "shortRight": 6,
+        "deepLeft": 1,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "J.HOLTON": {
-        "total": 9,
-        "shortLeft": 2,
+        "total": 16,
+        "shortLeft": 3,
         "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 1,
+        "shortRight": 4,
+        "deepLeft": 3,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "J.OLAWALE": {
-        "total": 6,
+        "total": 8,
         "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 4,
+        "shortMiddle": 2,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "I.WHITNEY": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 1,
         "deepRight": 0
       }
     }
   },
-  "LAR": {
+  "LA": {
     "teamName": {
       "name": "Los Angeles Rams",
       "logo": "http://prod.static.rams.clubs.nfl.com/nfl-assets/img/gbl-ico-team/stl/logos/home/large.png"
@@ -504,7 +540,7 @@
     "complete": 324,
     "incomplete": 219,
     "shortPass": 436,
-    "deepPass": 431,
+    "deepPass": 636,
     "shortLeft": 152,
     "shortLeftYards": 1280,
     "shortRight": 196,
@@ -524,120 +560,120 @@
     "totalMiddle": 153,
     "totalMiddleYards": 1561,
     "targets": {
-      "S.WATKINS": {
-        "total": 39,
-        "shortLeft": 16,
-        "shortMiddle": 9,
-        "shortRight": 9,
+      "R.WOODS": {
+        "total": 89,
+        "shortLeft": 18,
+        "shortMiddle": 11,
+        "shortRight": 39,
+        "deepLeft": 5,
+        "deepMiddle": 9,
+        "deepRight": 0
+      },
+      "C.KUPP": {
+        "total": 98,
+        "shortLeft": 38,
+        "shortMiddle": 20,
+        "shortRight": 17,
+        "deepLeft": 11,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "J.REYNOLDS": {
+        "total": 27,
+        "shortLeft": 9,
+        "shortMiddle": 4,
+        "shortRight": 11,
         "deepLeft": 1,
-        "deepMiddle": 3,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "S.WATKINS": {
+        "total": 73,
+        "shortLeft": 23,
+        "shortMiddle": 12,
+        "shortRight": 15,
+        "deepLeft": 7,
+        "deepMiddle": 7,
         "deepRight": 0
       },
       "T.GURLEY": {
-        "total": 67,
-        "shortLeft": 28,
-        "shortMiddle": 15,
-        "shortRight": 23,
-        "deepLeft": 0,
+        "total": 88,
+        "shortLeft": 32,
+        "shortMiddle": 16,
+        "shortRight": 38,
+        "deepLeft": 1,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "T.HIGBEE": {
-        "total": 24,
+        "total": 45,
+        "shortLeft": 5,
+        "shortMiddle": 7,
+        "shortRight": 20,
+        "deepLeft": 3,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "T.AUSTIN": {
+        "total": 22,
         "shortLeft": 3,
-        "shortMiddle": 5,
-        "shortRight": 11,
+        "shortMiddle": 3,
+        "shortRight": 13,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "P.COOPER": {
+        "total": 21,
+        "shortLeft": 6,
+        "shortMiddle": 3,
+        "shortRight": 7,
         "deepLeft": 0,
         "deepMiddle": 2,
         "deepRight": 0
       },
-      "R.WOODS": {
-        "total": 56,
-        "shortLeft": 11,
-        "shortMiddle": 10,
-        "shortRight": 26,
-        "deepLeft": 3,
-        "deepMiddle": 5,
-        "deepRight": 0
-      },
-      "C.KUPP": {
-        "total": 62,
-        "shortLeft": 27,
-        "shortMiddle": 10,
-        "shortRight": 13,
-        "deepLeft": 7,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "T.AUSTIN": {
-        "total": 13,
-        "shortLeft": 3,
-        "shortMiddle": 3,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "D.CARRIER": {
-        "total": 8,
+        "total": 11,
         "shortLeft": 3,
         "shortMiddle": 2,
-        "shortRight": 3,
+        "shortRight": 6,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "G.EVERETT": {
-        "total": 17,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 9,
-        "deepLeft": 1,
-        "deepMiddle": 1,
+        "total": 33,
+        "shortLeft": 4,
+        "shortMiddle": 5,
+        "shortRight": 14,
+        "deepLeft": 5,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "M.BROWN": {
-        "total": 9,
-        "shortLeft": 2,
+        "total": 11,
+        "shortLeft": 3,
         "shortMiddle": 3,
-        "shortRight": 4,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "P.COOPER": {
-        "total": 11,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 6,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "J.REYNOLDS": {
-        "total": 12,
-        "shortLeft": 6,
-        "shortMiddle": 3,
-        "shortRight": 3,
+      "L.DUNBAR": {
+        "total": 4,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "M.THOMAS": {
-        "total": 5,
+        "total": 7,
         "shortLeft": 2,
         "shortMiddle": 0,
-        "shortRight": 2,
+        "shortRight": 3,
         "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "L.DUNBAR": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       }
@@ -656,7 +692,7 @@
     "complete": 359,
     "incomplete": 244,
     "shortPass": 506,
-    "deepPass": 456,
+    "deepPass": 673,
     "shortLeft": 202,
     "shortLeftYards": 1086,
     "shortRight": 207,
@@ -676,108 +712,108 @@
     "totalMiddle": 147,
     "totalMiddleYards": 1335,
     "targets": {
-      "J.NELSON": {
-        "total": 53,
-        "shortLeft": 23,
-        "shortMiddle": 9,
-        "shortRight": 18,
+      "A.JONES": {
+        "total": 18,
+        "shortLeft": 8,
+        "shortMiddle": 1,
+        "shortRight": 9,
         "deepLeft": 0,
-        "deepMiddle": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.NELSON": {
+        "total": 91,
+        "shortLeft": 29,
+        "shortMiddle": 13,
+        "shortRight": 31,
+        "deepLeft": 7,
+        "deepMiddle": 5,
         "deepRight": 0
       },
       "R.COBB": {
-        "total": 69,
-        "shortLeft": 30,
-        "shortMiddle": 19,
-        "shortRight": 18,
+        "total": 97,
+        "shortLeft": 35,
+        "shortMiddle": 21,
+        "shortRight": 30,
+        "deepLeft": 4,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.BENNETT": {
+        "total": 42,
+        "shortLeft": 17,
+        "shortMiddle": 9,
+        "shortRight": 14,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "L.KENDRICKS": {
-        "total": 18,
-        "shortLeft": 4,
-        "shortMiddle": 4,
-        "shortRight": 6,
-        "deepLeft": 1,
+        "total": 34,
+        "shortLeft": 5,
+        "shortMiddle": 6,
+        "shortRight": 15,
+        "deepLeft": 4,
         "deepMiddle": 2,
         "deepRight": 0
       },
       "D.ADAMS": {
-        "total": 75,
-        "shortLeft": 29,
-        "shortMiddle": 14,
-        "shortRight": 22,
-        "deepLeft": 3,
+        "total": 122,
+        "shortLeft": 41,
+        "shortMiddle": 19,
+        "shortRight": 34,
+        "deepLeft": 13,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "T.MONTGOMERY": {
-        "total": 24,
-        "shortLeft": 10,
-        "shortMiddle": 6,
-        "shortRight": 8,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.BENNETT": {
-        "total": 24,
-        "shortLeft": 7,
-        "shortMiddle": 6,
-        "shortRight": 10,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.RIPKOWSKI": {
-        "total": 7,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 3,
+        "total": 33,
+        "shortLeft": 11,
+        "shortMiddle": 8,
+        "shortRight": 14,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "R.RODGERS": {
-        "total": 13,
-        "shortLeft": 5,
-        "shortMiddle": 1,
-        "shortRight": 5,
+        "total": 23,
+        "shortLeft": 10,
+        "shortMiddle": 3,
+        "shortRight": 7,
         "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
       },
+      "A.RIPKOWSKI": {
+        "total": 10,
+        "shortLeft": 2,
+        "shortMiddle": 3,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
       "G.ALLISON": {
-        "total": 23,
-        "shortLeft": 10,
-        "shortMiddle": 2,
-        "shortRight": 9,
-        "deepLeft": 1,
+        "total": 39,
+        "shortLeft": 13,
+        "shortMiddle": 4,
+        "shortRight": 17,
+        "deepLeft": 3,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "J.WILLIAMS": {
-        "total": 25,
-        "shortLeft": 10,
-        "shortMiddle": 6,
-        "shortRight": 8,
+        "total": 33,
+        "shortLeft": 13,
+        "shortMiddle": 7,
+        "shortRight": 11,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "T.DAVIS": {
-        "total": 6,
+        "total": 8,
         "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.JONES": {
-        "total": 9,
-        "shortLeft": 5,
         "shortMiddle": 0,
         "shortRight": 4,
         "deepLeft": 0,
@@ -793,22 +829,22 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
+      "M.CLARK": {
+        "total": 14,
+        "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 1,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
       "J.JANIS": {
-        "total": 2,
+        "total": 5,
         "shortLeft": 1,
         "shortMiddle": 0,
         "shortRight": 1,
         "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.CLARK": {
-        "total": 4,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "E.BYRD": {
@@ -853,7 +889,7 @@
     "complete": 401,
     "incomplete": 157,
     "shortPass": 465,
-    "deepPass": 494,
+    "deepPass": 638,
     "shortLeft": 180,
     "shortLeftYards": 1210,
     "shortRight": 212,
@@ -873,101 +909,110 @@
     "totalMiddle": 134,
     "totalMiddleYards": 1480,
     "targets": {
-      "T.GINN": {
-        "total": 55,
-        "shortLeft": 20,
-        "shortMiddle": 1,
-        "shortRight": 22,
-        "deepLeft": 4,
-        "deepMiddle": 6,
-        "deepRight": 0
-      },
-      "Z.LINE": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.THOMAS": {
-        "total": 107,
-        "shortLeft": 33,
-        "shortMiddle": 15,
-        "shortRight": 39,
-        "deepLeft": 11,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "T.LEWIS": {
-        "total": 10,
-        "shortLeft": 4,
-        "shortMiddle": 0,
-        "shortRight": 4,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.KAMARA": {
-        "total": 85,
-        "shortLeft": 36,
-        "shortMiddle": 12,
-        "shortRight": 33,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.FLEENER": {
-        "total": 22,
-        "shortLeft": 6,
-        "shortMiddle": 7,
-        "shortRight": 5,
-        "deepLeft": 0,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "B.COLEMAN": {
-        "total": 23,
-        "shortLeft": 9,
-        "shortMiddle": 4,
-        "shortRight": 5,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.INGRAM": {
-        "total": 61,
-        "shortLeft": 24,
-        "shortMiddle": 7,
-        "shortRight": 30,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "J.HILL": {
-        "total": 18,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 10,
-        "deepLeft": 0,
+        "total": 25,
+        "shortLeft": 6,
+        "shortMiddle": 5,
+        "shortRight": 11,
+        "deepLeft": 2,
         "deepMiddle": 1,
         "deepRight": 0
       },
-      "M.HOOMANAWANUI": {
-        "total": 6,
-        "shortLeft": 2,
-        "shortMiddle": 0,
+      "M.THOMAS": {
+        "total": 151,
+        "shortLeft": 45,
+        "shortMiddle": 19,
+        "shortRight": 54,
+        "deepLeft": 21,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "T.GINN": {
+        "total": 71,
+        "shortLeft": 23,
+        "shortMiddle": 2,
+        "shortRight": 25,
+        "deepLeft": 7,
+        "deepMiddle": 8,
+        "deepRight": 0
+      },
+      "Z.LINE": {
+        "total": 5,
+        "shortLeft": 0,
+        "shortMiddle": 1,
         "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "W.SNEAD": {
-        "total": 8,
-        "shortLeft": 4,
+      "C.FLEENER": {
+        "total": 31,
+        "shortLeft": 8,
+        "shortMiddle": 10,
+        "shortRight": 8,
+        "deepLeft": 0,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "T.LEWIS": {
+        "total": 15,
+        "shortLeft": 6,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 3,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.KAMARA": {
+        "total": 105,
+        "shortLeft": 42,
+        "shortMiddle": 14,
+        "shortRight": 42,
+        "deepLeft": 3,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "B.COLEMAN": {
+        "total": 35,
+        "shortLeft": 12,
+        "shortMiddle": 6,
+        "shortRight": 9,
+        "deepLeft": 2,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "M.INGRAM": {
+        "total": 74,
+        "shortLeft": 28,
+        "shortMiddle": 9,
+        "shortRight": 37,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.PETERSON": {
+        "total": 4,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.HOOMANAWANUI": {
+        "total": 11,
+        "shortLeft": 2,
         "shortMiddle": 2,
-        "shortRight": 0,
+        "shortRight": 4,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "W.SNEAD": {
+        "total": 16,
+        "shortLeft": 7,
+        "shortMiddle": 2,
+        "shortRight": 5,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
@@ -989,15 +1034,6 @@
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
-      },
-      "A.PETERSON": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
       }
     }
   },
@@ -1014,7 +1050,7 @@
     "complete": 340,
     "incomplete": 257,
     "shortPass": 490,
-    "deepPass": 447,
+    "deepPass": 666,
     "shortLeft": 209,
     "shortLeftYards": 1362,
     "shortRight": 184,
@@ -1034,138 +1070,147 @@
     "totalMiddle": 158,
     "totalMiddleYards": 1341,
     "targets": {
-      "D.": {
-        "total": 61,
-        "shortLeft": 29,
-        "shortMiddle": 10,
-        "shortRight": 15,
-        "deepLeft": 3,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
       "E.SANDERS": {
-        "total": 47,
-        "shortLeft": 14,
-        "shortMiddle": 5,
+        "total": 96,
+        "shortLeft": 28,
+        "shortMiddle": 8,
+        "shortRight": 41,
+        "deepLeft": 7,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "D": {
+        "total": 99,
+        "shortLeft": 42,
+        "shortMiddle": 12,
         "shortRight": 22,
-        "deepLeft": 4,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.DERBY": {
-        "total": 19,
-        "shortLeft": 5,
-        "shortMiddle": 4,
-        "shortRight": 9,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "V.GREEN": {
-        "total": 14,
-        "shortLeft": 6,
-        "shortMiddle": 2,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "C.LATIMER": {
-        "total": 20,
-        "shortLeft": 8,
-        "shortMiddle": 2,
-        "shortRight": 3,
-        "deepLeft": 5,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.FOWLER": {
-        "total": 29,
-        "shortLeft": 6,
-        "shortMiddle": 9,
-        "shortRight": 9,
-        "deepLeft": 3,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "J.CHARLES": {
-        "total": 24,
-        "shortLeft": 12,
-        "shortMiddle": 6,
-        "shortRight": 6,
-        "deepLeft": 0,
-        "deepMiddle": 0,
+        "deepLeft": 10,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "J.HEUERMAN": {
-        "total": 9,
-        "shortLeft": 2,
-        "shortMiddle": 5,
-        "shortRight": 1,
+        "total": 16,
+        "shortLeft": 4,
+        "shortMiddle": 6,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "C.ANDERSON": {
-        "total": 30,
-        "shortLeft": 15,
-        "shortMiddle": 7,
-        "shortRight": 8,
+        "total": 45,
+        "shortLeft": 20,
+        "shortMiddle": 10,
+        "shortRight": 15,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "D.BOOKER": {
-        "total": 30,
-        "shortLeft": 9,
-        "shortMiddle": 8,
-        "shortRight": 12,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.TAYLOR": {
-        "total": 13,
+      "A.DERBY": {
+        "total": 31,
         "shortLeft": 8,
-        "shortMiddle": 2,
-        "shortRight": 2,
+        "shortMiddle": 5,
+        "shortRight": 13,
+        "deepLeft": 4,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "V.GREEN": {
+        "total": 21,
+        "shortLeft": 8,
+        "shortMiddle": 4,
+        "shortRight": 5,
         "deepLeft": 0,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "C.LATIMER": {
+        "total": 31,
+        "shortLeft": 13,
+        "shortMiddle": 2,
+        "shortRight": 7,
+        "deepLeft": 5,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "A.JANOVICH": {
-        "total": 5,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 5,
+      "B.FOWLER": {
+        "total": 52,
+        "shortLeft": 12,
+        "shortMiddle": 11,
+        "shortRight": 15,
+        "deepLeft": 8,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "J.CHARLES": {
+        "total": 29,
+        "shortLeft": 13,
+        "shortMiddle": 7,
+        "shortRight": 9,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "I.MCKENZIE": {
-        "total": 4,
+        "total": 12,
+        "shortLeft": 3,
+        "shortMiddle": 4,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "D.BOOKER": {
+        "total": 39,
+        "shortLeft": 13,
+        "shortMiddle": 10,
+        "shortRight": 14,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.JANOVICH": {
+        "total": 7,
         "shortLeft": 1,
-        "shortMiddle": 2,
+        "shortMiddle": 0,
+        "shortRight": 6,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.TAYLOR": {
+        "total": 19,
+        "shortLeft": 8,
+        "shortMiddle": 4,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "H.SHARP": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
         "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "A.TRAYLOR": {
-        "total": 8,
-        "shortLeft": 3,
-        "shortMiddle": 2,
-        "shortRight": 3,
+        "total": 14,
+        "shortLeft": 4,
+        "shortMiddle": 3,
+        "shortRight": 5,
         "deepLeft": 0,
-        "deepMiddle": 0,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "D.THOMAS": {
-        "total": 25,
-        "shortLeft": 12,
-        "shortMiddle": 5,
-        "shortRight": 4,
-        "deepLeft": 2,
+        "total": 45,
+        "shortLeft": 19,
+        "shortMiddle": 8,
+        "shortRight": 9,
+        "deepLeft": 6,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -1193,7 +1238,7 @@
     "complete": 373,
     "incomplete": 244,
     "shortPass": 501,
-    "deepPass": 489,
+    "deepPass": 711,
     "shortLeft": 206,
     "shortLeftYards": 1431,
     "shortRight": 186,
@@ -1214,65 +1259,65 @@
     "totalMiddleYards": 1959,
     "targets": {
       "T.BENJAMIN": {
-        "total": 35,
-        "shortLeft": 11,
-        "shortMiddle": 0,
-        "shortRight": 16,
-        "deepLeft": 3,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "H.HENRY": {
-        "total": 44,
-        "shortLeft": 12,
-        "shortMiddle": 10,
-        "shortRight": 16,
-        "deepLeft": 3,
-        "deepMiddle": 0,
+        "total": 65,
+        "shortLeft": 19,
+        "shortMiddle": 2,
+        "shortRight": 20,
+        "deepLeft": 7,
+        "deepMiddle": 7,
         "deepRight": 0
       },
       "K.ALLEN": {
-        "total": 104,
-        "shortLeft": 45,
-        "shortMiddle": 20,
-        "shortRight": 22,
-        "deepLeft": 6,
-        "deepMiddle": 8,
+        "total": 169,
+        "shortLeft": 68,
+        "shortMiddle": 26,
+        "shortRight": 41,
+        "deepLeft": 13,
+        "deepMiddle": 13,
+        "deepRight": 0
+      },
+      "H.HENRY": {
+        "total": 64,
+        "shortLeft": 17,
+        "shortMiddle": 15,
+        "shortRight": 23,
+        "deepLeft": 4,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "TY.WILLIAMS": {
+        "total": 73,
+        "shortLeft": 23,
+        "shortMiddle": 12,
+        "shortRight": 14,
+        "deepLeft": 9,
+        "deepMiddle": 9,
         "deepRight": 0
       },
       "M.GORDON": {
-        "total": 58,
-        "shortLeft": 25,
-        "shortMiddle": 11,
-        "shortRight": 22,
+        "total": 85,
+        "shortLeft": 37,
+        "shortMiddle": 13,
+        "shortRight": 35,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "TY.WILLIAMS": {
-        "total": 46,
-        "shortLeft": 14,
-        "shortMiddle": 12,
+      "A.GATES": {
+        "total": 52,
+        "shortLeft": 10,
+        "shortMiddle": 22,
         "shortRight": 12,
-        "deepLeft": 2,
-        "deepMiddle": 4,
+        "deepLeft": 3,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "A.EKELER": {
-        "total": 27,
-        "shortLeft": 9,
-        "shortMiddle": 9,
-        "shortRight": 8,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.GATES": {
-        "total": 30,
-        "shortLeft": 6,
-        "shortMiddle": 16,
-        "shortRight": 4,
-        "deepLeft": 3,
+        "total": 36,
+        "shortLeft": 12,
+        "shortMiddle": 10,
+        "shortRight": 12,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -1285,47 +1330,47 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "B.OLIVER": {
-        "total": 6,
+      "D.INMAN": {
+        "total": 4,
         "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "D.INMAN": {
-        "total": 2,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 0,
+      "B.OLIVER": {
+        "total": 12,
+        "shortLeft": 4,
+        "shortMiddle": 2,
+        "shortRight": 6,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "M.WILLIAMS": {
-        "total": 12,
-        "shortLeft": 6,
-        "shortMiddle": 3,
-        "shortRight": 3,
-        "deepLeft": 0,
+        "total": 24,
+        "shortLeft": 10,
+        "shortMiddle": 4,
+        "shortRight": 5,
+        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "D.WATT": {
-        "total": 3,
+        "total": 4,
         "shortLeft": 1,
         "shortMiddle": 1,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "J.CUMBERLAND": {
-        "total": 2,
+        "total": 3,
         "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -1345,7 +1390,7 @@
     "complete": 307,
     "incomplete": 260,
     "shortPass": 428,
-    "deepPass": 446,
+    "deepPass": 681,
     "shortLeft": 182,
     "shortLeftYards": 1083,
     "shortRight": 150,
@@ -1366,99 +1411,99 @@
     "totalMiddleYards": 1663,
     "targets": {
       "D.HOPKINS": {
-        "total": 99,
-        "shortLeft": 52,
-        "shortMiddle": 7,
-        "shortRight": 19,
-        "deepLeft": 13,
-        "deepMiddle": 3,
+        "total": 193,
+        "shortLeft": 83,
+        "shortMiddle": 16,
+        "shortRight": 31,
+        "deepLeft": 35,
+        "deepMiddle": 8,
+        "deepRight": 0
+      },
+      "S.ANDERSON": {
+        "total": 50,
+        "shortLeft": 9,
+        "shortMiddle": 12,
+        "shortRight": 21,
+        "deepLeft": 2,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "T.ERVIN": {
-        "total": 9,
+        "total": 12,
         "shortLeft": 6,
-        "shortMiddle": 1,
-        "shortRight": 2,
+        "shortMiddle": 2,
+        "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "L.MILLER": {
-        "total": 38,
-        "shortLeft": 14,
-        "shortMiddle": 10,
-        "shortRight": 14,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "S.ANDERSON": {
-        "total": 25,
-        "shortLeft": 5,
-        "shortMiddle": 3,
-        "shortRight": 11,
+        "total": 48,
+        "shortLeft": 16,
+        "shortMiddle": 13,
+        "shortRight": 18,
         "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.FIEDOROWICZ": {
-        "total": 14,
-        "shortLeft": 1,
-        "shortMiddle": 6,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.MILLER": {
-        "total": 20,
-        "shortLeft": 6,
-        "shortMiddle": 6,
-        "shortRight": 6,
-        "deepLeft": 0,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "R.GRIFFIN": {
-        "total": 14,
-        "shortLeft": 5,
-        "shortMiddle": 4,
-        "shortRight": 4,
-        "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "B.ELLINGTON": {
-        "total": 29,
-        "shortLeft": 8,
+        "total": 60,
+        "shortLeft": 16,
+        "shortMiddle": 11,
+        "shortRight": 18,
+        "deepLeft": 6,
+        "deepMiddle": 6,
+        "deepRight": 0
+      },
+      "R.GRIFFIN": {
+        "total": 27,
+        "shortLeft": 7,
         "shortMiddle": 7,
-        "shortRight": 10,
-        "deepLeft": 1,
-        "deepMiddle": 3,
+        "shortRight": 6,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.FIEDOROWICZ": {
+        "total": 20,
+        "shortLeft": 2,
+        "shortMiddle": 8,
+        "shortRight": 8,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "B.MILLER": {
+        "total": 30,
+        "shortLeft": 11,
+        "shortMiddle": 7,
+        "shortRight": 7,
+        "deepLeft": 2,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "D.FOREMAN": {
-        "total": 6,
-        "shortLeft": 3,
-        "shortMiddle": 0,
+        "total": 8,
+        "shortLeft": 4,
+        "shortMiddle": 1,
         "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "W.FULLER": {
-        "total": 28,
-        "shortLeft": 9,
-        "shortMiddle": 3,
-        "shortRight": 9,
-        "deepLeft": 0,
-        "deepMiddle": 2,
+        "total": 52,
+        "shortLeft": 14,
+        "shortMiddle": 5,
+        "shortRight": 14,
+        "deepLeft": 3,
+        "deepMiddle": 5,
         "deepRight": 0
       },
       "C.THOMPSON": {
-        "total": 5,
+        "total": 6,
         "shortLeft": 1,
-        "shortMiddle": 1,
+        "shortMiddle": 2,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
@@ -1474,35 +1519,26 @@
         "deepRight": 0
       },
       "A.ELLINGTON": {
-        "total": 6,
+        "total": 9,
         "shortLeft": 1,
         "shortMiddle": 2,
-        "shortRight": 2,
+        "shortRight": 3,
         "deepLeft": 0,
-        "deepMiddle": 0,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "D.WHITE": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.MALLECK": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
+        "total": 7,
+        "shortLeft": 1,
+        "shortMiddle": 1,
         "shortRight": 1,
-        "deepLeft": 0,
+        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "A.BLUE": {
-        "total": 7,
-        "shortLeft": 3,
+        "total": 9,
+        "shortLeft": 5,
         "shortMiddle": 1,
         "shortRight": 3,
         "deepLeft": 0,
@@ -1510,6 +1546,15 @@
         "deepRight": 0
       },
       "C.HAMILTON": {
+        "total": 6,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.MALLECK": {
         "total": 1,
         "shortLeft": 0,
         "shortMiddle": 0,
@@ -1533,7 +1578,7 @@
     "complete": 309,
     "incomplete": 225,
     "shortPass": 437,
-    "deepPass": 406,
+    "deepPass": 596,
     "shortLeft": 145,
     "shortLeftYards": 802,
     "shortRight": 176,
@@ -1553,66 +1598,84 @@
     "totalMiddle": 173,
     "totalMiddleYards": 1580,
     "targets": {
+      "B.LAFELL": {
+        "total": 93,
+        "shortLeft": 23,
+        "shortMiddle": 22,
+        "shortRight": 34,
+        "deepLeft": 6,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
       "A.ERICKSON": {
-        "total": 12,
+        "total": 15,
         "shortLeft": 1,
-        "shortMiddle": 4,
+        "shortMiddle": 5,
         "shortRight": 5,
-        "deepLeft": 1,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "A.GREEN": {
-        "total": 77,
-        "shortLeft": 19,
-        "shortMiddle": 15,
-        "shortRight": 29,
-        "deepLeft": 3,
-        "deepMiddle": 6,
+        "total": 148,
+        "shortLeft": 34,
+        "shortMiddle": 25,
+        "shortRight": 42,
+        "deepLeft": 18,
+        "deepMiddle": 9,
         "deepRight": 0
       },
       "T.KROFT": {
-        "total": 42,
-        "shortLeft": 14,
-        "shortMiddle": 12,
-        "shortRight": 14,
-        "deepLeft": 0,
-        "deepMiddle": 2,
+        "total": 62,
+        "shortLeft": 19,
+        "shortMiddle": 17,
+        "shortRight": 19,
+        "deepLeft": 2,
+        "deepMiddle": 3,
         "deepRight": 0
       },
       "J.MIXON": {
-        "total": 30,
-        "shortLeft": 11,
-        "shortMiddle": 7,
+        "total": 34,
+        "shortLeft": 12,
+        "shortMiddle": 10,
         "shortRight": 12,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "T.EIFERT": {
-        "total": 5,
-        "shortLeft": 0,
+        "total": 6,
+        "shortLeft": 1,
         "shortMiddle": 2,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "B.LAFELL": {
-        "total": 52,
-        "shortLeft": 13,
-        "shortMiddle": 16,
-        "shortRight": 18,
-        "deepLeft": 2,
-        "deepMiddle": 1,
+      "C.CORE": {
+        "total": 4,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.BOYD": {
+        "total": 31,
+        "shortLeft": 10,
+        "shortMiddle": 6,
+        "shortRight": 11,
+        "deepLeft": 1,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "G.BERNARD": {
-        "total": 45,
-        "shortLeft": 17,
-        "shortMiddle": 13,
-        "shortRight": 15,
-        "deepLeft": 0,
+        "total": 62,
+        "shortLeft": 22,
+        "shortMiddle": 16,
+        "shortRight": 23,
+        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -1634,31 +1697,49 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "T.BOYD": {
-        "total": 22,
-        "shortLeft": 8,
+      "C.UZOMAH": {
+        "total": 15,
+        "shortLeft": 5,
         "shortMiddle": 4,
-        "shortRight": 8,
-        "deepLeft": 0,
-        "deepMiddle": 2,
+        "shortRight": 5,
+        "deepLeft": 1,
+        "deepMiddle": 0,
         "deepRight": 0
       },
-      "C.UZOMAH": {
-        "total": 10,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 3,
+      "C.CARTER": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "S": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.ROSS": {
+        "total": 2,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "J.MALONE": {
-        "total": 6,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 1,
+        "total": 17,
+        "shortLeft": 5,
+        "shortMiddle": 3,
+        "shortRight": 2,
+        "deepLeft": 4,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "B.HILL": {
@@ -1685,7 +1766,7 @@
     "complete": 368,
     "incomplete": 220,
     "shortPass": 499,
-    "deepPass": 457,
+    "deepPass": 660,
     "shortLeft": 97,
     "shortLeftYards": 455,
     "shortRight": 200,
@@ -1705,93 +1786,102 @@
     "totalMiddle": 245,
     "totalMiddleYards": 1887,
     "targets": {
-      "B.WATSON": {
-        "total": 62,
-        "shortLeft": 8,
-        "shortMiddle": 25,
-        "shortRight": 25,
+      "C.MOORE": {
+        "total": 39,
+        "shortLeft": 5,
+        "shortMiddle": 9,
+        "shortRight": 12,
         "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "B.WATSON": {
+        "total": 79,
+        "shortLeft": 10,
+        "shortMiddle": 30,
+        "shortRight": 33,
+        "deepLeft": 3,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "B.PERRIMAN": {
+        "total": 33,
+        "shortLeft": 11,
+        "shortMiddle": 7,
+        "shortRight": 6,
+        "deepLeft": 1,
         "deepMiddle": 1,
         "deepRight": 0
       },
+      "A.COLLINS": {
+        "total": 37,
+        "shortLeft": 3,
+        "shortMiddle": 14,
+        "shortRight": 20,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.WALLACE": {
+        "total": 95,
+        "shortLeft": 16,
+        "shortMiddle": 27,
+        "shortRight": 18,
+        "deepLeft": 15,
+        "deepMiddle": 6,
+        "deepRight": 0
+      },
       "T.WEST": {
-        "total": 3,
+        "total": 4,
         "shortLeft": 0,
         "shortMiddle": 2,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "M.WILLIAMS": {
-        "total": 15,
+        "total": 18,
         "shortLeft": 1,
-        "shortMiddle": 6,
+        "shortMiddle": 8,
         "shortRight": 8,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "N.BOYLE": {
-        "total": 28,
-        "shortLeft": 4,
-        "shortMiddle": 10,
-        "shortRight": 14,
+        "total": 38,
+        "shortLeft": 7,
+        "shortMiddle": 11,
+        "shortRight": 19,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "M.WALLACE": {
-        "total": 50,
-        "shortLeft": 10,
-        "shortMiddle": 18,
-        "shortRight": 10,
-        "deepLeft": 4,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
       "J.ALLEN": {
-        "total": 47,
-        "shortLeft": 9,
-        "shortMiddle": 17,
-        "shortRight": 21,
+        "total": 61,
+        "shortLeft": 12,
+        "shortMiddle": 22,
+        "shortRight": 27,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "J.MACLIN": {
-        "total": 41,
-        "shortLeft": 6,
-        "shortMiddle": 18,
-        "shortRight": 12,
-        "deepLeft": 1,
-        "deepMiddle": 2,
+        "total": 74,
+        "shortLeft": 10,
+        "shortMiddle": 30,
+        "shortRight": 21,
+        "deepLeft": 2,
+        "deepMiddle": 5,
         "deepRight": 0
       },
       "M.CAMPANARO": {
-        "total": 20,
-        "shortLeft": 3,
-        "shortMiddle": 13,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.PERRIMAN": {
-        "total": 10,
+        "total": 28,
         "shortLeft": 4,
-        "shortMiddle": 4,
-        "shortRight": 2,
+        "shortMiddle": 15,
+        "shortRight": 8,
         "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.MOORE": {
-        "total": 18,
-        "shortLeft": 4,
-        "shortMiddle": 5,
-        "shortRight": 5,
-        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -1805,7 +1895,7 @@
         "deepRight": 0
       },
       "G.WHALEN": {
-        "total": 4,
+        "total": 6,
         "shortLeft": 0,
         "shortMiddle": 1,
         "shortRight": 3,
@@ -1813,46 +1903,46 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "A.COLLINS": {
-        "total": 23,
-        "shortLeft": 1,
-        "shortMiddle": 8,
-        "shortRight": 14,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "P.RICARD": {
-        "total": 4,
+        "total": 5,
         "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.RAINEY": {
-        "total": 6,
-        "shortLeft": 1,
-        "shortMiddle": 1,
         "shortRight": 4,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
+      "B.RAINEY": {
+        "total": 8,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 6,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
       "D.WOODHEAD": {
-        "total": 33,
-        "shortLeft": 13,
-        "shortMiddle": 14,
+        "total": 38,
+        "shortLeft": 14,
+        "shortMiddle": 18,
         "shortRight": 6,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "C.MATTHEWS": {
-        "total": 3,
+        "total": 6,
         "shortLeft": 1,
-        "shortMiddle": 1,
+        "shortMiddle": 3,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "V.MAYLE": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
         "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
@@ -1873,7 +1963,7 @@
     "complete": 292,
     "incomplete": 191,
     "shortPass": 385,
-    "deepPass": 390,
+    "deepPass": 565,
     "shortLeft": 147,
     "shortLeftYards": 853,
     "shortRight": 147,
@@ -1893,108 +1983,117 @@
     "totalMiddle": 132,
     "totalMiddleYards": 1192,
     "targets": {
+      "Z.JONES": {
+        "total": 77,
+        "shortLeft": 26,
+        "shortMiddle": 9,
+        "shortRight": 18,
+        "deepLeft": 11,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
       "C.CLAY": {
-        "total": 52,
-        "shortLeft": 17,
-        "shortMiddle": 11,
-        "shortRight": 17,
-        "deepLeft": 2,
+        "total": 73,
+        "shortLeft": 22,
+        "shortMiddle": 13,
+        "shortRight": 25,
+        "deepLeft": 4,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "N.O'LEARY": {
+        "total": 31,
+        "shortLeft": 8,
+        "shortMiddle": 7,
+        "shortRight": 8,
+        "deepLeft": 3,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "L.MCCOY": {
-        "total": 60,
-        "shortLeft": 26,
-        "shortMiddle": 14,
-        "shortRight": 18,
+        "total": 78,
+        "shortLeft": 31,
+        "shortMiddle": 17,
+        "shortRight": 25,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "Z.JONES": {
-        "total": 27,
-        "shortLeft": 13,
-        "shortMiddle": 5,
-        "shortRight": 6,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "J.MATTHEWS": {
-        "total": 27,
-        "shortLeft": 7,
-        "shortMiddle": 7,
-        "shortRight": 11,
-        "deepLeft": 0,
+        "total": 38,
+        "shortLeft": 10,
+        "shortMiddle": 9,
+        "shortRight": 16,
+        "deepLeft": 1,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "A.HOLMES": {
-        "total": 15,
+        "total": 27,
         "shortLeft": 6,
-        "shortMiddle": 2,
-        "shortRight": 6,
-        "deepLeft": 0,
-        "deepMiddle": 0,
+        "shortMiddle": 3,
+        "shortRight": 11,
+        "deepLeft": 1,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "M.TOLBERT": {
-        "total": 14,
-        "shortLeft": 3,
-        "shortMiddle": 9,
+        "total": 17,
+        "shortLeft": 5,
+        "shortMiddle": 10,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "N.O'LEARY": {
-        "total": 21,
-        "shortLeft": 7,
-        "shortMiddle": 6,
-        "shortRight": 4,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.TATE": {
-        "total": 6,
-        "shortLeft": 2,
-        "shortMiddle": 3,
-        "shortRight": 1,
+      "K.CLAY": {
+        "total": 5,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
+      "B.TATE": {
+        "total": 13,
+        "shortLeft": 3,
+        "shortMiddle": 4,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
       "D.THOMPSON": {
-        "total": 26,
-        "shortLeft": 8,
-        "shortMiddle": 1,
-        "shortRight": 10,
-        "deepLeft": 4,
+        "total": 50,
+        "shortLeft": 13,
+        "shortMiddle": 3,
+        "shortRight": 15,
+        "deepLeft": 7,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "L.THOMAS": {
-        "total": 7,
+        "total": 9,
         "shortLeft": 2,
         "shortMiddle": 2,
-        "shortRight": 1,
+        "shortRight": 3,
         "deepLeft": 1,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "K.BENJAMIN": {
-        "total": 13,
-        "shortLeft": 5,
+        "total": 19,
+        "shortLeft": 7,
         "shortMiddle": 2,
-        "shortRight": 4,
+        "shortRight": 6,
         "deepLeft": 1,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "P.DIMARCO": {
-        "total": 7,
-        "shortLeft": 3,
+        "total": 9,
+        "shortLeft": 5,
         "shortMiddle": 3,
         "shortRight": 1,
         "deepLeft": 0,
@@ -2002,12 +2101,12 @@
         "deepRight": 0
       },
       "T.CADET": {
-        "total": 13,
-        "shortLeft": 5,
+        "total": 16,
+        "shortLeft": 6,
         "shortMiddle": 5,
-        "shortRight": 3,
+        "shortRight": 4,
         "deepLeft": 0,
-        "deepMiddle": 0,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "M.MURPHY": {
@@ -2019,19 +2118,19 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "K.CLAY": {
-        "total": 1,
+      "T.JONES": {
+        "total": 2,
         "shortLeft": 0,
-        "shortMiddle": 0,
+        "shortMiddle": 1,
         "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "T.JONES": {
+      "J.WEBB": {
         "total": 1,
         "shortLeft": 0,
-        "shortMiddle": 1,
+        "shortMiddle": 0,
         "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
@@ -2052,7 +2151,7 @@
     "complete": 280,
     "incomplete": 204,
     "shortPass": 410,
-    "deepPass": 354,
+    "deepPass": 538,
     "shortLeft": 145,
     "shortLeftYards": 1062,
     "shortRight": 161,
@@ -2072,48 +2171,66 @@
     "totalMiddle": 143,
     "totalMiddleYards": 1117,
     "targets": {
+      "K.AIKEN": {
+        "total": 46,
+        "shortLeft": 14,
+        "shortMiddle": 15,
+        "shortRight": 10,
+        "deepLeft": 2,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
       "J.DOYLE": {
-        "total": 80,
-        "shortLeft": 18,
-        "shortMiddle": 25,
-        "shortRight": 37,
-        "deepLeft": 0,
-        "deepMiddle": 0,
+        "total": 107,
+        "shortLeft": 24,
+        "shortMiddle": 33,
+        "shortRight": 46,
+        "deepLeft": 1,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "T.HILTON": {
-        "total": 54,
-        "shortLeft": 18,
-        "shortMiddle": 8,
-        "shortRight": 15,
-        "deepLeft": 2,
+        "total": 107,
+        "shortLeft": 29,
+        "shortMiddle": 15,
+        "shortRight": 28,
+        "deepLeft": 14,
         "deepMiddle": 3,
         "deepRight": 0
       },
-      "R.TURBIN": {
-        "total": 10,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 3,
+      "F.GORE": {
+        "total": 38,
+        "shortLeft": 12,
+        "shortMiddle": 6,
+        "shortRight": 20,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "K.AIKEN": {
-        "total": 17,
-        "shortLeft": 6,
-        "shortMiddle": 7,
-        "shortRight": 3,
+      "R.TURBIN": {
+        "total": 12,
+        "shortLeft": 4,
+        "shortMiddle": 4,
+        "shortRight": 4,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "D.MONCRIEF": {
-        "total": 26,
-        "shortLeft": 18,
-        "shortMiddle": 0,
-        "shortRight": 4,
-        "deepLeft": 4,
+        "total": 48,
+        "shortLeft": 23,
+        "shortMiddle": 3,
+        "shortRight": 10,
+        "deepLeft": 7,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "Q.BRAY": {
+        "total": 4,
+        "shortLeft": 2,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -2127,61 +2244,43 @@
         "deepRight": 0
       },
       "B.WILLIAMS": {
-        "total": 11,
+        "total": 14,
         "shortLeft": 1,
-        "shortMiddle": 4,
-        "shortRight": 5,
-        "deepLeft": 0,
+        "shortMiddle": 5,
+        "shortRight": 6,
+        "deepLeft": 1,
         "deepMiddle": 1,
         "deepRight": 0
       },
-      "F.GORE": {
-        "total": 28,
-        "shortLeft": 10,
-        "shortMiddle": 4,
-        "shortRight": 14,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "Q.BRAY": {
-        "total": 3,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "D.DANIELS": {
-        "total": 3,
+        "total": 12,
         "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 1,
+        "shortMiddle": 5,
+        "shortRight": 4,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "M.MACK": {
-        "total": 20,
-        "shortLeft": 11,
-        "shortMiddle": 1,
-        "shortRight": 8,
+        "total": 32,
+        "shortLeft": 16,
+        "shortMiddle": 6,
+        "shortRight": 10,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "C.ROGERS": {
-        "total": 22,
-        "shortLeft": 6,
-        "shortMiddle": 2,
-        "shortRight": 10,
-        "deepLeft": 1,
+        "total": 34,
+        "shortLeft": 9,
+        "shortMiddle": 6,
+        "shortRight": 13,
+        "deepLeft": 2,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "J.FERGUSON": {
-        "total": 3,
+        "total": 4,
         "shortLeft": 3,
         "shortMiddle": 0,
         "shortRight": 0,
@@ -2190,10 +2289,19 @@
         "deepRight": 0
       },
       "R.TRAVIS": {
-        "total": 2,
+        "total": 4,
         "shortLeft": 0,
         "shortMiddle": 1,
-        "shortRight": 1,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "K.BRENT": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -2213,7 +2321,7 @@
     "complete": 315,
     "incomplete": 208,
     "shortPass": 410,
-    "deepPass": 428,
+    "deepPass": 606,
     "shortLeft": 173,
     "shortLeftYards": 1130,
     "shortRight": 152,
@@ -2234,96 +2342,114 @@
     "totalMiddleYards": 1439,
     "targets": {
       "C.DAVIS": {
-        "total": 35,
-        "shortLeft": 12,
-        "shortMiddle": 5,
-        "shortRight": 11,
-        "deepLeft": 2,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "R.MATTHEWS": {
-        "total": 54,
-        "shortLeft": 21,
+        "total": 68,
+        "shortLeft": 22,
         "shortMiddle": 6,
-        "shortRight": 18,
-        "deepLeft": 1,
-        "deepMiddle": 6,
+        "shortRight": 16,
+        "deepLeft": 15,
+        "deepMiddle": 4,
         "deepRight": 0
       },
-      "T.TAYLOR": {
-        "total": 16,
-        "shortLeft": 4,
-        "shortMiddle": 7,
-        "shortRight": 1,
-        "deepLeft": 2,
+      "D.MURRAY": {
+        "total": 51,
+        "shortLeft": 27,
+        "shortMiddle": 9,
+        "shortRight": 15,
+        "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "D.WALKER": {
-        "total": 77,
-        "shortLeft": 25,
-        "shortMiddle": 18,
-        "shortRight": 21,
-        "deepLeft": 4,
-        "deepMiddle": 5,
+        "total": 116,
+        "shortLeft": 34,
+        "shortMiddle": 24,
+        "shortRight": 32,
+        "deepLeft": 11,
+        "deepMiddle": 9,
         "deepRight": 0
       },
-      "D.MURRAY": {
-        "total": 42,
-        "shortLeft": 20,
-        "shortMiddle": 8,
-        "shortRight": 14,
-        "deepLeft": 0,
-        "deepMiddle": 0,
+      "R.MATTHEWS": {
+        "total": 83,
+        "shortLeft": 29,
+        "shortMiddle": 7,
+        "shortRight": 29,
+        "deepLeft": 6,
+        "deepMiddle": 8,
         "deepRight": 0
       },
       "E.DECKER": {
-        "total": 54,
-        "shortLeft": 22,
-        "shortMiddle": 8,
-        "shortRight": 17,
-        "deepLeft": 4,
-        "deepMiddle": 0,
+        "total": 86,
+        "shortLeft": 27,
+        "shortMiddle": 14,
+        "shortRight": 26,
+        "deepLeft": 8,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "T.TAYLOR": {
+        "total": 28,
+        "shortLeft": 6,
+        "shortMiddle": 9,
+        "shortRight": 3,
+        "deepLeft": 2,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "D.HENRY": {
-        "total": 12,
-        "shortLeft": 6,
-        "shortMiddle": 3,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.SMITH": {
         "total": 18,
-        "shortLeft": 5,
-        "shortMiddle": 3,
-        "shortRight": 9,
+        "shortLeft": 8,
+        "shortMiddle": 5,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "P.SUPERNAW": {
-        "total": 4,
-        "shortLeft": 3,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "H.DOUGLAS": {
-        "total": 1,
-        "shortLeft": 0,
+      "E.WEEMS": {
+        "total": 2,
+        "shortLeft": 1,
         "shortMiddle": 0,
         "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "L.STOCKER": {
+      "J.SMITH": {
+        "total": 29,
+        "shortLeft": 8,
+        "shortMiddle": 4,
+        "shortRight": 12,
+        "deepLeft": 3,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "P.SUPERNAW": {
+        "total": 5,
+        "shortLeft": 4,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.FOWLER": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "H.DOUGLAS": {
+        "total": 2,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.JACKSON": {
         "total": 1,
         "shortLeft": 0,
         "shortMiddle": 1,
@@ -2332,7 +2458,16 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "E.WEEMS": {
+      "L.STOCKER": {
+        "total": 2,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.FLUELLEN": {
         "total": 1,
         "shortLeft": 0,
         "shortMiddle": 0,
@@ -2356,7 +2491,7 @@
     "complete": 394,
     "incomplete": 230,
     "shortPass": 480,
-    "deepPass": 538,
+    "deepPass": 750,
     "shortLeft": 157,
     "shortLeftYards": 1012,
     "shortRight": 172,
@@ -2377,88 +2512,97 @@
     "totalMiddleYards": 2199,
     "targets": {
       "E.ROGERS": {
-        "total": 19,
-        "shortLeft": 9,
-        "shortMiddle": 4,
-        "shortRight": 4,
-        "deepLeft": 2,
-        "deepMiddle": 0,
+        "total": 38,
+        "shortLeft": 15,
+        "shortMiddle": 9,
+        "shortRight": 5,
+        "deepLeft": 4,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "A.BROWN": {
-        "total": 103,
-        "shortLeft": 27,
-        "shortMiddle": 19,
-        "shortRight": 31,
-        "deepLeft": 8,
-        "deepMiddle": 8,
+        "total": 170,
+        "shortLeft": 37,
+        "shortMiddle": 24,
+        "shortRight": 42,
+        "deepLeft": 23,
+        "deepMiddle": 15,
         "deepRight": 0
       },
       "M.BRYANT": {
-        "total": 54,
-        "shortLeft": 16,
-        "shortMiddle": 8,
-        "shortRight": 21,
+        "total": 93,
+        "shortLeft": 21,
+        "shortMiddle": 11,
+        "shortRight": 32,
+        "deepLeft": 10,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "J.JAMES": {
+        "total": 65,
+        "shortLeft": 13,
+        "shortMiddle": 30,
+        "shortRight": 18,
         "deepLeft": 3,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "J.JAMES": {
-        "total": 43,
-        "shortLeft": 10,
-        "shortMiddle": 19,
-        "shortRight": 14,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "L.BELL": {
-        "total": 85,
-        "shortLeft": 30,
-        "shortMiddle": 30,
-        "shortRight": 25,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "X.GRIMBLE": {
-        "total": 6,
-        "shortLeft": 0,
-        "shortMiddle": 5,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.SMITH-SCHUSTER": {
-        "total": 59,
-        "shortLeft": 18,
-        "shortMiddle": 17,
-        "shortRight": 14,
-        "deepLeft": 1,
-        "deepMiddle": 5,
-        "deepRight": 0
-      },
-      "J.HUNTER": {
-        "total": 4,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 2,
+        "total": 107,
+        "shortLeft": 40,
+        "shortMiddle": 33,
+        "shortRight": 34,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "V.MCDONALD": {
-        "total": 15,
-        "shortLeft": 2,
-        "shortMiddle": 6,
-        "shortRight": 4,
-        "deepLeft": 1,
+        "total": 24,
+        "shortLeft": 3,
+        "shortMiddle": 11,
+        "shortRight": 6,
+        "deepLeft": 2,
         "deepMiddle": 2,
         "deepRight": 0
       },
+      "X.GRIMBLE": {
+        "total": 9,
+        "shortLeft": 0,
+        "shortMiddle": 5,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.SMITH-SCHUSTER": {
+        "total": 81,
+        "shortLeft": 21,
+        "shortMiddle": 21,
+        "shortRight": 23,
+        "deepLeft": 1,
+        "deepMiddle": 8,
+        "deepRight": 0
+      },
+      "J.HUNTER": {
+        "total": 9,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.CONNER": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
       "D.HEYWARD-BEY": {
-        "total": 2,
+        "total": 3,
         "shortLeft": 1,
         "shortMiddle": 0,
         "shortRight": 0,
@@ -2467,18 +2611,18 @@
         "deepRight": 0
       },
       "R.NIX": {
-        "total": 2,
+        "total": 3,
         "shortLeft": 0,
-        "shortMiddle": 0,
+        "shortMiddle": 1,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "F.TOUSSAINT": {
-        "total": 2,
+        "total": 3,
         "shortLeft": 2,
-        "shortMiddle": 0,
+        "shortMiddle": 1,
         "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
@@ -2499,7 +2643,7 @@
     "complete": 303,
     "incomplete": 204,
     "shortPass": 415,
-    "deepPass": 395,
+    "deepPass": 580,
     "shortLeft": 129,
     "shortLeftYards": 679,
     "shortRight": 183,
@@ -2519,45 +2663,63 @@
     "totalMiddle": 151,
     "totalMiddleYards": 1414,
     "targets": {
+      "M.WHEATON": {
+        "total": 17,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 7,
+        "deepLeft": 4,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "D.INMAN": {
+        "total": 44,
+        "shortLeft": 9,
+        "shortMiddle": 6,
+        "shortRight": 14,
+        "deepLeft": 7,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
       "JO.HOWARD": {
-        "total": 27,
-        "shortLeft": 12,
-        "shortMiddle": 5,
-        "shortRight": 10,
+        "total": 37,
+        "shortLeft": 17,
+        "shortMiddle": 8,
+        "shortRight": 12,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "T.COHEN": {
-        "total": 57,
-        "shortLeft": 19,
-        "shortMiddle": 13,
-        "shortRight": 24,
-        "deepLeft": 0,
+        "total": 75,
+        "shortLeft": 26,
+        "shortMiddle": 16,
+        "shortRight": 28,
+        "deepLeft": 3,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "Z.MILLER": {
-        "total": 21,
-        "shortLeft": 3,
-        "shortMiddle": 5,
-        "shortRight": 9,
+        "total": 34,
+        "shortLeft": 5,
+        "shortMiddle": 8,
+        "shortRight": 14,
         "deepLeft": 1,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "D.THOMPSON": {
-        "total": 11,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 6,
-        "deepLeft": 0,
+        "total": 17,
+        "shortLeft": 4,
+        "shortMiddle": 3,
+        "shortRight": 7,
+        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "K.WHITE": {
-        "total": 2,
-        "shortLeft": 0,
+        "total": 4,
+        "shortLeft": 2,
         "shortMiddle": 1,
         "shortRight": 1,
         "deepLeft": 0,
@@ -2565,102 +2727,84 @@
         "deepRight": 0
       },
       "D.SIMS": {
-        "total": 15,
-        "shortLeft": 4,
-        "shortMiddle": 5,
-        "shortRight": 4,
+        "total": 31,
+        "shortLeft": 9,
+        "shortMiddle": 7,
+        "shortRight": 8,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "K.WRIGHT": {
-        "total": 61,
-        "shortLeft": 10,
-        "shortMiddle": 24,
-        "shortRight": 20,
-        "deepLeft": 1,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "J.BELLAMY": {
-        "total": 24,
-        "shortLeft": 2,
-        "shortMiddle": 6,
-        "shortRight": 11,
-        "deepLeft": 1,
+        "total": 94,
+        "shortLeft": 22,
+        "shortMiddle": 27,
+        "shortRight": 32,
+        "deepLeft": 3,
         "deepMiddle": 4,
         "deepRight": 0
       },
-      "T.GENTRY": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.CUNNINGHAM": {
-        "total": 20,
-        "shortLeft": 7,
-        "shortMiddle": 2,
-        "shortRight": 11,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.MCBRIDE": {
-        "total": 9,
+      "J.BELLAMY": {
+        "total": 46,
         "shortLeft": 5,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 0,
+        "shortMiddle": 10,
+        "shortRight": 17,
+        "deepLeft": 3,
+        "deepMiddle": 7,
         "deepRight": 0
       },
-      "M.WHEATON": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
+      "T.GENTRY": {
+        "total": 8,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 3,
         "deepLeft": 1,
-        "deepMiddle": 1,
+        "deepMiddle": 0,
         "deepRight": 0
       },
       "M.BURTON": {
-        "total": 2,
-        "shortLeft": 2,
+        "total": 5,
+        "shortLeft": 5,
         "shortMiddle": 0,
         "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "D.BROWN": {
-        "total": 13,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 5,
+      "B.CUNNINGHAM": {
+        "total": 26,
+        "shortLeft": 8,
+        "shortMiddle": 4,
+        "shortRight": 14,
         "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.MCBRIDE": {
+        "total": 15,
+        "shortLeft": 5,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.BROWN": {
+        "total": 20,
+        "shortLeft": 5,
+        "shortMiddle": 3,
+        "shortRight": 9,
+        "deepLeft": 1,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "A.SHAHEEN": {
-        "total": 12,
+        "total": 15,
         "shortLeft": 2,
-        "shortMiddle": 3,
-        "shortRight": 6,
+        "shortMiddle": 4,
+        "shortRight": 8,
         "deepLeft": 0,
         "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "D.INMAN": {
-        "total": 23,
-        "shortLeft": 5,
-        "shortMiddle": 4,
-        "shortRight": 6,
-        "deepLeft": 3,
-        "deepMiddle": 2,
         "deepRight": 0
       }
     }
@@ -2678,7 +2822,7 @@
     "complete": 384,
     "incomplete": 244,
     "shortPass": 508,
-    "deepPass": 504,
+    "deepPass": 713,
     "shortLeft": 204,
     "shortLeftYards": 1286,
     "shortRight": 197,
@@ -2698,112 +2842,112 @@
     "totalMiddle": 171,
     "totalMiddleYards": 1350,
     "targets": {
-      "J.LANDRY": {
-        "total": 117,
-        "shortLeft": 43,
-        "shortMiddle": 29,
-        "shortRight": 39,
-        "deepLeft": 3,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "J.THOMAS": {
-        "total": 43,
-        "shortLeft": 19,
-        "shortMiddle": 8,
-        "shortRight": 14,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.STILLS": {
-        "total": 59,
-        "shortLeft": 13,
-        "shortMiddle": 7,
-        "shortRight": 22,
-        "deepLeft": 7,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "D.PARKER": {
-        "total": 58,
-        "shortLeft": 13,
-        "shortMiddle": 13,
-        "shortRight": 24,
-        "deepLeft": 3,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "D.WILLIAMS": {
-        "total": 20,
-        "shortLeft": 9,
-        "shortMiddle": 2,
-        "shortRight": 9,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "J.AJAYI": {
-        "total": 14,
-        "shortLeft": 7,
+        "total": 20,
+        "shortLeft": 11,
         "shortMiddle": 2,
-        "shortRight": 5,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.GRANT": {
-        "total": 13,
-        "shortLeft": 8,
-        "shortMiddle": 1,
-        "shortRight": 3,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.DRAKE": {
-        "total": 33,
-        "shortLeft": 19,
-        "shortMiddle": 6,
         "shortRight": 7,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "A.FASANO": {
-        "total": 13,
-        "shortLeft": 5,
+      "D.PARKER": {
+        "total": 94,
+        "shortLeft": 21,
+        "shortMiddle": 15,
+        "shortRight": 30,
+        "deepLeft": 12,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "J.LANDRY": {
+        "total": 164,
+        "shortLeft": 53,
+        "shortMiddle": 44,
+        "shortRight": 49,
+        "deepLeft": 9,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "J.THOMAS": {
+        "total": 63,
+        "shortLeft": 25,
+        "shortMiddle": 8,
+        "shortRight": 22,
+        "deepLeft": 5,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "K.STILLS": {
+        "total": 108,
+        "shortLeft": 22,
+        "shortMiddle": 10,
+        "shortRight": 32,
+        "deepLeft": 19,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "D.WILLIAMS": {
+        "total": 28,
+        "shortLeft": 13,
+        "shortMiddle": 3,
+        "shortRight": 12,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.GRANT": {
+        "total": 23,
+        "shortLeft": 10,
         "shortMiddle": 1,
-        "shortRight": 6,
+        "shortRight": 5,
+        "deepLeft": 2,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "K.DRAKE": {
+        "total": 50,
+        "shortLeft": 26,
+        "shortMiddle": 7,
+        "shortRight": 15,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.GRAY": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.FASANO": {
+        "total": 15,
+        "shortLeft": 5,
+        "shortMiddle": 2,
+        "shortRight": 7,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "L.CARROO": {
-        "total": 7,
-        "shortLeft": 1,
+        "total": 12,
+        "shortLeft": 3,
         "shortMiddle": 5,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.GRAY": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
+        "shortRight": 4,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "A.DERBY": {
-        "total": 2,
-        "shortLeft": 0,
+        "total": 9,
+        "shortLeft": 3,
         "shortMiddle": 0,
-        "shortRight": 2,
+        "shortRight": 4,
         "deepLeft": 0,
-        "deepMiddle": 0,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "S.PERRY": {
@@ -2839,7 +2983,7 @@
     "complete": 337,
     "incomplete": 196,
     "shortPass": 443,
-    "deepPass": 427,
+    "deepPass": 603,
     "shortLeft": 166,
     "shortLeftYards": 897,
     "shortRight": 184,
@@ -2860,83 +3004,83 @@
     "totalMiddleYards": 1296,
     "targets": {
       "J.KEARSE": {
-        "total": 70,
-        "shortLeft": 28,
-        "shortMiddle": 16,
-        "shortRight": 20,
-        "deepLeft": 1,
-        "deepMiddle": 0,
+        "total": 109,
+        "shortLeft": 41,
+        "shortMiddle": 23,
+        "shortRight": 28,
+        "deepLeft": 3,
+        "deepMiddle": 3,
         "deepRight": 0
       },
       "R.ANDERSON": {
-        "total": 65,
-        "shortLeft": 16,
-        "shortMiddle": 5,
-        "shortRight": 27,
-        "deepLeft": 5,
-        "deepMiddle": 4,
+        "total": 113,
+        "shortLeft": 28,
+        "shortMiddle": 7,
+        "shortRight": 44,
+        "deepLeft": 10,
+        "deepMiddle": 7,
         "deepRight": 0
       },
       "A.STEWART": {
-        "total": 6,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "E.TOMLINSON": {
-        "total": 8,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.POWELL": {
-        "total": 24,
-        "shortLeft": 11,
-        "shortMiddle": 6,
-        "shortRight": 6,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "W.TYE": {
-        "total": 5,
-        "shortLeft": 3,
+        "total": 13,
+        "shortLeft": 4,
         "shortMiddle": 1,
-        "shortRight": 1,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "M.FORTE": {
-        "total": 38,
-        "shortLeft": 15,
+        "total": 47,
+        "shortLeft": 17,
         "shortMiddle": 11,
-        "shortRight": 12,
+        "shortRight": 18,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "E.TOMLINSON": {
+        "total": 10,
+        "shortLeft": 2,
+        "shortMiddle": 2,
+        "shortRight": 4,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "B.POWELL": {
+        "total": 33,
+        "shortLeft": 14,
+        "shortMiddle": 10,
+        "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "W.TYE": {
+        "total": 7,
+        "shortLeft": 3,
+        "shortMiddle": 1,
+        "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "N.STERLING": {
-        "total": 7,
-        "shortLeft": 1,
+        "total": 12,
+        "shortLeft": 2,
         "shortMiddle": 1,
-        "shortRight": 4,
+        "shortRight": 7,
         "deepLeft": 0,
-        "deepMiddle": 1,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "E.MCGUIRE": {
-        "total": 17,
-        "shortLeft": 3,
+        "total": 28,
+        "shortLeft": 7,
         "shortMiddle": 6,
-        "shortRight": 7,
-        "deepLeft": 0,
+        "shortRight": 12,
+        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -2950,21 +3094,21 @@
         "deepRight": 0
       },
       "J.KERLEY": {
-        "total": 22,
-        "shortLeft": 8,
+        "total": 27,
+        "shortLeft": 10,
         "shortMiddle": 6,
-        "shortRight": 5,
+        "shortRight": 6,
         "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "A.SEFERIAN-JENKINS": {
-        "total": 52,
-        "shortLeft": 16,
-        "shortMiddle": 13,
-        "shortRight": 19,
-        "deepLeft": 1,
-        "deepMiddle": 2,
+        "total": 80,
+        "shortLeft": 22,
+        "shortMiddle": 19,
+        "shortRight": 30,
+        "deepLeft": 2,
+        "deepMiddle": 3,
         "deepRight": 0
       },
       "M.WILLIAMS": {
@@ -2986,36 +3130,36 @@
         "deepRight": 0
       },
       "L.THOMAS": {
-        "total": 6,
+        "total": 7,
         "shortLeft": 2,
         "shortMiddle": 0,
-        "shortRight": 4,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "C.HANSEN": {
-        "total": 9,
-        "shortLeft": 2,
+        "total": 17,
+        "shortLeft": 5,
         "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 1,
+        "shortRight": 6,
+        "deepLeft": 4,
         "deepMiddle": 1,
         "deepRight": 0
       },
-      "ING,": {
+      ".PETTY": {
         "total": 1,
         "shortLeft": 0,
         "shortMiddle": 0,
-        "shortRight": 0,
+        "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "J.NATSON": {
-        "total": 2,
+        "total": 4,
         "shortLeft": 0,
-        "shortMiddle": 1,
+        "shortMiddle": 3,
         "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
@@ -3036,7 +3180,7 @@
     "complete": 322,
     "incomplete": 210,
     "shortPass": 437,
-    "deepPass": 417,
+    "deepPass": 605,
     "shortLeft": 167,
     "shortLeftYards": 1240,
     "shortRight": 168,
@@ -3057,57 +3201,66 @@
     "totalMiddleYards": 1191,
     "targets": {
       "C.BEASLEY": {
-        "total": 38,
-        "shortLeft": 18,
-        "shortMiddle": 11,
-        "shortRight": 8,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.BRYANT": {
-        "total": 71,
-        "shortLeft": 25,
-        "shortMiddle": 18,
-        "shortRight": 17,
-        "deepLeft": 4,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "T.WILLIAMS": {
-        "total": 55,
-        "shortLeft": 17,
-        "shortMiddle": 7,
-        "shortRight": 25,
-        "deepLeft": 3,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "J.WITTEN": {
-        "total": 66,
-        "shortLeft": 24,
-        "shortMiddle": 16,
-        "shortRight": 21,
-        "deepLeft": 1,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "E.ELLIOTT": {
-        "total": 27,
-        "shortLeft": 10,
-        "shortMiddle": 3,
-        "shortRight": 14,
+        "total": 67,
+        "shortLeft": 27,
+        "shortMiddle": 15,
+        "shortRight": 20,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "B.BUTLER": {
-        "total": 16,
-        "shortLeft": 6,
-        "shortMiddle": 1,
+        "total": 24,
+        "shortLeft": 7,
+        "shortMiddle": 4,
         "shortRight": 2,
-        "deepLeft": 2,
+        "deepLeft": 4,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "D.BRYANT": {
+        "total": 140,
+        "shortLeft": 39,
+        "shortMiddle": 26,
+        "shortRight": 32,
+        "deepLeft": 19,
+        "deepMiddle": 6,
+        "deepRight": 0
+      },
+      "T.WILLIAMS": {
+        "total": 81,
+        "shortLeft": 21,
+        "shortMiddle": 11,
+        "shortRight": 32,
+        "deepLeft": 5,
         "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "J.WITTEN": {
+        "total": 91,
+        "shortLeft": 34,
+        "shortMiddle": 21,
+        "shortRight": 30,
+        "deepLeft": 2,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "E.ELLIOTT": {
+        "total": 38,
+        "shortLeft": 13,
+        "shortMiddle": 7,
+        "shortRight": 18,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.HANNA": {
+        "total": 9,
+        "shortLeft": 2,
+        "shortMiddle": 2,
+        "shortRight": 1,
+        "deepLeft": 2,
+        "deepMiddle": 0,
         "deepRight": 0
       },
       "G.SWAIM": {
@@ -3120,47 +3273,38 @@
         "deepRight": 0
       },
       "A.MORRIS": {
-        "total": 8,
+        "total": 10,
         "shortLeft": 3,
-        "shortMiddle": 0,
-        "shortRight": 5,
+        "shortMiddle": 1,
+        "shortRight": 6,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "R.SWITZER": {
-        "total": 6,
-        "shortLeft": 3,
-        "shortMiddle": 1,
+        "total": 8,
+        "shortLeft": 4,
+        "shortMiddle": 2,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "R.SMITH": {
-        "total": 19,
-        "shortLeft": 5,
+        "total": 24,
+        "shortLeft": 7,
         "shortMiddle": 4,
-        "shortRight": 9,
+        "shortRight": 12,
         "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "N.BROWN": {
-        "total": 4,
+        "total": 10,
         "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 2,
+        "shortMiddle": 2,
+        "shortRight": 5,
         "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.HANNA": {
-        "total": 4,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -3188,7 +3332,7 @@
     "complete": 350,
     "incomplete": 207,
     "shortPass": 464,
-    "deepPass": 443,
+    "deepPass": 627,
     "shortLeft": 147,
     "shortLeftYards": 1140,
     "shortRight": 192,
@@ -3209,84 +3353,93 @@
     "totalMiddleYards": 1474,
     "targets": {
       "V.DAVIS": {
-        "total": 43,
-        "shortLeft": 11,
-        "shortMiddle": 8,
-        "shortRight": 14,
-        "deepLeft": 4,
-        "deepMiddle": 2,
+        "total": 67,
+        "shortLeft": 18,
+        "shortMiddle": 10,
+        "shortRight": 21,
+        "deepLeft": 8,
+        "deepMiddle": 4,
         "deepRight": 0
       },
       "J.CROWDER": {
-        "total": 66,
-        "shortLeft": 13,
-        "shortMiddle": 22,
-        "shortRight": 26,
-        "deepLeft": 1,
-        "deepMiddle": 2,
+        "total": 99,
+        "shortLeft": 21,
+        "shortMiddle": 31,
+        "shortRight": 36,
+        "deepLeft": 4,
+        "deepMiddle": 4,
         "deepRight": 0
       },
       "T.PRYOR": {
-        "total": 21,
-        "shortLeft": 12,
-        "shortMiddle": 4,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
+        "total": 40,
+        "shortLeft": 17,
+        "shortMiddle": 6,
+        "shortRight": 10,
+        "deepLeft": 2,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "R.GRANT": {
-        "total": 47,
-        "shortLeft": 18,
-        "shortMiddle": 7,
-        "shortRight": 16,
-        "deepLeft": 2,
-        "deepMiddle": 3,
+        "total": 65,
+        "shortLeft": 20,
+        "shortMiddle": 11,
+        "shortRight": 22,
+        "deepLeft": 3,
+        "deepMiddle": 5,
         "deepRight": 0
       },
       "J.REED": {
-        "total": 27,
-        "shortLeft": 6,
-        "shortMiddle": 8,
-        "shortRight": 12,
+        "total": 35,
+        "shortLeft": 8,
+        "shortMiddle": 11,
+        "shortRight": 14,
         "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
       },
-      "C.THOMPSON": {
-        "total": 40,
-        "shortLeft": 16,
-        "shortMiddle": 8,
-        "shortRight": 14,
+      "R.KELLEY": {
+        "total": 7,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 6,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
+      "C.THOMPSON": {
+        "total": 54,
+        "shortLeft": 19,
+        "shortMiddle": 13,
+        "shortRight": 18,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
       "S.PERINE": {
-        "total": 22,
+        "total": 24,
         "shortLeft": 8,
         "shortMiddle": 4,
-        "shortRight": 10,
+        "shortRight": 12,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "N.PAUL": {
-        "total": 13,
-        "shortLeft": 2,
-        "shortMiddle": 3,
-        "shortRight": 7,
-        "deepLeft": 1,
+        "total": 20,
+        "shortLeft": 3,
+        "shortMiddle": 5,
+        "shortRight": 9,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "J.DOCTSON": {
-        "total": 35,
-        "shortLeft": 14,
-        "shortMiddle": 8,
-        "shortRight": 7,
-        "deepLeft": 3,
-        "deepMiddle": 0,
+        "total": 80,
+        "shortLeft": 19,
+        "shortMiddle": 15,
+        "shortRight": 18,
+        "deepLeft": 9,
+        "deepMiddle": 8,
         "deepRight": 0
       },
       "M.BROWN": {
@@ -3298,56 +3451,47 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "R.KELLEY": {
-        "total": 4,
+      "B.QUICK": {
+        "total": 8,
         "shortLeft": 1,
+        "shortMiddle": 2,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.SPRINKLE": {
+        "total": 3,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.HARRIS": {
+        "total": 6,
+        "shortLeft": 2,
         "shortMiddle": 0,
         "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "B.QUICK": {
-        "total": 6,
-        "shortLeft": 1,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.HARRIS": {
-        "total": 3,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "B.MARSHALL": {
-        "total": 6,
+        "total": 7,
         "shortLeft": 3,
         "shortMiddle": 1,
-        "shortRight": 2,
+        "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "K.BIBBS": {
-        "total": 14,
+        "total": 18,
         "shortLeft": 2,
-        "shortMiddle": 3,
+        "shortMiddle": 7,
         "shortRight": 9,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.SPRINKLE": {
-        "total": 2,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -3367,7 +3511,7 @@
     "complete": 351,
     "incomplete": 202,
     "shortPass": 438,
-    "deepPass": 466,
+    "deepPass": 645,
     "shortLeft": 162,
     "shortLeftYards": 1125,
     "shortRight": 172,
@@ -3388,74 +3532,83 @@
     "totalMiddleYards": 1932,
     "targets": {
       "T.COLEMAN": {
-        "total": 27,
-        "shortLeft": 7,
-        "shortMiddle": 10,
-        "shortRight": 9,
-        "deepLeft": 1,
-        "deepMiddle": 0,
+        "total": 39,
+        "shortLeft": 13,
+        "shortMiddle": 11,
+        "shortRight": 12,
+        "deepLeft": 2,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "D.FREEMAN": {
-        "total": 38,
-        "shortLeft": 12,
-        "shortMiddle": 9,
-        "shortRight": 16,
+        "total": 50,
+        "shortLeft": 17,
+        "shortMiddle": 13,
+        "shortRight": 19,
         "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "M.SANU": {
-        "total": 68,
-        "shortLeft": 25,
-        "shortMiddle": 17,
-        "shortRight": 20,
-        "deepLeft": 2,
-        "deepMiddle": 2,
+        "total": 99,
+        "shortLeft": 34,
+        "shortMiddle": 22,
+        "shortRight": 29,
+        "deepLeft": 6,
+        "deepMiddle": 3,
         "deepRight": 0
       },
       "JU.JONES": {
-        "total": 90,
-        "shortLeft": 26,
-        "shortMiddle": 12,
-        "shortRight": 28,
-        "deepLeft": 10,
-        "deepMiddle": 4,
+        "total": 151,
+        "shortLeft": 35,
+        "shortMiddle": 17,
+        "shortRight": 40,
+        "deepLeft": 29,
+        "deepMiddle": 7,
         "deepRight": 0
       },
       "T.GABRIEL": {
-        "total": 34,
-        "shortLeft": 16,
+        "total": 54,
+        "shortLeft": 22,
         "shortMiddle": 8,
-        "shortRight": 10,
-        "deepLeft": 0,
+        "shortRight": 15,
+        "deepLeft": 5,
         "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.HARDY": {
+        "total": 32,
+        "shortLeft": 10,
+        "shortMiddle": 7,
+        "shortRight": 11,
+        "deepLeft": 1,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "A.HOOPER": {
-        "total": 50,
-        "shortLeft": 14,
-        "shortMiddle": 12,
-        "shortRight": 21,
-        "deepLeft": 1,
+        "total": 63,
+        "shortLeft": 18,
+        "shortMiddle": 13,
+        "shortRight": 26,
+        "deepLeft": 4,
         "deepMiddle": 2,
         "deepRight": 0
       },
-      "L.TOILOLO": {
-        "total": 12,
-        "shortLeft": 1,
-        "shortMiddle": 5,
-        "shortRight": 5,
+      "D.COLEMAN": {
+        "total": 8,
+        "shortLeft": 3,
+        "shortMiddle": 0,
+        "shortRight": 4,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "D.COLEMAN": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
+      "L.TOILOLO": {
+        "total": 14,
+        "shortLeft": 1,
+        "shortMiddle": 5,
+        "shortRight": 6,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -3468,13 +3621,22 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "J.HARDY": {
-        "total": 21,
-        "shortLeft": 5,
-        "shortMiddle": 5,
-        "shortRight": 9,
+      "A.ROBERTS": {
+        "total": 4,
+        "shortLeft": 1,
+        "shortMiddle": 2,
+        "shortRight": 1,
         "deepLeft": 0,
-        "deepMiddle": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.HALL": {
+        "total": 9,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 2,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "T.WARD": {
@@ -3486,20 +3648,11 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "M.HALL": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "A.ROBERTS": {
+      "T.SAMBRAILO": {
         "total": 1,
         "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
+        "shortMiddle": 1,
+        "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -3519,7 +3672,7 @@
     "complete": 348,
     "incomplete": 245,
     "shortPass": 468,
-    "deepPass": 473,
+    "deepPass": 700,
     "shortLeft": 178,
     "shortLeftYards": 1146,
     "shortRight": 193,
@@ -3540,116 +3693,116 @@
     "totalMiddleYards": 1470,
     "targets": {
       "N.AGHOLOR": {
-        "total": 63,
-        "shortLeft": 17,
-        "shortMiddle": 12,
-        "shortRight": 25,
-        "deepLeft": 4,
-        "deepMiddle": 0,
+        "total": 96,
+        "shortLeft": 27,
+        "shortMiddle": 15,
+        "shortRight": 32,
+        "deepLeft": 9,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "T.SMITH": {
+        "total": 72,
+        "shortLeft": 16,
+        "shortMiddle": 6,
+        "shortRight": 26,
+        "deepLeft": 6,
+        "deepMiddle": 8,
         "deepRight": 0
       },
       "D.SPROLES": {
-        "total": 8,
-        "shortLeft": 1,
+        "total": 12,
+        "shortLeft": 4,
         "shortMiddle": 3,
-        "shortRight": 4,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "A.JEFFERY": {
-        "total": 59,
-        "shortLeft": 19,
-        "shortMiddle": 8,
-        "shortRight": 21,
-        "deepLeft": 4,
-        "deepMiddle": 3,
+        "total": 126,
+        "shortLeft": 33,
+        "shortMiddle": 14,
+        "shortRight": 36,
+        "deepLeft": 14,
+        "deepMiddle": 10,
         "deepRight": 0
       },
       "Z.ERTZ": {
-        "total": 74,
-        "shortLeft": 23,
-        "shortMiddle": 21,
-        "shortRight": 22,
+        "total": 109,
+        "shortLeft": 33,
+        "shortMiddle": 33,
+        "shortRight": 32,
         "deepLeft": 3,
-        "deepMiddle": 3,
+        "deepMiddle": 5,
         "deepRight": 0
       },
       "B.CELEK": {
-        "total": 13,
-        "shortLeft": 3,
-        "shortMiddle": 2,
-        "shortRight": 8,
-        "deepLeft": 0,
+        "total": 26,
+        "shortLeft": 8,
+        "shortMiddle": 4,
+        "shortRight": 12,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "T.SMITH": {
-        "total": 36,
-        "shortLeft": 11,
-        "shortMiddle": 3,
-        "shortRight": 17,
-        "deepLeft": 1,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
       "W.SMALLWOOD": {
-        "total": 13,
-        "shortLeft": 9,
-        "shortMiddle": 1,
-        "shortRight": 3,
+        "total": 18,
+        "shortLeft": 11,
+        "shortMiddle": 2,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "M.HOLLINS": {
-        "total": 16,
+        "total": 23,
         "shortLeft": 5,
         "shortMiddle": 2,
-        "shortRight": 6,
-        "deepLeft": 1,
+        "shortRight": 9,
+        "deepLeft": 5,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "T.BURTON": {
-        "total": 24,
-        "shortLeft": 5,
-        "shortMiddle": 10,
-        "shortRight": 6,
-        "deepLeft": 1,
+        "total": 33,
+        "shortLeft": 9,
+        "shortMiddle": 11,
+        "shortRight": 8,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "C.CLEMENT": {
-        "total": 11,
-        "shortLeft": 6,
+        "total": 16,
+        "shortLeft": 8,
         "shortMiddle": 1,
-        "shortRight": 4,
+        "shortRight": 7,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "M.JOHNSON": {
-        "total": 6,
+        "total": 9,
         "shortLeft": 3,
         "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 2,
+        "shortRight": 2,
+        "deepLeft": 3,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "K.BARNER": {
-        "total": 5,
-        "shortLeft": 3,
-        "shortMiddle": 0,
-        "shortRight": 1,
+        "total": 9,
+        "shortLeft": 4,
+        "shortMiddle": 1,
+        "shortRight": 2,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "L.BLOUNT": {
-        "total": 8,
-        "shortLeft": 3,
+        "total": 9,
+        "shortLeft": 4,
         "shortMiddle": 1,
         "shortRight": 4,
         "deepLeft": 0,
@@ -3657,17 +3810,17 @@
         "deepRight": 0
       },
       "J.AJAYI": {
-        "total": 10,
-        "shortLeft": 8,
+        "total": 14,
+        "shortLeft": 9,
         "shortMiddle": 0,
-        "shortRight": 2,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "S.GIBSON": {
-        "total": 2,
-        "shortLeft": 2,
+        "total": 3,
+        "shortLeft": 3,
         "shortMiddle": 0,
         "shortRight": 0,
         "deepLeft": 0,
@@ -3689,7 +3842,7 @@
     "complete": 384,
     "incomplete": 229,
     "shortPass": 497,
-    "deepPass": 500,
+    "deepPass": 706,
     "shortLeft": 178,
     "shortLeftYards": 1052,
     "shortRight": 202,
@@ -3709,84 +3862,102 @@
     "totalMiddle": 183,
     "totalMiddleYards": 1971,
     "targets": {
+      "M.JONES": {
+        "total": 118,
+        "shortLeft": 35,
+        "shortMiddle": 9,
+        "shortRight": 27,
+        "deepLeft": 13,
+        "deepMiddle": 10,
+        "deepRight": 0
+      },
       "T.RIDDICK": {
-        "total": 56,
-        "shortLeft": 19,
-        "shortMiddle": 18,
-        "shortRight": 19,
+        "total": 74,
+        "shortLeft": 27,
+        "shortMiddle": 21,
+        "shortRight": 26,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "A.ABDULLAH": {
-        "total": 26,
-        "shortLeft": 11,
-        "shortMiddle": 3,
-        "shortRight": 11,
-        "deepLeft": 1,
+        "total": 37,
+        "shortLeft": 15,
+        "shortMiddle": 5,
+        "shortRight": 15,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "G.TATE": {
-        "total": 94,
-        "shortLeft": 28,
-        "shortMiddle": 27,
-        "shortRight": 35,
-        "deepLeft": 2,
-        "deepMiddle": 1,
+      "K.GOLLADAY": {
+        "total": 53,
+        "shortLeft": 9,
+        "shortMiddle": 6,
+        "shortRight": 16,
+        "deepLeft": 10,
+        "deepMiddle": 4,
         "deepRight": 0
       },
-      "K.GOLLADAY": {
-        "total": 28,
-        "shortLeft": 5,
-        "shortMiddle": 4,
-        "shortRight": 11,
-        "deepLeft": 2,
-        "deepMiddle": 3,
+      "G.TATE": {
+        "total": 120,
+        "shortLeft": 32,
+        "shortMiddle": 37,
+        "shortRight": 39,
+        "deepLeft": 6,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "E.EBRON": {
-        "total": 54,
-        "shortLeft": 15,
-        "shortMiddle": 7,
-        "shortRight": 28,
-        "deepLeft": 2,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "M.JONES": {
-        "total": 63,
-        "shortLeft": 21,
-        "shortMiddle": 5,
-        "shortRight": 14,
-        "deepLeft": 6,
-        "deepMiddle": 6,
+        "total": 87,
+        "shortLeft": 23,
+        "shortMiddle": 15,
+        "shortRight": 41,
+        "deepLeft": 4,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "T.JONES": {
-        "total": 30,
-        "shortLeft": 6,
-        "shortMiddle": 5,
-        "shortRight": 9,
-        "deepLeft": 4,
+        "total": 51,
+        "shortLeft": 11,
+        "shortMiddle": 9,
+        "shortRight": 15,
+        "deepLeft": 7,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "D.FELLS": {
-        "total": 17,
-        "shortLeft": 9,
-        "shortMiddle": 3,
-        "shortRight": 4,
+        "total": 26,
+        "shortLeft": 10,
+        "shortMiddle": 7,
+        "shortRight": 7,
         "deepLeft": 0,
-        "deepMiddle": 1,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "Z.ZENNER": {
-        "total": 1,
+        "total": 2,
         "shortLeft": 0,
         "shortMiddle": 0,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.ABBREDERIS": {
+        "total": 7,
+        "shortLeft": 6,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.ROBERTS": {
+        "total": 7,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -3799,28 +3970,10 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "M.ROBERTS": {
-        "total": 4,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "T.GREEN": {
         "total": 2,
         "shortLeft": 2,
         "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.ABBREDERIS": {
-        "total": 3,
-        "shortLeft": 2,
-        "shortMiddle": 1,
         "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
@@ -3868,7 +4021,7 @@
     "complete": 324,
     "incomplete": 230,
     "shortPass": 443,
-    "deepPass": 435,
+    "deepPass": 643,
     "shortLeft": 137,
     "shortLeftYards": 737,
     "shortRight": 166,
@@ -3897,83 +4050,83 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
+      "C.IVORY": {
+        "total": 32,
+        "shortLeft": 9,
+        "shortMiddle": 14,
+        "shortRight": 9,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
       "L.FOURNETTE": {
-        "total": 37,
-        "shortLeft": 15,
-        "shortMiddle": 6,
-        "shortRight": 16,
+        "total": 49,
+        "shortLeft": 16,
+        "shortMiddle": 12,
+        "shortRight": 21,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "J.O'SHAUGHNESSY": {
-        "total": 14,
-        "shortLeft": 3,
-        "shortMiddle": 6,
-        "shortRight": 5,
+        "total": 22,
+        "shortLeft": 6,
+        "shortMiddle": 8,
+        "shortRight": 8,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "M.LEE": {
-        "total": 58,
-        "shortLeft": 21,
-        "shortMiddle": 14,
-        "shortRight": 15,
-        "deepLeft": 2,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "C.IVORY": {
-        "total": 23,
-        "shortLeft": 6,
-        "shortMiddle": 10,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.COLE": {
-        "total": 44,
-        "shortLeft": 9,
-        "shortMiddle": 15,
-        "shortRight": 11,
-        "deepLeft": 4,
-        "deepMiddle": 4,
+        "total": 100,
+        "shortLeft": 30,
+        "shortMiddle": 17,
+        "shortRight": 24,
+        "deepLeft": 16,
+        "deepMiddle": 5,
         "deepRight": 0
       },
       "A.HURNS": {
-        "total": 39,
-        "shortLeft": 11,
-        "shortMiddle": 12,
-        "shortRight": 10,
-        "deepLeft": 2,
-        "deepMiddle": 3,
+        "total": 55,
+        "shortLeft": 12,
+        "shortMiddle": 13,
+        "shortRight": 16,
+        "deepLeft": 5,
+        "deepMiddle": 5,
         "deepRight": 0
       },
       "M.LEWIS": {
-        "total": 25,
-        "shortLeft": 6,
-        "shortMiddle": 7,
-        "shortRight": 10,
-        "deepLeft": 0,
-        "deepMiddle": 1,
+        "total": 49,
+        "shortLeft": 13,
+        "shortMiddle": 14,
+        "shortRight": 13,
+        "deepLeft": 3,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "K.COLE": {
+        "total": 83,
+        "shortLeft": 14,
+        "shortMiddle": 27,
+        "shortRight": 18,
+        "deepLeft": 10,
+        "deepMiddle": 9,
         "deepRight": 0
       },
       "C.GRANT": {
-        "total": 3,
+        "total": 4,
         "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 2,
+        "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "T.BOHANON": {
-        "total": 6,
-        "shortLeft": 3,
-        "shortMiddle": 0,
-        "shortRight": 3,
+        "total": 11,
+        "shortLeft": 4,
+        "shortMiddle": 2,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -3988,46 +4141,55 @@
         "deepRight": 0
       },
       "B.KOYACK": {
-        "total": 5,
+        "total": 7,
         "shortLeft": 2,
         "shortMiddle": 1,
-        "shortRight": 1,
+        "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
       },
       "T.YELDON": {
-        "total": 30,
-        "shortLeft": 6,
-        "shortMiddle": 12,
-        "shortRight": 12,
-        "deepLeft": 0,
+        "total": 43,
+        "shortLeft": 10,
+        "shortMiddle": 15,
+        "shortRight": 16,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "D.WESTBROOK": {
-        "total": 27,
-        "shortLeft": 5,
-        "shortMiddle": 5,
-        "shortRight": 9,
-        "deepLeft": 3,
-        "deepMiddle": 1,
+        "total": 55,
+        "shortLeft": 12,
+        "shortMiddle": 9,
+        "shortRight": 11,
+        "deepLeft": 10,
+        "deepMiddle": 3,
         "deepRight": 0
       },
       "J.MICKENS": {
-        "total": 6,
-        "shortLeft": 2,
+        "total": 12,
+        "shortLeft": 4,
+        "shortMiddle": 4,
+        "shortRight": 2,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.STRONG": {
+        "total": 5,
+        "shortLeft": 0,
         "shortMiddle": 2,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "A.BENN": {
-        "total": 1,
+        "total": 2,
         "shortLeft": 0,
         "shortMiddle": 0,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -4036,15 +4198,6 @@
         "total": 1,
         "shortLeft": 0,
         "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.STRONG": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 2,
         "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
@@ -4065,7 +4218,7 @@
     "complete": 300,
     "incomplete": 226,
     "shortPass": 417,
-    "deepPass": 409,
+    "deepPass": 609,
     "shortLeft": 187,
     "shortLeftYards": 1126,
     "shortRight": 160,
@@ -4086,80 +4239,89 @@
     "totalMiddleYards": 1406,
     "targets": {
       "D.FUNCHESS": {
-        "total": 65,
-        "shortLeft": 27,
-        "shortMiddle": 9,
-        "shortRight": 16,
-        "deepLeft": 5,
-        "deepMiddle": 3,
+        "total": 116,
+        "shortLeft": 35,
+        "shortMiddle": 14,
+        "shortRight": 28,
+        "deepLeft": 20,
+        "deepMiddle": 5,
         "deepRight": 0
       },
       "C.MCCAFFREY": {
-        "total": 81,
-        "shortLeft": 36,
-        "shortMiddle": 13,
-        "shortRight": 31,
+        "total": 112,
+        "shortLeft": 49,
+        "shortMiddle": 21,
+        "shortRight": 39,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "E.DICKSON": {
-        "total": 31,
-        "shortLeft": 7,
-        "shortMiddle": 6,
-        "shortRight": 10,
-        "deepLeft": 3,
-        "deepMiddle": 3,
+      "G.OLSEN": {
+        "total": 41,
+        "shortLeft": 14,
+        "shortMiddle": 4,
+        "shortRight": 13,
+        "deepLeft": 2,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "K.BENJAMIN": {
-        "total": 33,
-        "shortLeft": 15,
-        "shortMiddle": 4,
-        "shortRight": 6,
-        "deepLeft": 5,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "G.OLSEN": {
-        "total": 17,
-        "shortLeft": 6,
-        "shortMiddle": 2,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "C.SAMUEL": {
-        "total": 15,
-        "shortLeft": 7,
-        "shortMiddle": 1,
-        "shortRight": 6,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.SHEPARD": {
-        "total": 18,
-        "shortLeft": 4,
+        "total": 51,
+        "shortLeft": 24,
         "shortMiddle": 6,
-        "shortRight": 6,
-        "deepLeft": 2,
-        "deepMiddle": 0,
+        "shortRight": 9,
+        "deepLeft": 7,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "E.DICKSON": {
+        "total": 49,
+        "shortLeft": 10,
+        "shortMiddle": 9,
+        "shortRight": 16,
+        "deepLeft": 5,
+        "deepMiddle": 5,
+        "deepRight": 0
+      },
+      "D.BYRD": {
+        "total": 16,
+        "shortLeft": 6,
+        "shortMiddle": 0,
+        "shortRight": 9,
+        "deepLeft": 0,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "J.STEWART": {
-        "total": 9,
-        "shortLeft": 2,
+        "total": 15,
+        "shortLeft": 6,
         "shortMiddle": 0,
-        "shortRight": 7,
+        "shortRight": 9,
         "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.SAMUEL": {
+        "total": 27,
+        "shortLeft": 12,
+        "shortMiddle": 1,
+        "shortRight": 8,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "R.SHEPARD": {
+        "total": 33,
+        "shortLeft": 8,
+        "shortMiddle": 7,
+        "shortRight": 12,
+        "deepLeft": 4,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "F.WHITTAKER": {
-        "total": 5,
-        "shortLeft": 4,
+        "total": 6,
+        "shortLeft": 5,
         "shortMiddle": 0,
         "shortRight": 1,
         "deepLeft": 0,
@@ -4176,37 +4338,37 @@
         "deepRight": 0
       },
       "B.BERSIN": {
-        "total": 9,
-        "shortLeft": 2,
+        "total": 13,
+        "shortLeft": 3,
         "shortMiddle": 1,
-        "shortRight": 1,
+        "shortRight": 3,
         "deepLeft": 3,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "K.CLAY": {
-        "total": 5,
-        "shortLeft": 2,
+        "total": 15,
+        "shortLeft": 6,
         "shortMiddle": 2,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 1,
+        "deepMiddle": 2,
         "deepRight": 0
       },
-      "D.BYRD": {
-        "total": 9,
-        "shortLeft": 3,
+      "S.THOMPSON": {
+        "total": 1,
+        "shortLeft": 0,
         "shortMiddle": 0,
-        "shortRight": 6,
+        "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "C.MANHERTZ": {
-        "total": 2,
-        "shortLeft": 1,
+        "total": 4,
+        "shortLeft": 2,
         "shortMiddle": 0,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -4226,7 +4388,7 @@
     "complete": 367,
     "incomplete": 257,
     "shortPass": 523,
-    "deepPass": 468,
+    "deepPass": 703,
     "shortLeft": 206,
     "shortLeftYards": 929,
     "shortRight": 198,
@@ -4246,108 +4408,117 @@
     "totalMiddle": 190,
     "totalMiddleYards": 2082,
     "targets": {
-      "C.HYDE": {
-        "total": 60,
-        "shortLeft": 27,
-        "shortMiddle": 10,
-        "shortRight": 23,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.JUSZCZYK": {
-        "total": 33,
-        "shortLeft": 14,
-        "shortMiddle": 4,
-        "shortRight": 12,
+      "G.CELEK": {
+        "total": 32,
+        "shortLeft": 9,
+        "shortMiddle": 6,
+        "shortRight": 10,
         "deepLeft": 3,
-        "deepMiddle": 0,
+        "deepMiddle": 2,
         "deepRight": 0
       },
-      "G.KITTLE": {
-        "total": 43,
-        "shortLeft": 10,
-        "shortMiddle": 13,
-        "shortRight": 16,
-        "deepLeft": 1,
+      "C.HYDE": {
+        "total": 90,
+        "shortLeft": 38,
+        "shortMiddle": 18,
+        "shortRight": 32,
+        "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
       },
-      "P.GARCON": {
-        "total": 40,
-        "shortLeft": 9,
-        "shortMiddle": 12,
-        "shortRight": 15,
+      "K.JUSZCZYK": {
+        "total": 42,
+        "shortLeft": 19,
+        "shortMiddle": 5,
+        "shortRight": 14,
         "deepLeft": 4,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "M.GOODWIN": {
-        "total": 55,
-        "shortLeft": 17,
-        "shortMiddle": 7,
-        "shortRight": 15,
-        "deepLeft": 2,
-        "deepMiddle": 10,
+      "G.KITTLE": {
+        "total": 62,
+        "shortLeft": 19,
+        "shortMiddle": 18,
+        "shortRight": 17,
+        "deepLeft": 4,
+        "deepMiddle": 1,
         "deepRight": 0
       },
-      "A.ROBINSON": {
-        "total": 19,
-        "shortLeft": 6,
-        "shortMiddle": 5,
-        "shortRight": 5,
-        "deepLeft": 1,
+      "P.GARCON": {
+        "total": 69,
+        "shortLeft": 16,
+        "shortMiddle": 16,
+        "shortRight": 25,
+        "deepLeft": 12,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "T.TAYLOR": {
-        "total": 45,
-        "shortLeft": 13,
-        "shortMiddle": 14,
-        "shortRight": 17,
-        "deepLeft": 0,
+      "M.GOODWIN": {
+        "total": 105,
+        "shortLeft": 32,
+        "shortMiddle": 13,
+        "shortRight": 25,
+        "deepLeft": 12,
+        "deepMiddle": 14,
+        "deepRight": 0
+      },
+      "A.ROBINSON": {
+        "total": 47,
+        "shortLeft": 16,
+        "shortMiddle": 8,
+        "shortRight": 13,
+        "deepLeft": 4,
         "deepMiddle": 1,
         "deepRight": 0
       },
-      "G.CELEK": {
-        "total": 21,
-        "shortLeft": 6,
-        "shortMiddle": 5,
-        "shortRight": 6,
-        "deepLeft": 2,
-        "deepMiddle": 1,
+      "T.TAYLOR": {
+        "total": 62,
+        "shortLeft": 18,
+        "shortMiddle": 18,
+        "shortRight": 22,
+        "deepLeft": 0,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "M.BREIDA": {
-        "total": 23,
-        "shortLeft": 10,
+        "total": 37,
+        "shortLeft": 19,
         "shortMiddle": 2,
-        "shortRight": 11,
+        "shortRight": 16,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.HIKUTINI": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "K.BOURNE": {
-        "total": 17,
-        "shortLeft": 5,
-        "shortMiddle": 4,
-        "shortRight": 6,
-        "deepLeft": 1,
+        "total": 34,
+        "shortLeft": 9,
+        "shortMiddle": 8,
+        "shortRight": 11,
+        "deepLeft": 3,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "L.MURPHY": {
-        "total": 8,
-        "shortLeft": 3,
+        "total": 16,
+        "shortLeft": 4,
         "shortMiddle": 2,
-        "shortRight": 1,
-        "deepLeft": 1,
+        "shortRight": 5,
+        "deepLeft": 3,
         "deepMiddle": 1,
         "deepRight": 0
       },
-      "C.HIKUTINI": {
+      "L.PAULSEN": {
         "total": 2,
-        "shortLeft": 1,
+        "shortLeft": 0,
         "shortMiddle": 0,
         "shortRight": 1,
         "deepLeft": 0,
@@ -4378,7 +4549,7 @@
     "complete": 386,
     "incomplete": 255,
     "shortPass": 548,
-    "deepPass": 479,
+    "deepPass": 714,
     "shortLeft": 184,
     "shortLeftYards": 1082,
     "shortRight": 200,
@@ -4398,90 +4569,90 @@
     "totalMiddle": 224,
     "totalMiddleYards": 1611,
     "targets": {
-      "S.SHEPARD": {
-        "total": 60,
-        "shortLeft": 14,
-        "shortMiddle": 27,
-        "shortRight": 14,
-        "deepLeft": 3,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "E.ENGRAM": {
-        "total": 68,
-        "shortLeft": 18,
-        "shortMiddle": 21,
-        "shortRight": 22,
-        "deepLeft": 1,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "P.PERKINS": {
-        "total": 9,
-        "shortLeft": 4,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 0,
+      "R.LEWIS": {
+        "total": 70,
+        "shortLeft": 34,
+        "shortMiddle": 14,
+        "shortRight": 11,
+        "deepLeft": 9,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "O.DARKWA": {
-        "total": 19,
-        "shortLeft": 7,
-        "shortMiddle": 4,
-        "shortRight": 8,
+      "S.SHEPARD": {
+        "total": 87,
+        "shortLeft": 16,
+        "shortMiddle": 37,
+        "shortRight": 21,
+        "deepLeft": 7,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "E.ENGRAM": {
+        "total": 117,
+        "shortLeft": 27,
+        "shortMiddle": 33,
+        "shortRight": 36,
+        "deepLeft": 8,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "P.PERKINS": {
+        "total": 12,
+        "shortLeft": 5,
+        "shortMiddle": 2,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "S.VEREEN": {
-        "total": 45,
-        "shortLeft": 10,
-        "shortMiddle": 16,
-        "shortRight": 19,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.LEWIS": {
-        "total": 37,
-        "shortLeft": 18,
-        "shortMiddle": 7,
-        "shortRight": 5,
-        "deepLeft": 5,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.ELLISON": {
-        "total": 25,
-        "shortLeft": 4,
-        "shortMiddle": 8,
-        "shortRight": 12,
+        "total": 55,
+        "shortLeft": 13,
+        "shortMiddle": 20,
+        "shortRight": 21,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "O.BECKHAM": {
-        "total": 26,
-        "shortLeft": 8,
-        "shortMiddle": 3,
-        "shortRight": 13,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "J.ADAMS": {
-        "total": 8,
-        "shortLeft": 3,
-        "shortMiddle": 2,
-        "shortRight": 2,
+      "O.DARKWA": {
+        "total": 28,
+        "shortLeft": 10,
+        "shortMiddle": 6,
+        "shortRight": 12,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "B.MARSHALL": {
-        "total": 18,
+        "total": 33,
+        "shortLeft": 17,
+        "shortMiddle": 3,
+        "shortRight": 8,
+        "deepLeft": 4,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.ELLISON": {
+        "total": 34,
+        "shortLeft": 6,
+        "shortMiddle": 12,
+        "shortRight": 14,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "O.BECKHAM": {
+        "total": 45,
         "shortLeft": 11,
+        "shortMiddle": 4,
+        "shortRight": 19,
+        "deepLeft": 3,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "J.ADAMS": {
+        "total": 11,
+        "shortLeft": 3,
         "shortMiddle": 3,
         "shortRight": 4,
         "deepLeft": 0,
@@ -4489,29 +4660,38 @@
         "deepRight": 0
       },
       "W.GALLMAN": {
-        "total": 35,
-        "shortLeft": 11,
-        "shortMiddle": 12,
-        "shortRight": 12,
+        "total": 49,
+        "shortLeft": 15,
+        "shortMiddle": 15,
+        "shortRight": 18,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "T.KING": {
-        "total": 19,
-        "shortLeft": 7,
-        "shortMiddle": 1,
-        "shortRight": 7,
+      "T.RUDOLPH": {
+        "total": 22,
+        "shortLeft": 10,
+        "shortMiddle": 6,
+        "shortRight": 4,
         "deepLeft": 1,
-        "deepMiddle": 2,
+        "deepMiddle": 1,
         "deepRight": 0
       },
-      "T.RUDOLPH": {
-        "total": 9,
-        "shortLeft": 2,
+      "T.KING": {
+        "total": 41,
+        "shortLeft": 10,
         "shortMiddle": 4,
-        "shortRight": 2,
-        "deepLeft": 1,
+        "shortRight": 13,
+        "deepLeft": 6,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "E.EAGAN": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -4525,21 +4705,39 @@
         "deepRight": 0
       },
       "D.POWE": {
-        "total": 2,
+        "total": 3,
         "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "H.SHARP": {
-        "total": 5,
+        "total": 8,
         "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 3,
-        "deepLeft": 0,
+        "shortMiddle": 2,
+        "shortRight": 4,
+        "deepLeft": 1,
         "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "M.BUNDY": {
+        "total": 3,
+        "shortLeft": 3,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.LACOSSE": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
         "deepRight": 0
       }
     }
@@ -4557,7 +4755,7 @@
     "complete": 389,
     "incomplete": 248,
     "shortPass": 481,
-    "deepPass": 544,
+    "deepPass": 768,
     "shortLeft": 184,
     "shortLeftYards": 1292,
     "shortRight": 187,
@@ -4578,8 +4776,8 @@
     "totalMiddleYards": 1881,
     "targets": {
       "J.RODGERS": {
-        "total": 9,
-        "shortLeft": 4,
+        "total": 11,
+        "shortLeft": 6,
         "shortMiddle": 3,
         "shortRight": 2,
         "deepLeft": 0,
@@ -4587,62 +4785,62 @@
         "deepRight": 0
       },
       "C.GODWIN": {
-        "total": 34,
-        "shortLeft": 12,
-        "shortMiddle": 6,
-        "shortRight": 10,
-        "deepLeft": 1,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "M.EVANS": {
-        "total": 75,
-        "shortLeft": 20,
-        "shortMiddle": 17,
-        "shortRight": 20,
-        "deepLeft": 6,
-        "deepMiddle": 6,
-        "deepRight": 0
-      },
-      "D.JACKSON": {
-        "total": 51,
-        "shortLeft": 15,
-        "shortMiddle": 4,
-        "shortRight": 22,
-        "deepLeft": 1,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "C.BRATE": {
-        "total": 49,
-        "shortLeft": 18,
-        "shortMiddle": 11,
+        "total": 57,
+        "shortLeft": 14,
+        "shortMiddle": 10,
         "shortRight": 13,
-        "deepLeft": 0,
-        "deepMiddle": 4,
+        "deepLeft": 4,
+        "deepMiddle": 8,
         "deepRight": 0
       },
       "O.HOWARD": {
-        "total": 26,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 12,
+        "total": 39,
+        "shortLeft": 5,
+        "shortMiddle": 6,
+        "shortRight": 16,
         "deepLeft": 3,
-        "deepMiddle": 1,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "C.BRATE": {
+        "total": 80,
+        "shortLeft": 25,
+        "shortMiddle": 20,
+        "shortRight": 22,
+        "deepLeft": 1,
+        "deepMiddle": 7,
+        "deepRight": 0
+      },
+      "M.EVANS": {
+        "total": 140,
+        "shortLeft": 38,
+        "shortMiddle": 28,
+        "shortRight": 28,
+        "deepLeft": 20,
+        "deepMiddle": 10,
+        "deepRight": 0
+      },
+      "D.JACKSON": {
+        "total": 91,
+        "shortLeft": 21,
+        "shortMiddle": 6,
+        "shortRight": 30,
+        "deepLeft": 10,
+        "deepMiddle": 6,
         "deepRight": 0
       },
       "A.HUMPHRIES": {
-        "total": 61,
-        "shortLeft": 26,
-        "shortMiddle": 11,
-        "shortRight": 19,
-        "deepLeft": 3,
-        "deepMiddle": 1,
+        "total": 84,
+        "shortLeft": 34,
+        "shortMiddle": 14,
+        "shortRight": 25,
+        "deepLeft": 5,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "A.CROSS": {
-        "total": 5,
-        "shortLeft": 0,
+        "total": 6,
+        "shortLeft": 1,
         "shortMiddle": 0,
         "shortRight": 4,
         "deepLeft": 1,
@@ -4650,19 +4848,28 @@
         "deepRight": 0
       },
       "C.SIMS": {
-        "total": 37,
-        "shortLeft": 12,
-        "shortMiddle": 8,
-        "shortRight": 17,
-        "deepLeft": 0,
+        "total": 49,
+        "shortLeft": 15,
+        "shortMiddle": 10,
+        "shortRight": 21,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "D.MARTIN": {
-        "total": 11,
-        "shortLeft": 5,
-        "shortMiddle": 3,
-        "shortRight": 3,
+        "total": 20,
+        "shortLeft": 9,
+        "shortMiddle": 4,
+        "shortRight": 7,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "P.BARBER": {
+        "total": 19,
+        "shortLeft": 10,
+        "shortMiddle": 5,
+        "shortRight": 4,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -4676,15 +4883,6 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "P.BARBER": {
-        "total": 16,
-        "shortLeft": 9,
-        "shortMiddle": 3,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "B.REEDY": {
         "total": 2,
         "shortLeft": 1,
@@ -4694,22 +4892,22 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
+      "F.MARTINO": {
+        "total": 6,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
       "A.AUCLAIR": {
-        "total": 2,
+        "total": 3,
         "shortLeft": 0,
         "shortMiddle": 1,
         "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "F.MARTINO": {
-        "total": 5,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 1,
         "deepRight": 0
       },
       "L.WESTER": {
@@ -4745,7 +4943,7 @@
     "complete": 323,
     "incomplete": 295,
     "shortPass": 459,
-    "deepPass": 482,
+    "deepPass": 741,
     "shortLeft": 152,
     "shortLeftYards": 837,
     "shortRight": 214,
@@ -4765,94 +4963,103 @@
     "totalMiddle": 179,
     "totalMiddleYards": 1490,
     "targets": {
+      "D.JOHNSON": {
+        "total": 96,
+        "shortLeft": 34,
+        "shortMiddle": 27,
+        "shortRight": 30,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
       "D.NJOKU": {
-        "total": 32,
-        "shortLeft": 7,
-        "shortMiddle": 5,
-        "shortRight": 12,
-        "deepLeft": 3,
-        "deepMiddle": 3,
+        "total": 62,
+        "shortLeft": 12,
+        "shortMiddle": 6,
+        "shortRight": 23,
+        "deepLeft": 11,
+        "deepMiddle": 4,
         "deepRight": 0
       },
       "M.DAYES": {
-        "total": 4,
+        "total": 5,
         "shortLeft": 1,
-        "shortMiddle": 2,
+        "shortMiddle": 3,
         "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "D.JOHNSON": {
-        "total": 77,
-        "shortLeft": 28,
-        "shortMiddle": 21,
-        "shortRight": 26,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
       "S.DEVALVE": {
-        "total": 36,
-        "shortLeft": 9,
-        "shortMiddle": 3,
-        "shortRight": 20,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.COLEMAN": {
-        "total": 25,
-        "shortLeft": 8,
-        "shortMiddle": 1,
-        "shortRight": 6,
-        "deepLeft": 1,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "K.BRITT": {
-        "total": 20,
-        "shortLeft": 7,
-        "shortMiddle": 0,
-        "shortRight": 8,
+        "total": 58,
+        "shortLeft": 14,
+        "shortMiddle": 8,
+        "shortRight": 27,
         "deepLeft": 1,
         "deepMiddle": 2,
         "deepRight": 0
       },
+      "C.COLEMAN": {
+        "total": 61,
+        "shortLeft": 13,
+        "shortMiddle": 4,
+        "shortRight": 17,
+        "deepLeft": 7,
+        "deepMiddle": 6,
+        "deepRight": 0
+      },
+      "R.LOUIS": {
+        "total": 64,
+        "shortLeft": 16,
+        "shortMiddle": 7,
+        "shortRight": 22,
+        "deepLeft": 9,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "K.BRITT": {
+        "total": 41,
+        "shortLeft": 12,
+        "shortMiddle": 2,
+        "shortRight": 13,
+        "deepLeft": 4,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
       "I.CROWELL": {
-        "total": 28,
-        "shortLeft": 7,
-        "shortMiddle": 10,
-        "shortRight": 11,
+        "total": 42,
+        "shortLeft": 9,
+        "shortMiddle": 14,
+        "shortRight": 19,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "R.LOUIS": {
-        "total": 28,
-        "shortLeft": 8,
-        "shortMiddle": 2,
-        "shortRight": 12,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "R.TELFER": {
-        "total": 3,
+        "total": 4,
         "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "R.HIGGINS": {
-        "total": 27,
-        "shortLeft": 9,
-        "shortMiddle": 2,
-        "shortRight": 13,
+        "total": 50,
+        "shortLeft": 12,
+        "shortMiddle": 5,
+        "shortRight": 22,
+        "deepLeft": 3,
+        "deepMiddle": 5,
+        "deepRight": 0
+      },
+      "S.COATES": {
+        "total": 10,
+        "shortLeft": 2,
+        "shortMiddle": 1,
+        "shortRight": 4,
         "deepLeft": 1,
-        "deepMiddle": 2,
+        "deepMiddle": 0,
         "deepRight": 0
       },
       "K.ZEITLER": {
@@ -4865,47 +5072,38 @@
         "deepRight": 0
       },
       "K.WILLIAMS": {
-        "total": 9,
-        "shortLeft": 4,
-        "shortMiddle": 0,
-        "shortRight": 5,
-        "deepLeft": 0,
-        "deepMiddle": 0,
+        "total": 20,
+        "shortLeft": 5,
+        "shortMiddle": 1,
+        "shortRight": 8,
+        "deepLeft": 3,
+        "deepMiddle": 1,
         "deepRight": 0
       },
       "B.TREGGS": {
-        "total": 5,
-        "shortLeft": 0,
+        "total": 17,
+        "shortLeft": 4,
         "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 3,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "S.COATES": {
-        "total": 6,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 1,
+        "shortRight": 5,
+        "deepLeft": 6,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "D.VITALE": {
-        "total": 3,
-        "shortLeft": 2,
+        "total": 5,
+        "shortLeft": 3,
         "shortMiddle": 0,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "J.GORDON": {
-        "total": 18,
-        "shortLeft": 5,
-        "shortMiddle": 3,
-        "shortRight": 4,
-        "deepLeft": 4,
+        "total": 44,
+        "shortLeft": 8,
+        "shortMiddle": 6,
+        "shortRight": 9,
+        "deepLeft": 9,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -4914,6 +5112,15 @@
         "shortLeft": 0,
         "shortMiddle": 0,
         "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.WILLIAMS": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -4933,7 +5140,7 @@
     "complete": 356,
     "incomplete": 240,
     "shortPass": 445,
-    "deepPass": 507,
+    "deepPass": 707,
     "shortLeft": 170,
     "shortLeftYards": 940,
     "shortRight": 176,
@@ -4953,110 +5160,110 @@
     "totalMiddle": 201,
     "totalMiddleYards": 1926,
     "targets": {
-      "D.BALDWIN": {
-        "total": 77,
-        "shortLeft": 24,
-        "shortMiddle": 8,
-        "shortRight": 26,
-        "deepLeft": 9,
-        "deepMiddle": 2,
+      "T.LOCKETT": {
+        "total": 78,
+        "shortLeft": 16,
+        "shortMiddle": 13,
+        "shortRight": 24,
+        "deepLeft": 8,
+        "deepMiddle": 7,
         "deepRight": 0
       },
-      "T.LOCKETT": {
-        "total": 51,
-        "shortLeft": 14,
-        "shortMiddle": 9,
-        "shortRight": 20,
-        "deepLeft": 4,
-        "deepMiddle": 2,
+      "D.BALDWIN": {
+        "total": 125,
+        "shortLeft": 33,
+        "shortMiddle": 15,
+        "shortRight": 34,
+        "deepLeft": 16,
+        "deepMiddle": 10,
         "deepRight": 0
       },
       "J.GRAHAM": {
-        "total": 58,
-        "shortLeft": 13,
-        "shortMiddle": 16,
-        "shortRight": 26,
-        "deepLeft": 2,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "P.RICHARDSON": {
-        "total": 47,
-        "shortLeft": 19,
-        "shortMiddle": 8,
-        "shortRight": 9,
-        "deepLeft": 4,
+        "total": 96,
+        "shortLeft": 23,
+        "shortMiddle": 23,
+        "shortRight": 39,
+        "deepLeft": 5,
         "deepMiddle": 5,
         "deepRight": 0
       },
-      "C.CARSON": {
-        "total": 7,
-        "shortLeft": 2,
-        "shortMiddle": 4,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
+      "P.RICHARDSON": {
+        "total": 86,
+        "shortLeft": 30,
+        "shortMiddle": 11,
+        "shortRight": 13,
+        "deepLeft": 17,
+        "deepMiddle": 9,
         "deepRight": 0
       },
-      "C.PROSISE": {
-        "total": 6,
+      "C.CARSON": {
+        "total": 8,
         "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 1,
+        "shortMiddle": 4,
+        "shortRight": 2,
+        "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "L.WILLSON": {
-        "total": 15,
+        "total": 21,
         "shortLeft": 3,
-        "shortMiddle": 3,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 1,
+        "shortMiddle": 5,
+        "shortRight": 8,
+        "deepLeft": 2,
+        "deepMiddle": 2,
         "deepRight": 0
       },
-      "J.MCKISSIC": {
-        "total": 35,
-        "shortLeft": 17,
-        "shortMiddle": 3,
-        "shortRight": 12,
+      "C.PROSISE": {
+        "total": 11,
+        "shortLeft": 4,
+        "shortMiddle": 1,
+        "shortRight": 3,
         "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
+      "J.MCKISSIC": {
+        "total": 46,
+        "shortLeft": 22,
+        "shortMiddle": 5,
+        "shortRight": 14,
+        "deepLeft": 3,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
       "T.MCEVOY": {
-        "total": 5,
+        "total": 10,
         "shortLeft": 0,
-        "shortMiddle": 2,
+        "shortMiddle": 5,
         "shortRight": 1,
-        "deepLeft": 1,
+        "deepLeft": 3,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "A.DARBOH": {
-        "total": 9,
-        "shortLeft": 6,
+        "total": 16,
+        "shortLeft": 8,
         "shortMiddle": 1,
         "shortRight": 1,
-        "deepLeft": 0,
+        "deepLeft": 3,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "T.RAWLS": {
-        "total": 10,
-        "shortLeft": 4,
+        "total": 14,
+        "shortLeft": 5,
         "shortMiddle": 3,
-        "shortRight": 3,
+        "shortRight": 6,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "N.VANNETT": {
-        "total": 12,
-        "shortLeft": 3,
+        "total": 16,
+        "shortLeft": 5,
         "shortMiddle": 0,
-        "shortRight": 7,
+        "shortRight": 9,
         "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
@@ -5080,10 +5287,10 @@
         "deepRight": 0
       },
       "M.DAVIS": {
-        "total": 16,
-        "shortLeft": 6,
+        "total": 21,
+        "shortLeft": 8,
         "shortMiddle": 7,
-        "shortRight": 3,
+        "shortRight": 6,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -5103,7 +5310,7 @@
     "complete": 402,
     "incomplete": 236,
     "shortPass": 495,
-    "deepPass": 544,
+    "deepPass": 765,
     "shortLeft": 220,
     "shortLeftYards": 1427,
     "shortRight": 137,
@@ -5123,83 +5330,101 @@
     "totalMiddle": 239,
     "totalMiddleYards": 2238,
     "targets": {
+      "D.AMENDOLA": {
+        "total": 95,
+        "shortLeft": 33,
+        "shortMiddle": 33,
+        "shortRight": 19,
+        "deepLeft": 3,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
       "D.LEWIS": {
-        "total": 33,
+        "total": 36,
         "shortLeft": 17,
-        "shortMiddle": 6,
-        "shortRight": 10,
+        "shortMiddle": 7,
+        "shortRight": 12,
         "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.ALLEN": {
+        "total": 23,
+        "shortLeft": 7,
+        "shortMiddle": 2,
+        "shortRight": 11,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "R.BURKHEAD": {
-        "total": 30,
-        "shortLeft": 12,
-        "shortMiddle": 10,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.COOKS": {
-        "total": 67,
-        "shortLeft": 21,
-        "shortMiddle": 9,
-        "shortRight": 12,
-        "deepLeft": 12,
-        "deepMiddle": 8,
-        "deepRight": 0
-      },
-      "D.AMENDOLA": {
-        "total": 65,
-        "shortLeft": 26,
-        "shortMiddle": 22,
-        "shortRight": 12,
-        "deepLeft": 2,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "R.GRONKOWSKI": {
-        "total": 73,
-        "shortLeft": 23,
-        "shortMiddle": 19,
-        "shortRight": 15,
-        "deepLeft": 6,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "J.WHITE": {
-        "total": 57,
-        "shortLeft": 26,
-        "shortMiddle": 8,
-        "shortRight": 21,
+        "total": 37,
+        "shortLeft": 15,
+        "shortMiddle": 11,
+        "shortRight": 9,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "C.HOGAN": {
-        "total": 34,
-        "shortLeft": 10,
-        "shortMiddle": 15,
-        "shortRight": 5,
-        "deepLeft": 2,
-        "deepMiddle": 2,
+      "B.COOKS": {
+        "total": 122,
+        "shortLeft": 41,
+        "shortMiddle": 13,
+        "shortRight": 16,
+        "deepLeft": 29,
+        "deepMiddle": 14,
         "deepRight": 0
       },
-      "J.HOLLISTER": {
-        "total": 4,
-        "shortLeft": 2,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
+      "R.GRONKOWSKI": {
+        "total": 116,
+        "shortLeft": 32,
+        "shortMiddle": 28,
+        "shortRight": 21,
+        "deepLeft": 14,
+        "deepMiddle": 7,
+        "deepRight": 0
+      },
+      "C.HOGAN": {
+        "total": 62,
+        "shortLeft": 18,
+        "shortMiddle": 20,
+        "shortRight": 7,
+        "deepLeft": 5,
+        "deepMiddle": 6,
+        "deepRight": 0
+      },
+      "J.WHITE": {
+        "total": 76,
+        "shortLeft": 32,
+        "shortMiddle": 11,
+        "shortRight": 28,
+        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
+      "P.DORSETT": {
+        "total": 19,
+        "shortLeft": 5,
+        "shortMiddle": 2,
+        "shortRight": 5,
+        "deepLeft": 4,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "J.HOLLISTER": {
+        "total": 11,
+        "shortLeft": 2,
+        "shortMiddle": 4,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
       "J.DEVELIN": {
-        "total": 6,
-        "shortLeft": 6,
+        "total": 10,
+        "shortLeft": 9,
         "shortMiddle": 0,
-        "shortRight": 0,
+        "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -5213,29 +5438,11 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "P.DORSETT": {
-        "total": 12,
-        "shortLeft": 5,
-        "shortMiddle": 2,
-        "shortRight": 3,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.ALLEN": {
-        "total": 10,
-        "shortLeft": 4,
-        "shortMiddle": 1,
-        "shortRight": 5,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "K.BRITT": {
-        "total": 2,
+        "total": 4,
         "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 1,
+        "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -5250,10 +5457,10 @@
         "deepRight": 0
       },
       "B.BOLDEN": {
-        "total": 1,
-        "shortLeft": 0,
+        "total": 4,
+        "shortLeft": 2,
         "shortMiddle": 0,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -5273,7 +5480,7 @@
     "complete": 371,
     "incomplete": 200,
     "shortPass": 456,
-    "deepPass": 486,
+    "deepPass": 671,
     "shortLeft": 166,
     "shortLeftYards": 1158,
     "shortRight": 199,
@@ -5294,110 +5501,119 @@
     "totalMiddleYards": 1308,
     "targets": {
       "D.COOK": {
-        "total": 11,
-        "shortLeft": 5,
+        "total": 17,
+        "shortLeft": 10,
         "shortMiddle": 2,
-        "shortRight": 4,
+        "shortRight": 5,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "S.DIGGS": {
-        "total": 68,
-        "shortLeft": 21,
-        "shortMiddle": 8,
-        "shortRight": 22,
-        "deepLeft": 3,
-        "deepMiddle": 1,
+        "total": 105,
+        "shortLeft": 27,
+        "shortMiddle": 11,
+        "shortRight": 32,
+        "deepLeft": 9,
+        "deepMiddle": 5,
         "deepRight": 0
       },
       "A.THIELEN": {
-        "total": 95,
-        "shortLeft": 25,
-        "shortMiddle": 21,
-        "shortRight": 29,
-        "deepLeft": 11,
-        "deepMiddle": 3,
+        "total": 156,
+        "shortLeft": 36,
+        "shortMiddle": 29,
+        "shortRight": 50,
+        "deepLeft": 22,
+        "deepMiddle": 4,
         "deepRight": 0
       },
       "J.MCKINNON": {
-        "total": 56,
-        "shortLeft": 28,
-        "shortMiddle": 6,
-        "shortRight": 22,
+        "total": 73,
+        "shortLeft": 32,
+        "shortMiddle": 10,
+        "shortRight": 30,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "L.TREADWELL": {
-        "total": 20,
-        "shortLeft": 9,
-        "shortMiddle": 4,
-        "shortRight": 5,
-        "deepLeft": 2,
-        "deepMiddle": 0,
+        "total": 37,
+        "shortLeft": 13,
+        "shortMiddle": 6,
+        "shortRight": 7,
+        "deepLeft": 8,
+        "deepMiddle": 2,
         "deepRight": 0
       },
       "J.WRIGHT": {
-        "total": 18,
-        "shortLeft": 5,
+        "total": 27,
+        "shortLeft": 6,
         "shortMiddle": 7,
-        "shortRight": 4,
+        "shortRight": 8,
         "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.RUDOLPH": {
-        "total": 57,
-        "shortLeft": 17,
-        "shortMiddle": 11,
-        "shortRight": 25,
-        "deepLeft": 2,
         "deepMiddle": 1,
         "deepRight": 0
       },
+      "K.RUDOLPH": {
+        "total": 82,
+        "shortLeft": 21,
+        "shortMiddle": 16,
+        "shortRight": 33,
+        "deepLeft": 5,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
       "B.BELL": {
-        "total": 3,
+        "total": 4,
         "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "L.MURRAY": {
-        "total": 15,
-        "shortLeft": 9,
-        "shortMiddle": 2,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.FLOYD": {
-        "total": 10,
-        "shortLeft": 3,
-        "shortMiddle": 1,
-        "shortRight": 5,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.HAM": {
-        "total": 7,
-        "shortLeft": 4,
         "shortMiddle": 0,
         "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
+      "L.MURRAY": {
+        "total": 17,
+        "shortLeft": 9,
+        "shortMiddle": 3,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.FLOYD": {
+        "total": 16,
+        "shortLeft": 4,
+        "shortMiddle": 2,
+        "shortRight": 7,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.HAM": {
+        "total": 8,
+        "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
       "D.MORGAN": {
-        "total": 11,
+        "total": 13,
         "shortLeft": 2,
         "shortMiddle": 4,
         "shortRight": 4,
-        "deepLeft": 1,
+        "deepLeft": 3,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "S.COLEY": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       }

@@ -1,7 +1,8 @@
 const Discord = require('discord.js');
 const config = require('./config');
 const commands = require('./lib/commands');
-
+const commandsList = require('./stats/commandsList.json')
+const fuzzy = require('fuzzy-string-matching');
 const bot = new Discord.Client();
 
 bot.on('guildMemberAdd', (member) => {
@@ -21,6 +22,8 @@ bot.on('message', (msg) => {
 
     // Confirm that the command called exists.
     const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
+    // check to see if there was a minor typo in the command
+    const closeEnough = checkMinorTypo(messageCommand,commandsList)
     // Create an object with data to send to the commands
     const messageObject = {
       user: msg.author,
@@ -41,7 +44,7 @@ bot.on('message', (msg) => {
             if (!channel) return;
             channel.send(response.message);
           }
-        } else {
+        }  else {
           // Otherwise, just send the response.
           // TODO: Convert all the old responses to the new
           msg.channel.send(response);
@@ -49,8 +52,23 @@ bot.on('message', (msg) => {
       }).catch((err) => {
         msg.channel.send(err);
       });
+    } else if (closeEnough) {
+      msg.channel.send(`*Did you mean* \`${closeEnough}\` *?*`)
     }
   }
 });
 
 bot.login(config.DiscordAPIToken);
+
+function checkMinorTypo(string, obj) {
+  let score = 0;
+  let response = '';
+  for (let key in obj) {
+    const fuzzyScore = fuzzy(string, key);
+    if (fuzzyScore > score) {
+      score = fuzzyScore;
+      response = obj[key];
+    }
+  }
+  return response;
+}

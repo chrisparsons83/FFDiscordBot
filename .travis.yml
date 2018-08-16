@@ -13,7 +13,7 @@ deploy:
   local_dir: dpl_cd_upload
   skip_cleanup: true
   on: &2
-    repo: chrisparsons83/RedditFFDiscordBot
+    repo: chrisparsons83/FFDiscordBot
   bucket: redditffdiscordbot
   region: us-west-2
 - provider: codedeploy

@@ -1,15 +1,18 @@
 const expect = require('chai').expect;
 const commands = require('../lib/commands.js');
 
+
 describe('Rankplayer Utilities', () => {
+  
   it('Should return the highest ranked player', () => {
     const rankObject = {
-      args: 'wr, full, robby anderson , michael thomas , ty hilton',
+      args: 'wr, full, antonio brown, ty hilton, robby anderson'
     };
     return commands['!wdis'](rankObject).then((msg) => {
       expect(msg).to.be.a.string;
     });
   });
+  
 
   it('Should return the only player if only one player name was given', () => {
     const rankObject = {
@@ -104,7 +107,7 @@ describe('Rankplayer Utilities', () => {
 
   it('Invalid player position should be rejected with error message', () => {
     const rankObject = {
-      args: 'wr, full, adrian peterson',
+      args: 'wr, full, leveon bell',
     };
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
@@ -115,7 +118,7 @@ describe('Rankplayer Utilities', () => {
 
   it('Invalid player position should be rejected with error message', () => {
     const rankObject = {
-      args: 'qb, adrian peterson',
+      args: 'qb, leveon bell',
     };
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {

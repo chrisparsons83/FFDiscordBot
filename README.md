@@ -12,6 +12,7 @@ Input: !8ball Will I win my matchup this week?
 FFDiscordBot: Not in a million years.
 ```
 
+
 ### !adp *player name* 
 This returns the ADP for the major Fantasy Football sites according to the most recent data from [4for4.com](https://www.4for4.com/fantasy-football/adp?paging=0).
 ```
@@ -71,6 +72,16 @@ This command randomly picks from a comma-separated list of options.
 ```
 Input: !choose peterson,miller,freeman 
 FFDiscordBot: freeman
+```
+
+### !shuffle *list of options* 
+This command shuffle the items from a comma-separated list of options.
+```
+Input: !shuffle peterson,miller,freeman 
+FFDiscordBot: 
+  1. freeman
+  2. peterson
+  3. miller
 ```
 
 ### !depthchart *team,position* 

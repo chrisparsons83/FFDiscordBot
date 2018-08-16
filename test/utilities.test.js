@@ -47,10 +47,10 @@ describe('Bot Utilities', () => {
     expect(object.fullname).to.equal('josh gordon');
   });
 
-  it('Should return adrian peterson', () => {
-    const player = 'adrian peterson';
+  it('Should return todd gurley', () => {
+    const player = 'todd gurley';
     const object = utilities.findPlayer(player);
-    expect(object.fullname).to.equal('adrian peterson');
+    expect(object.fullname).to.equal('todd gurley');
   });
 
   it('Should return david johnson', () => {
@@ -69,5 +69,36 @@ describe('Bot Utilities', () => {
     const player = 'jennifer lopez';
     const object = utilities.findPlayer(player);
     expect(object).to.be.undefined;
+  });
+  it('Should reject when given an empty list', () => {
+    const list = '';
+    return utilities.shuffleList(list).catch((value) => {
+      expect(value).to.equal('I need at least two items to shuffle!');
+    });
+  });
+  it('Should reject when given a list of size of 1', () => {
+    const list = 'a';
+    return utilities.shuffleList(list).catch((value) => {
+      expect(value).to.equal('I need at least two items to shuffle!');
+    });
+  });
+  it('Should reject when given a list of size of 1 with a comma', () => {
+    const list = 'a,';
+    return utilities.shuffleList(list).catch((value) => {
+      expect(value).to.equal('I need at least two items to shuffle!');
+    });
+  });
+  it('Should reject when given a comma', () => {
+    const list = 'a,';
+    return utilities.shuffleList(list).catch((value) => {
+      expect(value).to.equal('I need at least two items to shuffle!');
+    });
+  });
+  it('Shuffled items should have the same elements as the original items', () => {
+    const list = 'beer, wine, liquor';
+    const items = ['beer', 'wine', 'liquor'];
+    return utilities.shuffleList(list).then((shuffled) => {
+      expect(items.sort().join(',')).to.equal(shuffled.sort().join(','));
+    });
   });
 });

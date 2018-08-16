@@ -79,9 +79,9 @@ This command shuffle the items from a comma-separated list of options.
 ```
 Input: !shuffle peterson,miller,freeman 
 FFDiscordBot: 
-  1. peterson
-  2. miller
-  3. freeman
+  1. freeman
+  2. peterson
+  3. miller
 ```
 
 ### !depthchart *team,position* 

@@ -258,3 +258,7 @@ dbconfig.json
 
 #vscode tasks folder
 .vscode
+
+#postgres
+postgres-data
+*.sql

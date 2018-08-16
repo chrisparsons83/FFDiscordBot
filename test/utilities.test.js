@@ -72,32 +72,32 @@ describe('Bot Utilities', () => {
   });
   it('Should reject when given an empty list', () => {
     const list = '';
-    return utilities.shuffle(list).catch((value) => {
+    return utilities.shuffleList(list).catch((value) => {
       expect(value).to.equal('I need at least two items to shuffle!');
     });
   });
   it('Should reject when given a list of size of 1', () => {
     const list = 'a';
-    return utilities.shuffle(list).catch((value) => {
+    return utilities.shuffleList(list).catch((value) => {
       expect(value).to.equal('I need at least two items to shuffle!');
     });
   });
   it('Should reject when given a list of size of 1 with a comma', () => {
     const list = 'a,';
-    return utilities.shuffle(list).catch((value) => {
+    return utilities.shuffleList(list).catch((value) => {
       expect(value).to.equal('I need at least two items to shuffle!');
     });
   });
   it('Should reject when given a comma', () => {
     const list = 'a,';
-    return utilities.shuffle(list).catch((value) => {
+    return utilities.shuffleList(list).catch((value) => {
       expect(value).to.equal('I need at least two items to shuffle!');
     });
   });
   it('Shuffled items should have the same elements as the original items', () => {
     const list = 'beer, wine, liquor';
     const items = ['beer', 'wine', 'liquor'];
-    return utilities.shuffle(list).then((shuffled) => {
+    return utilities.shuffleList(list).then((shuffled) => {
       expect(items.sort().join(',')).to.equal(shuffled.sort().join(','));
     });
   });

@@ -74,16 +74,6 @@ Input: !choose peterson,miller,freeman
 FFDiscordBot: freeman
 ```
 
-### !shuffle *list of options* 
-This command shuffle the items from a comma-separated list of options.
-```
-Input: !shuffle peterson,miller,freeman 
-FFDiscordBot: 
-  1. freeman
-  2. peterson
-  3. miller
-```
-
 ### !depthchart *team,position* 
 This returns the depth chart for a team's position from [https://www.cbssports.com](https://www.cbssports.com).
 ```
@@ -164,6 +154,16 @@ FFDiscordBot:
 15. @Panthers 1:00PM 
 16. Vikings 8:30PM (Saturday)
 17. @Lions 1:00PM
+```
+
+### !shuffle *list of options* 
+This command shuffle the items from a comma-separated list of options.
+```
+Input: !shuffle peterson,miller,freeman 
+FFDiscordBot: 
+  1. freeman
+  2. peterson
+  3. miller
 ```
 
 ### !symbols

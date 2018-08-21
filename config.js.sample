@@ -1,0 +1,5 @@
+﻿let config = {};
+
+config.DiscordAPIToken = 'ENTERYOURIDHERE';
+
+module.exports = config;

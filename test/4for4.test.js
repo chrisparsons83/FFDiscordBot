@@ -42,11 +42,6 @@ describe('4for4 Utilities', () => {
     expect(value.ADP.Yahoo).to.be.greaterThan(0);
   }));
 
-  it('Should return the MFL ranking for a valid player', () => lib4for4.getADP(validPlayer).then((value) => {
-    expect(value.ADP.MFL).to.be.a('number');
-    // temporary disabled this part of the unit test until we figure out what to do
-    //expect(value.ADP.MFL).to.be.greaterThan(0);
-  }));
 
   // it('Should return the NFL ranking for a valid player', () => lib4for4.getADP(validPlayer).then((value) => {
     // expect(value.ADP.NFL).to.be.a('number');

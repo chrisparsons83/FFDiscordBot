@@ -7,6 +7,8 @@ describe('4for4 Utilities', () => {
   const validPlayer = 'David Johnson';
   const validLowercasePlayer = 'david johnson';
   const invalidPlayer = 'Bob Dole';
+  const playerWithQuote = 'Le\'veon Bell'
+  const playerWithDash = 'Juju Smith-schuster'
 
   before((done) => {
     const url = 'https://www.4for4.com/fantasy-football/adp?paging=0';
@@ -51,6 +53,16 @@ describe('4for4 Utilities', () => {
   it('Should return the rankings for a valid player using all lowercase', () => lib4for4.getADP(validLowercasePlayer).then((value) => {
     expect(value.LastUpdated).to.be.a('string');
     expect(value.LastUpdated).to.not.be.empty;
+  }));
+
+  it('Should return the Yahoo ranking for Le\'veon Bell even with the single quotation mark in his name', () => lib4for4.getADP(playerWithQuote).then((value) => {
+    expect(value.ADP.Yahoo).to.be.a('number');
+    expect(value.ADP.Yahoo).to.be.greaterThan(0);
+  }));
+
+  it('Should return the Yahoo ranking for Juju Smith-Schuster even with the dash in his name', () => lib4for4.getADP(playerWithDash).then((value) => {
+    expect(value.ADP.Yahoo).to.be.a('number');
+    expect(value.ADP.Yahoo).to.be.greaterThan(0);
   }));
 
   it('Should return an error with an invalid player', () => lib4for4.getADP(invalidPlayer).catch((value) => {

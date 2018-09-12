@@ -20,7 +20,6 @@ describe('Teamstats functions', () => {
 
   it('getTargets function should return a string length greater than 300', () => {
     const targets = teamstats.getTargets(input);
-    console.log(targets.length)
     return expect(targets).to.have.length.above(75);
   });
 });

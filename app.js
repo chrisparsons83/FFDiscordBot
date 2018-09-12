@@ -9,6 +9,7 @@ bot.on('guildMemberAdd', (member) => {
   member.guild.defaultChannel.send(`Welcome to the /r/fantasyfootball discord server, ${member}`);
 });
 
+
 bot.on('message', (msg) => {
   if (msg.content.startsWith('!')) {
     let messageCommand = '';

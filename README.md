@@ -167,7 +167,7 @@ FFDiscordBot:
 ```
 
 ### !snaps *team, pos, week*
-Shows offensive snap percentages of team at chosen position
+Shows offensive snap percentages of team at chosen position\
 position options available: *rb, wr, te*\
 week options available: *1 to 15, all*
 ```

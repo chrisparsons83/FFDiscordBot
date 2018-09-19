@@ -166,6 +166,21 @@ FFDiscordBot:
   3. miller
 ```
 
+### !snaps *team, pos, week*
+Shows offensive snap percentages of team at chosen position\
+Position options available: *rb, wr, te*\
+Week options available: *1 to 15, all*
+```
+Input: !snaps atl, wr, all
+FFDiscordBot: 
+J.Jones (81.4%)
+M.Sanu (80.0%)
+C.Ridley (64.3%)
+J.Hardy (8.6%)
+M.Hall (12.9%)
+R.Gage (1.4%)
+```
+
 ### !symbols
 Lists all 32 NFL teams and their 2/3 character abbreviation.
 

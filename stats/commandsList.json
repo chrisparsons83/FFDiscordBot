@@ -16,5 +16,6 @@
   "!boris": "!boris position, scoring format",
   "!find": "!8ball question",
   "!wdis": "!wdis position, scoring format if required, <player 1> , <player 2> , ...",
-  "!prediction": "!prediction some bold prediction"
+  "!prediction": "!prediction some bold prediction",
+  "!snaps": "!snaps team, position, week number"
   }

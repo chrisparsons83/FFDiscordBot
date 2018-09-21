@@ -1,6 +1,6 @@
-﻿# RedditFFDiscordBot
+﻿# FFDiscordBot
 
-[![Build Status](https://travis-ci.org/chrisparsons83/RedditFFDiscordBot.svg?branch=master)](https://travis-ci.org/chrisparsons83/RedditFFDiscordBot) [![codecov](https://codecov.io/gh/chrisparsons83/RedditFFDiscordBot/branch/master/graph/badge.svg)](https://codecov.io/gh/chrisparsons83/RedditFFDiscordBot)
+[![Build Status](https://travis-ci.org/chrisparsons83/FFDiscordBot.svg?branch=master)](https://travis-ci.org/chrisparsons83/FFDiscordBot) [![codecov](https://codecov.io/gh/chrisparsons83/FFDiscordBot/branch/master/graph/badge.svg)](https://codecov.io/gh/chrisparsons83/RedditFFDiscordBot)
 [![Discord](https://img.shields.io/discord/214093545747906562.svg)](https://discord.gg/GZ9ZYYE)
 
 ## Current Set of Commands

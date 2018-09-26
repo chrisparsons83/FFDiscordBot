@@ -61,6 +61,7 @@ bot.on('message', (msg) => {
 
 bot.login(config.DiscordAPIToken);
 
+// TODO: move this function to utilities in the future
 function checkMinorTypo(string, obj) {
   let score = 0;
   let response = '';

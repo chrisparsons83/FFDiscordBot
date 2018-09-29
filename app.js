@@ -19,7 +19,7 @@ bot.on('message', (msg) => {
     // Confirm that the command called exists.
     const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
     // check to see if there was a minor typo in the command
-    const closeEnough = checkMinorTypo(messageCommand,commandsList)
+    const closeEnough = checkMinorTypo(messageCommand.slice(1, messageCommand.length),commandsList)
     // Create an object with data to send to the commands
     const messageObject = {
       user: msg.author,
@@ -58,6 +58,9 @@ bot.login(config.DiscordAPIToken);
 
 // TODO: move this function to utilities in the future
 function checkMinorTypo(string, obj) {
+  if (!/^[a-zA-Z]+$/.test(string)) {
+    return false;
+  }
   let score = 0;
   let response = '';
   for (let key in obj) {

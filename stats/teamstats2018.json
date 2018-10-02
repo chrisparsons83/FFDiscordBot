@@ -1,87 +1,1141 @@
 {
-  "PIT": {
+  "DEN": {
     "teamName": {
-      "name": "Pittsburgh Steelers",
-      "logo": "http://prod.static.steelers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/PIT/logos/home/large.png"
+      "name": "Denver Broncos",
+      "logo": "http://prod.static.broncos.clubs.nfl.com/nfl-assets/img/gbl-ico-team/den/logos/home/large.png"
     },
-    "totalOffensivePlay": 216,
-    "totalPassingPlay": 150,
-    "totalRushingPlay": 66,
-    "totalPassingYards": 1226,
-    "totalRushingYards": 276,
-    "complete": 96,
-    "incomplete": 54,
-    "shortPass": 123,
-    "deepPass": 172,
-    "shortLeft": 49,
-    "shortLeftYards": 312,
-    "shortRight": 38,
-    "shortRightYards": 317,
-    "shortMiddle": 36,
-    "shortMiddleYards": 303,
-    "deepLeft": 11,
-    "deepLeftYards": 93,
-    "deepRight": 12,
-    "deepRightYards": 148,
-    "deepMiddle": 3,
-    "deepMiddleYards": 32,
-    "totalLeft": 49,
-    "totalLeftYards": 312,
-    "totalRight": 50,
-    "totalRightYards": 465,
-    "totalMiddle": 50,
-    "totalMiddleYards": 428,
+    "totalOffensivePlay": 256,
+    "totalPassingPlay": 151,
+    "totalRushingPlay": 105,
+    "totalPassingYards": 1252,
+    "totalRushingYards": 593,
+    "complete": 89,
+    "incomplete": 62,
+    "shortPass": 0,
+    "deepPass": 143,
+    "shortLeft": 59,
+    "shortLeftYards": 335,
+    "shortRight": 37,
+    "shortRightYards": 159,
+    "shortMiddle": 20,
+    "shortMiddleYards": 227,
+    "deepLeft": 12,
+    "deepLeftYards": 114,
+    "deepRight": 17,
+    "deepRightYards": 257,
+    "deepMiddle": 6,
+    "deepMiddleYards": 160,
+    "totalLeft": 59,
+    "totalLeftYards": 335,
+    "totalRight": 54,
+    "totalRightYards": 416,
+    "totalMiddle": 38,
+    "totalMiddleYards": 501,
     "targets": {
-      "A.BROWN": {
-        "total": 42,
-        "shortLeft": 10,
-        "shortMiddle": 9,
-        "shortRight": 14,
-        "deepLeft": 5,
+      "C.SUTTON": {
+        "total": 22,
+        "shortLeft": 8,
+        "shortMiddle": 2,
+        "shortRight": 3,
+        "deepLeft": 4,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "J.HEUERMAN": {
+        "total": 13,
+        "shortLeft": 8,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "P.LINDSAY": {
+        "total": 8,
+        "shortLeft": 2,
+        "shortMiddle": 3,
+        "shortRight": 3,
+        "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "R.SWITZER": {
-        "total": 6,
+      "DE.THOMAS": {
+        "total": 34,
+        "shortLeft": 14,
+        "shortMiddle": 4,
+        "shortRight": 8,
+        "deepLeft": 3,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "E.SANDERS": {
+        "total": 32,
+        "shortLeft": 11,
+        "shortMiddle": 4,
+        "shortRight": 10,
+        "deepLeft": 2,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "D.BOOKER": {
+        "total": 11,
+        "shortLeft": 5,
+        "shortMiddle": 4,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.PATRICK": {
+        "total": 4,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "A.JANOVICH": {
+        "total": 2,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.BUTT": {
+        "total": 12,
+        "shortLeft": 5,
+        "shortMiddle": 0,
+        "shortRight": 5,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "R.FREEMAN": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.LACOSSE": {
+        "total": 2,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "KC": {
+    "teamName": {
+      "name": "Kansas City Chiefs",
+      "logo": "http://prod.static.chiefs.clubs.nfl.com/nfl-assets/img/gbl-ico-team/kc/logos/home/large.png"
+    },
+    "totalOffensivePlay": 248,
+    "totalPassingPlay": 154,
+    "totalRushingPlay": 94,
+    "totalPassingYards": 1264,
+    "totalRushingYards": 417,
+    "complete": 98,
+    "incomplete": 56,
+    "shortPass": 0,
+    "deepPass": 151,
+    "shortLeft": 38,
+    "shortLeftYards": 239,
+    "shortRight": 55,
+    "shortRightYards": 337,
+    "shortMiddle": 24,
+    "shortMiddleYards": 209,
+    "deepLeft": 10,
+    "deepLeftYards": 115,
+    "deepRight": 15,
+    "deepRightYards": 181,
+    "deepMiddle": 12,
+    "deepMiddleYards": 183,
+    "totalLeft": 38,
+    "totalLeftYards": 239,
+    "totalRight": 70,
+    "totalRightYards": 518,
+    "totalMiddle": 46,
+    "totalMiddleYards": 507,
+    "targets": {
+      "C.CONLEY": {
+        "total": 15,
+        "shortLeft": 5,
+        "shortMiddle": 1,
+        "shortRight": 6,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.THOMAS": {
+        "total": 5,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "T.KELCE": {
+        "total": 44,
+        "shortLeft": 10,
+        "shortMiddle": 8,
+        "shortRight": 16,
+        "deepLeft": 0,
+        "deepMiddle": 8,
+        "deepRight": 0
+      },
+      "D.ROBINSON": {
+        "total": 5,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.HILL": {
+        "total": 32,
+        "shortLeft": 9,
+        "shortMiddle": 7,
+        "shortRight": 6,
+        "deepLeft": 5,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "D.HARRIS": {
+        "total": 7,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "S.WATKINS": {
+        "total": 24,
+        "shortLeft": 7,
+        "shortMiddle": 4,
+        "shortRight": 9,
+        "deepLeft": 2,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "K.HUNT": {
+        "total": 8,
         "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "S.WARE": {
+        "total": 4,
+        "shortLeft": 1,
         "shortMiddle": 0,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "J.JAMES": {
-        "total": 12,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 0,
-        "deepLeft": 2,
-        "deepMiddle": 2,
+      "DAM": {
+        "total": 4,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
         "deepRight": 0
       },
-      "J.WASHINGTON": {
-        "total": 9,
+      "A.SHERMAN": {
+        "total": 2,
         "shortLeft": 0,
-        "shortMiddle": 4,
-        "shortRight": 2,
+        "shortMiddle": 0,
+        "shortRight": 1,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "J.SMITH-SCHUSTER": {
-        "total": 38,
-        "shortLeft": 15,
+      "M.KEMP": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "NO": {
+    "teamName": {
+      "name": "New Orleans Saints",
+      "logo": "http://prod.static.saints.clubs.nfl.com/nfl-assets/img/gbl-ico-team/NO/logos/home/large.png"
+    },
+    "totalOffensivePlay": 261,
+    "totalPassingPlay": 174,
+    "totalRushingPlay": 87,
+    "totalPassingYards": 1338,
+    "totalRushingYards": 387,
+    "complete": 127,
+    "incomplete": 47,
+    "shortPass": 0,
+    "deepPass": 171,
+    "shortLeft": 56,
+    "shortLeftYards": 379,
+    "shortRight": 63,
+    "shortRightYards": 423,
+    "shortMiddle": 28,
+    "shortMiddleYards": 218,
+    "deepLeft": 11,
+    "deepLeftYards": 85,
+    "deepRight": 12,
+    "deepRightYards": 170,
+    "deepMiddle": 4,
+    "deepMiddleYards": 63,
+    "totalLeft": 56,
+    "totalLeftYards": 379,
+    "totalRight": 75,
+    "totalRightYards": 593,
+    "totalMiddle": 43,
+    "totalMiddleYards": 366,
+    "targets": {
+      "A.KAMARA": {
+        "total": 52,
+        "shortLeft": 21,
+        "shortMiddle": 7,
+        "shortRight": 21,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      ".HILL": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.HILL": {
+        "total": 6,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "B.WATSON": {
+        "total": 18,
+        "shortLeft": 2,
+        "shortMiddle": 5,
+        "shortRight": 6,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.THOMAS": {
+        "total": 46,
+        "shortLeft": 16,
+        "shortMiddle": 11,
+        "shortRight": 16,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "T.SMITH": {
+        "total": 4,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.GINN": {
+        "total": 23,
+        "shortLeft": 8,
+        "shortMiddle": 0,
+        "shortRight": 6,
+        "deepLeft": 4,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "C.MEREDITH": {
+        "total": 6,
+        "shortLeft": 1,
+        "shortMiddle": 3,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "Z.LINE": {
+        "total": 6,
+        "shortLeft": 3,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.CARR": {
+        "total": 6,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 3,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.WILLIAMS": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.GILLISLEE": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.HARDEE": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "NYG": {
+    "teamName": {
+      "name": "New York Giants",
+      "logo": "http://prod.static.giants.clubs.nfl.com/nfl-assets/img/gbl-ico-team/nyg/logos/home/large.png"
+    },
+    "totalOffensivePlay": 241,
+    "totalPassingPlay": 161,
+    "totalRushingPlay": 80,
+    "totalPassingYards": 1163,
+    "totalRushingYards": 325,
+    "complete": 117,
+    "incomplete": 44,
+    "shortPass": 0,
+    "deepPass": 159,
+    "shortLeft": 46,
+    "shortLeftYards": 267,
+    "shortRight": 44,
+    "shortRightYards": 293,
+    "shortMiddle": 43,
+    "shortMiddleYards": 333,
+    "deepLeft": 12,
+    "deepLeftYards": 68,
+    "deepRight": 13,
+    "deepRightYards": 165,
+    "deepMiddle": 3,
+    "deepMiddleYards": 37,
+    "totalLeft": 46,
+    "totalLeftYards": 267,
+    "totalRight": 57,
+    "totalRightYards": 458,
+    "totalMiddle": 58,
+    "totalMiddleYards": 438,
+    "targets": {
+      "S.SHEPARD": {
+        "total": 29,
+        "shortLeft": 4,
         "shortMiddle": 12,
         "shortRight": 7,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "J.CONNER": {
-        "total": 18,
+      "O.BECKHAM": {
+        "total": 49,
+        "shortLeft": 12,
+        "shortMiddle": 14,
+        "shortRight": 12,
+        "deepLeft": 5,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "S.BARKLEY": {
+        "total": 35,
+        "shortLeft": 16,
+        "shortMiddle": 6,
+        "shortRight": 12,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.SHEPARD": {
+        "total": 4,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.ELLISON": {
+        "total": 11,
+        "shortLeft": 3,
+        "shortMiddle": 4,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.LATIMER": {
+        "total": 6,
+        "shortLeft": 0,
+        "shortMiddle": 2,
+        "shortRight": 1,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "E.ENGRAM": {
+        "total": 17,
         "shortLeft": 8,
         "shortMiddle": 3,
+        "shortRight": 2,
+        "deepLeft": 2,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "W.GALLMAN": {
+        "total": 7,
+        "shortLeft": 3,
+        "shortMiddle": 2,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "S.SIMONSON": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "SF": {
+    "teamName": {
+      "name": "San Francisco 49ers",
+      "logo": "http://prod.static.49ers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/SF/logos/home/large.png"
+    },
+    "totalOffensivePlay": 229,
+    "totalPassingPlay": 135,
+    "totalRushingPlay": 94,
+    "totalPassingYards": 1199,
+    "totalRushingYards": 496,
+    "complete": 77,
+    "incomplete": 58,
+    "shortPass": 0,
+    "deepPass": 126,
+    "shortLeft": 47,
+    "shortLeftYards": 483,
+    "shortRight": 35,
+    "shortRightYards": 179,
+    "shortMiddle": 30,
+    "shortMiddleYards": 195,
+    "deepLeft": 13,
+    "deepLeftYards": 98,
+    "deepRight": 6,
+    "deepRightYards": 193,
+    "deepMiddle": 4,
+    "deepMiddleYards": 51,
+    "totalLeft": 47,
+    "totalLeftYards": 483,
+    "totalRight": 41,
+    "totalRightYards": 372,
+    "totalMiddle": 47,
+    "totalMiddleYards": 344,
+    "targets": {
+      "K.BOURNE": {
+        "total": 7,
+        "shortLeft": 3,
+        "shortMiddle": 2,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "A.MORRIS": {
+        "total": 4,
+        "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "K.JUSZCZYK": {
+        "total": 14,
+        "shortLeft": 4,
+        "shortMiddle": 0,
         "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.GOODWIN": {
+        "total": 10,
+        "shortLeft": 3,
+        "shortMiddle": 2,
+        "shortRight": 2,
+        "deepLeft": 1,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "G.KITTLE": {
+        "total": 31,
+        "shortLeft": 10,
+        "shortMiddle": 8,
+        "shortRight": 7,
+        "deepLeft": 4,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "P.GARCON": {
+        "total": 22,
+        "shortLeft": 5,
+        "shortMiddle": 9,
+        "shortRight": 4,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.BREIDA": {
+        "total": 12,
+        "shortLeft": 6,
+        "shortMiddle": 2,
+        "shortRight": 3,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.TAYLOR": {
+        "total": 15,
+        "shortLeft": 6,
+        "shortMiddle": 5,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.MOSTERT": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.PETTIS": {
+        "total": 7,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 3,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "G.CELEK": {
+        "total": 3,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "LAC": {
+    "teamName": {
+      "name": "Los Angeles Chargers",
+      "logo": "http://prod.static.chargers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/sd/logos/home/large.png"
+    },
+    "totalOffensivePlay": 240,
+    "totalPassingPlay": 151,
+    "totalRushingPlay": 89,
+    "totalPassingYards": 1242,
+    "totalRushingYards": 497,
+    "complete": 100,
+    "incomplete": 51,
+    "shortPass": 0,
+    "deepPass": 147,
+    "shortLeft": 38,
+    "shortLeftYards": 284,
+    "shortRight": 51,
+    "shortRightYards": 377,
+    "shortMiddle": 34,
+    "shortMiddleYards": 288,
+    "deepLeft": 10,
+    "deepLeftYards": 149,
+    "deepRight": 11,
+    "deepRightYards": 60,
+    "deepMiddle": 7,
+    "deepMiddleYards": 84,
+    "totalLeft": 38,
+    "totalLeftYards": 284,
+    "totalRight": 62,
+    "totalRightYards": 437,
+    "totalMiddle": 51,
+    "totalMiddleYards": 521,
+    "targets": {
+      "A.GATES": {
+        "total": 14,
+        "shortLeft": 4,
+        "shortMiddle": 2,
+        "shortRight": 4,
+        "deepLeft": 2,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "K.ALLEN": {
+        "total": 37,
+        "shortLeft": 9,
+        "shortMiddle": 11,
+        "shortRight": 11,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "V.GREEN": {
+        "total": 9,
+        "shortLeft": 4,
+        "shortMiddle": 1,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "TY.WILLIAMS": {
+        "total": 15,
+        "shortLeft": 2,
+        "shortMiddle": 4,
+        "shortRight": 5,
+        "deepLeft": 2,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "M.GORDON": {
+        "total": 34,
+        "shortLeft": 10,
+        "shortMiddle": 7,
+        "shortRight": 17,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.EKELER": {
+        "total": 14,
+        "shortLeft": 4,
+        "shortMiddle": 5,
+        "shortRight": 3,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.WILLIAMS": {
+        "total": 18,
+        "shortLeft": 3,
+        "shortMiddle": 4,
+        "shortRight": 3,
+        "deepLeft": 4,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "T.BENJAMIN": {
+        "total": 6,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 2,
+        "deepRight": 0
+      }
+    }
+  },
+  "OAK": {
+    "teamName": {
+      "name": "Oakland Raiders",
+      "logo": "http://prod.static.raiders.clubs.nfl.com/nfl-assets/img/gbl-ico-team/OAK/logos/home/large.png"
+    },
+    "totalOffensivePlay": 287,
+    "totalPassingPlay": 177,
+    "totalRushingPlay": 110,
+    "totalPassingYards": 1585,
+    "totalRushingYards": 470,
+    "complete": 123,
+    "incomplete": 54,
+    "shortPass": 0,
+    "deepPass": 167,
+    "shortLeft": 60,
+    "shortLeftYards": 421,
+    "shortRight": 56,
+    "shortRightYards": 286,
+    "shortMiddle": 34,
+    "shortMiddleYards": 419,
+    "deepLeft": 10,
+    "deepLeftYards": 235,
+    "deepRight": 11,
+    "deepRightYards": 205,
+    "deepMiddle": 6,
+    "deepMiddleYards": 19,
+    "totalLeft": 60,
+    "totalLeftYards": 421,
+    "totalRight": 67,
+    "totalRightYards": 491,
+    "totalMiddle": 50,
+    "totalMiddleYards": 673,
+    "targets": {
+      "J.COOK": {
+        "total": 32,
+        "shortLeft": 6,
+        "shortMiddle": 16,
+        "shortRight": 8,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.COOPER": {
+        "total": 31,
+        "shortLeft": 12,
+        "shortMiddle": 2,
+        "shortRight": 9,
+        "deepLeft": 3,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.NELSON": {
+        "total": 26,
+        "shortLeft": 11,
+        "shortMiddle": 2,
+        "shortRight": 6,
+        "deepLeft": 3,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "M.BRYANT": {
+        "total": 15,
+        "shortLeft": 6,
+        "shortMiddle": 3,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "J.RICHARD": {
+        "total": 25,
+        "shortLeft": 9,
+        "shortMiddle": 6,
+        "shortRight": 10,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.LYNCH": {
+        "total": 12,
+        "shortLeft": 7,
+        "shortMiddle": 1,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "L.SMITH": {
+        "total": 4,
+        "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "S.ROBERTS": {
+        "total": 9,
+        "shortLeft": 3,
+        "shortMiddle": 2,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "D.HARRIS": {
+        "total": 2,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "K.SMITH": {
+        "total": 4,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.CARRIER": {
+        "total": 4,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "D.MARTIN": {
+        "total": 3,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "CLE": {
+    "teamName": {
+      "name": "Cleveland Browns",
+      "logo": "http://prod.static.browns.clubs.nfl.com/nfl-assets/img/gbl-ico-team/cle/logos/home/large.png"
+    },
+    "totalOffensivePlay": 268,
+    "totalPassingPlay": 154,
+    "totalRushingPlay": 114,
+    "totalPassingYards": 1034,
+    "totalRushingYards": 504,
+    "complete": 81,
+    "incomplete": 73,
+    "shortPass": 0,
+    "deepPass": 148,
+    "shortLeft": 34,
+    "shortLeftYards": 169,
+    "shortRight": 48,
+    "shortRightYards": 250,
+    "shortMiddle": 31,
+    "shortMiddleYards": 159,
+    "deepLeft": 12,
+    "deepLeftYards": 39,
+    "deepRight": 21,
+    "deepRightYards": 220,
+    "deepMiddle": 8,
+    "deepMiddleYards": 197,
+    "totalLeft": 34,
+    "totalLeftYards": 169,
+    "totalRight": 69,
+    "totalRightYards": 470,
+    "totalMiddle": 51,
+    "totalMiddleYards": 395,
+    "targets": {
+      "J.LANDRY": {
+        "total": 49,
+        "shortLeft": 13,
+        "shortMiddle": 12,
+        "shortRight": 14,
+        "deepLeft": 4,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "D.JOHNSON": {
+        "total": 17,
+        "shortLeft": 7,
+        "shortMiddle": 1,
+        "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.CALLAWAY": {
+        "total": 23,
+        "shortLeft": 3,
+        "shortMiddle": 4,
+        "shortRight": 7,
+        "deepLeft": 4,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "R.HIGGINS": {
+        "total": 19,
+        "shortLeft": 2,
+        "shortMiddle": 3,
+        "shortRight": 7,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.FELLS": {
+        "total": 5,
+        "shortLeft": 1,
+        "shortMiddle": 2,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "C.HYDE": {
+        "total": 7,
+        "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "O.CHARLES": {
+        "total": 2,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.NJOKU": {
+        "total": 22,
+        "shortLeft": 3,
+        "shortMiddle": 7,
+        "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "J.GORDON": {
+        "total": 3,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      ".TAYLOR": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "PIT": {
+    "teamName": {
+      "name": "Pittsburgh Steelers",
+      "logo": "http://prod.static.steelers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/PIT/logos/home/large.png"
+    },
+    "totalOffensivePlay": 275,
+    "totalPassingPlay": 198,
+    "totalRushingPlay": 77,
+    "totalPassingYards": 1552,
+    "totalRushingYards": 297,
+    "complete": 124,
+    "incomplete": 74,
+    "shortPass": 0,
+    "deepPass": 191,
+    "shortLeft": 61,
+    "shortLeftYards": 383,
+    "shortRight": 48,
+    "shortRightYards": 353,
+    "shortMiddle": 54,
+    "shortMiddleYards": 435,
+    "deepLeft": 16,
+    "deepLeftYards": 157,
+    "deepRight": 13,
+    "deepRightYards": 148,
+    "deepMiddle": 5,
+    "deepMiddleYards": 55,
+    "totalLeft": 61,
+    "totalLeftYards": 383,
+    "totalRight": 61,
+    "totalRightYards": 501,
+    "totalMiddle": 75,
+    "totalMiddleYards": 647,
+    "targets": {
+      "A.BROWN": {
+        "total": 52,
+        "shortLeft": 13,
+        "shortMiddle": 11,
+        "shortRight": 16,
+        "deepLeft": 7,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "J.SMITH-SCHUSTER": {
+        "total": 49,
+        "shortLeft": 17,
+        "shortMiddle": 16,
+        "shortRight": 9,
+        "deepLeft": 4,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.SWITZER": {
+        "total": 13,
+        "shortLeft": 6,
+        "shortMiddle": 4,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.WASHINGTON": {
+        "total": 13,
+        "shortLeft": 2,
+        "shortMiddle": 4,
+        "shortRight": 3,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.JAMES": {
+        "total": 13,
+        "shortLeft": 4,
+        "shortMiddle": 3,
+        "shortRight": 0,
+        "deepLeft": 2,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "J.CONNER": {
+        "total": 26,
+        "shortLeft": 10,
+        "shortMiddle": 6,
+        "shortRight": 10,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -96,10 +1150,10 @@
         "deepRight": 0
       },
       "V.MCDONALD": {
-        "total": 10,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 2,
+        "total": 15,
+        "shortLeft": 5,
+        "shortMiddle": 6,
+        "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -133,121 +1187,112 @@
       }
     }
   },
-  "TB": {
+  "BAL": {
     "teamName": {
-      "name": "Tampa Bay Buccaneers",
-      "logo": "http://prod.static.buccaneers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/TB/logos/home/large.png"
+      "name": "Baltimore Ravens",
+      "logo": "http://prod.static.ravens.clubs.nfl.com/nfl-assets/img/gbl-ico-team/bal/logos/home/large.png"
     },
-    "totalOffensivePlay": 176,
-    "totalPassingPlay": 117,
-    "totalRushingPlay": 59,
-    "totalPassingYards": 1393,
-    "totalRushingYards": 164,
-    "complete": 79,
-    "incomplete": 38,
-    "shortPass": 85,
-    "deepPass": 145,
-    "shortLeft": 41,
-    "shortLeftYards": 340,
-    "shortRight": 26,
-    "shortRightYards": 165,
-    "shortMiddle": 18,
-    "shortMiddleYards": 221,
-    "deepLeft": 9,
-    "deepLeftYards": 154,
-    "deepRight": 12,
-    "deepRightYards": 218,
-    "deepMiddle": 11,
-    "deepMiddleYards": 295,
-    "totalLeft": 41,
-    "totalLeftYards": 340,
-    "totalRight": 38,
-    "totalRightYards": 383,
-    "totalMiddle": 38,
-    "totalMiddleYards": 670,
+    "totalOffensivePlay": 288,
+    "totalPassingPlay": 180,
+    "totalRushingPlay": 108,
+    "totalPassingYards": 1305,
+    "totalRushingYards": 379,
+    "complete": 113,
+    "incomplete": 67,
+    "shortPass": 0,
+    "deepPass": 174,
+    "shortLeft": 34,
+    "shortLeftYards": 181,
+    "shortRight": 48,
+    "shortRightYards": 235,
+    "shortMiddle": 67,
+    "shortMiddleYards": 514,
+    "deepLeft": 5,
+    "deepLeftYards": 54,
+    "deepRight": 17,
+    "deepRightYards": 155,
+    "deepMiddle": 9,
+    "deepMiddleYards": 166,
+    "totalLeft": 34,
+    "totalLeftYards": 181,
+    "totalRight": 65,
+    "totalRightYards": 390,
+    "totalMiddle": 81,
+    "totalMiddleYards": 734,
     "targets": {
-      "O.HOWARD": {
-        "total": 13,
+      "M.WILLIAMS": {
+        "total": 12,
         "shortLeft": 2,
         "shortMiddle": 3,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 2,
+        "shortRight": 6,
+        "deepLeft": 1,
+        "deepMiddle": 0,
         "deepRight": 0
       },
-      "C.BRATE": {
+      "A.COLLINS": {
+        "total": 10,
+        "shortLeft": 3,
+        "shortMiddle": 3,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.MOORE": {
         "total": 6,
-        "shortLeft": 2,
-        "shortMiddle": 1,
+        "shortLeft": 1,
+        "shortMiddle": 2,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
       },
-      "M.EVANS": {
-        "total": 29,
-        "shortLeft": 9,
+      "J.BROWN": {
+        "total": 30,
+        "shortLeft": 4,
         "shortMiddle": 5,
         "shortRight": 4,
-        "deepLeft": 5,
-        "deepMiddle": 3,
+        "deepLeft": 3,
+        "deepMiddle": 4,
         "deepRight": 0
       },
-      "D.JACKSON": {
-        "total": 15,
-        "shortLeft": 6,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "C.GODWIN": {
-        "total": 20,
+      "W.SNEAD": {
+        "total": 28,
         "shortLeft": 4,
-        "shortMiddle": 4,
-        "shortRight": 7,
+        "shortMiddle": 18,
+        "shortRight": 4,
         "deepLeft": 1,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "S.WILSON": {
-        "total": 2,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "A.HUMPHRIES": {
-        "total": 16,
-        "shortLeft": 9,
-        "shortMiddle": 1,
+      "N.BOYLE": {
+        "total": 17,
+        "shortLeft": 3,
+        "shortMiddle": 8,
         "shortRight": 5,
         "deepLeft": 0,
-        "deepMiddle": 0,
+        "deepMiddle": 1,
         "deepRight": 0
       },
-      "J.RODGERS": {
-        "total": 6,
-        "shortLeft": 3,
-        "shortMiddle": 2,
-        "shortRight": 1,
+      "M.CRABTREE": {
+        "total": 33,
+        "shortLeft": 8,
+        "shortMiddle": 15,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "J.ALLEN": {
+        "total": 21,
+        "shortLeft": 4,
+        "shortMiddle": 9,
+        "shortRight": 8,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "P.BARBER": {
-        "total": 4,
-        "shortLeft": 1,
-        "shortMiddle": 2,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "F.MARTINO": {
+      "T.WHITE": {
         "total": 1,
         "shortLeft": 1,
         "shortMiddle": 0,
@@ -256,11 +1301,29 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "A.CROSS": {
+      "M.ANDREWS": {
+        "total": 14,
+        "shortLeft": 4,
+        "shortMiddle": 3,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      ".JACKSON": {
         "total": 1,
-        "shortLeft": 1,
+        "shortLeft": 0,
         "shortMiddle": 0,
-        "shortRight": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.TURNER": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -272,39 +1335,84 @@
       "name": "New England Patriots",
       "logo": "http://prod.static.patriots.clubs.nfl.com/nfl-assets/img/gbl-ico-team/NE/logos/home/large.png"
     },
-    "totalOffensivePlay": 176,
-    "totalPassingPlay": 102,
-    "totalRushingPlay": 74,
-    "totalPassingYards": 679,
-    "totalRushingYards": 286,
-    "complete": 64,
-    "incomplete": 38,
-    "shortPass": 80,
-    "deepPass": 121,
-    "shortLeft": 37,
-    "shortLeftYards": 191,
-    "shortRight": 29,
-    "shortRightYards": 184,
-    "shortMiddle": 14,
-    "shortMiddleYards": 104,
-    "deepLeft": 3,
-    "deepLeftYards": 21,
-    "deepRight": 9,
+    "totalOffensivePlay": 254,
+    "totalPassingPlay": 141,
+    "totalRushingPlay": 113,
+    "totalPassingYards": 1002,
+    "totalRushingYards": 482,
+    "complete": 87,
+    "incomplete": 54,
+    "shortPass": 0,
+    "deepPass": 136,
+    "shortLeft": 54,
+    "shortLeftYards": 316,
+    "shortRight": 38,
+    "shortRightYards": 275,
+    "shortMiddle": 19,
+    "shortMiddleYards": 142,
+    "deepLeft": 5,
+    "deepLeftYards": 76,
+    "deepRight": 12,
     "deepRightYards": 57,
-    "deepMiddle": 10,
-    "deepMiddleYards": 122,
-    "totalLeft": 37,
-    "totalLeftYards": 191,
-    "totalRight": 38,
-    "totalRightYards": 241,
-    "totalMiddle": 27,
-    "totalMiddleYards": 247,
+    "deepMiddle": 13,
+    "deepMiddleYards": 136,
+    "totalLeft": 54,
+    "totalLeftYards": 316,
+    "totalRight": 50,
+    "totalRightYards": 332,
+    "totalMiddle": 37,
+    "totalMiddleYards": 354,
     "targets": {
+      "R.GRONKOWSKI": {
+        "total": 25,
+        "shortLeft": 5,
+        "shortMiddle": 5,
+        "shortRight": 6,
+        "deepLeft": 2,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "D.ALLEN": {
+        "total": 2,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
       "J.WHITE": {
-        "total": 19,
-        "shortLeft": 6,
-        "shortMiddle": 3,
-        "shortRight": 8,
+        "total": 29,
+        "shortLeft": 13,
+        "shortMiddle": 4,
+        "shortRight": 10,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "P.DORSETT": {
+        "total": 24,
+        "shortLeft": 8,
+        "shortMiddle": 1,
+        "shortRight": 9,
+        "deepLeft": 0,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "J.GORDON": {
+        "total": 4,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.PATTERSON": {
+        "total": 12,
+        "shortLeft": 7,
+        "shortMiddle": 2,
+        "shortRight": 2,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
@@ -318,31 +1426,13 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "R.GRONKOWSKI": {
-        "total": 18,
-        "shortLeft": 3,
-        "shortMiddle": 2,
-        "shortRight": 6,
-        "deepLeft": 2,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
       "C.HOGAN": {
-        "total": 15,
-        "shortLeft": 4,
+        "total": 17,
+        "shortLeft": 5,
         "shortMiddle": 6,
         "shortRight": 1,
-        "deepLeft": 0,
+        "deepLeft": 1,
         "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "C.PATTERSON": {
-        "total": 7,
-        "shortLeft": 5,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
         "deepRight": 0
       },
       "J.HOLLISTER": {
@@ -354,18 +1444,18 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "P.DORSETT": {
-        "total": 18,
-        "shortLeft": 6,
-        "shortMiddle": 1,
-        "shortRight": 6,
+      "R.MCCARRON": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 0,
         "deepLeft": 0,
-        "deepMiddle": 3,
+        "deepMiddle": 0,
         "deepRight": 0
       },
       "J.DEVELIN": {
-        "total": 6,
-        "shortLeft": 3,
+        "total": 7,
+        "shortLeft": 4,
         "shortMiddle": 0,
         "shortRight": 3,
         "deepLeft": 0,
@@ -375,15 +1465,6 @@
       "J.HILL": {
         "total": 1,
         "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.MCCARRON": {
-        "total": 1,
-        "shortLeft": 0,
         "shortMiddle": 0,
         "shortRight": 0,
         "deepLeft": 0,
@@ -401,407 +1482,264 @@
       }
     }
   },
-  "DET": {
+  "MIA": {
     "teamName": {
-      "name": "Detroit Lions",
-      "logo": "http://prod.static.lions.clubs.nfl.com/nfl-assets/img/gbl-ico-team/det/logos/home/large.png"
+      "name": "Miami Dolphins",
+      "logo": "http://prod.static.dolphins.clubs.nfl.com/nfl-assets/img/gbl-ico-team/mia/logos/home/large.png"
     },
-    "totalOffensivePlay": 211,
-    "totalPassingPlay": 146,
-    "totalRushingPlay": 65,
-    "totalPassingYards": 1037,
-    "totalRushingYards": 289,
-    "complete": 92,
-    "incomplete": 54,
-    "shortPass": 126,
-    "deepPass": 159,
-    "shortLeft": 45,
-    "shortLeftYards": 401,
-    "shortRight": 52,
-    "shortRightYards": 233,
-    "shortMiddle": 29,
-    "shortMiddleYards": 195,
+    "totalOffensivePlay": 193,
+    "totalPassingPlay": 110,
+    "totalRushingPlay": 83,
+    "totalPassingYards": 952,
+    "totalRushingYards": 332,
+    "complete": 75,
+    "incomplete": 35,
+    "shortPass": 0,
+    "deepPass": 107,
+    "shortLeft": 27,
+    "shortLeftYards": 209,
+    "shortRight": 38,
+    "shortRightYards": 228,
+    "shortMiddle": 23,
+    "shortMiddleYards": 277,
     "deepLeft": 11,
-    "deepLeftYards": 132,
-    "deepRight": 4,
-    "deepRightYards": 33,
+    "deepLeftYards": 34,
+    "deepRight": 6,
+    "deepRightYards": 110,
     "deepMiddle": 5,
-    "deepMiddleYards": 43,
-    "totalLeft": 45,
-    "totalLeftYards": 401,
-    "totalRight": 56,
-    "totalRightYards": 266,
-    "totalMiddle": 45,
-    "totalMiddleYards": 370,
+    "deepMiddleYards": 94,
+    "totalLeft": 27,
+    "totalLeftYards": 209,
+    "totalRight": 44,
+    "totalRightYards": 338,
+    "totalMiddle": 39,
+    "totalMiddleYards": 405,
     "targets": {
-      "K.JOHNSON": {
-        "total": 12,
-        "shortLeft": 7,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "N.BELLORE": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.JONES": {
-        "total": 25,
-        "shortLeft": 10,
-        "shortMiddle": 4,
-        "shortRight": 3,
-        "deepLeft": 3,
+      "K.STILLS": {
+        "total": 19,
+        "shortLeft": 4,
+        "shortMiddle": 2,
+        "shortRight": 5,
+        "deepLeft": 4,
         "deepMiddle": 2,
         "deepRight": 0
       },
-      "G.TATE": {
-        "total": 37,
-        "shortLeft": 8,
-        "shortMiddle": 12,
-        "shortRight": 14,
-        "deepLeft": 2,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "K.GOLLADAY": {
-        "total": 29,
-        "shortLeft": 8,
-        "shortMiddle": 4,
-        "shortRight": 11,
-        "deepLeft": 4,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "T.RIDDICK": {
-        "total": 21,
-        "shortLeft": 8,
-        "shortMiddle": 5,
-        "shortRight": 8,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.ROBERTS": {
-        "total": 1,
+      "F.GORE": {
+        "total": 5,
         "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "H.VALLES": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
+        "shortMiddle": 2,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "T.JONES": {
-        "total": 4,
-        "shortLeft": 0,
+      "J.GRANT": {
+        "total": 15,
+        "shortLeft": 5,
         "shortMiddle": 1,
+        "shortRight": 7,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.GESICKI": {
+        "total": 7,
+        "shortLeft": 1,
+        "shortMiddle": 3,
         "shortRight": 2,
         "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "L.TOILOLO": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
+      "A.WILSON": {
+        "total": 20,
+        "shortLeft": 6,
+        "shortMiddle": 5,
+        "shortRight": 7,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "L.WILLSON": {
+      "D.AMENDOLA": {
+        "total": 19,
+        "shortLeft": 3,
+        "shortMiddle": 4,
+        "shortRight": 9,
+        "deepLeft": 3,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.DERBY": {
         "total": 3,
         "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 2,
+        "shortRight": 1,
         "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "K.DRAKE": {
+        "total": 15,
+        "shortLeft": 5,
+        "shortMiddle": 4,
+        "shortRight": 5,
+        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "L.BLOUNT": {
+      "D.PARKER": {
         "total": 3,
         "shortLeft": 0,
         "shortMiddle": 1,
-        "shortRight": 2,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "D.SMYTHE": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 0,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       }
     }
   },
-  "DAL": {
+  "SEA": {
     "teamName": {
-      "name": "Dallas Cowboys",
-      "logo": "http://prod.static.cowboys.clubs.nfl.com/nfl-assets/img/gbl-ico-team/dal/logos/home/large.png"
+      "name": "Seattle Seahawks",
+      "logo": "http://prod.static.seahawks.clubs.nfl.com/nfl-assets/img/gbl-ico-team/sea/logos/home/large.png"
     },
-    "totalOffensivePlay": 156,
-    "totalPassingPlay": 95,
-    "totalRushingPlay": 61,
-    "totalPassingYards": 510,
-    "totalRushingYards": 352,
-    "complete": 56,
-    "incomplete": 39,
-    "shortPass": 88,
-    "deepPass": 98,
-    "shortLeft": 37,
-    "shortLeftYards": 191,
-    "shortRight": 32,
-    "shortRightYards": 126,
-    "shortMiddle": 19,
-    "shortMiddleYards": 109,
-    "deepLeft": 2,
-    "deepLeftYards": 64,
-    "deepRight": 5,
-    "deepRightYards": 20,
-    "deepMiddle": 0,
-    "deepMiddleYards": 0,
-    "totalLeft": 37,
-    "totalLeftYards": 191,
-    "totalRight": 37,
-    "totalRightYards": 146,
-    "totalMiddle": 21,
-    "totalMiddleYards": 173,
+    "totalOffensivePlay": 228,
+    "totalPassingPlay": 124,
+    "totalRushingPlay": 104,
+    "totalPassingYards": 981,
+    "totalRushingYards": 392,
+    "complete": 78,
+    "incomplete": 46,
+    "shortPass": 0,
+    "deepPass": 121,
+    "shortLeft": 43,
+    "shortLeftYards": 335,
+    "shortRight": 37,
+    "shortRightYards": 219,
+    "shortMiddle": 23,
+    "shortMiddleYards": 216,
+    "deepLeft": 6,
+    "deepLeftYards": 0,
+    "deepRight": 10,
+    "deepRightYards": 91,
+    "deepMiddle": 5,
+    "deepMiddleYards": 120,
+    "totalLeft": 43,
+    "totalLeftYards": 335,
+    "totalRight": 47,
+    "totalRightYards": 310,
+    "totalMiddle": 34,
+    "totalMiddleYards": 336,
     "targets": {
-      "T.AUSTIN": {
+      "D.BALDWIN": {
+        "total": 8,
+        "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "B.MARSHALL": {
+        "total": 23,
+        "shortLeft": 11,
+        "shortMiddle": 6,
+        "shortRight": 4,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "N.VANNETT": {
+        "total": 16,
+        "shortLeft": 1,
+        "shortMiddle": 2,
+        "shortRight": 11,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.MOORE": {
+        "total": 4,
+        "shortLeft": 3,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.DAVIS": {
         "total": 6,
         "shortLeft": 2,
         "shortMiddle": 2,
-        "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.GALLUP": {
-        "total": 9,
-        "shortLeft": 3,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "E.ELLIOTT": {
-        "total": 19,
-        "shortLeft": 8,
-        "shortMiddle": 4,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.HURNS": {
-        "total": 9,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 5,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.BEASLEY": {
-        "total": 17,
-        "shortLeft": 6,
-        "shortMiddle": 8,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "G.SWAIM": {
-        "total": 11,
-        "shortLeft": 6,
-        "shortMiddle": 0,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.THOMPSON": {
-        "total": 13,
-        "shortLeft": 8,
-        "shortMiddle": 2,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "T.WILLIAMS": {
-        "total": 3,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.SMITH": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.JARWIN": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.GATHERS": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "CHI": {
-    "teamName": {
-      "name": "Chicago Bears",
-      "logo": "http://prod.static.bears.clubs.nfl.com/nfl-assets/img/gbl-ico-team/CHI/logos/home/large.png"
-    },
-    "totalOffensivePlay": 189,
-    "totalPassingPlay": 114,
-    "totalRushingPlay": 75,
-    "totalPassingYards": 628,
-    "totalRushingYards": 305,
-    "complete": 75,
-    "incomplete": 39,
-    "shortPass": 95,
-    "deepPass": 129,
-    "shortLeft": 34,
-    "shortLeftYards": 120,
-    "shortRight": 40,
-    "shortRightYards": 246,
-    "shortMiddle": 21,
-    "shortMiddleYards": 120,
-    "deepLeft": 5,
-    "deepLeftYards": 0,
-    "deepRight": 10,
-    "deepRightYards": 128,
-    "deepMiddle": 4,
-    "deepMiddleYards": 14,
-    "totalLeft": 34,
-    "totalLeftYards": 120,
-    "totalRight": 50,
-    "totalRightYards": 374,
-    "totalMiddle": 30,
-    "totalMiddleYards": 134,
-    "targets": {
-      "A.ROBINSON": {
-        "total": 30,
-        "shortLeft": 8,
-        "shortMiddle": 7,
-        "shortRight": 9,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "A.MILLER": {
+      "W.DISSLY": {
         "total": 14,
         "shortLeft": 4,
         "shortMiddle": 3,
-        "shortRight": 5,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "T.GABRIEL": {
-        "total": 24,
-        "shortLeft": 8,
-        "shortMiddle": 1,
-        "shortRight": 8,
-        "deepLeft": 3,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "J.HOWARD": {
-        "total": 11,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.COHEN": {
-        "total": 8,
-        "shortLeft": 5,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.BELLAMY": {
-        "total": 2,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.BRAUNECKER": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.BURTON": {
-        "total": 15,
-        "shortLeft": 3,
-        "shortMiddle": 7,
         "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
       },
-      "D.SIMS": {
-        "total": 3,
-        "shortLeft": 1,
+      "J.BROWN": {
+        "total": 8,
+        "shortLeft": 3,
         "shortMiddle": 0,
         "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 0,
+        "deepLeft": 2,
+        "deepMiddle": 2,
         "deepRight": 0
       },
-      "M.BURTON": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
+      "T.LOCKETT": {
+        "total": 23,
+        "shortLeft": 7,
+        "shortMiddle": 2,
+        "shortRight": 8,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "C.CARSON": {
+        "total": 9,
+        "shortLeft": 5,
+        "shortMiddle": 2,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "B.CUNNINGHAM": {
+      "C.PROSISE": {
+        "total": 3,
+        "shortLeft": 0,
+        "shortMiddle": 3,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.PENNY": {
+        "total": 6,
+        "shortLeft": 1,
+        "shortMiddle": 3,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.MADDEN": {
         "total": 1,
         "shortLeft": 0,
         "shortMiddle": 0,
@@ -817,58 +1755,94 @@
       "name": "Arizona Cardinals",
       "logo": "http://prod.static.cardinals.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ARI/logos/home/large.png"
     },
-    "totalOffensivePlay": 136,
-    "totalPassingPlay": 91,
-    "totalRushingPlay": 45,
-    "totalPassingYards": 497,
-    "totalRushingYards": 156,
-    "complete": 56,
-    "incomplete": 35,
-    "shortPass": 78,
-    "deepPass": 97,
-    "shortLeft": 28,
-    "shortLeftYards": 151,
-    "shortRight": 32,
-    "shortRightYards": 98,
-    "shortMiddle": 18,
-    "shortMiddleYards": 87,
-    "deepLeft": 9,
-    "deepLeftYards": 91,
-    "deepRight": 3,
-    "deepRightYards": 48,
-    "deepMiddle": 1,
+    "totalOffensivePlay": 193,
+    "totalPassingPlay": 121,
+    "totalRushingPlay": 72,
+    "totalPassingYards": 704,
+    "totalRushingYards": 237,
+    "complete": 71,
+    "incomplete": 50,
+    "shortPass": 0,
+    "deepPass": 112,
+    "shortLeft": 37,
+    "shortLeftYards": 206,
+    "shortRight": 39,
+    "shortRightYards": 128,
+    "shortMiddle": 22,
+    "shortMiddleYards": 92,
+    "deepLeft": 14,
+    "deepLeftYards": 177,
+    "deepRight": 5,
+    "deepRightYards": 79,
+    "deepMiddle": 4,
     "deepMiddleYards": 22,
-    "totalLeft": 28,
-    "totalLeftYards": 151,
-    "totalRight": 35,
-    "totalRightYards": 146,
-    "totalMiddle": 28,
-    "totalMiddleYards": 200,
+    "totalLeft": 37,
+    "totalLeftYards": 206,
+    "totalRight": 44,
+    "totalRightYards": 207,
+    "totalMiddle": 40,
+    "totalMiddleYards": 291,
     "targets": {
-      "D.JOHNSON": {
-        "total": 17,
+      "C.KIRK": {
+        "total": 20,
         "shortLeft": 7,
-        "shortMiddle": 3,
+        "shortMiddle": 4,
         "shortRight": 6,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.WILLIAMS": {
+        "total": 11,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 5,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.JOHNSON": {
+        "total": 22,
+        "shortLeft": 10,
+        "shortMiddle": 4,
+        "shortRight": 7,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "L.FITZGERALD": {
+        "total": 25,
+        "shortLeft": 3,
+        "shortMiddle": 10,
+        "shortRight": 5,
+        "deepLeft": 3,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "J.NELSON": {
+        "total": 3,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "J.GRESHAM": {
+        "total": 2,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "R.SEALS-JONES": {
-        "total": 14,
-        "shortLeft": 7,
-        "shortMiddle": 1,
+        "total": 18,
+        "shortLeft": 8,
+        "shortMiddle": 2,
         "shortRight": 5,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.WILLIAMS": {
-        "total": 8,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 3,
+        "deepLeft": 2,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -881,296 +1855,10 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "L.FITZGERALD": {
-        "total": 18,
-        "shortLeft": 1,
-        "shortMiddle": 8,
-        "shortRight": 5,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.KIRK": {
-        "total": 14,
-        "shortLeft": 6,
-        "shortMiddle": 4,
-        "shortRight": 3,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.NELSON": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.GRESHAM": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "D.COLEMAN": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "LAC": {
-    "teamName": {
-      "name": "Los Angeles Chargers",
-      "logo": "http://prod.static.chargers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/sd/logos/home/large.png"
-    },
-    "totalOffensivePlay": 177,
-    "totalPassingPlay": 112,
-    "totalRushingPlay": 65,
-    "totalPassingYards": 960,
-    "totalRushingYards": 367,
-    "complete": 75,
-    "incomplete": 37,
-    "shortPass": 89,
-    "deepPass": 132,
-    "shortLeft": 31,
-    "shortLeftYards": 235,
-    "shortRight": 31,
-    "shortRightYards": 269,
-    "shortMiddle": 27,
-    "shortMiddleYards": 227,
-    "deepLeft": 9,
-    "deepLeftYards": 125,
-    "deepRight": 8,
-    "deepRightYards": 20,
-    "deepMiddle": 6,
-    "deepMiddleYards": 84,
-    "totalLeft": 31,
-    "totalLeftYards": 235,
-    "totalRight": 39,
-    "totalRightYards": 289,
-    "totalMiddle": 42,
-    "totalMiddleYards": 436,
-    "targets": {
-      "A.EKELER": {
-        "total": 11,
-        "shortLeft": 3,
-        "shortMiddle": 5,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.WILLIAMS": {
-        "total": 15,
-        "shortLeft": 2,
-        "shortMiddle": 4,
-        "shortRight": 2,
-        "deepLeft": 4,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "K.ALLEN": {
-        "total": 28,
-        "shortLeft": 8,
-        "shortMiddle": 7,
-        "shortRight": 8,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.GATES": {
-        "total": 9,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "V.GREEN": {
-        "total": 7,
-        "shortLeft": 4,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.GORDON": {
-        "total": 24,
-        "shortLeft": 9,
-        "shortMiddle": 5,
-        "shortRight": 10,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.BENJAMIN": {
-        "total": 5,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "TY.WILLIAMS": {
-        "total": 10,
-        "shortLeft": 1,
-        "shortMiddle": 3,
-        "shortRight": 3,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      }
-    }
-  },
-  "SEA": {
-    "teamName": {
-      "name": "Seattle Seahawks",
-      "logo": "http://prod.static.seahawks.clubs.nfl.com/nfl-assets/img/gbl-ico-team/sea/logos/home/large.png"
-    },
-    "totalOffensivePlay": 168,
-    "totalPassingPlay": 97,
-    "totalRushingPlay": 71,
-    "totalPassingYards": 816,
-    "totalRushingYards": 226,
-    "complete": 59,
-    "incomplete": 38,
-    "shortPass": 77,
-    "deepPass": 114,
-    "shortLeft": 30,
-    "shortLeftYards": 224,
-    "shortRight": 26,
-    "shortRightYards": 175,
-    "shortMiddle": 21,
-    "shortMiddleYards": 206,
-    "deepLeft": 6,
-    "deepLeftYards": 0,
-    "deepRight": 10,
-    "deepRightYards": 91,
-    "deepMiddle": 4,
-    "deepMiddleYards": 120,
-    "totalLeft": 30,
-    "totalLeftYards": 224,
-    "totalRight": 36,
-    "totalRightYards": 266,
-    "totalMiddle": 31,
-    "totalMiddleYards": 326,
-    "targets": {
-      "N.VANNETT": {
-        "total": 13,
-        "shortLeft": 1,
-        "shortMiddle": 2,
-        "shortRight": 8,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.BROWN": {
-        "total": 8,
-        "shortLeft": 3,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 2,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "T.LOCKETT": {
-        "total": 17,
-        "shortLeft": 3,
-        "shortMiddle": 2,
-        "shortRight": 6,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "C.CARSON": {
-        "total": 9,
-        "shortLeft": 5,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.MARSHALL": {
-        "total": 19,
-        "shortLeft": 10,
-        "shortMiddle": 5,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "W.DISSLY": {
-        "total": 13,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "C.PROSISE": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 3,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.MOORE": {
         "total": 2,
         "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.PENNY": {
-        "total": 6,
-        "shortLeft": 1,
-        "shortMiddle": 3,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.BALDWIN": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.MADDEN": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.DAVIS": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 1,
         "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
@@ -1183,47 +1871,92 @@
       "name": "Philadelphia Eagles",
       "logo": "http://prod.static.eagles.clubs.nfl.com/nfl-assets/img/gbl-ico-team/PHI/logos/home/large.png"
     },
-    "totalOffensivePlay": 214,
-    "totalPassingPlay": 131,
-    "totalRushingPlay": 83,
-    "totalPassingYards": 853,
-    "totalRushingYards": 370,
-    "complete": 85,
-    "incomplete": 46,
-    "shortPass": 110,
-    "deepPass": 150,
-    "shortLeft": 32,
-    "shortLeftYards": 219,
-    "shortRight": 64,
-    "shortRightYards": 340,
-    "shortMiddle": 14,
-    "shortMiddleYards": 94,
-    "deepLeft": 8,
-    "deepLeftYards": 34,
-    "deepRight": 10,
-    "deepRightYards": 100,
-    "deepMiddle": 3,
+    "totalOffensivePlay": 286,
+    "totalPassingPlay": 183,
+    "totalRushingPlay": 103,
+    "totalPassingYards": 1168,
+    "totalRushingYards": 495,
+    "complete": 119,
+    "incomplete": 64,
+    "shortPass": 0,
+    "deepPass": 181,
+    "shortLeft": 53,
+    "shortLeftYards": 338,
+    "shortRight": 78,
+    "shortRightYards": 342,
+    "shortMiddle": 24,
+    "shortMiddleYards": 185,
+    "deepLeft": 11,
+    "deepLeftYards": 121,
+    "deepRight": 13,
+    "deepRightYards": 116,
+    "deepMiddle": 4,
     "deepMiddleYards": 66,
-    "totalLeft": 32,
-    "totalLeftYards": 219,
-    "totalRight": 74,
-    "totalRightYards": 440,
-    "totalMiddle": 25,
-    "totalMiddleYards": 194,
+    "totalLeft": 53,
+    "totalLeftYards": 338,
+    "totalRight": 91,
+    "totalRightYards": 458,
+    "totalMiddle": 39,
+    "totalMiddleYards": 372,
     "targets": {
-      "Z.ERTZ": {
-        "total": 36,
+      "J.MATTHEWS": {
+        "total": 6,
+        "shortLeft": 2,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "W.SMALLWOOD": {
+        "total": 12,
+        "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.JEFFERY": {
+        "total": 9,
         "shortLeft": 5,
-        "shortMiddle": 7,
-        "shortRight": 20,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "Z.ERTZ": {
+        "total": 50,
+        "shortLeft": 9,
+        "shortMiddle": 13,
+        "shortRight": 24,
         "deepLeft": 0,
         "deepMiddle": 1,
         "deepRight": 0
       },
+      "N.AGHOLOR": {
+        "total": 44,
+        "shortLeft": 13,
+        "shortMiddle": 5,
+        "shortRight": 20,
+        "deepLeft": 4,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
       "D.GOEDERT": {
-        "total": 9,
-        "shortLeft": 4,
+        "total": 12,
+        "shortLeft": 5,
         "shortMiddle": 1,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.AJAYI": {
+        "total": 5,
+        "shortLeft": 3,
+        "shortMiddle": 0,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
@@ -1235,42 +1968,6 @@
         "shortMiddle": 1,
         "shortRight": 3,
         "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "W.SMALLWOOD": {
-        "total": 7,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 5,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "N.AGHOLOR": {
-        "total": 31,
-        "shortLeft": 9,
-        "shortMiddle": 2,
-        "shortRight": 17,
-        "deepLeft": 3,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.MATTHEWS": {
-        "total": 3,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.AJAYI": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -1293,12 +1990,21 @@
         "deepRight": 0
       },
       "K.AIKEN": {
-        "total": 6,
-        "shortLeft": 1,
+        "total": 7,
+        "shortLeft": 2,
         "shortMiddle": 0,
         "shortRight": 4,
         "deepLeft": 0,
         "deepMiddle": 1,
+        "deepRight": 0
+      },
+      ".FOLES": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
         "deepRight": 0
       },
       "M.WALLACE": {
@@ -1327,12 +2033,1987 @@
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
+      }
+    }
+  },
+  "TEN": {
+    "teamName": {
+      "name": "Tennessee Titans",
+      "logo": "http://prod.static.titans.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ten/logos/home/large.png"
+    },
+    "totalOffensivePlay": 238,
+    "totalPassingPlay": 130,
+    "totalRushingPlay": 108,
+    "totalPassingYards": 967,
+    "totalRushingYards": 426,
+    "complete": 78,
+    "incomplete": 52,
+    "shortPass": 0,
+    "deepPass": 124,
+    "shortLeft": 44,
+    "shortLeftYards": 264,
+    "shortRight": 40,
+    "shortRightYards": 235,
+    "shortMiddle": 24,
+    "shortMiddleYards": 182,
+    "deepLeft": 8,
+    "deepLeftYards": 101,
+    "deepRight": 8,
+    "deepRightYards": 94,
+    "deepMiddle": 6,
+    "deepMiddleYards": 91,
+    "totalLeft": 44,
+    "totalLeftYards": 264,
+    "totalRight": 48,
+    "totalRightYards": 329,
+    "totalMiddle": 38,
+    "totalMiddleYards": 374,
+    "targets": {
+      "J.SMITH": {
+        "total": 8,
+        "shortLeft": 3,
+        "shortMiddle": 2,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
       },
-      ".FOLES": {
+      "D.LEWIS": {
+        "total": 20,
+        "shortLeft": 9,
+        "shortMiddle": 5,
+        "shortRight": 6,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.SHARPE": {
+        "total": 8,
+        "shortLeft": 2,
+        "shortMiddle": 2,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "T.TAYLOR": {
+        "total": 19,
+        "shortLeft": 8,
+        "shortMiddle": 3,
+        "shortRight": 5,
+        "deepLeft": 2,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "D.HENRY": {
+        "total": 4,
+        "shortLeft": 3,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "N.WILLIAMS": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.DAVIS": {
+        "total": 40,
+        "shortLeft": 8,
+        "shortMiddle": 7,
+        "shortRight": 12,
+        "deepLeft": 4,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "D.JENNINGS": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "L.STOCKER": {
+        "total": 6,
+        "shortLeft": 3,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.MATTHEWS": {
+        "total": 6,
+        "shortLeft": 3,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      ".GABBERT": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.WALKER": {
+        "total": 7,
+        "shortLeft": 2,
+        "shortMiddle": 2,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.CRUIKSHANK": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "NYJ": {
+    "teamName": {
+      "name": "New York Jets",
+      "logo": "http://prod.static.jets.clubs.nfl.com/nfl-assets/img/gbl-ico-team/nyj/logos/home/large.png"
+    },
+    "totalOffensivePlay": 223,
+    "totalPassingPlay": 133,
+    "totalRushingPlay": 90,
+    "totalPassingYards": 1022,
+    "totalRushingYards": 350,
+    "complete": 75,
+    "incomplete": 58,
+    "shortPass": 0,
+    "deepPass": 125,
+    "shortLeft": 43,
+    "shortLeftYards": 296,
+    "shortRight": 42,
+    "shortRightYards": 246,
+    "shortMiddle": 21,
+    "shortMiddleYards": 166,
+    "deepLeft": 12,
+    "deepLeftYards": 165,
+    "deepRight": 12,
+    "deepRightYards": 105,
+    "deepMiddle": 3,
+    "deepMiddleYards": 44,
+    "totalLeft": 43,
+    "totalLeftYards": 296,
+    "totalRight": 54,
+    "totalRightYards": 351,
+    "totalMiddle": 36,
+    "totalMiddleYards": 375,
+    "targets": {
+      "J.LEGGETT": {
+        "total": 5,
+        "shortLeft": 2,
+        "shortMiddle": 2,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "B.POWELL": {
+        "total": 16,
+        "shortLeft": 5,
+        "shortMiddle": 6,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.KEARSE": {
+        "total": 12,
+        "shortLeft": 5,
+        "shortMiddle": 1,
+        "shortRight": 3,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "Q.ENUNWA": {
+        "total": 38,
+        "shortLeft": 11,
+        "shortMiddle": 8,
+        "shortRight": 13,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.HERNDON": {
+        "total": 8,
+        "shortLeft": 2,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.PRYOR": {
+        "total": 14,
+        "shortLeft": 5,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 3,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "I.CROWELL": {
+        "total": 7,
+        "shortLeft": 3,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.ANDERSON": {
+        "total": 16,
+        "shortLeft": 6,
+        "shortMiddle": 0,
+        "shortRight": 6,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "N.STERLING": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.CANNON": {
         "total": 1,
         "shortLeft": 0,
         "shortMiddle": 0,
         "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "E.TOMLINSON": {
+        "total": 5,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      }
+    }
+  },
+  "HOU": {
+    "teamName": {
+      "name": "Houston Texans",
+      "logo": "http://prod.static.texans.clubs.nfl.com/nfl-assets/img/gbl-ico-team/HOU/logos/home/large.png"
+    },
+    "totalOffensivePlay": 251,
+    "totalPassingPlay": 155,
+    "totalRushingPlay": 96,
+    "totalPassingYards": 1318,
+    "totalRushingYards": 352,
+    "complete": 99,
+    "incomplete": 56,
+    "shortPass": 0,
+    "deepPass": 151,
+    "shortLeft": 43,
+    "shortLeftYards": 286,
+    "shortRight": 37,
+    "shortRightYards": 257,
+    "shortMiddle": 38,
+    "shortMiddleYards": 345,
+    "deepLeft": 12,
+    "deepLeftYards": 114,
+    "deepRight": 13,
+    "deepRightYards": 117,
+    "deepMiddle": 12,
+    "deepMiddleYards": 199,
+    "totalLeft": 43,
+    "totalLeftYards": 286,
+    "totalRight": 50,
+    "totalRightYards": 374,
+    "totalMiddle": 62,
+    "totalMiddleYards": 658,
+    "targets": {
+      "D.HOPKINS": {
+        "total": 49,
+        "shortLeft": 13,
+        "shortMiddle": 13,
+        "shortRight": 7,
+        "deepLeft": 5,
+        "deepMiddle": 6,
+        "deepRight": 0
+      },
+      "A.BLUE": {
+        "total": 4,
+        "shortLeft": 2,
+        "shortMiddle": 2,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "K.COUTEE": {
+        "total": 15,
+        "shortLeft": 4,
+        "shortMiddle": 8,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "S.COATES": {
+        "total": 2,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.GRIFFIN": {
+        "total": 12,
+        "shortLeft": 2,
+        "shortMiddle": 1,
+        "shortRight": 5,
+        "deepLeft": 1,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "L.MILLER": {
+        "total": 11,
+        "shortLeft": 4,
+        "shortMiddle": 3,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.AKINS": {
+        "total": 8,
+        "shortLeft": 1,
+        "shortMiddle": 2,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "W.FULLER": {
+        "total": 26,
+        "shortLeft": 6,
+        "shortMiddle": 3,
+        "shortRight": 9,
+        "deepLeft": 4,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "V.SMITH": {
+        "total": 3,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.THOMAS": {
+        "total": 7,
+        "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "B.ELLINGTON": {
+        "total": 13,
+        "shortLeft": 4,
+        "shortMiddle": 5,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "T.ERVIN": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "DET": {
+    "teamName": {
+      "name": "Detroit Lions",
+      "logo": "http://prod.static.lions.clubs.nfl.com/nfl-assets/img/gbl-ico-team/det/logos/home/large.png"
+    },
+    "totalOffensivePlay": 261,
+    "totalPassingPlay": 176,
+    "totalRushingPlay": 85,
+    "totalPassingYards": 1348,
+    "totalRushingYards": 384,
+    "complete": 116,
+    "incomplete": 60,
+    "shortPass": 0,
+    "deepPass": 168,
+    "shortLeft": 52,
+    "shortLeftYards": 449,
+    "shortRight": 68,
+    "shortRightYards": 356,
+    "shortMiddle": 31,
+    "shortMiddleYards": 206,
+    "deepLeft": 12,
+    "deepLeftYards": 132,
+    "deepRight": 8,
+    "deepRightYards": 162,
+    "deepMiddle": 5,
+    "deepMiddleYards": 43,
+    "totalLeft": 52,
+    "totalLeftYards": 449,
+    "totalRight": 76,
+    "totalRightYards": 518,
+    "totalMiddle": 48,
+    "totalMiddleYards": 381,
+    "targets": {
+      "K.GOLLADAY": {
+        "total": 33,
+        "shortLeft": 9,
+        "shortMiddle": 4,
+        "shortRight": 13,
+        "deepLeft": 4,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "L.TOILOLO": {
+        "total": 3,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "G.TATE": {
+        "total": 45,
+        "shortLeft": 9,
+        "shortMiddle": 12,
+        "shortRight": 19,
+        "deepLeft": 2,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "M.JONES": {
+        "total": 31,
+        "shortLeft": 10,
+        "shortMiddle": 4,
+        "shortRight": 8,
+        "deepLeft": 3,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "K.JOHNSON": {
+        "total": 13,
+        "shortLeft": 7,
+        "shortMiddle": 1,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "L.WILLSON": {
+        "total": 5,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.RIDDICK": {
+        "total": 26,
+        "shortLeft": 11,
+        "shortMiddle": 6,
+        "shortRight": 9,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "N.BELLORE": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.ROBERTS": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.JONES": {
+        "total": 4,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "H.VALLES": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "L.BLOUNT": {
+        "total": 3,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "DAL": {
+    "teamName": {
+      "name": "Dallas Cowboys",
+      "logo": "http://prod.static.cowboys.clubs.nfl.com/nfl-assets/img/gbl-ico-team/dal/logos/home/large.png"
+    },
+    "totalOffensivePlay": 220,
+    "totalPassingPlay": 126,
+    "totalRushingPlay": 94,
+    "totalPassingYards": 759,
+    "totalRushingYards": 534,
+    "complete": 74,
+    "incomplete": 52,
+    "shortPass": 0,
+    "deepPass": 122,
+    "shortLeft": 46,
+    "shortLeftYards": 229,
+    "shortRight": 45,
+    "shortRightYards": 230,
+    "shortMiddle": 23,
+    "shortMiddleYards": 134,
+    "deepLeft": 3,
+    "deepLeftYards": 101,
+    "deepRight": 8,
+    "deepRightYards": 46,
+    "deepMiddle": 1,
+    "deepMiddleYards": 19,
+    "totalLeft": 46,
+    "totalLeftYards": 229,
+    "totalRight": 53,
+    "totalRightYards": 276,
+    "totalMiddle": 27,
+    "totalMiddleYards": 254,
+    "targets": {
+      "G.SWAIM": {
+        "total": 16,
+        "shortLeft": 6,
+        "shortMiddle": 1,
+        "shortRight": 7,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.BEASLEY": {
+        "total": 22,
+        "shortLeft": 7,
+        "shortMiddle": 10,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "R.SMITH": {
+        "total": 2,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.GATHERS": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.HURNS": {
+        "total": 14,
+        "shortLeft": 3,
+        "shortMiddle": 1,
+        "shortRight": 8,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.AUSTIN": {
+        "total": 9,
+        "shortLeft": 2,
+        "shortMiddle": 2,
+        "shortRight": 3,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "E.ELLIOTT": {
+        "total": 24,
+        "shortLeft": 11,
+        "shortMiddle": 4,
+        "shortRight": 8,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.GALLUP": {
+        "total": 15,
+        "shortLeft": 5,
+        "shortMiddle": 1,
+        "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.THOMPSON": {
+        "total": 13,
+        "shortLeft": 8,
+        "shortMiddle": 2,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.WILLIAMS": {
+        "total": 3,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "B.JARWIN": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "GB": {
+    "teamName": {
+      "name": "Green Bay Packers",
+      "logo": "http://prod.static.packers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/gb/logos/home/large.png"
+    },
+    "totalOffensivePlay": 259,
+    "totalPassingPlay": 174,
+    "totalRushingPlay": 85,
+    "totalPassingYards": 1322,
+    "totalRushingYards": 352,
+    "complete": 106,
+    "incomplete": 68,
+    "shortPass": 0,
+    "deepPass": 170,
+    "shortLeft": 46,
+    "shortLeftYards": 258,
+    "shortRight": 55,
+    "shortRightYards": 312,
+    "shortMiddle": 33,
+    "shortMiddleYards": 362,
+    "deepLeft": 17,
+    "deepLeftYards": 168,
+    "deepRight": 17,
+    "deepRightYards": 115,
+    "deepMiddle": 6,
+    "deepMiddleYards": 107,
+    "totalLeft": 46,
+    "totalLeftYards": 258,
+    "totalRight": 72,
+    "totalRightYards": 427,
+    "totalMiddle": 56,
+    "totalMiddleYards": 637,
+    "targets": {
+      "J.GRAHAM": {
+        "total": 28,
+        "shortLeft": 8,
+        "shortMiddle": 4,
+        "shortRight": 8,
+        "deepLeft": 4,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "T.MONTGOMERY": {
+        "total": 16,
+        "shortLeft": 3,
+        "shortMiddle": 6,
+        "shortRight": 6,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.ADAMS": {
+        "total": 45,
+        "shortLeft": 16,
+        "shortMiddle": 9,
+        "shortRight": 8,
+        "deepLeft": 9,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "M.VALDES-SCANTLING": {
+        "total": 5,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "G.ALLISON": {
+        "total": 29,
+        "shortLeft": 6,
+        "shortMiddle": 2,
+        "shortRight": 13,
+        "deepLeft": 0,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "A.JONES": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.COBB": {
+        "total": 28,
+        "shortLeft": 5,
+        "shortMiddle": 8,
+        "shortRight": 10,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      ".CROSBY": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.WILLIAMS": {
+        "total": 9,
+        "shortLeft": 3,
+        "shortMiddle": 1,
+        "shortRight": 4,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "L.KENDRICKS": {
+        "total": 5,
+        "shortLeft": 2,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.LEWIS": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "CHI": {
+    "teamName": {
+      "name": "Chicago Bears",
+      "logo": "http://prod.static.bears.clubs.nfl.com/nfl-assets/img/gbl-ico-team/CHI/logos/home/large.png"
+    },
+    "totalOffensivePlay": 246,
+    "totalPassingPlay": 143,
+    "totalRushingPlay": 103,
+    "totalPassingYards": 982,
+    "totalRushingYards": 420,
+    "complete": 94,
+    "incomplete": 49,
+    "shortPass": 0,
+    "deepPass": 139,
+    "shortLeft": 40,
+    "shortLeftYards": 193,
+    "shortRight": 48,
+    "shortRightYards": 283,
+    "shortMiddle": 25,
+    "shortMiddleYards": 132,
+    "deepLeft": 12,
+    "deepLeftYards": 118,
+    "deepRight": 13,
+    "deepRightYards": 195,
+    "deepMiddle": 5,
+    "deepMiddleYards": 61,
+    "totalLeft": 40,
+    "totalLeftYards": 193,
+    "totalRight": 61,
+    "totalRightYards": 478,
+    "totalMiddle": 42,
+    "totalMiddleYards": 311,
+    "targets": {
+      "T.COHEN": {
+        "total": 16,
+        "shortLeft": 7,
+        "shortMiddle": 2,
+        "shortRight": 5,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.ROBINSON": {
+        "total": 35,
+        "shortLeft": 9,
+        "shortMiddle": 7,
+        "shortRight": 11,
+        "deepLeft": 3,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "T.GABRIEL": {
+        "total": 33,
+        "shortLeft": 10,
+        "shortMiddle": 2,
+        "shortRight": 10,
+        "deepLeft": 6,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "T.BURTON": {
+        "total": 19,
+        "shortLeft": 3,
+        "shortMiddle": 9,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "J.BELLAMY": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.MILLER": {
+        "total": 14,
+        "shortLeft": 4,
+        "shortMiddle": 3,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "J.HOWARD": {
+        "total": 12,
+        "shortLeft": 3,
+        "shortMiddle": 2,
+        "shortRight": 7,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "B.BRAUNECKER": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.BURTON": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.SIMS": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "B.CUNNINGHAM": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.WIMS": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "TB": {
+    "teamName": {
+      "name": "Tampa Bay Buccaneers",
+      "logo": "http://prod.static.buccaneers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/TB/logos/home/large.png"
+    },
+    "totalOffensivePlay": 234,
+    "totalPassingPlay": 157,
+    "totalRushingPlay": 77,
+    "totalPassingYards": 1709,
+    "totalRushingYards": 219,
+    "complete": 105,
+    "incomplete": 52,
+    "shortPass": 0,
+    "deepPass": 150,
+    "shortLeft": 54,
+    "shortLeftYards": 423,
+    "shortRight": 37,
+    "shortRightYards": 216,
+    "shortMiddle": 26,
+    "shortMiddleYards": 285,
+    "deepLeft": 12,
+    "deepLeftYards": 196,
+    "deepRight": 13,
+    "deepRightYards": 218,
+    "deepMiddle": 15,
+    "deepMiddleYards": 371,
+    "totalLeft": 54,
+    "totalLeftYards": 423,
+    "totalRight": 50,
+    "totalRightYards": 434,
+    "totalMiddle": 53,
+    "totalMiddleYards": 852,
+    "targets": {
+      "O.HOWARD": {
+        "total": 16,
+        "shortLeft": 3,
+        "shortMiddle": 4,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "R.JONES": {
+        "total": 2,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.EVANS": {
+        "total": 37,
+        "shortLeft": 12,
+        "shortMiddle": 7,
+        "shortRight": 5,
+        "deepLeft": 7,
+        "deepMiddle": 3,
+        "deepRight": 0
+      },
+      "C.BRATE": {
+        "total": 10,
+        "shortLeft": 3,
+        "shortMiddle": 3,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "P.BARBER": {
+        "total": 6,
+        "shortLeft": 2,
+        "shortMiddle": 3,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.GODWIN": {
+        "total": 23,
+        "shortLeft": 7,
+        "shortMiddle": 4,
+        "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "A.HUMPHRIES": {
+        "total": 23,
+        "shortLeft": 12,
+        "shortMiddle": 2,
+        "shortRight": 8,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.JACKSON": {
+        "total": 22,
+        "shortLeft": 7,
+        "shortMiddle": 0,
+        "shortRight": 5,
+        "deepLeft": 2,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "J.RODGERS": {
+        "total": 6,
+        "shortLeft": 3,
+        "shortMiddle": 2,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "S.WILSON": {
+        "total": 2,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "F.MARTINO": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.CROSS": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.AUCLAIR": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "JAX": {
+    "teamName": {
+      "name": "Jacksonville Jaguars",
+      "logo": "http://prod.static.jaguars.clubs.nfl.com/nfl-assets/img/gbl-ico-team/JAX/logos/home/large.png"
+    },
+    "totalOffensivePlay": 243,
+    "totalPassingPlay": 155,
+    "totalRushingPlay": 88,
+    "totalPassingYards": 1135,
+    "totalRushingYards": 361,
+    "complete": 101,
+    "incomplete": 54,
+    "shortPass": 0,
+    "deepPass": 152,
+    "shortLeft": 45,
+    "shortLeftYards": 307,
+    "shortRight": 52,
+    "shortRightYards": 274,
+    "shortMiddle": 38,
+    "shortMiddleYards": 304,
+    "deepLeft": 8,
+    "deepLeftYards": 94,
+    "deepRight": 10,
+    "deepRightYards": 136,
+    "deepMiddle": 2,
+    "deepMiddleYards": 20,
+    "totalLeft": 45,
+    "totalLeftYards": 307,
+    "totalRight": 62,
+    "totalRightYards": 410,
+    "totalMiddle": 48,
+    "totalMiddleYards": 418,
+    "targets": {
+      "A.SEFERIAN-JENKINS": {
+        "total": 19,
+        "shortLeft": 5,
+        "shortMiddle": 8,
+        "shortRight": 6,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.YELDON": {
+        "total": 22,
+        "shortLeft": 7,
+        "shortMiddle": 5,
+        "shortRight": 10,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.GRANT": {
+        "total": 12,
+        "shortLeft": 5,
+        "shortMiddle": 2,
+        "shortRight": 4,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "K.COLE": {
+        "total": 25,
+        "shortLeft": 5,
+        "shortMiddle": 7,
+        "shortRight": 9,
+        "deepLeft": 3,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.WESTBROOK": {
+        "total": 29,
+        "shortLeft": 13,
+        "shortMiddle": 8,
+        "shortRight": 5,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "L.FOURNETTE": {
+        "total": 4,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.MONCRIEF": {
+        "total": 22,
+        "shortLeft": 4,
+        "shortMiddle": 3,
+        "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "D.CHARK": {
+        "total": 6,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.O'SHAUGHNESSY": {
+        "total": 7,
+        "shortLeft": 4,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "N.PAUL": {
+        "total": 4,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.BOHANON": {
+        "total": 2,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "IND": {
+    "teamName": {
+      "name": "Indianapolis Colts",
+      "logo": "http://prod.static.colts.clubs.nfl.com/nfl-assets/img/gbl-ico-team/IND/logos/home/large.png"
+    },
+    "totalOffensivePlay": 272,
+    "totalPassingPlay": 196,
+    "totalRushingPlay": 76,
+    "totalPassingYards": 1165,
+    "totalRushingYards": 251,
+    "complete": 126,
+    "incomplete": 70,
+    "shortPass": 0,
+    "deepPass": 190,
+    "shortLeft": 61,
+    "shortLeftYards": 328,
+    "shortRight": 66,
+    "shortRightYards": 354,
+    "shortMiddle": 39,
+    "shortMiddleYards": 220,
+    "deepLeft": 8,
+    "deepLeftYards": 110,
+    "deepRight": 18,
+    "deepRightYards": 131,
+    "deepMiddle": 4,
+    "deepMiddleYards": 22,
+    "totalLeft": 61,
+    "totalLeftYards": 328,
+    "totalRight": 84,
+    "totalRightYards": 485,
+    "totalMiddle": 51,
+    "totalMiddleYards": 352,
+    "targets": {
+      "M.JOHNSON": {
+        "total": 3,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.ROGERS": {
+        "total": 22,
+        "shortLeft": 4,
+        "shortMiddle": 4,
+        "shortRight": 10,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "N.HINES": {
+        "total": 27,
+        "shortLeft": 11,
+        "shortMiddle": 6,
+        "shortRight": 9,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "E.EBRON": {
+        "total": 32,
+        "shortLeft": 11,
+        "shortMiddle": 11,
+        "shortRight": 7,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "R.GRANT": {
+        "total": 22,
+        "shortLeft": 6,
+        "shortMiddle": 3,
+        "shortRight": 8,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "Z.PASCAL": {
+        "total": 13,
+        "shortLeft": 6,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.HILTON": {
+        "total": 41,
+        "shortLeft": 11,
+        "shortMiddle": 6,
+        "shortRight": 12,
+        "deepLeft": 3,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "J.WILKINS": {
+        "total": 8,
+        "shortLeft": 2,
+        "shortMiddle": 1,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "E.SWOOPE": {
+        "total": 2,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.DOYLE": {
+        "total": 14,
+        "shortLeft": 6,
+        "shortMiddle": 5,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.MACK": {
+        "total": 2,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.HEWITT": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.KELLY": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.ALIE-COX": {
+        "total": 2,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "CIN": {
+    "teamName": {
+      "name": "Cincinnati Bengals",
+      "logo": "http://prod.static.bengals.clubs.nfl.com/nfl-assets/img/gbl-ico-team/CIN/logos/home/large.png"
+    },
+    "totalOffensivePlay": 255,
+    "totalPassingPlay": 168,
+    "totalRushingPlay": 87,
+    "totalPassingYards": 1278,
+    "totalRushingYards": 367,
+    "complete": 105,
+    "incomplete": 63,
+    "shortPass": 0,
+    "deepPass": 160,
+    "shortLeft": 49,
+    "shortLeftYards": 298,
+    "shortRight": 68,
+    "shortRightYards": 415,
+    "shortMiddle": 25,
+    "shortMiddleYards": 251,
+    "deepLeft": 14,
+    "deepLeftYards": 192,
+    "deepRight": 9,
+    "deepRightYards": 122,
+    "deepMiddle": 3,
+    "deepMiddleYards": 0,
+    "totalLeft": 49,
+    "totalLeftYards": 298,
+    "totalRight": 77,
+    "totalRightYards": 537,
+    "totalMiddle": 42,
+    "totalMiddleYards": 443,
+    "targets": {
+      "A.GREEN": {
+        "total": 37,
+        "shortLeft": 10,
+        "shortMiddle": 4,
+        "shortRight": 15,
+        "deepLeft": 7,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.BOYD": {
+        "total": 37,
+        "shortLeft": 10,
+        "shortMiddle": 7,
+        "shortRight": 12,
+        "deepLeft": 4,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "J.ROSS": {
+        "total": 14,
+        "shortLeft": 6,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "G.BERNARD": {
+        "total": 21,
+        "shortLeft": 4,
+        "shortMiddle": 5,
+        "shortRight": 12,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.EIFERT": {
+        "total": 20,
+        "shortLeft": 6,
+        "shortMiddle": 6,
+        "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.ERICKSON": {
+        "total": 2,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.UZOMAH": {
+        "total": 8,
+        "shortLeft": 2,
+        "shortMiddle": 1,
+        "shortRight": 5,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.WALTON": {
+        "total": 4,
+        "shortLeft": 3,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.MALONE": {
+        "total": 3,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.KROFT": {
+        "total": 5,
+        "shortLeft": 3,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.MIXON": {
+        "total": 8,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 6,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "S": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "ATL": {
+    "teamName": {
+      "name": "Atlanta Falcons",
+      "logo": "http://prod.static.falcons.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ATL/logos/home/large.png"
+    },
+    "totalOffensivePlay": 243,
+    "totalPassingPlay": 151,
+    "totalRushingPlay": 92,
+    "totalPassingYards": 1318,
+    "totalRushingYards": 383,
+    "complete": 100,
+    "incomplete": 51,
+    "shortPass": 0,
+    "deepPass": 142,
+    "shortLeft": 50,
+    "shortLeftYards": 295,
+    "shortRight": 40,
+    "shortRightYards": 285,
+    "shortMiddle": 29,
+    "shortMiddleYards": 238,
+    "deepLeft": 14,
+    "deepLeftYards": 199,
+    "deepRight": 12,
+    "deepRightYards": 207,
+    "deepMiddle": 6,
+    "deepMiddleYards": 94,
+    "totalLeft": 50,
+    "totalLeftYards": 295,
+    "totalRight": 52,
+    "totalRightYards": 492,
+    "totalMiddle": 49,
+    "totalMiddleYards": 531,
+    "targets": {
+      "C.RIDLEY": {
+        "total": 23,
+        "shortLeft": 5,
+        "shortMiddle": 4,
+        "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "J.JONES": {
+        "total": 45,
+        "shortLeft": 12,
+        "shortMiddle": 8,
+        "shortRight": 11,
+        "deepLeft": 6,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "A.HOOPER": {
+        "total": 15,
+        "shortLeft": 6,
+        "shortMiddle": 1,
+        "shortRight": 6,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "I.SMITH": {
+        "total": 8,
+        "shortLeft": 3,
+        "shortMiddle": 4,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "L.PAULSEN": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.HARDY": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.SANU": {
+        "total": 25,
+        "shortLeft": 9,
+        "shortMiddle": 7,
+        "shortRight": 4,
+        "deepLeft": 4,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.COLEMAN": {
+        "total": 13,
+        "shortLeft": 7,
+        "shortMiddle": 2,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.HALL": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "D.FREEMAN": {
+        "total": 5,
+        "shortLeft": 3,
+        "shortMiddle": 0,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "E.SAUBERT": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "BUF": {
+    "teamName": {
+      "name": "Buffalo Bills",
+      "logo": "http://prod.static.bills.clubs.nfl.com/nfl-assets/img/gbl-ico-team/buf/logos/home/large.png"
+    },
+    "totalOffensivePlay": 214,
+    "totalPassingPlay": 127,
+    "totalRushingPlay": 87,
+    "totalPassingYards": 801,
+    "totalRushingYards": 335,
+    "complete": 62,
+    "incomplete": 65,
+    "shortPass": 0,
+    "deepPass": 120,
+    "shortLeft": 27,
+    "shortLeftYards": 138,
+    "shortRight": 43,
+    "shortRightYards": 228,
+    "shortMiddle": 22,
+    "shortMiddleYards": 179,
+    "deepLeft": 17,
+    "deepLeftYards": 121,
+    "deepRight": 12,
+    "deepRightYards": 74,
+    "deepMiddle": 6,
+    "deepMiddleYards": 61,
+    "totalLeft": 27,
+    "totalLeftYards": 138,
+    "totalRight": 55,
+    "totalRightYards": 302,
+    "totalMiddle": 45,
+    "totalMiddleYards": 361,
+    "targets": {
+      "C.CLAY": {
+        "total": 16,
+        "shortLeft": 2,
+        "shortMiddle": 4,
+        "shortRight": 7,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "Z.JONES": {
+        "total": 16,
+        "shortLeft": 2,
+        "shortMiddle": 4,
+        "shortRight": 7,
+        "deepLeft": 2,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "L.MCCOY": {
+        "total": 14,
+        "shortLeft": 9,
+        "shortMiddle": 1,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.HOLMES": {
+        "total": 13,
+        "shortLeft": 4,
+        "shortMiddle": 1,
+        "shortRight": 4,
+        "deepLeft": 1,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "R.FOSTER": {
+        "total": 8,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 4,
+        "deepMiddle": 2,
+        "deepRight": 0
+      },
+      "T.JONES": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "K.BENJAMIN": {
+        "total": 20,
+        "shortLeft": 2,
+        "shortMiddle": 3,
+        "shortRight": 6,
+        "deepLeft": 6,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.IVORY": {
+        "total": 6,
+        "shortLeft": 2,
+        "shortMiddle": 0,
+        "shortRight": 4,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.CROOM": {
+        "total": 8,
+        "shortLeft": 2,
+        "shortMiddle": 2,
+        "shortRight": 2,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.MURPHY": {
+        "total": 7,
+        "shortLeft": 2,
+        "shortMiddle": 2,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "P.DIMARCO": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.KERLEY": {
+        "total": 5,
+        "shortLeft": 2,
+        "shortMiddle": 2,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "L.THOMAS": {
+        "total": 3,
+        "shortLeft": 0,
+        "shortMiddle": 1,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "R.MCCLOUD": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "K.LEE": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      }
+    }
+  },
+  "LA": {
+    "teamName": {
+      "name": "Los Angeles Rams",
+      "logo": "http://prod.static.rams.clubs.nfl.com/nfl-assets/img/gbl-ico-team/stl/logos/home/large.png"
+    },
+    "totalOffensivePlay": 254,
+    "totalPassingPlay": 144,
+    "totalRushingPlay": 110,
+    "totalPassingYards": 1483,
+    "totalRushingYards": 500,
+    "complete": 100,
+    "incomplete": 44,
+    "shortPass": 0,
+    "deepPass": 141,
+    "shortLeft": 37,
+    "shortLeftYards": 347,
+    "shortRight": 41,
+    "shortRightYards": 234,
+    "shortMiddle": 35,
+    "shortMiddleYards": 379,
+    "deepLeft": 8,
+    "deepLeftYards": 63,
+    "deepRight": 13,
+    "deepRightYards": 204,
+    "deepMiddle": 10,
+    "deepMiddleYards": 256,
+    "totalLeft": 37,
+    "totalLeftYards": 347,
+    "totalRight": 54,
+    "totalRightYards": 438,
+    "totalMiddle": 53,
+    "totalMiddleYards": 698,
+    "targets": {
+      "C.KUPP": {
+        "total": 34,
+        "shortLeft": 9,
+        "shortMiddle": 11,
+        "shortRight": 10,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "B.COOKS": {
+        "total": 36,
+        "shortLeft": 9,
+        "shortMiddle": 11,
+        "shortRight": 6,
+        "deepLeft": 1,
+        "deepMiddle": 6,
+        "deepRight": 0
+      },
+      "R.WOODS": {
+        "total": 35,
+        "shortLeft": 4,
+        "shortMiddle": 9,
+        "shortRight": 9,
+        "deepLeft": 5,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "T.GURLEY": {
+        "total": 20,
+        "shortLeft": 10,
+        "shortMiddle": 3,
+        "shortRight": 7,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "J.REYNOLDS": {
+        "total": 1,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "G.EVERETT": {
+        "total": 5,
+        "shortLeft": 1,
+        "shortMiddle": 1,
+        "shortRight": 3,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "T.HIGBEE": {
+        "total": 6,
+        "shortLeft": 3,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 1,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "M.BROWN": {
+        "total": 4,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 3,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -1344,101 +4025,110 @@
       "name": "Minnesota Vikings",
       "logo": "http://prod.static.vikings.clubs.nfl.com/nfl-assets/img/gbl-ico-team/MIN/logos/home/large.png"
     },
-    "totalOffensivePlay": 192,
-    "totalPassingPlay": 140,
-    "totalRushingPlay": 52,
-    "totalPassingYards": 994,
-    "totalRushingYards": 181,
-    "complete": 95,
-    "incomplete": 45,
-    "shortPass": 121,
-    "deepPass": 155,
-    "shortLeft": 42,
-    "shortLeftYards": 260,
-    "shortRight": 49,
-    "shortRightYards": 302,
-    "shortMiddle": 30,
-    "shortMiddleYards": 235,
-    "deepLeft": 6,
+    "totalOffensivePlay": 259,
+    "totalPassingPlay": 191,
+    "totalRushingPlay": 68,
+    "totalPassingYards": 1426,
+    "totalRushingYards": 218,
+    "complete": 132,
+    "incomplete": 59,
+    "shortPass": 0,
+    "deepPass": 186,
+    "shortLeft": 60,
+    "shortLeftYards": 419,
+    "shortRight": 66,
+    "shortRightYards": 385,
+    "shortMiddle": 39,
+    "shortMiddleYards": 296,
+    "deepLeft": 8,
     "deepLeftYards": 63,
-    "deepRight": 9,
-    "deepRightYards": 42,
-    "deepMiddle": 4,
-    "deepMiddleYards": 92,
-    "totalLeft": 42,
-    "totalLeftYards": 260,
-    "totalRight": 58,
-    "totalRightYards": 344,
-    "totalMiddle": 40,
-    "totalMiddleYards": 390,
+    "deepRight": 12,
+    "deepRightYards": 102,
+    "deepMiddle": 6,
+    "deepMiddleYards": 161,
+    "totalLeft": 60,
+    "totalLeftYards": 419,
+    "totalRight": 78,
+    "totalRightYards": 487,
+    "totalMiddle": 53,
+    "totalMiddleYards": 520,
     "targets": {
-      "C.HAM": {
-        "total": 8,
+      "R.THOMAS": {
+        "total": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "A.THIELEN": {
+        "total": 57,
+        "shortLeft": 16,
+        "shortMiddle": 16,
+        "shortRight": 13,
+        "deepLeft": 5,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "S.DIGGS": {
+        "total": 44,
+        "shortLeft": 13,
+        "shortMiddle": 2,
+        "shortRight": 18,
+        "deepLeft": 3,
+        "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "K.RUDOLPH": {
+        "total": 22,
         "shortLeft": 6,
+        "shortMiddle": 7,
+        "shortRight": 8,
+        "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "A.ROBINSON": {
+        "total": 3,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
+      "C.HAM": {
+        "total": 10,
+        "shortLeft": 8,
         "shortMiddle": 0,
         "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "A.THIELEN": {
-        "total": 44,
-        "shortLeft": 11,
-        "shortMiddle": 14,
+      "L.TREADWELL": {
+        "total": 20,
+        "shortLeft": 5,
+        "shortMiddle": 6,
         "shortRight": 9,
-        "deepLeft": 5,
+        "deepLeft": 0,
         "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "S.DIGGS": {
-        "total": 29,
-        "shortLeft": 8,
-        "shortMiddle": 1,
-        "shortRight": 12,
-        "deepLeft": 1,
-        "deepMiddle": 3,
         "deepRight": 0
       },
       "M.BOONE": {
-        "total": 1,
+        "total": 2,
         "shortLeft": 1,
         "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.RUDOLPH": {
-        "total": 16,
-        "shortLeft": 3,
-        "shortMiddle": 4,
-        "shortRight": 8,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "L.TREADWELL": {
-        "total": 13,
-        "shortLeft": 3,
-        "shortMiddle": 5,
-        "shortRight": 5,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.ROBINSON": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
+        "shortRight": 1,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
       },
       "L.MURRAY": {
-        "total": 6,
+        "total": 8,
         "shortLeft": 1,
-        "shortMiddle": 1,
+        "shortMiddle": 3,
         "shortRight": 4,
         "deepLeft": 0,
         "deepMiddle": 0,
@@ -1454,10 +4144,10 @@
         "deepRight": 0
       },
       "D.MORGAN": {
-        "total": 3,
+        "total": 4,
         "shortLeft": 0,
         "shortMiddle": 2,
-        "shortRight": 1,
+        "shortRight": 2,
         "deepLeft": 0,
         "deepMiddle": 0,
         "deepRight": 0
@@ -1482,515 +4172,6 @@
       }
     }
   },
-  "LA": {
-    "teamName": {
-      "name": "Los Angeles Rams",
-      "logo": "http://prod.static.rams.clubs.nfl.com/nfl-assets/img/gbl-ico-team/stl/logos/home/large.png"
-    },
-    "totalOffensivePlay": 201,
-    "totalPassingPlay": 109,
-    "totalRushingPlay": 92,
-    "totalPassingYards": 1017,
-    "totalRushingYards": 407,
-    "complete": 74,
-    "incomplete": 35,
-    "shortPass": 86,
-    "deepPass": 130,
-    "shortLeft": 26,
-    "shortLeftYards": 201,
-    "shortRight": 32,
-    "shortRightYards": 208,
-    "shortMiddle": 28,
-    "shortMiddleYards": 311,
-    "deepLeft": 7,
-    "deepLeftYards": 40,
-    "deepRight": 9,
-    "deepRightYards": 115,
-    "deepMiddle": 7,
-    "deepMiddleYards": 142,
-    "totalLeft": 26,
-    "totalLeftYards": 201,
-    "totalRight": 41,
-    "totalRightYards": 323,
-    "totalMiddle": 42,
-    "totalMiddleYards": 493,
-    "targets": {
-      "B.COOKS": {
-        "total": 28,
-        "shortLeft": 7,
-        "shortMiddle": 10,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 5,
-        "deepRight": 0
-      },
-      "T.GURLEY": {
-        "total": 14,
-        "shortLeft": 6,
-        "shortMiddle": 1,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.HIGBEE": {
-        "total": 5,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.WOODS": {
-        "total": 29,
-        "shortLeft": 3,
-        "shortMiddle": 8,
-        "shortRight": 8,
-        "deepLeft": 5,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "M.BROWN": {
-        "total": 4,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "G.EVERETT": {
-        "total": 4,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.KUPP": {
-        "total": 23,
-        "shortLeft": 7,
-        "shortMiddle": 8,
-        "shortRight": 6,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "KC": {
-    "teamName": {
-      "name": "Kansas City Chiefs",
-      "logo": "http://prod.static.chiefs.clubs.nfl.com/nfl-assets/img/gbl-ico-team/kc/logos/home/large.png"
-    },
-    "totalOffensivePlay": 174,
-    "totalPassingPlay": 103,
-    "totalRushingPlay": 71,
-    "totalPassingYards": 919,
-    "totalRushingYards": 282,
-    "complete": 65,
-    "incomplete": 38,
-    "shortPass": 75,
-    "deepPass": 129,
-    "shortLeft": 23,
-    "shortLeftYards": 146,
-    "shortRight": 34,
-    "shortRightYards": 228,
-    "shortMiddle": 18,
-    "shortMiddleYards": 177,
-    "deepLeft": 8,
-    "deepLeftYards": 115,
-    "deepRight": 9,
-    "deepRightYards": 99,
-    "deepMiddle": 11,
-    "deepMiddleYards": 154,
-    "totalLeft": 23,
-    "totalLeftYards": 146,
-    "totalRight": 43,
-    "totalRightYards": 327,
-    "totalMiddle": 37,
-    "totalMiddleYards": 446,
-    "targets": {
-      "S.WATKINS": {
-        "total": 23,
-        "shortLeft": 7,
-        "shortMiddle": 4,
-        "shortRight": 8,
-        "deepLeft": 2,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "T.KELCE": {
-        "total": 31,
-        "shortLeft": 7,
-        "shortMiddle": 5,
-        "shortRight": 10,
-        "deepLeft": 0,
-        "deepMiddle": 7,
-        "deepRight": 0
-      },
-      "DAM": {
-        "total": 4,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.HILL": {
-        "total": 19,
-        "shortLeft": 2,
-        "shortMiddle": 5,
-        "shortRight": 3,
-        "deepLeft": 4,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "D.HARRIS": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.CONLEY": {
-        "total": 7,
-        "shortLeft": 3,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.SHERMAN": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "S.WARE": {
-        "total": 4,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.HUNT": {
-        "total": 3,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.ROBINSON": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.THOMAS": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "M.KEMP": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "SF": {
-    "teamName": {
-      "name": "San Francisco 49ers",
-      "logo": "http://prod.static.49ers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/SF/logos/home/large.png"
-    },
-    "totalOffensivePlay": 175,
-    "totalPassingPlay": 97,
-    "totalRushingPlay": 78,
-    "totalPassingYards": 807,
-    "totalRushingYards": 437,
-    "complete": 54,
-    "incomplete": 43,
-    "shortPass": 80,
-    "deepPass": 108,
-    "shortLeft": 29,
-    "shortLeftYards": 301,
-    "shortRight": 30,
-    "shortRightYards": 160,
-    "shortMiddle": 21,
-    "shortMiddleYards": 146,
-    "deepLeft": 10,
-    "deepLeftYards": 75,
-    "deepRight": 5,
-    "deepRightYards": 111,
-    "deepMiddle": 2,
-    "deepMiddleYards": 14,
-    "totalLeft": 29,
-    "totalLeftYards": 301,
-    "totalRight": 35,
-    "totalRightYards": 271,
-    "totalMiddle": 33,
-    "totalMiddleYards": 235,
-    "targets": {
-      "M.BREIDA": {
-        "total": 9,
-        "shortLeft": 3,
-        "shortMiddle": 2,
-        "shortRight": 3,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.JUSZCZYK": {
-        "total": 11,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 6,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.GOODWIN": {
-        "total": 5,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "G.KITTLE": {
-        "total": 23,
-        "shortLeft": 7,
-        "shortMiddle": 6,
-        "shortRight": 6,
-        "deepLeft": 3,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.TAYLOR": {
-        "total": 12,
-        "shortLeft": 4,
-        "shortMiddle": 4,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "P.GARCON": {
-        "total": 15,
-        "shortLeft": 4,
-        "shortMiddle": 6,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.MOSTERT": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.PETTIS": {
-        "total": 7,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 3,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "G.CELEK": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.BOURNE": {
-        "total": 3,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.MORRIS": {
-        "total": 2,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "GB": {
-    "teamName": {
-      "name": "Green Bay Packers",
-      "logo": "http://prod.static.packers.clubs.nfl.com/nfl-assets/img/gbl-ico-team/gb/logos/home/large.png"
-    },
-    "totalOffensivePlay": 189,
-    "totalPassingPlay": 133,
-    "totalRushingPlay": 56,
-    "totalPassingYards": 1013,
-    "totalRushingYards": 241,
-    "complete": 84,
-    "incomplete": 49,
-    "shortPass": 103,
-    "deepPass": 160,
-    "shortLeft": 38,
-    "shortLeftYards": 212,
-    "shortRight": 43,
-    "shortRightYards": 248,
-    "shortMiddle": 22,
-    "shortMiddleYards": 271,
-    "deepLeft": 13,
-    "deepLeftYards": 125,
-    "deepRight": 12,
-    "deepRightYards": 77,
-    "deepMiddle": 5,
-    "deepMiddleYards": 80,
-    "totalLeft": 38,
-    "totalLeftYards": 212,
-    "totalRight": 55,
-    "totalRightYards": 325,
-    "totalMiddle": 40,
-    "totalMiddleYards": 476,
-    "targets": {
-      "R.COBB": {
-        "total": 28,
-        "shortLeft": 5,
-        "shortMiddle": 8,
-        "shortRight": 10,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "D.ADAMS": {
-        "total": 31,
-        "shortLeft": 12,
-        "shortMiddle": 4,
-        "shortRight": 6,
-        "deepLeft": 7,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "J.GRAHAM": {
-        "total": 22,
-        "shortLeft": 7,
-        "shortMiddle": 1,
-        "shortRight": 7,
-        "deepLeft": 3,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "G.ALLISON": {
-        "total": 18,
-        "shortLeft": 4,
-        "shortMiddle": 2,
-        "shortRight": 8,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "T.MONTGOMERY": {
-        "total": 13,
-        "shortLeft": 3,
-        "shortMiddle": 4,
-        "shortRight": 6,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      ".CROSBY": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.WILLIAMS": {
-        "total": 9,
-        "shortLeft": 3,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "L.KENDRICKS": {
-        "total": 3,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.LEWIS": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.VALDES-SCANTLING": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.JONES": {
-        "total": 2,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
   "WAS": {
     "teamName": {
       "name": "Washington Redskins",
@@ -2003,8 +4184,8 @@
     "totalRushingYards": 380,
     "complete": 67,
     "incomplete": 33,
-    "shortPass": 87,
-    "deepPass": 111,
+    "shortPass": 0,
+    "deepPass": 98,
     "shortLeft": 36,
     "shortLeftYards": 187,
     "shortRight": 25,
@@ -2024,15 +4205,6 @@
     "totalMiddle": 35,
     "totalMiddleYards": 304,
     "targets": {
-      "J.DOCTSON": {
-        "total": 15,
-        "shortLeft": 9,
-        "shortMiddle": 3,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "J.CROWDER": {
         "total": 13,
         "shortLeft": 4,
@@ -2042,12 +4214,12 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "C.THOMPSON": {
-        "total": 23,
-        "shortLeft": 8,
-        "shortMiddle": 8,
-        "shortRight": 7,
-        "deepLeft": 0,
+      "J.DOCTSON": {
+        "total": 15,
+        "shortLeft": 9,
+        "shortMiddle": 3,
+        "shortRight": 2,
+        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       },
@@ -2058,6 +4230,15 @@
         "shortRight": 4,
         "deepLeft": 2,
         "deepMiddle": 4,
+        "deepRight": 0
+      },
+      "C.THOMPSON": {
+        "total": 23,
+        "shortLeft": 8,
+        "shortMiddle": 8,
+        "shortRight": 7,
+        "deepLeft": 0,
+        "deepMiddle": 0,
         "deepRight": 0
       },
       "J.REED": {
@@ -2098,1194 +4279,6 @@
       }
     }
   },
-  "IND": {
-    "teamName": {
-      "name": "Indianapolis Colts",
-      "logo": "http://prod.static.colts.clubs.nfl.com/nfl-assets/img/gbl-ico-team/IND/logos/home/large.png"
-    },
-    "totalOffensivePlay": 191,
-    "totalPassingPlay": 132,
-    "totalRushingPlay": 59,
-    "totalPassingYards": 701,
-    "totalRushingYards": 209,
-    "complete": 86,
-    "incomplete": 46,
-    "shortPass": 112,
-    "deepPass": 147,
-    "shortLeft": 38,
-    "shortLeftYards": 238,
-    "shortRight": 44,
-    "shortRightYards": 160,
-    "shortMiddle": 30,
-    "shortMiddleYards": 163,
-    "deepLeft": 5,
-    "deepLeftYards": 69,
-    "deepRight": 12,
-    "deepRightYards": 71,
-    "deepMiddle": 3,
-    "deepMiddleYards": 0,
-    "totalLeft": 38,
-    "totalLeftYards": 238,
-    "totalRight": 56,
-    "totalRightYards": 231,
-    "totalMiddle": 38,
-    "totalMiddleYards": 232,
-    "targets": {
-      "C.ROGERS": {
-        "total": 11,
-        "shortLeft": 1,
-        "shortMiddle": 3,
-        "shortRight": 5,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.GRANT": {
-        "total": 15,
-        "shortLeft": 3,
-        "shortMiddle": 3,
-        "shortRight": 5,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.HILTON": {
-        "total": 35,
-        "shortLeft": 10,
-        "shortMiddle": 6,
-        "shortRight": 10,
-        "deepLeft": 2,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "N.HINES": {
-        "total": 16,
-        "shortLeft": 6,
-        "shortMiddle": 3,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "E.EBRON": {
-        "total": 20,
-        "shortLeft": 5,
-        "shortMiddle": 6,
-        "shortRight": 6,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "E.SWOOPE": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.WILKINS": {
-        "total": 7,
-        "shortLeft": 2,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "Z.PASCAL": {
-        "total": 3,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.DOYLE": {
-        "total": 14,
-        "shortLeft": 6,
-        "shortMiddle": 5,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.MACK": {
-        "total": 2,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.HEWITT": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.KELLY": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "BUF": {
-    "teamName": {
-      "name": "Buffalo Bills",
-      "logo": "http://prod.static.bills.clubs.nfl.com/nfl-assets/img/gbl-ico-team/buf/logos/home/large.png"
-    },
-    "totalOffensivePlay": 166,
-    "totalPassingPlay": 92,
-    "totalRushingPlay": 74,
-    "totalPassingYards": 610,
-    "totalRushingYards": 290,
-    "complete": 45,
-    "incomplete": 47,
-    "shortPass": 64,
-    "deepPass": 115,
-    "shortLeft": 18,
-    "shortLeftYards": 97,
-    "shortRight": 31,
-    "shortRightYards": 205,
-    "shortMiddle": 15,
-    "shortMiddleYards": 113,
-    "deepLeft": 14,
-    "deepLeftYards": 87,
-    "deepRight": 10,
-    "deepRightYards": 74,
-    "deepMiddle": 4,
-    "deepMiddleYards": 34,
-    "totalLeft": 18,
-    "totalLeftYards": 97,
-    "totalRight": 41,
-    "totalRightYards": 279,
-    "totalMiddle": 33,
-    "totalMiddleYards": 234,
-    "targets": {
-      "K.BENJAMIN": {
-        "total": 15,
-        "shortLeft": 1,
-        "shortMiddle": 3,
-        "shortRight": 4,
-        "deepLeft": 5,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.HOLMES": {
-        "total": 10,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "C.IVORY": {
-        "total": 6,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.CLAY": {
-        "total": 9,
-        "shortLeft": 2,
-        "shortMiddle": 1,
-        "shortRight": 3,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "J.CROOM": {
-        "total": 7,
-        "shortLeft": 2,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "L.MCCOY": {
-        "total": 7,
-        "shortLeft": 5,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "P.DIMARCO": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.MURPHY": {
-        "total": 7,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.FOSTER": {
-        "total": 6,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 4,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "Z.JONES": {
-        "total": 10,
-        "shortLeft": 1,
-        "shortMiddle": 2,
-        "shortRight": 5,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.KERLEY": {
-        "total": 5,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "L.THOMAS": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.MCCLOUD": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "OAK": {
-    "teamName": {
-      "name": "Oakland Raiders",
-      "logo": "http://prod.static.raiders.clubs.nfl.com/nfl-assets/img/gbl-ico-team/OAK/logos/home/large.png"
-    },
-    "totalOffensivePlay": 201,
-    "totalPassingPlay": 119,
-    "totalRushingPlay": 82,
-    "totalPassingYards": 1079,
-    "totalRushingYards": 330,
-    "complete": 88,
-    "incomplete": 31,
-    "shortPass": 104,
-    "deepPass": 126,
-    "shortLeft": 39,
-    "shortLeftYards": 271,
-    "shortRight": 45,
-    "shortRightYards": 250,
-    "shortMiddle": 20,
-    "shortMiddleYards": 287,
-    "deepLeft": 6,
-    "deepLeftYards": 125,
-    "deepRight": 7,
-    "deepRightYards": 146,
-    "deepMiddle": 2,
-    "deepMiddleYards": 0,
-    "totalLeft": 39,
-    "totalLeftYards": 271,
-    "totalRight": 52,
-    "totalRightYards": 396,
-    "totalMiddle": 28,
-    "totalMiddleYards": 412,
-    "targets": {
-      "J.RICHARD": {
-        "total": 20,
-        "shortLeft": 8,
-        "shortMiddle": 5,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.COOK": {
-        "total": 20,
-        "shortLeft": 5,
-        "shortMiddle": 9,
-        "shortRight": 5,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.SMITH": {
-        "total": 4,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.NELSON": {
-        "total": 17,
-        "shortLeft": 7,
-        "shortMiddle": 2,
-        "shortRight": 5,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.BRYANT": {
-        "total": 9,
-        "shortLeft": 4,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.LYNCH": {
-        "total": 7,
-        "shortLeft": 5,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.HARRIS": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "S.ROBERTS": {
-        "total": 6,
-        "shortLeft": 3,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "A.COOPER": {
-        "total": 19,
-        "shortLeft": 5,
-        "shortMiddle": 1,
-        "shortRight": 8,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.CARRIER": {
-        "total": 4,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "D.MARTIN": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "MIA": {
-    "teamName": {
-      "name": "Miami Dolphins",
-      "logo": "http://prod.static.dolphins.clubs.nfl.com/nfl-assets/img/gbl-ico-team/mia/logos/home/large.png"
-    },
-    "totalOffensivePlay": 148,
-    "totalPassingPlay": 82,
-    "totalRushingPlay": 66,
-    "totalPassingYards": 817,
-    "totalRushingYards": 280,
-    "complete": 60,
-    "incomplete": 22,
-    "shortPass": 70,
-    "deepPass": 92,
-    "shortLeft": 22,
-    "shortLeftYards": 177,
-    "shortRight": 33,
-    "shortRightYards": 198,
-    "shortMiddle": 15,
-    "shortMiddleYards": 226,
-    "deepLeft": 4,
-    "deepLeftYards": 34,
-    "deepRight": 3,
-    "deepRightYards": 88,
-    "deepMiddle": 5,
-    "deepMiddleYards": 94,
-    "totalLeft": 22,
-    "totalLeftYards": 177,
-    "totalRight": 36,
-    "totalRightYards": 286,
-    "totalMiddle": 24,
-    "totalMiddleYards": 354,
-    "targets": {
-      "J.GRANT": {
-        "total": 13,
-        "shortLeft": 4,
-        "shortMiddle": 0,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "F.GORE": {
-        "total": 2,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.GESICKI": {
-        "total": 4,
-        "shortLeft": 1,
-        "shortMiddle": 2,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.WILSON": {
-        "total": 15,
-        "shortLeft": 3,
-        "shortMiddle": 4,
-        "shortRight": 7,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "K.STILLS": {
-        "total": 13,
-        "shortLeft": 4,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 2,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "D.AMENDOLA": {
-        "total": 15,
-        "shortLeft": 2,
-        "shortMiddle": 4,
-        "shortRight": 8,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.DERBY": {
-        "total": 3,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "K.DRAKE": {
-        "total": 12,
-        "shortLeft": 5,
-        "shortMiddle": 2,
-        "shortRight": 5,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.PARKER": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      }
-    }
-  },
-  "TEN": {
-    "teamName": {
-      "name": "Tennessee Titans",
-      "logo": "http://prod.static.titans.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ten/logos/home/large.png"
-    },
-    "totalOffensivePlay": 175,
-    "totalPassingPlay": 84,
-    "totalRushingPlay": 91,
-    "totalPassingYards": 600,
-    "totalRushingYards": 321,
-    "complete": 48,
-    "incomplete": 36,
-    "shortPass": 73,
-    "deepPass": 91,
-    "shortLeft": 28,
-    "shortLeftYards": 171,
-    "shortRight": 27,
-    "shortRightYards": 164,
-    "shortMiddle": 18,
-    "shortMiddleYards": 125,
-    "deepLeft": 4,
-    "deepLeftYards": 57,
-    "deepRight": 5,
-    "deepRightYards": 66,
-    "deepMiddle": 2,
-    "deepMiddleYards": 17,
-    "totalLeft": 28,
-    "totalLeftYards": 171,
-    "totalRight": 32,
-    "totalRightYards": 230,
-    "totalMiddle": 24,
-    "totalMiddleYards": 199,
-    "targets": {
-      "T.TAYLOR": {
-        "total": 10,
-        "shortLeft": 6,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.DAVIS": {
-        "total": 25,
-        "shortLeft": 4,
-        "shortMiddle": 6,
-        "shortRight": 9,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "L.STOCKER": {
-        "total": 6,
-        "shortLeft": 3,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.MATTHEWS": {
-        "total": 6,
-        "shortLeft": 3,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.JENNINGS": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.HENRY": {
-        "total": 2,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.LEWIS": {
-        "total": 11,
-        "shortLeft": 6,
-        "shortMiddle": 3,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      ".GABBERT": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.SHARPE": {
-        "total": 5,
-        "shortLeft": 1,
-        "shortMiddle": 2,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "D.WALKER": {
-        "total": 7,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.SMITH": {
-        "total": 5,
-        "shortLeft": 0,
-        "shortMiddle": 2,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.CRUIKSHANK": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "HOU": {
-    "teamName": {
-      "name": "Houston Texans",
-      "logo": "http://prod.static.texans.clubs.nfl.com/nfl-assets/img/gbl-ico-team/HOU/logos/home/large.png"
-    },
-    "totalOffensivePlay": 177,
-    "totalPassingPlay": 114,
-    "totalRushingPlay": 63,
-    "totalPassingYards": 931,
-    "totalRushingYards": 253,
-    "complete": 69,
-    "incomplete": 45,
-    "shortPass": 83,
-    "deepPass": 142,
-    "shortLeft": 30,
-    "shortLeftYards": 196,
-    "shortRight": 28,
-    "shortRightYards": 179,
-    "shortMiddle": 25,
-    "shortMiddleYards": 250,
-    "deepLeft": 11,
-    "deepLeftYards": 114,
-    "deepRight": 9,
-    "deepRightYards": 17,
-    "deepMiddle": 11,
-    "deepMiddleYards": 175,
-    "totalLeft": 30,
-    "totalLeftYards": 196,
-    "totalRight": 37,
-    "totalRightYards": 196,
-    "totalMiddle": 47,
-    "totalMiddleYards": 539,
-    "targets": {
-      "L.MILLER": {
-        "total": 10,
-        "shortLeft": 3,
-        "shortMiddle": 3,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.HOPKINS": {
-        "total": 38,
-        "shortLeft": 11,
-        "shortMiddle": 10,
-        "shortRight": 5,
-        "deepLeft": 4,
-        "deepMiddle": 5,
-        "deepRight": 0
-      },
-      "V.SMITH": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.AKINS": {
-        "total": 5,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "W.FULLER": {
-        "total": 21,
-        "shortLeft": 5,
-        "shortMiddle": 3,
-        "shortRight": 7,
-        "deepLeft": 4,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "R.GRIFFIN": {
-        "total": 11,
-        "shortLeft": 2,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 1,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "A.BLUE": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.THOMAS": {
-        "total": 7,
-        "shortLeft": 4,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.ELLINGTON": {
-        "total": 13,
-        "shortLeft": 4,
-        "shortMiddle": 5,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "S.COATES": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.ERVIN": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "NYG": {
-    "teamName": {
-      "name": "New York Giants",
-      "logo": "http://prod.static.giants.clubs.nfl.com/nfl-assets/img/gbl-ico-team/nyg/logos/home/large.png"
-    },
-    "totalOffensivePlay": 185,
-    "totalPassingPlay": 119,
-    "totalRushingPlay": 66,
-    "totalPassingYards": 899,
-    "totalRushingYards": 260,
-    "complete": 85,
-    "incomplete": 34,
-    "shortPass": 96,
-    "deepPass": 140,
-    "shortLeft": 36,
-    "shortLeftYards": 202,
-    "shortRight": 31,
-    "shortRightYards": 237,
-    "shortMiddle": 29,
-    "shortMiddleYards": 232,
-    "deepLeft": 9,
-    "deepLeftYards": 45,
-    "deepRight": 11,
-    "deepRightYards": 146,
-    "deepMiddle": 3,
-    "deepMiddleYards": 37,
-    "totalLeft": 36,
-    "totalLeftYards": 202,
-    "totalRight": 42,
-    "totalRightYards": 383,
-    "totalMiddle": 41,
-    "totalMiddleYards": 314,
-    "targets": {
-      "S.SHEPARD": {
-        "total": 19,
-        "shortLeft": 2,
-        "shortMiddle": 10,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "S.BARKLEY": {
-        "total": 27,
-        "shortLeft": 12,
-        "shortMiddle": 3,
-        "shortRight": 11,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "O.BECKHAM": {
-        "total": 37,
-        "shortLeft": 10,
-        "shortMiddle": 10,
-        "shortRight": 7,
-        "deepLeft": 4,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "C.LATIMER": {
-        "total": 6,
-        "shortLeft": 0,
-        "shortMiddle": 2,
-        "shortRight": 1,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "W.GALLMAN": {
-        "total": 4,
-        "shortLeft": 2,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.ELLISON": {
-        "total": 6,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.SHEPARD": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "E.ENGRAM": {
-        "total": 17,
-        "shortLeft": 8,
-        "shortMiddle": 3,
-        "shortRight": 2,
-        "deepLeft": 2,
-        "deepMiddle": 1,
-        "deepRight": 0
-      }
-    }
-  },
-  "JAX": {
-    "teamName": {
-      "name": "Jacksonville Jaguars",
-      "logo": "http://prod.static.jaguars.clubs.nfl.com/nfl-assets/img/gbl-ico-team/JAX/logos/home/large.png"
-    },
-    "totalOffensivePlay": 173,
-    "totalPassingPlay": 115,
-    "totalRushingPlay": 58,
-    "totalPassingYards": 720,
-    "totalRushingYards": 266,
-    "complete": 71,
-    "incomplete": 44,
-    "shortPass": 98,
-    "deepPass": 130,
-    "shortLeft": 33,
-    "shortLeftYards": 216,
-    "shortRight": 41,
-    "shortRightYards": 197,
-    "shortMiddle": 24,
-    "shortMiddleYards": 149,
-    "deepLeft": 8,
-    "deepLeftYards": 94,
-    "deepRight": 8,
-    "deepRightYards": 44,
-    "deepMiddle": 1,
-    "deepMiddleYards": 20,
-    "totalLeft": 33,
-    "totalLeftYards": 216,
-    "totalRight": 49,
-    "totalRightYards": 241,
-    "totalMiddle": 33,
-    "totalMiddleYards": 263,
-    "targets": {
-      "T.YELDON": {
-        "total": 19,
-        "shortLeft": 7,
-        "shortMiddle": 3,
-        "shortRight": 9,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.SEFERIAN-JENKINS": {
-        "total": 15,
-        "shortLeft": 5,
-        "shortMiddle": 6,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.O'SHAUGHNESSY": {
-        "total": 4,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.CHARK": {
-        "total": 5,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.WESTBROOK": {
-        "total": 16,
-        "shortLeft": 9,
-        "shortMiddle": 2,
-        "shortRight": 3,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "K.COLE": {
-        "total": 21,
-        "shortLeft": 4,
-        "shortMiddle": 6,
-        "shortRight": 7,
-        "deepLeft": 3,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.MONCRIEF": {
-        "total": 17,
-        "shortLeft": 2,
-        "shortMiddle": 3,
-        "shortRight": 6,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.GRANT": {
-        "total": 9,
-        "shortLeft": 4,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "L.FOURNETTE": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "N.PAUL": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.BOHANON": {
-        "total": 2,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "CIN": {
-    "teamName": {
-      "name": "Cincinnati Bengals",
-      "logo": "http://prod.static.bengals.clubs.nfl.com/nfl-assets/img/gbl-ico-team/CIN/logos/home/large.png"
-    },
-    "totalOffensivePlay": 189,
-    "totalPassingPlay": 123,
-    "totalRushingPlay": 66,
-    "totalPassingYards": 897,
-    "totalRushingYards": 281,
-    "complete": 74,
-    "incomplete": 49,
-    "shortPass": 103,
-    "deepPass": 136,
-    "shortLeft": 34,
-    "shortLeftYards": 214,
-    "shortRight": 48,
-    "shortRightYards": 249,
-    "shortMiddle": 21,
-    "shortMiddleYards": 197,
-    "deepLeft": 12,
-    "deepLeftYards": 192,
-    "deepRight": 6,
-    "deepRightYards": 45,
-    "deepMiddle": 2,
-    "deepMiddleYards": 0,
-    "totalLeft": 34,
-    "totalLeftYards": 214,
-    "totalRight": 54,
-    "totalRightYards": 294,
-    "totalMiddle": 35,
-    "totalMiddleYards": 389,
-    "targets": {
-      "T.BOYD": {
-        "total": 22,
-        "shortLeft": 4,
-        "shortMiddle": 5,
-        "shortRight": 6,
-        "deepLeft": 4,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "T.EIFERT": {
-        "total": 16,
-        "shortLeft": 3,
-        "shortMiddle": 5,
-        "shortRight": 7,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "G.BERNARD": {
-        "total": 17,
-        "shortLeft": 4,
-        "shortMiddle": 5,
-        "shortRight": 8,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.GREEN": {
-        "total": 26,
-        "shortLeft": 7,
-        "shortMiddle": 4,
-        "shortRight": 10,
-        "deepLeft": 5,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.MALONE": {
-        "total": 3,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.UZOMAH": {
-        "total": 7,
-        "shortLeft": 2,
-        "shortMiddle": 1,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.ROSS": {
-        "total": 11,
-        "shortLeft": 6,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.KROFT": {
-        "total": 5,
-        "shortLeft": 3,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.MIXON": {
-        "total": 8,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 6,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "S": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
   "CAR": {
     "teamName": {
       "name": "Carolina Panthers",
@@ -3298,8 +4291,8 @@
     "totalRushingYards": 471,
     "complete": 66,
     "incomplete": 34,
-    "shortPass": 80,
-    "deepPass": 119,
+    "shortPass": 0,
+    "deepPass": 99,
     "shortLeft": 31,
     "shortLeftYards": 235,
     "shortRight": 32,
@@ -3364,21 +4357,21 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "D.MOORE": {
-        "total": 4,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 2,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
       "J.WRIGHT": {
         "total": 13,
         "shortLeft": 1,
         "shortMiddle": 5,
         "shortRight": 6,
         "deepLeft": 0,
+        "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "D.MOORE": {
+        "total": 4,
+        "shortLeft": 0,
+        "shortMiddle": 0,
+        "shortRight": 1,
+        "deepLeft": 2,
         "deepMiddle": 1,
         "deepRight": 0
       },
@@ -3393,774 +4386,6 @@
       }
     }
   },
-  "DEN": {
-    "teamName": {
-      "name": "Denver Broncos",
-      "logo": "http://prod.static.broncos.clubs.nfl.com/nfl-assets/img/gbl-ico-team/den/logos/home/large.png"
-    },
-    "totalOffensivePlay": 200,
-    "totalPassingPlay": 117,
-    "totalRushingPlay": 83,
-    "totalPassingYards": 997,
-    "totalRushingYards": 434,
-    "complete": 68,
-    "incomplete": 49,
-    "shortPass": 91,
-    "deepPass": 136,
-    "shortLeft": 48,
-    "shortLeftYards": 272,
-    "shortRight": 26,
-    "shortRightYards": 104,
-    "shortMiddle": 17,
-    "shortMiddleYards": 217,
-    "deepLeft": 11,
-    "deepLeftYards": 114,
-    "deepRight": 10,
-    "deepRightYards": 166,
-    "deepMiddle": 5,
-    "deepMiddleYards": 124,
-    "totalLeft": 48,
-    "totalLeftYards": 272,
-    "totalRight": 36,
-    "totalRightYards": 270,
-    "totalMiddle": 33,
-    "totalMiddleYards": 455,
-    "targets": {
-      "J.BUTT": {
-        "total": 12,
-        "shortLeft": 5,
-        "shortMiddle": 0,
-        "shortRight": 5,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "D.BOOKER": {
-        "total": 9,
-        "shortLeft": 4,
-        "shortMiddle": 3,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "DE.THOMAS": {
-        "total": 27,
-        "shortLeft": 11,
-        "shortMiddle": 4,
-        "shortRight": 6,
-        "deepLeft": 2,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "C.SUTTON": {
-        "total": 15,
-        "shortLeft": 5,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 4,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "R.FREEMAN": {
-        "total": 3,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.HEUERMAN": {
-        "total": 7,
-        "shortLeft": 6,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "E.SANDERS": {
-        "total": 25,
-        "shortLeft": 10,
-        "shortMiddle": 4,
-        "shortRight": 5,
-        "deepLeft": 2,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "T.PATRICK": {
-        "total": 4,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "A.JANOVICH": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "P.LINDSAY": {
-        "total": 6,
-        "shortLeft": 2,
-        "shortMiddle": 1,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.LACOSSE": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "BAL": {
-    "teamName": {
-      "name": "Baltimore Ravens",
-      "logo": "http://prod.static.ravens.clubs.nfl.com/nfl-assets/img/gbl-ico-team/bal/logos/home/large.png"
-    },
-    "totalOffensivePlay": 216,
-    "totalPassingPlay": 138,
-    "totalRushingPlay": 78,
-    "totalPassingYards": 942,
-    "totalRushingYards": 272,
-    "complete": 85,
-    "incomplete": 53,
-    "shortPass": 113,
-    "deepPass": 159,
-    "shortLeft": 27,
-    "shortLeftYards": 114,
-    "shortRight": 34,
-    "shortRightYards": 155,
-    "shortMiddle": 52,
-    "shortMiddleYards": 402,
-    "deepLeft": 5,
-    "deepLeftYards": 54,
-    "deepRight": 13,
-    "deepRightYards": 122,
-    "deepMiddle": 7,
-    "deepMiddleYards": 95,
-    "totalLeft": 27,
-    "totalLeftYards": 114,
-    "totalRight": 47,
-    "totalRightYards": 277,
-    "totalMiddle": 64,
-    "totalMiddleYards": 551,
-    "targets": {
-      "N.BOYLE": {
-        "total": 12,
-        "shortLeft": 1,
-        "shortMiddle": 7,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "M.ANDREWS": {
-        "total": 12,
-        "shortLeft": 3,
-        "shortMiddle": 3,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "W.SNEAD": {
-        "total": 21,
-        "shortLeft": 3,
-        "shortMiddle": 14,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.BROWN": {
-        "total": 23,
-        "shortLeft": 3,
-        "shortMiddle": 4,
-        "shortRight": 4,
-        "deepLeft": 3,
-        "deepMiddle": 2,
-        "deepRight": 0
-      },
-      "M.CRABTREE": {
-        "total": 25,
-        "shortLeft": 7,
-        "shortMiddle": 10,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "J.ALLEN": {
-        "total": 19,
-        "shortLeft": 4,
-        "shortMiddle": 8,
-        "shortRight": 7,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.COLLINS": {
-        "total": 9,
-        "shortLeft": 3,
-        "shortMiddle": 3,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      ".JACKSON": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.WILLIAMS": {
-        "total": 7,
-        "shortLeft": 2,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.MOORE": {
-        "total": 5,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      }
-    }
-  },
-  "ATL": {
-    "teamName": {
-      "name": "Atlanta Falcons",
-      "logo": "http://prod.static.falcons.clubs.nfl.com/nfl-assets/img/gbl-ico-team/ATL/logos/home/large.png"
-    },
-    "totalOffensivePlay": 179,
-    "totalPassingPlay": 112,
-    "totalRushingPlay": 67,
-    "totalPassingYards": 899,
-    "totalRushingYards": 281,
-    "complete": 71,
-    "incomplete": 41,
-    "shortPass": 90,
-    "deepPass": 126,
-    "shortLeft": 37,
-    "shortLeftYards": 166,
-    "shortRight": 34,
-    "shortRightYards": 243,
-    "shortMiddle": 19,
-    "shortMiddleYards": 122,
-    "deepLeft": 10,
-    "deepLeftYards": 163,
-    "deepRight": 6,
-    "deepRightYards": 111,
-    "deepMiddle": 6,
-    "deepMiddleYards": 94,
-    "totalLeft": 37,
-    "totalLeftYards": 166,
-    "totalRight": 40,
-    "totalRightYards": 354,
-    "totalMiddle": 35,
-    "totalMiddleYards": 379,
-    "targets": {
-      "I.SMITH": {
-        "total": 5,
-        "shortLeft": 1,
-        "shortMiddle": 3,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.SANU": {
-        "total": 16,
-        "shortLeft": 6,
-        "shortMiddle": 4,
-        "shortRight": 4,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.COLEMAN": {
-        "total": 10,
-        "shortLeft": 6,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.HALL": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "L.PAULSEN": {
-        "total": 2,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.RIDLEY": {
-        "total": 17,
-        "shortLeft": 3,
-        "shortMiddle": 2,
-        "shortRight": 7,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "J.JONES": {
-        "total": 33,
-        "shortLeft": 8,
-        "shortMiddle": 5,
-        "shortRight": 8,
-        "deepLeft": 5,
-        "deepMiddle": 4,
-        "deepRight": 0
-      },
-      "A.HOOPER": {
-        "total": 13,
-        "shortLeft": 6,
-        "shortMiddle": 1,
-        "shortRight": 5,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.FREEMAN": {
-        "total": 5,
-        "shortLeft": 3,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "E.SAUBERT": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "NO": {
-    "teamName": {
-      "name": "New Orleans Saints",
-      "logo": "http://prod.static.saints.clubs.nfl.com/nfl-assets/img/gbl-ico-team/NO/logos/home/large.png"
-    },
-    "totalOffensivePlay": 195,
-    "totalPassingPlay": 136,
-    "totalRushingPlay": 59,
-    "totalPassingYards": 1097,
-    "totalRushingYards": 234,
-    "complete": 106,
-    "incomplete": 30,
-    "shortPass": 114,
-    "deepPass": 156,
-    "shortLeft": 47,
-    "shortLeftYards": 336,
-    "shortRight": 46,
-    "shortRightYards": 333,
-    "shortMiddle": 21,
-    "shortMiddleYards": 133,
-    "deepLeft": 10,
-    "deepLeftYards": 85,
-    "deepRight": 10,
-    "deepRightYards": 147,
-    "deepMiddle": 2,
-    "deepMiddleYards": 63,
-    "totalLeft": 47,
-    "totalLeftYards": 336,
-    "totalRight": 56,
-    "totalRightYards": 480,
-    "totalMiddle": 33,
-    "totalMiddleYards": 281,
-    "targets": {
-      "T.GINN": {
-        "total": 19,
-        "shortLeft": 6,
-        "shortMiddle": 0,
-        "shortRight": 5,
-        "deepLeft": 3,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "A.KAMARA": {
-        "total": 42,
-        "shortLeft": 19,
-        "shortMiddle": 6,
-        "shortRight": 14,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "M.THOMAS": {
-        "total": 41,
-        "shortLeft": 15,
-        "shortMiddle": 8,
-        "shortRight": 15,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "Z.LINE": {
-        "total": 4,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.WATSON": {
-        "total": 15,
-        "shortLeft": 2,
-        "shortMiddle": 5,
-        "shortRight": 5,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.MEREDITH": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "A.CARR": {
-        "total": 6,
-        "shortLeft": 2,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 3,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.HILL": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.SMITH": {
-        "total": 2,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.WILLIAMS": {
-        "total": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "CLE": {
-    "teamName": {
-      "name": "Cleveland Browns",
-      "logo": "http://prod.static.browns.clubs.nfl.com/nfl-assets/img/gbl-ico-team/cle/logos/home/large.png"
-    },
-    "totalOffensivePlay": 196,
-    "totalPassingPlay": 111,
-    "totalRushingPlay": 85,
-    "totalPassingYards": 692,
-    "totalRushingYards": 303,
-    "complete": 59,
-    "incomplete": 52,
-    "shortPass": 79,
-    "deepPass": 139,
-    "shortLeft": 22,
-    "shortLeftYards": 61,
-    "shortRight": 37,
-    "shortRightYards": 204,
-    "shortMiddle": 20,
-    "shortMiddleYards": 123,
-    "deepLeft": 10,
-    "deepLeftYards": 39,
-    "deepRight": 16,
-    "deepRightYards": 176,
-    "deepMiddle": 6,
-    "deepMiddleYards": 89,
-    "totalLeft": 22,
-    "totalLeftYards": 61,
-    "totalRight": 53,
-    "totalRightYards": 380,
-    "totalMiddle": 36,
-    "totalMiddleYards": 251,
-    "targets": {
-      "J.LANDRY": {
-        "total": 37,
-        "shortLeft": 9,
-        "shortMiddle": 9,
-        "shortRight": 10,
-        "deepLeft": 4,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "A.CALLAWAY": {
-        "total": 16,
-        "shortLeft": 3,
-        "shortMiddle": 2,
-        "shortRight": 5,
-        "deepLeft": 3,
-        "deepMiddle": 3,
-        "deepRight": 0
-      },
-      "R.HIGGINS": {
-        "total": 14,
-        "shortLeft": 2,
-        "shortMiddle": 3,
-        "shortRight": 4,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "O.CHARLES": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.HYDE": {
-        "total": 6,
-        "shortLeft": 3,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.NJOKU": {
-        "total": 15,
-        "shortLeft": 1,
-        "shortMiddle": 4,
-        "shortRight": 5,
-        "deepLeft": 1,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "D.FELLS": {
-        "total": 3,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "D.JOHNSON": {
-        "total": 11,
-        "shortLeft": 3,
-        "shortMiddle": 0,
-        "shortRight": 7,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.GORDON": {
-        "total": 3,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      ".TAYLOR": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 1,
-        "shortRight": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      }
-    }
-  },
-  "NYJ": {
-    "teamName": {
-      "name": "New York Jets",
-      "logo": "http://prod.static.jets.clubs.nfl.com/nfl-assets/img/gbl-ico-team/nyj/logos/home/large.png"
-    },
-    "totalOffensivePlay": 173,
-    "totalPassingPlay": 95,
-    "totalRushingPlay": 78,
-    "totalPassingYards": 766,
-    "totalRushingYards": 324,
-    "complete": 56,
-    "incomplete": 39,
-    "shortPass": 78,
-    "deepPass": 106,
-    "shortLeft": 35,
-    "shortLeftYards": 258,
-    "shortRight": 32,
-    "shortRightYards": 220,
-    "shortMiddle": 11,
-    "shortMiddleYards": 89,
-    "deepLeft": 8,
-    "deepLeftYards": 110,
-    "deepRight": 7,
-    "deepRightYards": 45,
-    "deepMiddle": 2,
-    "deepMiddleYards": 44,
-    "totalLeft": 35,
-    "totalLeftYards": 258,
-    "totalRight": 39,
-    "totalRightYards": 265,
-    "totalMiddle": 21,
-    "totalMiddleYards": 243,
-    "targets": {
-      "J.KEARSE": {
-        "total": 7,
-        "shortLeft": 3,
-        "shortMiddle": 1,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "Q.ENUNWA": {
-        "total": 29,
-        "shortLeft": 10,
-        "shortMiddle": 4,
-        "shortRight": 11,
-        "deepLeft": 2,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "J.LEGGETT": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "B.POWELL": {
-        "total": 8,
-        "shortLeft": 4,
-        "shortMiddle": 2,
-        "shortRight": 2,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "C.HERNDON": {
-        "total": 6,
-        "shortLeft": 2,
-        "shortMiddle": 1,
-        "shortRight": 2,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "R.ANDERSON": {
-        "total": 10,
-        "shortLeft": 4,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 1,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.PRYOR": {
-        "total": 13,
-        "shortLeft": 5,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 3,
-        "deepMiddle": 1,
-        "deepRight": 0
-      },
-      "I.CROWELL": {
-        "total": 6,
-        "shortLeft": 3,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "T.CANNON": {
-        "total": 1,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "N.STERLING": {
-        "total": 3,
-        "shortLeft": 1,
-        "shortMiddle": 1,
-        "shortRight": 1,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "E.TOMLINSON": {
-        "total": 5,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 3,
-        "deepLeft": 0,
-        "deepMiddle": 1,
-        "deepRight": 0
-      }
-    }
-  },
   "": {
     "totalOffensivePlay": 1,
     "totalPassingPlay": 1,
@@ -4170,7 +4395,7 @@
     "complete": 1,
     "incomplete": 0,
     "shortPass": 0,
-    "deepPass": 1,
+    "deepPass": 0,
     "shortLeft": 0,
     "shortLeftYards": 0,
     "shortRight": 0,

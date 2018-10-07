@@ -11,7 +11,7 @@ describe('Snapcount library and commands', () => {
     return commands['!snaps'](object).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Missing an argument. Please check your query. `!snap team, pos, week`');
+      expect(err).to.equal('Missing an argument. Please check your query. `!snaps team, pos, week`');
     });
   });
 

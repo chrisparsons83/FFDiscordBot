@@ -134,7 +134,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Invalid team symbol. Please double check the team symbol.');
+      expect(err).to.equal('Invalid team symbol/name. Please double check the team symbol/name.');
     });
   });
 

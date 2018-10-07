@@ -3,9 +3,9 @@ const teamstats = require('../lib/teamstats.js');
 
 describe('Teamstats functions', () => {
   const input = 'OAK';
-  const teamname = 'Oakland Raiders';
+  const type = 'right';
   it('getBreakdown function should return a team stats object', () => {
-    const stats = teamstats.getBreakdown(teamname, input);
+    const stats = teamstats.getBreakdown(input);
     expect(Object.keys(stats).length).to.equal(10);
     expect(stats.offensivePlay).to.be.a.string;
     expect(stats.passingPercentage).to.be.a.string;
@@ -19,7 +19,7 @@ describe('Teamstats functions', () => {
   });
 
   it('getTargets function should return a string length greater than 300', () => {
-    const targets = teamstats.getTargets(input);
+    const targets = teamstats.getTargets(input, type);
     return expect(targets).to.have.length.above(75);
   });
 });

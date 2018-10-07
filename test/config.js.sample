@@ -1,5 +1,0 @@
-let config = {};
-
-config.DiscordAPIToken = 'InsertAPIKeyHere';
-
-module.exports = config;

@@ -74,7 +74,7 @@ Input: !choose peterson,miller,freeman
 FFDiscordBot: freeman
 ```
 
-### !depthchart *team,position* 
+### !depthchart *team/mascot,position* 
 This returns the depth chart for a team's position from [https://www.cbssports.com](https://www.cbssports.com).
 ```
 Input: !depthchart atl,rb
@@ -158,7 +158,7 @@ FFDiscordBot:
   3. miller
 ```
 
-### !snaps *team, pos, week*
+### !snaps *team/mascot, pos, week*
 Shows offensive snap percentages of team at chosen position\
 Position options available: *rb, wr, te*\
 Week options available: *1 to 15, all*
@@ -173,10 +173,7 @@ M.Hall (12.9%)
 R.Gage (1.4%)
 ```
 
-### !symbols
-Lists all 32 NFL teams and their 2/3 character abbreviation.
-
-### !teamstats *team symbol* 
+### !teamstats *team symbol/mascot* 
 Shows major stats for the previous season of a team.
 ```
 Input: !teamstats NO
@@ -200,17 +197,16 @@ Yards per rushing attempt
 4.48 yds per att (3.92)
 ```
 
-### !teamtargets *team symbol* 
-Shows statistics for all receivers with greater than or equal to 7% of teams' targets on a given team.
+### !teamtargets *team symbol/mascot, pass type* 
+### Valid pass type are *total, short, deep, left, mid, right*
+Shows statistics for all receivers with greater than or equal to 7% of teams' type targets on a given team.
 ```
-Input: !teamtargets NO
+Input: !teamtargets NO, right
 FFDiscordBot: 
-M. Thomas: 23 (21.9%)
-A. Kamara: 18 (17.1%)
-T. Ginn: 14 (13.3%)
-M. Ingram: 13 (12.4%)
-C. Fleener: 11 (10.5%)
-B. Coleman: 10 (9.5%)
+A. Kamara: 21 (28%)
+M. Thomas: 16 (21.3%)
+T. Ginn: 6 (8%)
+B. Watson: 6 (8%)
 ```
 
 ## Installation for Forks of this Discord Bot

@@ -410,6 +410,20 @@
     "totalMiddle": 45,
     "totalMiddleYards": 420,
     "targets": {
+      "D.BREES": {
+        "total": 1,
+        "totalLeft": 1,
+        "totalMiddle": 0,
+        "totalRight": 0,
+        "shortPass": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepPass": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
+        "deepRight": 0
+      },
       "M.THOMAS": {
         "total": 52,
         "totalLeft": 21,
@@ -520,6 +534,20 @@
         "deepPass": 5,
         "deepLeft": 4,
         "deepMiddle": 1,
+        "deepRight": 0
+      },
+      "T.HILL": {
+        "total": 1,
+        "totalLeft": 1,
+        "totalMiddle": 0,
+        "totalRight": 0,
+        "shortPass": 1,
+        "shortLeft": 1,
+        "shortMiddle": 0,
+        "shortRight": 0,
+        "deepPass": 0,
+        "deepLeft": 0,
+        "deepMiddle": 0,
         "deepRight": 0
       },
       "Z.LINE": {
@@ -984,7 +1012,7 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      ".FOLES": {
+      "N.FOLES": {
         "total": 1,
         "totalLeft": 0,
         "totalMiddle": 0,
@@ -1264,7 +1292,7 @@
     "totalMiddle": 91,
     "totalMiddleYards": 835,
     "targets": {
-      "J.SMITH-SCHUSTER": {
+      "J.SMITH": {
         "total": 53,
         "totalLeft": 22,
         "totalMiddle": 19,
@@ -1607,7 +1635,7 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      ".SCHAUB": {
+      "M.SCHAUB": {
         "total": 1,
         "totalLeft": 0,
         "totalMiddle": 1,
@@ -2321,7 +2349,7 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "R.SEALS-JONES": {
+      "R.SEALS": {
         "total": 24,
         "totalLeft": 14,
         "totalMiddle": 2,
@@ -3224,7 +3252,7 @@
     "totalMiddle": 68,
     "totalMiddleYards": 632,
     "targets": {
-      "A.SEFERIAN-JENKINS": {
+      "A.SEFERIAN": {
         "total": 20,
         "totalLeft": 6,
         "totalMiddle": 8,
@@ -3525,7 +3553,7 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "DAM": {
+      "DAM.WILLIAMS": {
         "total": 4,
         "totalLeft": 1,
         "totalMiddle": 1,
@@ -3889,7 +3917,7 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "M.VALDES-SCANTLING": {
+      "M.VALDES": {
         "total": 15,
         "totalLeft": 4,
         "totalMiddle": 1,
@@ -3931,7 +3959,7 @@
         "deepMiddle": 1,
         "deepRight": 0
       },
-      ".CROSBY": {
+      "M.CROSBY": {
         "total": 1,
         "totalLeft": 0,
         "totalMiddle": 0,
@@ -4428,7 +4456,7 @@
         "deepMiddle": 1,
         "deepRight": 0
       },
-      ".HAUSCHKA": {
+      "S.HAUSCHKA": {
         "total": 1,
         "totalLeft": 0,
         "totalMiddle": 1,
@@ -4757,7 +4785,7 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      ".GABBERT": {
+      "B.GABBERT": {
         "total": 1,
         "totalLeft": 1,
         "totalMiddle": 0,
@@ -5016,7 +5044,7 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      "M.ALIE-COX": {
+      "M.ALIE": {
         "total": 2,
         "totalLeft": 0,
         "totalMiddle": 0,
@@ -5108,16 +5136,16 @@
         "deepRight": 0
       },
       "T.BOYD": {
-        "total": 44,
-        "totalLeft": 17,
+        "total": 45,
+        "totalLeft": 18,
         "totalMiddle": 10,
         "totalRight": 14,
         "shortPass": 34,
         "shortLeft": 12,
         "shortMiddle": 8,
         "shortRight": 14,
-        "deepPass": 7,
-        "deepLeft": 5,
+        "deepPass": 8,
+        "deepLeft": 6,
         "deepMiddle": 2,
         "deepRight": 0
       },
@@ -5230,20 +5258,6 @@
         "shortRight": 1,
         "deepPass": 0,
         "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
-      "S": {
-        "total": 1,
-        "totalLeft": 1,
-        "totalMiddle": 0,
-        "totalRight": 0,
-        "shortPass": 0,
-        "shortLeft": 0,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepPass": 1,
-        "deepLeft": 1,
         "deepMiddle": 0,
         "deepRight": 0
       }
@@ -5842,7 +5856,7 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      ".JACKSON": {
+      "L.JACKSON": {
         "total": 1,
         "totalLeft": 0,
         "totalMiddle": 0,
@@ -6045,7 +6059,7 @@
         "deepMiddle": 0,
         "deepRight": 0
       },
-      ".TAYLOR": {
+      "T.TAYLOR": {
         "total": 1,
         "totalLeft": 0,
         "totalMiddle": 1,

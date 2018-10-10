@@ -410,20 +410,6 @@
     "totalMiddle": 45,
     "totalMiddleYards": 420,
     "targets": {
-      ".BREES": {
-        "total": 1,
-        "totalLeft": 1,
-        "totalMiddle": 0,
-        "totalRight": 0,
-        "shortPass": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepPass": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
-        "deepRight": 0
-      },
       "M.THOMAS": {
         "total": 52,
         "totalLeft": 21,
@@ -534,20 +520,6 @@
         "deepPass": 5,
         "deepLeft": 4,
         "deepMiddle": 1,
-        "deepRight": 0
-      },
-      ".HILL": {
-        "total": 1,
-        "totalLeft": 1,
-        "totalMiddle": 0,
-        "totalRight": 0,
-        "shortPass": 1,
-        "shortLeft": 1,
-        "shortMiddle": 0,
-        "shortRight": 0,
-        "deepPass": 0,
-        "deepLeft": 0,
-        "deepMiddle": 0,
         "deepRight": 0
       },
       "Z.LINE": {

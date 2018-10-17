@@ -1,5 +1,6 @@
 const expect = require('chai').expect;
 const teamstats = require('../lib/teamstats.js');
+const commands = require('../lib/commands.js');
 
 describe('Teamstats functions', () => {
   const input = 'OAK';
@@ -22,4 +23,37 @@ describe('Teamstats functions', () => {
     const targets = teamstats.getTargets(input, type);
     return expect(targets).to.have.length.above(75);
   });
+
+  it('Should complain when missing target type', () => {
+    const query = {
+      args: `${input}`,
+    };
+    return commands['!teamtargets'](query).then(() => {
+    }).catch((err) => {
+      expect(err).to.be.a.string;
+      expect(err).to.equal('***Invalid query.\nMissing team and/or target type.***\n***Target types are: (total, deep, short, mid, left, right)***');
+    });
+  });
+
+  it('Should complain when team is missing', () => {
+    const query = {
+      args: `${type}`,
+    };
+    return commands['!teamtargets'](query).then(() => {
+    }).catch((err) => {
+      expect(err).to.be.a.string;
+      expect(err).to.equal('***Invalid query.\nMissing team and/or target type.***\n***Target types are: (total, deep, short, mid, left, right)***');
+    });
+  });
+
+  it('Should complain when team is invalid', () => {
+    const query = {
+      args: `OAC, ${type}`,
+    };
+    return commands['!teamtargets'](query).then(() => {
+    }).catch((err) => {
+      expect(err).to.be.a.string;
+      expect(err).to.equal('Invalid team symbol/mascot.');
+    });
+  });   
 });

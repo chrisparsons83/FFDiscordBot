@@ -50,7 +50,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('One of these player doesn\'t exist in the players database');
+      expect(err).to.equal('One of these player doesn\'t exist in the players database. Please use the player\'s full name.');
     });
   });
 
@@ -61,7 +61,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('One of these player doesn\'t exist in the players database');
+      expect(err).to.equal('One of these player doesn\'t exist in the players database. Please use the player\'s full name.');
     });
   });
 
@@ -72,7 +72,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('One of these player doesn\'t exist in the players database');
+      expect(err).to.equal('One of these player doesn\'t exist in the players database. Please use the player\'s full name.');
     });
   });
 
@@ -134,7 +134,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Invalid team symbol. Please double check the team symbol.');
+      expect(err).to.equal('Invalid team symbol/name. Please double check the team symbol/name.');
     });
   });
 

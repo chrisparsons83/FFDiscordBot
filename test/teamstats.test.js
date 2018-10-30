@@ -1,11 +1,12 @@
 const expect = require('chai').expect;
 const teamstats = require('../lib/teamstats.js');
+const commands = require('../lib/commands.js');
 
 describe('Teamstats functions', () => {
   const input = 'OAK';
-  const teamname = 'Oakland Raiders';
+  const type = 'right';
   it('getBreakdown function should return a team stats object', () => {
-    const stats = teamstats.getBreakdown(teamname, input);
+    const stats = teamstats.getBreakdown(input);
     expect(Object.keys(stats).length).to.equal(10);
     expect(stats.offensivePlay).to.be.a.string;
     expect(stats.passingPercentage).to.be.a.string;
@@ -19,7 +20,40 @@ describe('Teamstats functions', () => {
   });
 
   it('getTargets function should return a string length greater than 300', () => {
-    const targets = teamstats.getTargets(input);
+    const targets = teamstats.getTargets(input, type);
     return expect(targets).to.have.length.above(75);
   });
+
+  it('Should complain when missing target type', () => {
+    const query = {
+      args: `${input}`,
+    };
+    return commands['!teamtargets'](query).then(() => {
+    }).catch((err) => {
+      expect(err).to.be.a.string;
+      expect(err).to.equal('***Invalid query.\nMissing team and/or target type.***\n***Target types are: (total, deep, short, mid, left, right)***');
+    });
+  });
+
+  it('Should complain when team is missing', () => {
+    const query = {
+      args: `${type}`,
+    };
+    return commands['!teamtargets'](query).then(() => {
+    }).catch((err) => {
+      expect(err).to.be.a.string;
+      expect(err).to.equal('***Invalid query.\nMissing team and/or target type.***\n***Target types are: (total, deep, short, mid, left, right)***');
+    });
+  });
+
+  it('Should complain when team is invalid', () => {
+    const query = {
+      args: `OAC, ${type}`,
+    };
+    return commands['!teamtargets'](query).then(() => {
+    }).catch((err) => {
+      expect(err).to.be.a.string;
+      expect(err).to.equal('Invalid team symbol/mascot.');
+    });
+  });   
 });

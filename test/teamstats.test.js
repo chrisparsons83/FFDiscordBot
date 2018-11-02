@@ -31,7 +31,18 @@ describe('Teamstats functions', () => {
     return commands['!teamtargets'](query).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('***Invalid query.\nMissing team and/or target type.***\n***Target types are: (total, deep, short, mid, left, right)***');
+      expect(err).to.equal('***Invalid query.\nMissing team and/or target type.***\n*Target types are: (total, deep, short, mid, left, right)*');
+    });
+  });
+
+  it('Should complain when target type is invalid', () => {
+    const query = {
+      args: `Oak, long`,
+    };
+    return commands['!teamtargets'](query).then(() => {
+    }).catch((err) => {
+      expect(err).to.be.a.string;
+      expect(err).to.equal('***Invalid target type.***\n*Target types are: (total, deep, short, mid, left, right)*');
     });
   });
 
@@ -42,7 +53,7 @@ describe('Teamstats functions', () => {
     return commands['!teamtargets'](query).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('***Invalid query.\nMissing team and/or target type.***\n***Target types are: (total, deep, short, mid, left, right)***');
+      expect(err).to.equal('***Invalid query.\nMissing team and/or target type.***\n*Target types are: (total, deep, short, mid, left, right)*');
     });
   });
 

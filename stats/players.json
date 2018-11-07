@@ -13026,6 +13026,14 @@
   {
     "team": "san francisco 49ers",
     "symbol": "SF",
+    "fullname": "nick mullens",
+    "first": "nick",
+    "last": "mullens",
+    "position": "qb"
+  },
+  {
+    "team": "san francisco 49ers",
+    "symbol": "SF",
     "fullname": "matt breida",
     "first": "matt",
     "last": "breida",

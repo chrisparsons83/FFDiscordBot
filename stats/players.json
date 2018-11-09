@@ -394,6 +394,14 @@
   {
     "team": "cleveland browns",
     "symbol": "CLE",
+    "fullname": "juston burris",
+    "first": "juston",
+    "last": "burris",
+    "position": "rcb"
+  },
+  {
+    "team": "cleveland browns",
+    "symbol": "CLE",
     "fullname": "e.j. gaines",
     "first": "e.j.",
     "last": "gaines",
@@ -410,9 +418,9 @@
   {
     "team": "cleveland browns",
     "symbol": "CLE",
-    "fullname": "denzel rice",
-    "first": "denzel",
-    "last": "rice",
+    "fullname": "phillip gaines",
+    "first": "phillip",
+    "last": "gaines",
     "position": "lcb"
   },
   {
@@ -453,6 +461,14 @@
     "fullname": "briean boddy-calhoun",
     "first": "briean",
     "last": "boddy-calhoun",
+    "position": "fs"
+  },
+  {
+    "team": "cleveland browns",
+    "symbol": "CLE",
+    "fullname": "jermaine whitehead",
+    "first": "jermaine",
+    "last": "whitehead",
     "position": "fs"
   },
   {
@@ -514,17 +530,17 @@
   {
     "team": "detroit lions",
     "symbol": "DET",
-    "fullname": "legarrette blount",
-    "first": "legarrette",
-    "last": "blount",
+    "fullname": "theo riddick",
+    "first": "theo",
+    "last": "riddick",
     "position": "rb"
   },
   {
     "team": "detroit lions",
     "symbol": "DET",
-    "fullname": "theo riddick",
-    "first": "theo",
-    "last": "riddick",
+    "fullname": "legarrette blount",
+    "first": "legarrette",
+    "last": "blount",
     "position": "rb"
   },
   {
@@ -602,17 +618,17 @@
   {
     "team": "detroit lions",
     "symbol": "DET",
-    "fullname": "levine toilolo",
-    "first": "levine",
-    "last": "toilolo",
+    "fullname": "michael roberts",
+    "first": "michael",
+    "last": "roberts",
     "position": "te"
   },
   {
     "team": "detroit lions",
     "symbol": "DET",
-    "fullname": "michael roberts",
-    "first": "michael",
-    "last": "roberts",
+    "fullname": "levine toilolo",
+    "first": "levine",
+    "last": "toilolo",
     "position": "te"
   },
   {
@@ -1538,6 +1554,14 @@
   {
     "team": "green bay packers",
     "symbol": "GB",
+    "fullname": "trevor davis",
+    "first": "trevor",
+    "last": "davis",
+    "position": "wr"
+  },
+  {
+    "team": "green bay packers",
+    "symbol": "GB",
     "fullname": "jake kumerow",
     "first": "jake",
     "last": "kumerow",
@@ -1925,6 +1949,14 @@
     "fullname": "latavius murray",
     "first": "latavius",
     "last": "murray",
+    "position": "rb"
+  },
+  {
+    "team": "minnesota vikings",
+    "symbol": "MIN",
+    "fullname": "ameer abdullah",
+    "first": "ameer",
+    "last": "abdullah",
     "position": "rb"
   },
   {
@@ -2493,6 +2525,14 @@
     "fullname": "daniel brown",
     "first": "daniel",
     "last": "brown",
+    "position": "te"
+  },
+  {
+    "team": "chicago bears",
+    "symbol": "CHI",
+    "fullname": "adam shaheen",
+    "first": "adam",
+    "last": "shaheen",
     "position": "te"
   },
   {
@@ -3810,14 +3850,6 @@
   {
     "team": "new york giants",
     "symbol": "NYG",
-    "fullname": "elijhaa penny",
-    "first": "elijhaa",
-    "last": "penny",
-    "position": "rb"
-  },
-  {
-    "team": "new york giants",
-    "symbol": "NYG",
     "fullname": "jonathan stewart",
     "first": "jonathan",
     "last": "stewart",
@@ -3826,9 +3858,9 @@
   {
     "team": "new york giants",
     "symbol": "NYG",
-    "fullname": "none listed",
-    "first": "none",
-    "last": "listed",
+    "fullname": "elijhaa penny",
+    "first": "elijhaa",
+    "last": "penny",
     "position": "fb"
   },
   {
@@ -4378,6 +4410,14 @@
   {
     "team": "arizona cardinals",
     "symbol": "ARI",
+    "fullname": "korey cunningham",
+    "first": "korey",
+    "last": "cunningham",
+    "position": "lt"
+  },
+  {
+    "team": "arizona cardinals",
+    "symbol": "ARI",
     "fullname": "mike iupati",
     "first": "mike",
     "last": "iupati",
@@ -4426,14 +4466,6 @@
   {
     "team": "arizona cardinals",
     "symbol": "ARI",
-    "fullname": "oday aboushi",
-    "first": "oday",
-    "last": "aboushi",
-    "position": "rg"
-  },
-  {
-    "team": "arizona cardinals",
-    "symbol": "ARI",
     "fullname": "colby gossett",
     "first": "colby",
     "last": "gossett",
@@ -4450,9 +4482,9 @@
   {
     "team": "arizona cardinals",
     "symbol": "ARI",
-    "fullname": "korey cunningham",
-    "first": "korey",
-    "last": "cunningham",
+    "fullname": "oday aboushi",
+    "first": "oday",
+    "last": "aboushi",
     "position": "rt"
   },
   {
@@ -5898,6 +5930,14 @@
   {
     "team": "kansas city chiefs",
     "symbol": "KC",
+    "fullname": "andrew wylie",
+    "first": "andrew",
+    "last": "wylie",
+    "position": "rg"
+  },
+  {
+    "team": "kansas city chiefs",
+    "symbol": "KC",
     "fullname": "kahlil mckenzie",
     "first": "kahlil",
     "last": "mckenzie",
@@ -5909,14 +5949,6 @@
     "fullname": "mitchell schwartz",
     "first": "mitchell",
     "last": "schwartz",
-    "position": "rt"
-  },
-  {
-    "team": "kansas city chiefs",
-    "symbol": "KC",
-    "fullname": "andrew wylie",
-    "first": "andrew",
-    "last": "wylie",
     "position": "rt"
   },
   {
@@ -6674,9 +6706,9 @@
   {
     "team": "new orleans saints",
     "symbol": "NO",
-    "fullname": "cameron meredith",
-    "first": "cameron",
-    "last": "meredith",
+    "fullname": "dez bryant",
+    "first": "dez",
+    "last": "bryant",
     "position": "wr"
   },
   {
@@ -6709,6 +6741,14 @@
     "fullname": "travin dural",
     "first": "travin",
     "last": "dural",
+    "position": "wr"
+  },
+  {
+    "team": "new orleans saints",
+    "symbol": "NO",
+    "fullname": "cameron meredith",
+    "first": "cameron",
+    "last": "meredith",
     "position": "wr"
   },
   {
@@ -9570,14 +9610,6 @@
   {
     "team": "atlanta falcons",
     "symbol": "ATL",
-    "fullname": "austin pasztor",
-    "first": "austin",
-    "last": "pasztor",
-    "position": "lt"
-  },
-  {
-    "team": "atlanta falcons",
-    "symbol": "ATL",
     "fullname": "wes schweitzer",
     "first": "wes",
     "last": "schweitzer",
@@ -9658,6 +9690,14 @@
   {
     "team": "atlanta falcons",
     "symbol": "ATL",
+    "fullname": "bruce irvin",
+    "first": "bruce",
+    "last": "irvin",
+    "position": "lde"
+  },
+  {
+    "team": "atlanta falcons",
+    "symbol": "ATL",
     "fullname": "brooks reed",
     "first": "brooks",
     "last": "reed",
@@ -9725,6 +9765,14 @@
     "fullname": "bruce carter",
     "first": "bruce",
     "last": "carter",
+    "position": "mlb"
+  },
+  {
+    "team": "atlanta falcons",
+    "symbol": "ATL",
+    "fullname": "deion jones",
+    "first": "deion",
+    "last": "jones",
     "position": "mlb"
   },
   {
@@ -9802,17 +9850,17 @@
   {
     "team": "atlanta falcons",
     "symbol": "ATL",
-    "fullname": "sharrod neasman",
-    "first": "sharrod",
-    "last": "neasman",
+    "fullname": "jordan richards",
+    "first": "jordan",
+    "last": "richards",
     "position": "ss"
   },
   {
     "team": "atlanta falcons",
     "symbol": "ATL",
-    "fullname": "jordan richards",
-    "first": "jordan",
-    "last": "richards",
+    "fullname": "sharrod neasman",
+    "first": "sharrod",
+    "last": "neasman",
     "position": "ss"
   },
   {
@@ -11722,17 +11770,17 @@
   {
     "team": "tampa bay buccaneers",
     "symbol": "TB",
-    "fullname": "ryan smith",
-    "first": "ryan",
-    "last": "smith",
+    "fullname": "carlton davis",
+    "first": "carlton",
+    "last": "davis",
     "position": "rcb"
   },
   {
     "team": "tampa bay buccaneers",
     "symbol": "TB",
-    "fullname": "carlton davis",
-    "first": "carlton",
-    "last": "davis",
+    "fullname": "ryan smith",
+    "first": "ryan",
+    "last": "smith",
     "position": "rcb"
   },
   {
@@ -11949,6 +11997,14 @@
     "fullname": "vyncint smith",
     "first": "vyncint",
     "last": "smith",
+    "position": "wr"
+  },
+  {
+    "team": "houston texans",
+    "symbol": "HOU",
+    "fullname": "deandre carter",
+    "first": "deandre",
+    "last": "carter",
     "position": "wr"
   },
   {
@@ -13173,6 +13229,14 @@
     "fullname": "k'waun williams",
     "first": "k'waun",
     "last": "williams",
+    "position": "lcb"
+  },
+  {
+    "team": "san francisco 49ers",
+    "symbol": "SF",
+    "fullname": "greg mabin",
+    "first": "greg",
+    "last": "mabin",
     "position": "lcb"
   },
   {
@@ -14874,17 +14938,17 @@
   {
     "team": "dallas cowboys",
     "symbol": "DAL",
-    "fullname": "daniel ross",
-    "first": "daniel",
-    "last": "ross",
+    "fullname": "antwaun woods",
+    "first": "antwaun",
+    "last": "woods",
     "position": "ldt"
   },
   {
     "team": "dallas cowboys",
     "symbol": "DAL",
-    "fullname": "antwaun woods",
-    "first": "antwaun",
-    "last": "woods",
+    "fullname": "daniel ross",
+    "first": "daniel",
+    "last": "ross",
     "position": "ldt"
   },
   {
@@ -14970,9 +15034,9 @@
   {
     "team": "dallas cowboys",
     "symbol": "DAL",
-    "fullname": "leighton vander esch",
-    "first": "leighton",
-    "last": "vander",
+    "fullname": "justin march-lillard",
+    "first": "justin",
+    "last": "march-lillard",
     "position": "mlb"
   },
   {
@@ -14986,18 +15050,18 @@
   {
     "team": "dallas cowboys",
     "symbol": "DAL",
-    "fullname": "justin march-lillard",
-    "first": "justin",
-    "last": "march-lillard",
+    "fullname": "chris covington",
+    "first": "chris",
+    "last": "covington",
     "position": "slb"
   },
   {
     "team": "dallas cowboys",
     "symbol": "DAL",
-    "fullname": "chris covington",
-    "first": "chris",
-    "last": "covington",
-    "position": "slb"
+    "fullname": "leighton vander esch",
+    "first": "leighton",
+    "last": "vander",
+    "position": "wlb"
   },
   {
     "team": "dallas cowboys",

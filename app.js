@@ -46,7 +46,11 @@ bot.on('message', (msg) => {
           msg.channel.send(response);
         }
       }).catch((err) => {
-        msg.channel.send(err);
+        if (err.message) {
+          msg.channel.send(err.message);
+        } else {
+          msg.channel.send(err);
+        }
       });
     } else if (closeEnough) {
       msg.channel.send(`*Did you mean* \`${closeEnough}\` *?*`)

@@ -107,7 +107,7 @@ describe('Rankplayer Utilities', () => {
 
   it('Invalid player position should be rejected with error message', () => {
     const rankObject = {
-      args: 'wr, full, leveon bell',
+      args: 'wr, full, patrick mahomes',
     };
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
@@ -118,7 +118,7 @@ describe('Rankplayer Utilities', () => {
 
   it('Invalid player position should be rejected with error message', () => {
     const rankObject = {
-      args: 'qb, leveon bell',
+      args: 'rb, full, patrick mahomes',
     };
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {

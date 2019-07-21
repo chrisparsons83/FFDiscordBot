@@ -8322,6 +8322,14 @@
   {
     "team": "seattle seahawks",
     "symbol": "SEA",
+    "fullname": "tyler lockett",
+    "first": "tyler",
+    "last": "lockett",
+    "position": "wr"
+  },
+  {
+    "team": "seattle seahawks",
+    "symbol": "SEA",
     "fullname": "michael dickson",
     "first": "michael",
     "last": "dickson",

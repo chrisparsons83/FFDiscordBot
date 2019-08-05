@@ -11,7 +11,7 @@ describe('Snapcount library and commands', () => {
     return commands['!snaps'](object).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Missing an argument. Please check your query. `!snaps team, pos, week`');
+      expect(err).to.equal('Missing an argument. Please check your query. `!snaps team, pos, week, year`');
     });
   });
 
@@ -60,5 +60,15 @@ describe('Snapcount library and commands', () => {
     });
   });  
  
+  it('Should complain when invalid year is entered', () => {
+    const object = {
+      args: 'jax, rb, 1, 2001'
+    };
+    return commands['!snaps'](object).then(() => {
+    }).catch((err) => {
+      expect(err).to.be.a.string;
+      expect(err).to.equal('Invalid year entered. No data available yet for the year selected.');
+    });
+  });  
 
 });

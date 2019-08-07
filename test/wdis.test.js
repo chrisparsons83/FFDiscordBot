@@ -32,6 +32,24 @@ describe('Rankplayer Utilities', () => {
     });
   });
 
+  it('Duplicate players should be merged into 1', () => {
+    const rankObject = {
+      args: 'wr, full, ty hilton ty hilton',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
+      expect(msg).to.be.a.string;
+    });
+  });
+
+  it('Duplicate players should be merged into 1', () => {
+    const rankObject = {
+      args: 'wr, half, michael thomas michael thomas, robby andersn',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
+      expect(msg).to.be.a.string;
+    });
+  });
+
   it('Should complain when args are less than 2', () => {
     const rankObject = {
       args: 'defense',
@@ -54,7 +72,7 @@ describe('Rankplayer Utilities', () => {
     });
   });
 
-  // this should return only valid players
+
   it('Should complain when mixing a non-existent player with one valid player', () => {
     const rankObject = {
       args: 'wr, full, michael thomas , pam oliver',
@@ -66,7 +84,7 @@ describe('Rankplayer Utilities', () => {
     });
   });
 
-  // this should return only valid player
+
   it('Should complain when mixing a non-existent player with one valid player', () => {
     const rankObject = {
       args: 'qb,  aaron rodgers , pam oliver',
@@ -81,6 +99,15 @@ describe('Rankplayer Utilities', () => {
   it('Dst should be valid', () => {
     const rankObject = {
       args: 'dst, nyg, den',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
+      expect(msg).to.be.a.string;
+    });
+  });
+
+  it('Dst should be valid with random capitalization', () => {
+    const rankObject = {
+      args: 'dst, nYG, dEn',
     };
     return commands['!wdis'](rankObject).then((msg) => {
       expect(msg).to.be.a.string;

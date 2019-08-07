@@ -50,10 +50,11 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('One of these player doesn\'t exist in the players database. Please use the player\'s full name.');
+      expect(err).to.equal('Player(s) doesn\'t exist in the database. Please use the player\'s full name.');
     });
   });
 
+  // this should return only valid players
   it('Should complain when mixing a non-existent player with one valid player', () => {
     const rankObject = {
       args: 'wr, full, michael thomas , pam oliver',
@@ -61,10 +62,11 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('One of these player doesn\'t exist in the players database. Please use the player\'s full name.');
+      expect(err).to.equal('Player(s) doesn\'t exist in the database. Please use the player\'s full name.');
     });
   });
 
+  // this should return only valid player
   it('Should complain when mixing a non-existent player with one valid player', () => {
     const rankObject = {
       args: 'qb,  aaron rodgers , pam oliver',
@@ -72,7 +74,7 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('One of these player doesn\'t exist in the players database. Please use the player\'s full name.');
+      expect(err).to.equal('Player(s) doesn\'t exist in the database. Please use the player\'s full name.');
     });
   });
 

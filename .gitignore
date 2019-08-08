@@ -266,3 +266,6 @@ dbconfig.json
 #postgres
 postgres-data
 *.sql
+
+#personal unit test file
+mytest.test.js

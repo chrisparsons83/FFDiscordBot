@@ -10,12 +10,16 @@
     "csv-parser": "^1.12.1",
     "diff": "^4.0.1",
     "discord.js": "^11.3.2",
+    "dotenv": "^8.0.0",
     "extend": "^3.0.2",
     "fuzzy-string-matching": "^1.0.2",
     "just-extend": "^4.0.2",
+    "knex": "^0.19.1",
     "mocha": "^5.2.0",
     "moment": "^2.22.2",
     "nodemon": "^1.17.5",
+    "objection": "^1.6.9",
+    "pg": "^7.12.1",
     "puppeteer": "^1.17.0",
     "request": "^2.87.0",
     "sinon": "^3.2.1",
@@ -30,7 +34,8 @@
     "url": "git+https://github.com/chrisparsons83/RedditFFDiscordBot.git"
   },
   "scripts": {
-    "start": "./node_modules/.bin/nodemon app.js",
+    "migrate": "./node_modules/.bin/knex migrate:latest",
+    "start": "npm run migrate && ./node_modules/.bin/nodemon app.js",
     "test": "./node_modules/.bin/mocha --timeout 5000"
   },
   "version": "0.0.0",

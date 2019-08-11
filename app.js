@@ -5,8 +5,12 @@ const commandsList = require('./stats/commandsList.json')
 const fuzzy = require('fuzzy-string-matching');
 const bot = new Discord.Client();
 
+bot.on('ready', () => {
+  bot.user.setActivity('<%help for more info>');
+});
+
 bot.on('message', (msg) => {
-  if (msg.content.startsWith('!')) {
+  if (msg.content.startsWith('%')) {
     let messageCommand = '';
     let messageArgsArray = [];
     [messageCommand, ...messageArgsArray] = msg.content.toString().split(' ')
@@ -46,14 +50,10 @@ bot.on('message', (msg) => {
           msg.channel.send(response);
         }
       }).catch((err) => {
-        if (err.message) {
-          msg.channel.send(err.message);
-        } else {
-          msg.channel.send(err);
-        }
+        msg.channel.send(err);
       });
     } else if (closeEnough) {
-      msg.channel.send(`*Did you mean* \`${closeEnough}\` *?*`)
+      msg.channel.send(`*Did you mean* \`${closeEnough.replace('!', '%')}\` *?*`)
     }
   }
 });

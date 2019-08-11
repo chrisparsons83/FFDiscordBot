@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const Discord = require('discord.js');
 const config = require('./config');
 const commands = require('./lib/commands');

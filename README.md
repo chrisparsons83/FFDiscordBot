@@ -158,19 +158,21 @@ FFDiscordBot:
   3. miller
 ```
 
-### !snaps *team/mascot, pos, week*
+### !snaps *team/mascot, pos, week, year*
 Shows offensive snap percentages of team at chosen position\
 Position options available: *rb, wr, te*\
 Week options available: *1 to 15, all*
+Year options available: *2012, 2013, 2014, 2015, 2016, 2017, 2018*
 ```
-Input: !snaps atl, wr, all
+Input: !snaps atl, wr, all, 2017
 FFDiscordBot: 
-J.Jones (81.4%)
-M.Sanu (80.0%)
-C.Ridley (64.3%)
-J.Hardy (8.6%)
-M.Hall (12.9%)
-R.Gage (1.4%)
+Ju.Jones (74.6%)
+M.Sanu (73.6%)
+T.Gabriel (52.6%)
+J.Hardy (37.3%)
+M.Hall (7.5%)
+A.Roberts (3%)
+N.Williams (2.7%)
 ```
 
 ### !teamstats *team symbol/mascot* 

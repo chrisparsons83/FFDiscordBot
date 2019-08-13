@@ -32,6 +32,24 @@ describe('Rankplayer Utilities', () => {
     });
   });
 
+  it('Duplicate players should be merged into 1', () => {
+    const rankObject = {
+      args: 'wr, full, ty hilton ty hilton',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
+      expect(msg).to.be.a.string;
+    });
+  });
+
+  it('Duplicate players should be merged into 1', () => {
+    const rankObject = {
+      args: 'wr, half, michael thomas michael thomas, robby andersn',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
+      expect(msg).to.be.a.string;
+    });
+  });
+
   it('Should complain when args are less than 2', () => {
     const rankObject = {
       args: 'defense',
@@ -50,9 +68,10 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('One of these player doesn\'t exist in the players database. Please use the player\'s full name.');
+      expect(err).to.equal('Player(s) doesn\'t exist in the database. Please use the player\'s full name.');
     });
   });
+
 
   it('Should complain when mixing a non-existent player with one valid player', () => {
     const rankObject = {
@@ -61,9 +80,10 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('One of these player doesn\'t exist in the players database. Please use the player\'s full name.');
+      expect(err).to.equal('Player(s) doesn\'t exist in the database. Please use the player\'s full name.');
     });
   });
+
 
   it('Should complain when mixing a non-existent player with one valid player', () => {
     const rankObject = {
@@ -72,13 +92,22 @@ describe('Rankplayer Utilities', () => {
     return commands['!wdis'](rankObject).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('One of these player doesn\'t exist in the players database. Please use the player\'s full name.');
+      expect(err).to.equal('Player(s) doesn\'t exist in the database. Please use the player\'s full name.');
     });
   });
 
   it('Dst should be valid', () => {
     const rankObject = {
       args: 'dst, nyg, den',
+    };
+    return commands['!wdis'](rankObject).then((msg) => {
+      expect(msg).to.be.a.string;
+    });
+  });
+
+  it('Dst should be valid with random capitalization', () => {
+    const rankObject = {
+      args: 'dst, nYG, dEn',
     };
     return commands['!wdis'](rankObject).then((msg) => {
       expect(msg).to.be.a.string;

@@ -3,3 +3,5 @@
 config.DiscordAPIToken = 'ENTERYOURIDHERE';
 
 module.exports = config;
+
+config.playerNameFuzzyTolerance = 75

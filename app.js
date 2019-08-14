@@ -31,6 +31,7 @@ bot.on('message', (msg) => {
       user: msg.author,
       args: messageArgs,
       channel: msg.channel,
+      message: msg  //This can probably be classed and passed.  It makes some sense to be able to manipulate the message per command
     };
     if (validCommand) {
       commands[messageCommand](messageObject).then((response) => {

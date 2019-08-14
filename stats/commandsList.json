@@ -8,6 +8,7 @@
   "roto": "!roto player name",
   "symbols": "!symbols",
   "teamstats": "!teamstats team",
+  "tubastats": "!tubastats team, year",
   "teamtargets": "!teamtargets team, target-type",
   "help": "!help",
   "depthchart": "!depthchart team, position",

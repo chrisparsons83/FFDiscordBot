@@ -5,7 +5,7 @@ exports.up = function (knex) {
         table.increments('news_id').primary();
         table.string('title');
         table.string('description');
-        table.integer('is_published').defaultTo(false);
+        table.boolean('is_published').defaultTo(false);
       })
     ])
 }

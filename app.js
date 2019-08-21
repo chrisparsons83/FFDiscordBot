@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const config = require('./config');
 const commands = require('./lib/commands');
 const commandsList = require('./stats/commandsList.json')
-const fuzzy = require('fuzzy-string-matching');
+const utilities = require('./lib/utilities');
 const bot = new Discord.Client();
 
 bot.on('message', (msg) => {
@@ -19,7 +19,7 @@ bot.on('message', (msg) => {
     // Confirm that the command called exists.
     const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
     // check to see if there was a minor typo in the command
-    const closeEnough = checkMinorTypo(messageCommand.slice(1, messageCommand.length),commandsList)
+    const closeEnough = utilities.checkMinorTypo(messageCommand.slice(1, messageCommand.length),commandsList)
     // Create an object with data to send to the commands
     const messageObject = {
       user: msg.author,
@@ -59,20 +59,3 @@ bot.on('message', (msg) => {
 });
 
 bot.login(config.DiscordAPIToken);
-
-// TODO: move this function to utilities in the future
-function checkMinorTypo(string, obj) {
-  if (!/^[a-zA-Z]+$/.test(string)) {
-    return false;
-  }
-  let score = 0;
-  let response = '';
-  for (let key in obj) {
-    const fuzzyScore = fuzzy(string, key);
-    if (fuzzyScore > score) {
-      score = fuzzyScore;
-      response = obj[key];
-    }
-  }
-  return response;
-}

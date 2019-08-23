@@ -88,6 +88,8 @@ bot.on('ready', () => {
     const newNews = await News.query().where('is_published', '=', false);
 
     if (newNews.length > 0) {
+      console.log(`There are ${newNews.length} stories to publish`);
+
       // Set those stories to published now
       // There's a race condition here but I'm too lazy to fix it. Someone should
       // fix it at some point (that someone will likely be me).

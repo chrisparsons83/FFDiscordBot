@@ -2,8 +2,12 @@
 
 const Discord = require('discord.js');
 const config = require('./config');
-const commands = require('./lib/commands');
-const commands = require('./lib/user_extensions');
+const base_commands = require('./lib/commands');
+const user_extensions = require('./lib/user_extensions');
+const commands={
+  ...base_commands,
+  ...user_extensions
+}
 const commandsList = require('./stats/commandsList.json')
 const utilities = require('./lib/utilities');
 const bot = new Discord.Client();

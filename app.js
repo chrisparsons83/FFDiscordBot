@@ -4,7 +4,7 @@ const Discord = require('discord.js');
 const config = require('./config');
 const commands = require('./lib/commands');
 const commandsList = require('./stats/commandsList.json')
-const utilities = require('./lib/utilities');
+const fuzzy = require('fuzzy-string-matching');
 const bot = new Discord.Client();
 
 bot.on('ready', () => {
@@ -25,14 +25,12 @@ bot.on('message', (msg) => {
     // Confirm that the command called exists.
     const validCommand = Object.prototype.hasOwnProperty.call(commands, messageCommand);
     // check to see if there was a minor typo in the command
-    const closeEnough = utilities.checkMinorTypo(messageCommand.slice(1, messageCommand.length),commandsList)
+    const closeEnough = checkMinorTypo(messageCommand.slice(1, messageCommand.length),commandsList)
     // Create an object with data to send to the commands
     const messageObject = {
       user: msg.author,
       args: messageArgs,
       channel: msg.channel,
-      botuser: bot.user,
-      message: msg  //This can probably be classed and passed.  It makes some sense to be able to manipulate the message per command
     };
     if (validCommand) {
       commands[messageCommand](messageObject).then((response) => {
@@ -63,3 +61,20 @@ bot.on('message', (msg) => {
 });
 
 bot.login(config.DiscordAPIToken);
+
+// TODO: move this function to utilities in the future
+function checkMinorTypo(string, obj) {
+  if (!/^[a-zA-Z]+$/.test(string)) {
+    return false;
+  }
+  let score = 0;
+  let response = '';
+  for (let key in obj) {
+    const fuzzyScore = fuzzy(string, key);
+    if (fuzzyScore > score) {
+      score = fuzzyScore;
+      response = obj[key];
+    }
+  }
+  return response;
+}

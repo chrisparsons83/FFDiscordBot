@@ -270,5 +270,5 @@ postgres-data
 #personal unit test file
 mytest.test.js
 
-#dotenv prep
+personal/
 .env

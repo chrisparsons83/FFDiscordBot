@@ -2,10 +2,10 @@
 
 config.DiscordAPIToken = 'your_bot_token';
 config.twitterTokens = {
-  consumer_key: 'k1KBxN9XGul2cOyoWILBm0F31',
-  consumer_secret: 'h6zteHq4vrPRN587ULgeW7WejCh0pUCssASTzKixJlRA5BEIUn',
-  access_token: '1236063182327869440-YyWbdF3I1RbMrC17M0RYqEBtLFfjG6',
-  access_token_secret: '53y0FZ4H7iQ3gXBi8KsupasIiHG2bt3Tgj0JoQ1Wnj2wq',
+  consumer_key: 'your_consumer_key',
+  consumer_secret: 'your_consumer_secret',
+  access_token: 'your_access_token',
+  access_token_secret: 'your_access_token_secret',
 }
 
 module.exports = config;

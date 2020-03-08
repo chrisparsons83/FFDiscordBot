@@ -20,6 +20,7 @@
     "request": "^2.87.0",
     "sinon": "^3.2.1",
     "twit": "^2.2.11",
+    "twit-promise": "^2.1.0",
     "uws": "^8.14.1"
   },
   "description": "RedditFFDiscordBot",

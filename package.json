@@ -19,6 +19,7 @@
     "puppeteer": "^1.17.0",
     "request": "^2.87.0",
     "sinon": "^3.2.1",
+    "twit": "^2.2.11",
     "uws": "^8.14.1"
   },
   "description": "RedditFFDiscordBot",

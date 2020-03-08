@@ -1,5 +1,11 @@
-﻿let config = {};
+﻿﻿let config = {};
 
-config.DiscordAPIToken = 'ENTERYOURIDHERE';
+config.DiscordAPIToken = 'your_bot_token';
+config.twitterTokens = {
+  consumer_key: 'your_consumer_key',
+  consumer_secret: 'your_consumer_secret',
+  access_token: 'your_access_token',
+  access_token_secret: 'your_access_token_secret',
+}
 
 module.exports = config;

@@ -18,9 +18,8 @@
     "nodemon": "^1.17.5",
     "puppeteer": "^1.17.0",
     "request": "^2.87.0",
-    "sinon": "^3.2.1",
+    "sinon": "^9.0.0",
     "twit": "^2.2.11",
-    "twit-promise": "^2.1.0",
     "uws": "^8.14.1"
   },
   "description": "RedditFFDiscordBot",
@@ -43,7 +42,7 @@
   },
   "keywords": [],
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^11.3.1",
     "eslint-plugin-import": "^2.12.0",
     "istanbul": "^0.4.5"

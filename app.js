@@ -36,9 +36,16 @@ bot.on('message', (msg) => {
           // TODO: When we add a database to this, this needs to be able to be configured
           // on the server level.
           if (response.channelName) {
-            const channel = msg.member.guild.channels.find('name', response.channelName);
+            // finds the channel object
+            const channel = msg.member.guild.channels.find(x => x.name === response.channelName);
             if (!channel) return;
+            
+            //sends message to prediction channel
             channel.send(response.message);
+            // !prediction specific function call, sends an eightball response to the channel that prediction was called
+            if (response.channelName === 'predictions') {
+              msg.channel.send(response.eightball)
+            }
           }
         }  else {
           // Otherwise, just send the response.

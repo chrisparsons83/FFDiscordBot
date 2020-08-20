@@ -4,8 +4,8 @@ const lib4for4 = require('../lib/4for4');
 const sinon = require('sinon');
 
 describe('4for4 Utilities', () => {
-  const validPlayer = 'David Johnson';
-  const validLowercasePlayer = 'david johnson';
+  const validPlayer = 'Saquon Barkley';
+  const validLowercasePlayer = 'Saquon Barkley';
   const invalidPlayer = 'Bob Dole';
   const playerWithQuote = 'Le\'veon Bell'
   const playerWithDash = 'Juju Smith-schuster'
@@ -31,7 +31,7 @@ describe('4for4 Utilities', () => {
 
   it('Should return the team name for a valid player', () => lib4for4.getADP(validPlayer).then((value) => {
     expect(value.Team).to.be.a('string');
-    expect(value.Team).to.equal('ARI');
+    expect(value.Team).to.equal('NYG');
   }));
 
   it('Should return the ESPN ranking for a valid player', () => lib4for4.getADP(validPlayer).then((value) => {

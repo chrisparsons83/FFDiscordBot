@@ -41,16 +41,16 @@ describe('Bot Utilities', () => {
     expect(object.fullname).to.equal('david johnson');
   });
 
-  it('Should return josh gordon', () => {
-    const player = 'josh gordon';
+  it('Should return saquon barkley', () => {
+    const player = 'saquon barkley';
     const object = utilities.findPlayer(player);
-    expect(object.fullname).to.equal('josh gordon');
+    expect(object.fullname).to.equal('saquon barkley');
   });
 
-  it('Should return todd gurley', () => {
-    const player = 'todd gurley';
+  it('Should return michael thomas', () => {
+    const player = 'michael thomas';
     const object = utilities.findPlayer(player);
-    expect(object.fullname).to.equal('todd gurley');
+    expect(object.fullname).to.equal('michael thomas');
   });
 
   it('Should return david johnson', () => {

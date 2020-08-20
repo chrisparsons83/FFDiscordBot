@@ -13,7 +13,7 @@
     "extend": "^3.0.2",
     "fuzzy-string-matching": "^1.0.2",
     "just-extend": "^4.0.2",
-    "mocha": "^5.2.0",
+    "mocha": "^8.1.1",
     "moment": "^2.22.2",
     "nodemon": "^1.17.5",
     "puppeteer": "^1.17.0",

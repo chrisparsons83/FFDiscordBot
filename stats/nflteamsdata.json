@@ -176,6 +176,14 @@
     "logo":"http://prod.static.raiders.clubs.nfl.com/nfl-assets/img/gbl-ico-team/OAK/logos/home/large.png"
   },
   {
+    "abbreviation": "LV",
+    "espn_abbreviation": "LV",
+    "location": "Las Vegas",
+    "mascot": "Raiders",
+    "name":"Las Vegas Raiders",
+    "logo":"http://prod.static.raiders.clubs.nfl.com/nfl-assets/img/gbl-ico-team/OAK/logos/home/large.png"
+  },  
+  {
     "abbreviation": "PHI",
     "espn_abbreviation": "PHI",
     "location": "Philadelphia",

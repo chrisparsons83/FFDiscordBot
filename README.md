@@ -17,7 +17,7 @@ FFDiscordBot: Not in a million years.
 This returns the ADP for the major Fantasy Football sites according to the most recent data from [4for4.com](https://www.4for4.com/fantasy-football/adp?paging=0).
 ```
 Input: !adp Keenan Allen 
-FFDiscordBot: ADP as of Saturday, August 12, 2017 via 4for4 for Michael Crabtree: ESPN: 44, MFL: 46, NFL: 47, Yahoo: 42
+FFDiscordBot: ADP as of Saturday, August 12, 2017 via 4for4 for Keenan Allen: ESPN: 44, MFL: 46, NFL: 47, Yahoo: 42
 ```
 
 ### !boris *position, scoring format* 

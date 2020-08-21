@@ -1,7 +1,7 @@
 {
   "author": "Chris Parsons",
   "bugs": {
-    "url": "https://github.com/chrisparsons83/RedditFFDiscordBot/issues"
+    "url": "https://github.com/chrisparsons83/FFDiscordBot/issues"
   },
   "dependencies": {
     "chai": "^3.5.0",
@@ -23,16 +23,15 @@
     "puppeteer": "^1.17.0",
     "request": "^2.87.0",
     "sinon": "^9.0.0",
-    "twit": "^2.2.11",
     "uws": "^8.14.1"
   },
-  "description": "RedditFFDiscordBot",
+  "description": "FFDiscordBot",
   "license": "MIT",
   "main": "app.js",
-  "name": "reddit-ffdiscord-bot",
+  "name": "ffdiscord-bot",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/chrisparsons83/RedditFFDiscordBot.git"
+    "url": "git+https://github.com/chrisparsons83/FFDiscordBot.git"
   },
   "scripts": {
     "migrate": "./node_modules/.bin/knex migrate:latest",
@@ -40,7 +39,7 @@
     "test": "./node_modules/.bin/mocha --timeout 5000"
   },
   "version": "0.0.0",
-  "homepage": "https://github.com/chrisparsons83/RedditFFDiscordBot#readme",
+  "homepage": "https://github.com/chrisparsons83/FFDiscordBot#readme",
   "directories": {
     "lib": "lib",
     "test": "test"

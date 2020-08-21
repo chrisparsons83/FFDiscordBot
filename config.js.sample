@@ -1,5 +1,5 @@
-﻿let config = {};
+﻿﻿let config = {};
 
-config.DiscordAPIToken = 'ENTERYOURIDHERE';
+config.DiscordAPIToken = 'your_bot_token';
 
 module.exports = config;

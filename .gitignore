@@ -272,3 +272,4 @@ mytest.test.js
 
 personal/
 .env
+config.js

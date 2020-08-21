@@ -46,33 +46,28 @@ bot.on('message', (msg) => {
       channel: msg.channel,
     };
     if (validCommand) {
-      commands[messageCommand](messageObject)
-        .then((response) => {
-          // Check to see if there's a channel passed as a key/value in the object.
-          if (response.message) {
-            // If so, this is the new format for the bot.
-            // If there's a channel name stored in the object, then we want to send it to
-            // that particular channel if it exists. Otherwise
-            // TODO: When we add a database to this, this needs to be able to be configured
-            // on the server level.
-            if (response.channelName) {
-              const channel = msg.member.guild.channels.find('name', response.channelName);
-              if (!channel) return;
-              channel.send(response.message);
+      commands[messageCommand](messageObject).then((response) => {
+        // Check to see if there's a channel passed as a key/value in the object.
+        if (response.message) {
+          // If so, this is the new format for the bot.
+          // If there's a channel name stored in the object, then we want to send it to
+          // that particular channel if it exists. Otherwise
+          // TODO: When we add a database to this, this needs to be able to be configured
+          // on the server level.
+          if (response.channelName) {
+            // finds the channel object
+            const channel = msg.member.guild.channels.find(x => x.name === response.channelName);
+            if (!channel) return;
+
+            //sends message to prediction channel
+            channel.send(response.message);
+            // !prediction specific function call, sends an eightball response to the channel that prediction was called
+            if (response.channelName === 'predictions') {
+              msg.channel.send(response.eightball)
             }
-          } else {
-            // Otherwise, just send the response.
-            // TODO: Convert all the old responses to the new
-            msg.channel.send(response);
           }
-        })
-        .catch((err) => {
-          if (err.message) {
-            msg.channel.send(err.message);
-          } else {
-            msg.channel.send(err);
-          }
-        });
+        };
+      });
     } else if (closeEnough) {
       msg.channel.send(`*Did you mean* \`${closeEnough}\` *?*`);
     }

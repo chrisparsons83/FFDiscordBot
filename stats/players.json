@@ -2628,9 +2628,9 @@
   {
     "team": "houston texans",
     "symbol": "hou",
-    "fullname": "will fuller v",
+    "fullname": "will fuller",
     "first": "will",
-    "last": "fuller v",
+    "last": "fuller",
     "position": "wr",
     "jersey_number": 15,
     "sleeper_id": "3157",
@@ -5059,9 +5059,9 @@
   {
     "team": "jacksonville jaguars",
     "symbol": "jax",
-    "fullname": "dj chark jr.",
+    "fullname": "dj chark",
     "first": "dj",
-    "last": "chark jr.",
+    "last": "chark",
     "position": "wr",
     "jersey_number": 17,
     "sleeper_id": "4951",

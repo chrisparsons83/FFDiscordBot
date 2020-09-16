@@ -3,7 +3,7 @@ const teamstats = require('../lib/teamstats.js');
 const commands = require('../lib/commands.js');
 
 describe('Teamstats functions', () => {
-  const input = 'OAK';
+  const input = 'LV';
   const type = 'right';
   it('getBreakdown function should return a team stats object', () => {
     const stats = teamstats.getBreakdown(input);
@@ -26,7 +26,7 @@ describe('Teamstats functions', () => {
 
   it('Should complain when target type is invalid', () => {
     const query = {
-      args: `Oak, long`,
+      args: `lv, long`,
     };
     return commands['!teamtargets'](query).then(() => {
     }).catch((err) => {
@@ -48,7 +48,7 @@ describe('Teamstats functions', () => {
 
   it('Should complain when team is invalid', () => {
     const query = {
-      args: `OAC, ${type}`,
+      args: `ls, ${type}`,
     };
     return commands['!teamtargets'](query).then(() => {
     }).catch((err) => {

@@ -89,7 +89,7 @@ FFDiscordBot:
 ### !drivestats *team symbol/mascot* 
 Shows major stats for the previous season of a team.
 ```
-Input: !teamstats GB
+Input: !drivestats GB
 Green Bay Packers
 2020 Offensive Drive Stats (League avg)
 Number of offensive drives

@@ -86,6 +86,35 @@ FFDiscordBot:
 5. B.J. Daniels
 6. Kelvin Taylor
 ```
+### !drivestats *team symbol/mascot* 
+Shows major stats for the previous season of a team.
+```
+Input: !teamstats GB
+Green Bay Packers
+2020 Offensive Drive Stats (League avg)
+Number of offensive drives
+9 (11)
+Drive Success Rate (1st)
+88.60% (74.10%)
+Plays (1st)
+8.44 plays (6.31)
+Yards (1st)
+57.33 yds (34.75)
+Points (1st)
+4.56 pts (2.20)
+TD (1st)
+55.60% (25.50%)
+FG (4th)
+22.20% (14.10%)
+TO (4th)
+0.00% (9.10%)
+INT (7th)
+0.00% (5.90%)
+Fumble (6th)
+0.00% (3.20%)
+Punts (3rd)
+11.10% (34.60%)
+```
 
 ### !next *team* 
 This list the next game for an NFL team. You can query by team abbreviation or their nickname (e.g., NYJ or Jets).

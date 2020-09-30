@@ -67,7 +67,7 @@ describe('Snapcount library and commands', () => {
     return commands['!snaps'](object).then(() => {
     }).catch((err) => {
       expect(err).to.be.a.string;
-      expect(err).to.equal('Invalid year entered. No data available yet for the year selected.');
+      expect(err).to.equal('Invalid year entered. No data available for the year selected.');
     });
   });  
 

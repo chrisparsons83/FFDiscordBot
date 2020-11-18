@@ -214,7 +214,7 @@
     "first": "josh",
     "last": "mccown",
     "position": "qb",
-    "jersey_number": 14,
+    "jersey_number": 3,
     "sleeper_id": "208",
     "rotowire_id": 2513,
     "espn_id": 3609,
@@ -877,7 +877,7 @@
     "first": "lamar",
     "last": "miller",
     "position": "rb",
-    "jersey_number": 26,
+    "jersey_number": 25,
     "sleeper_id": "1048",
     "rotowire_id": 8008,
     "espn_id": 14886,
@@ -1456,8 +1456,8 @@
     "yahoo_id": 26612
   },
   {
-    "team": "seattle seahawks",
-    "symbol": "sea",
+    "team": "baltimore ravens",
+    "symbol": "bal",
     "fullname": "luke willson",
     "first": "luke",
     "last": "willson",
@@ -3165,7 +3165,7 @@
     "first": "deandre",
     "last": "washington",
     "position": "rb",
-    "jersey_number": 30,
+    "jersey_number": 31,
     "sleeper_id": "3300",
     "rotowire_id": 10893,
     "espn_id": 2577654,
@@ -4290,6 +4290,19 @@
     "yahoo_id": 30256
   },
   {
+    "team": "denver broncos",
+    "symbol": "den",
+    "fullname": "jordan leggett",
+    "first": "jordan",
+    "last": "leggett",
+    "position": "te",
+    "jersey_number": 81,
+    "sleeper_id": "4153",
+    "rotowire_id": 11893,
+    "espn_id": 3045118,
+    "yahoo_id": 30263
+  },
+  {
     "team": "chicago bears",
     "symbol": "chi",
     "fullname": "tarik cohen",
@@ -4782,6 +4795,19 @@
     "rotowire_id": 12443,
     "espn_id": 2973626,
     "yahoo_id": 30513
+  },
+  {
+    "team": "new york giants",
+    "symbol": "nyg",
+    "fullname": "taquan mizzell",
+    "first": "taquan",
+    "last": "mizzell",
+    "position": "rb",
+    "jersey_number": 44,
+    "sleeper_id": "4349",
+    "rotowire_id": 12231,
+    "espn_id": 3048680,
+    "yahoo_id": 900125
   },
   {
     "team": "denver broncos",
@@ -5570,7 +5596,7 @@
     "first": "dante",
     "last": "pettis",
     "position": "wr",
-    "jersey_number": 18,
+    "jersey_number": 13,
     "sleeper_id": "4992",
     "rotowire_id": 12884,
     "espn_id": 3127306,
@@ -6129,7 +6155,7 @@
     "first": "jordan",
     "last": "thomas",
     "position": "te",
-    "jersey_number": 80,
+    "jersey_number": 83,
     "sleeper_id": "5117",
     "rotowire_id": 12697,
     "espn_id": 4035379,
@@ -6552,19 +6578,6 @@
     "yahoo_id": 31478
   },
   {
-    "team": "new england patriots",
-    "symbol": "ne",
-    "fullname": "david wells",
-    "first": "david",
-    "last": "wells",
-    "position": "te",
-    "jersey_number": 88,
-    "sleeper_id": "5235",
-    "rotowire_id": 12692,
-    "espn_id": 3047536,
-    "yahoo_id": 31283
-  },
-  {
     "team": "atlanta falcons",
     "symbol": "atl",
     "fullname": "christian blake",
@@ -6792,7 +6805,7 @@
     "first": "antonio",
     "last": "callaway",
     "position": "wr",
-    "jersey_number": 11,
+    "jersey_number": 16,
     "sleeper_id": "5310",
     "rotowire_id": 12468,
     "espn_id": 3915097,
@@ -6901,6 +6914,19 @@
     "rotowire_id": 13135,
     "espn_id": 3126246,
     "yahoo_id": 31457
+  },
+  {
+    "team": "cleveland browns",
+    "symbol": "cle",
+    "fullname": "derrick willies",
+    "first": "derrick",
+    "last": "willies",
+    "position": "wr",
+    "jersey_number": 84,
+    "sleeper_id": "5539",
+    "rotowire_id": 13138,
+    "espn_id": 3040137,
+    "yahoo_id": 31462
   },
   {
     "team": "kansas city chiefs",
@@ -7904,8 +7930,8 @@
     "yahoo_id": 32125
   },
   {
-    "team": "indianapolis colts",
-    "symbol": "ind",
+    "team": "los angeles rams",
+    "symbol": "lar",
     "fullname": "matt gay",
     "first": "matt",
     "last": "gay",
@@ -8339,7 +8365,7 @@
     "first": "juwann",
     "last": "winfree",
     "position": "wr",
-    "jersey_number": 15,
+    "jersey_number": 88,
     "sleeper_id": "6223",
     "rotowire_id": 13664,
     "espn_id": 3128317,
@@ -8866,8 +8892,8 @@
     "yahoo_id": 32561
   },
   {
-    "team": "buffalo bills",
-    "symbol": "buf",
+    "team": "pittsburgh steelers",
+    "symbol": "pit",
     "fullname": "charles jones",
     "first": "charles",
     "last": "jones",
@@ -8924,7 +8950,7 @@
     "first": "chase",
     "last": "mclaughlin",
     "position": "k",
-    "jersey_number": 7,
+    "jersey_number": 3,
     "sleeper_id": "6650",
     "rotowire_id": 14254,
     "espn_id": 3150744,
@@ -9033,6 +9059,19 @@
     "rotowire_id": 11883,
     "espn_id": 3040035,
     "yahoo_id": 30715
+  },
+  {
+    "team": "los angeles chargers",
+    "symbol": "lac",
+    "fullname": "derrick gore",
+    "first": "derrick",
+    "last": "gore",
+    "position": "rb",
+    "jersey_number": 35,
+    "sleeper_id": "6753",
+    "rotowire_id": 14334,
+    "espn_id": 3925346,
+    "yahoo_id": 32630
   },
   {
     "team": "chicago bears",
@@ -10426,6 +10465,32 @@
     "yahoo_id": 33095
   },
   {
+    "team": "san francisco 49ers",
+    "symbol": "sf",
+    "fullname": "chris finke",
+    "first": "chris",
+    "last": "finke",
+    "position": "wr",
+    "jersey_number": 7,
+    "sleeper_id": "7092",
+    "rotowire_id": 14637,
+    "espn_id": null,
+    "yahoo_id": 33196
+  },
+  {
+    "team": "philadelphia eagles",
+    "symbol": "phi",
+    "fullname": "adrian killins",
+    "first": "adrian",
+    "last": "killins",
+    "position": "rb",
+    "jersey_number": 46,
+    "sleeper_id": "7093",
+    "rotowire_id": 14396,
+    "espn_id": 4042112,
+    "yahoo_id": 32966
+  },
+  {
     "team": "los angeles rams",
     "symbol": "lar",
     "fullname": "austin macginnis",
@@ -10471,7 +10536,7 @@
     "first": "rodney",
     "last": "smith",
     "position": "rb",
-    "jersey_number": 36,
+    "jersey_number": 35,
     "sleeper_id": "7101",
     "rotowire_id": 14435,
     "espn_id": null,
@@ -10567,6 +10632,19 @@
     "rotowire_id": 14832,
     "espn_id": 3895785,
     "yahoo_id": 32901
+  },
+  {
+    "team": "carolina panthers",
+    "symbol": "car",
+    "fullname": "tommy stevens",
+    "first": "tommy",
+    "last": "stevens",
+    "position": "qb",
+    "jersey_number": 85,
+    "sleeper_id": "7149",
+    "rotowire_id": 14527,
+    "espn_id": 3791110,
+    "yahoo_id": 32910
   },
   {
     "team": "miami dolphins",
@@ -11061,6 +11139,19 @@
     "rotowire_id": 14892,
     "espn_id": null,
     "yahoo_id": 33274
+  },
+  {
+    "team": "los angeles chargers",
+    "symbol": "lac",
+    "fullname": "john hurst",
+    "first": "john",
+    "last": "hurst",
+    "position": "wr",
+    "jersey_number": 6,
+    "sleeper_id": "7455",
+    "rotowire_id": 14877,
+    "espn_id": 4683123,
+    "yahoo_id": 33295
   },
   {
     "team": "new england patriots",

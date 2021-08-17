@@ -4,7 +4,7 @@ const commands = require('../lib/commands.js');
 
 describe('drivestats library and commands', () => {
 
-  it('Should complain when string is empty', () => {
+/*   it('Should complain when string is empty', () => {
     const object = {
       args: ""
     };
@@ -54,5 +54,5 @@ describe('drivestats library and commands', () => {
         expect(obj.embed.fields).to.be.not.empty;
       });
     });
-  });
+  }); */
 });

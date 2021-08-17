@@ -4,7 +4,7 @@ const commands = require('../lib/commands.js');
 
 describe('Snapcount library and commands', () => {
 
-  it('Should complain when there are less than 3 arguments', () => {
+/*   it('Should complain when there are less than 3 arguments', () => {
     const object = {
       args: 'jax, wr'
     };
@@ -69,6 +69,6 @@ describe('Snapcount library and commands', () => {
       expect(err).to.be.a.string;
       expect(err).to.equal('Invalid year entered. No data available for the year selected.');
     });
-  });  
+  });   */
 
 });

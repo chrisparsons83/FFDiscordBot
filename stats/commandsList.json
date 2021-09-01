@@ -14,5 +14,5 @@
   "poll": "!poll question | <option 1> | <option 2> | ...",
   "boris": "!boris position, scoring format",
   "find": "!8ball question",
-  "wdis": "!wdis position, scoring format if required, <player 1> , <player 2> , ...",
+  "wdis": "!wdis position, scoring format if required, <player 1> , <player 2> , ..."
 }

@@ -252,10 +252,6 @@ typings/
 #NodeJS Project file for Visual Studio
 *.njsproj
 
-# package manager lock files which are the devil
-yarn.lock
-package-lock.json
-
 #configuration file
 config.js
 dbconfig.json

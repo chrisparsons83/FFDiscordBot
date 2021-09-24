@@ -86,35 +86,6 @@ FFDiscordBot:
 5. B.J. Daniels
 6. Kelvin Taylor
 ```
-### !drivestats *team symbol/mascot* 
-Shows major stats for the previous season of a team.
-```
-Input: !drivestats GB
-Green Bay Packers
-2020 Offensive Drive Stats (League avg)
-Number of offensive drives
-9 (11)
-Drive Success Rate (1st)
-88.60% (74.10%)
-Plays/dr (1st)
-8.44 plays (6.31)
-Yards/dr (1st)
-57.33 yds (34.75)
-Points/dr (1st)
-4.56 pts (2.20)
-TD/dr (1st)
-55.60% (25.50%)
-FG/dr (4th)
-22.20% (14.10%)
-TO/dr (4th)
-0.00% (9.10%)
-INT/dr (7th)
-0.00% (5.90%)
-Fumble/dr (6th)
-0.00% (3.20%)
-Punts/dr (3rd)
-11.10% (34.60%)
-```
 
 ### !next *team* 
 This list the next game for an NFL team. You can query by team abbreviation or their nickname (e.g., NYJ or Jets).
@@ -185,23 +156,6 @@ FFDiscordBot:
   1. freeman
   2. peterson
   3. miller
-```
-
-### !snaps *team/mascot, pos, week, year*
-Shows offensive snap percentages of team at chosen position\
-Position options available: *rb, wr, te*\
-Week options available: *1 to 15, all*
-Year options available: *2012, 2013, 2014, 2015, 2016, 2017, 2018*
-```
-Input: !snaps atl, wr, all, 2017
-FFDiscordBot: 
-Ju.Jones (74.6%)
-M.Sanu (73.6%)
-T.Gabriel (52.6%)
-J.Hardy (37.3%)
-M.Hall (7.5%)
-A.Roberts (3%)
-N.Williams (2.7%)
 ```
 
 ### !teamstats *team symbol/mascot* 

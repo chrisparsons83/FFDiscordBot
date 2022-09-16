@@ -97,12 +97,12 @@ bot.on("ready", () => {
       // Set those stories to published now
       // There's a race condition here but I'm too lazy to fix it. Someone should
       // fix it at some point (that someone will likely be me).
-      const publishedNews = await News.query()
+      await News.query()
         .patch({ is_published: true })
         .where("is_published", "=", false);
 
       // Check to see what servers are connected to this bot
-      const guildList = bot.guilds.array();
+      const guildList = [bot.guilds.cache.get("214093545747906562")];
       // Loop through each server
       try {
         guildList.forEach((guild) => {
